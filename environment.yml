@@ -1,23 +1,31 @@
-name: GCond
+name: MY
 channels:
 - pytorch 
+- dglteam
 - conda-forge
 - fragcolor
 - anaconda
 - defaults
 dependencies:
-- pytorch==1.7.0
+- cuda10.0
+- cudatoolkit=10.2
+- cudnn=7.6.5
+- python=3.7
+- torchvision
 - pip:
-  - torch_geometric==1.6.3
+  - pyyaml==5.4.1
+  - tqdm
+  - tensorboardX
+  - scikit-learn
+  - ogb
+  - torch-geometric
+  - torch_sparse
+  - torch-scatter
+  - dgl-cu102
+  - torch==1.9.0
   - scipy==1.6.2
   - numpy==1.19.2
-  - ogb==1.3.0
-  - tqdm==4.59.0
-  - torch_sparse==0.6.9
-  - torchvision==0.8.0
-  - configs==3.0.3
   - deeprobust==0.2.4
-  - scikit_learn==1.0.2
-  - torch_scatter
 
-  pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.0%2Bcu110.html
+  pip install --no-index torch-scatter torch_sparse  -f https://pytorch-geometric.com/whl/torch-1.9.0%2Bcu102.html
+

@@ -16,7 +16,85 @@ from deeprobust.graph.utils import *
 from torch_geometric.data import NeighborSampler
 from torch_geometric.utils import add_remaining_self_loops, to_undirected
 from torch_geometric.datasets import Planetoid
+from torch import optim as optim
+import torch.nn as nn
 
+def accuracy(y_pred, y_true):
+    y_true = y_true.squeeze().long()
+    preds = y_pred.max(1)[1].type_as(y_true)
+    correct = preds.eq(y_true).double()
+    correct = correct.sum().item()
+    return correct / len(y_true)
+
+def create_optimizer(opt, model, lr, weight_decay, get_num_layer=None, get_layer_scale=None):
+    opt_lower = opt.lower()
+
+    parameters = model.parameters()
+    opt_args = dict(lr=lr, weight_decay=weight_decay)
+
+    opt_split = opt_lower.split("_")
+    opt_lower = opt_split[-1]
+    if opt_lower == "adam":
+        optimizer = optim.Adam(parameters, **opt_args)
+    elif opt_lower == "adamw":
+        optimizer = optim.AdamW(parameters, **opt_args)
+    elif opt_lower == "adadelta":
+        optimizer = optim.Adadelta(parameters, **opt_args)
+    elif opt_lower == "radam":
+        optimizer = optim.RAdam(parameters, **opt_args)
+    elif opt_lower == "sgd":
+        opt_args["momentum"] = 0.9
+        return optim.SGD(parameters, **opt_args)
+    else:
+        assert False and "Invalid optimizer"
+
+    return optimizer
+
+def create_norm(name):
+    if name == "layernorm":
+        return nn.LayerNorm
+    elif name == "batchnorm":
+        return nn.BatchNorm1d
+    elif name == "graphnorm":
+        return partial(NormLayer, norm_type="groupnorm")
+    else:
+        return None
+
+def create_activation(name):
+    if name == "relu":
+        return nn.ReLU()
+    elif name == "gelu":
+        return nn.GELU()
+    elif name == "prelu":
+        return nn.PReLU()
+    elif name is None:
+        return nn.Identity()
+    elif name == "elu":
+        return nn.ELU()
+    else:
+        raise NotImplementedError(f"{name} is not implemented.")
+
+def drop_edge(graph, drop_rate, return_edges=False):
+    if drop_rate <= 0:
+        return graph
+
+    n_node = graph.num_nodes()
+    edge_mask = mask_edge(graph, drop_rate)
+    src = graph.edges()[0]
+    dst = graph.edges()[1]
+
+    nsrc = src[edge_mask]
+    ndst = dst[edge_mask]
+
+    ng = dgl.graph((nsrc, ndst), num_nodes=n_node)
+    ng = ng.add_self_loop()
+
+    dsrc = src[~edge_mask]
+    ddst = dst[~edge_mask]
+
+    if return_edges:
+        return ng, (dsrc, ddst)
+    return ng
 
 def get_dataset(name, normalize_features=False, transform=None, if_dpr=True):
     path = osp.join(osp.dirname(osp.realpath(__file__)), 'data', name)
@@ -303,32 +381,6 @@ def evaluate(output, labels, args):
               "loss= {:.4f}".format(loss_test.item()),
               "accuracy= {:.4f}".format(acc_test.item()))
     return
-
-
-from torchvision import datasets, transforms
-def get_mnist(data_path):
-    channel = 1
-    im_size = (28, 28)
-    num_classes = 10
-    mean = [0.1307]
-    std = [0.3081]
-    transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize(mean=mean, std=std)])
-    dst_train = datasets.MNIST(data_path, train=True, download=True, transform=transform) # no        augmentation
-    dst_test = datasets.MNIST(data_path, train=False, download=True, transform=transform)
-    class_names = [str(c) for c in range(num_classes)]
-
-    labels = []
-    feat = []
-    for x, y in dst_train:
-        feat.append(x.view(1, -1))
-        labels.append(y)
-    feat = torch.cat(feat, axis=0).numpy()
-    from utils_graphsaint import GraphData
-    adj = sp.eye(len(feat))
-    idx = np.arange(len(feat))
-    dpr_data = GraphData(adj-adj, feat, labels, idx, idx, idx)
-    from deeprobust.graph.data import Dpr2Pyg
-    return Dpr2Pyg(dpr_data)
 
 def regularization(adj, x, eig_real=None):
     # fLf
