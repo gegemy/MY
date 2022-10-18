@@ -45,18 +45,23 @@ def setup_module(model_type, args) -> nn.Module:
     concate_hidden = args.concat_hidden
     negative_slope=args.negative_slope
     residual=args.residual
+    concat_out = True
     
-    if model_type == 'encoder':
+    # print(model_type)
+    
+    if model_type == 'encoding':
+        print('in_dim:{}, num_hidden:{},out_dim:{},num_layers:{},nhead:{},nhead_out:{}, concat_out:{}'.format(in_dim, enc_num_hidden, enc_num_hidden, num_layers, enc_nhead, enc_nhead, concat_out))
         model = GAT(in_dim=in_dim, num_hidden=enc_num_hidden,out_dim=enc_num_hidden,
-                    num_layers=num_layers,nhead=enc_nhead, nhead_out=enc_nhead, concat_out=True,
+                    num_layers=num_layers,nhead=enc_nhead, nhead_out=enc_nhead, concat_out=concat_out,
                     activation=activation,feat_drop=feat_drop,attn_drop=attn_drop,
-                    negative_slope=negative_slope, residual=residual,norm=norm,
+                    negative_slope=negative_slope, residual=residual,norm=norm, encoding=(model_type == "encoding"),
                     )
-    elif model_type == 'decoder':
+    elif model_type == 'decoding':
+        print('in_dim:{}, num_hidden:{},out_dim:{},num_layers:{},nhead:{},nhead_out:{}, concat_out:{}'.format(dec_in_dim, dec_num_hidden, in_dim, 1, nhead, nhead_out, concat_out))
         model = GAT(in_dim=dec_in_dim, num_hidden=dec_num_hidden, out_dim=in_dim,
                     num_layers=1, nhead=nhead, nhead_out=nhead_out, activation=activation,
                     feat_drop=feat_drop, attn_drop=attn_drop, negative_slope=negative_slope,
-                    residual=residual, norm=norm, concat_out=True,)
+                    residual=residual, norm=norm, concat_out=True, encoding=(model_type == "encoding"),)
     else:
         raise NotImplementedError
     return model
@@ -84,25 +89,25 @@ class InIModel(nn.Module):
         
         assert args.hidden % args.heads == 0
         assert args.hidden % args.num_out_heads == 0
-        if self._encoder_type in ("gat"):
-            self.enc_num_hidden = args.hidden // args.heads
-            self.enc_nhead = args.heads
-        else:
-            self.enc_num_hidden = args.hidden
-            self.enc_nhead = 1
+        # if self._encoder_type in ("gat"):
+        #     self.enc_num_hidden = args.hidden // args.heads
+        #     self.enc_nhead = args.heads
+        # else:
+        #     self.enc_num_hidden = args.hidden
+        #     self.enc_nhead = 1
             
-        self.dec_in_dim = args.hidden
-        self.dec_num_hidden = args.hidden // args.num_out_heads if self._decoder_type in ("gat") else args.hidden
+
+        # self.dec_num_hidden = args.hidden // args.num_out_heads if self._decoder_type in ("gat") else args.hidden
         
         # build encoder
         # TODO 
-        self.encoder =  setup_module(model_type='encoder', args=args)
+        self.encoder =  setup_module(model_type='encoding', args=args)
         
         # TODO for attribute prediction to predict 
-        self.decoder = setup_module(model_type='decoder', args=args)
+        self.decoder = setup_module(model_type='decoding', args=args)
         
-        self.enc_mask_token = nn.Parameter(torch.zeros(1, self.data.feat_full.shape[1])).to(args.device)
-        
+        self.enc_mask_token = nn.Parameter(torch.zeros(1, args.num_features)).to(args.device)
+        self.dec_in_dim = args.hidden
         if args.concat_hidden:
             self.encoder_to_decoder = nn.Linear(self.dec_in_dim * args.nlayers, self.dec_in_dim, bias=False)
             

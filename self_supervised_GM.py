@@ -24,6 +24,8 @@ class GM:
         self.args = args
         self.device = device
         
+        self.nnodes = data.nnodes
+        
         # GCond parameters
         
         n = int(data.feat_train.shape[0] * args.reduction_rate)
@@ -54,41 +56,55 @@ class GM:
             return 20, 10
         else:
             return 20, 10
+
+    def preprocess(self, graph):
+        graph = graph.cpu()
+        feat = graph.ndata["feat"]
+        graph = dgl.to_bidirected(graph)
+        graph.ndata["feat"] = feat
+
+        graph = graph.remove_self_loop().add_self_loop()
+        graph.create_formats_()
+        return graph
+    
+    def transferTodgl(self, data):
+        graph_orig = dgl.from_scipy(data.adj_full).cpu()
+        graph_orig.ndata['feat'] = torch.tensor(data.feat_full).cpu()
+        graph_orig = self.preprocess(graph_orig)
+        graph_orig = graph_orig.to(self.device)
+        x_orig = graph_orig.ndata['feat'].to(self.device)
+        train_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_train), True).to(self.device)
+        val_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_val), True).to(self.device)
+        test_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_test), True).to(self.device)
+        graph_orig.ndata['train_mask'], graph_orig.ndata['test_mask'], graph_orig.ndata['val_mask'] = train_mask, test_mask, val_mask
+        graph_orig.ndata['label'] = torch.as_tensor(data.labels_full).to(self.device)
+        return graph_orig, x_orig
         
     def train(self, verbose=True):
         args = self.args
         data = self.data
-        self.num_nodes = self.data.feat_train.shape[0]
         
         feat_syn, pge = self.feat_syn, self.pge
         
-        features, adj = data.feat_full, data.adj_full
-        
-        idx_train = data.idx_train
-        
-        features, adj = utils.to_tensor(features, adj, device=self.device)
-        
-        if utils.is_sparse_tensor(adj):
-            adj_norm = utils.normalize_adj_tensor(adj, sparse=True)
-        else:
-            adj_norm = utils.normalize_adj_tensor(adj)
-            
-        adj = adj_norm
-        
-        adj = SparseTensor(row=adj._indices()[0], col=adj._indices()[1],
-                           value=adj._values(), sparse_sizes=adj.size()).t()
+        # TODO graph to device and feature to device
+        graph_orig, x_orig = self.transferTodgl(data)
         
         outer_loop, inner_loop = self.get_loops(args)
         
         loss_avg = 0
         
-        self.model = InIModel(data=self.data, args=self.args)
-        self.model.to(self.device)
         self.final_acc_list = []
         self.estp_acc_list = []
         
+
+        
         for it in range(args.epochs+1):
-            model = self.model
+            # print('model parameters:')
+            # for tmp in model.parameters():
+            #     print(tmp.shape)
+            # exit()
+            model = InIModel(data=self.data, args=self.args)
+            model.to(self.device)
             model_parameters = list(model.parameters())
             
             optimizer_model = torch.optim.Adam(model_parameters, lr=args.lr_model)
@@ -101,18 +117,8 @@ class GM:
                 
                 loss = torch.tensor(0.0).to(self.device)
                 
-                # TODO graph to device and feature to device
-                graph_orig = dgl.from_scipy(data.adj_full, device=self.device)
-                train_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_train), True).to(self.device)
-                val_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_val), True).to(self.device)
-                test_mask = torch.full((data.nnodes,),False).index_fill_(0, torch.as_tensor(data.idx_test), True).to(self.device)
-                graph_orig.ndata['train_mask'], graph_orig.ndata['test_mask'], graph_orig.ndata['val_mask'] = train_mask, test_mask, val_mask
-                graph_orig.ndata['label'] = torch.as_tensor(data.labels_full).to(self.device)
-                # print(graph.device)
-                # graph = torch.tensor(data.adj_full).to(self.device)
-                x_orig = torch.tensor(data.feat_full).to(self.device)
-                
-                loss_real, loss_item = self.model(graph_orig, x_orig)
+                loss_real, loss_item = model(graph_orig, x_orig)
+                print('Epoch {}, outer_loop {}, loss real {}'.format(it, ol, loss_real))
                 
                 gw_real = torch.autograd.grad(loss_real, model_parameters)
                 gw_real = list((_.detach().clone() for _ in gw_real))
@@ -121,18 +127,19 @@ class GM:
                 graph_syn = dgl.from_networkx(nx.from_numpy_array(adj_syn_norm.detach().cpu().numpy()), device=self.device)
                 x_syn = feat_syn.to(self.device)
                 
-                loss_syn, loss_syn_item = self.model(graph_syn, x_syn)
+                loss_syn, loss_syn_item = model(graph_syn, x_syn)
+                print('Epoch {}, outer_loop {}, loss syn {}'.format(it, ol, loss_syn))
                 
                 gw_syn = torch.autograd.grad(loss_syn, model_parameters, create_graph=True)
                 
                 # TODO coeff relaed (different labels bias)
                 
                 loss += match_loss(gw_syn, gw_real, args, device=self.device)
+                print('Epoch {}, outer_loop {}, loss {}'.format(it, ol, loss))
+                loss_avg += loss.item()
                 
                 #TODO alpha related regularize (label syn)
-                
-                loss += loss
-                
+                    
                 # update sythetic graph
                 self.optimizer_feat.zero_grad()
                 self.optimizer_pge.zero_grad()
@@ -158,7 +165,7 @@ class GM:
                     #TODO feature and adj to device and fed into model
                     graph = dgl.from_networkx(nx.from_numpy_array(adj_syn_inner_norm.detach().cpu().numpy()), device=self.device)
                     x = feat_syn_inner_norm.to(self.device)
-                    loss_syn_inner, loss_syn_inner_item = self.model(graph, x)
+                    loss_syn_inner, loss_syn_inner_item = model(graph, x)
                     loss_syn_inner.backward()
                     optimizer_model.step()
             
@@ -167,11 +174,11 @@ class GM:
                 print('Epoch {}, loss_avg: {}'.format(it, loss_avg))
                 
             # TODO evaluation
-            eval_epochs = [1, 20]
+            # eval_epochs = [10, 20, 30, 40, 50]
             
-            if it in eval_epochs:
-                print('******************** eval*******************')
-                final_acc, estp_acc = node_classification_evaluation(self.model, graph_orig, x_orig, self.args.num_classes, self.args.lr_adj_f,self.args.weight_decay_f, self.args.max_epoch_f, self.device, self.args.linear_prob)
+            if it % 100 == 0:
+                print('******************** EVAL Epoch *******************')
+                final_acc, estp_acc = node_classification_evaluation(model, graph_orig, x_orig, self.args.num_classes, self.args.lr_adj_f,self.args.weight_decay_f, self.args.max_epoch_f, self.device, self.args.linear_prob)
                 self.final_acc_list.append(final_acc)
                 self.estp_acc_list.append(estp_acc)
                 

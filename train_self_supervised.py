@@ -19,7 +19,7 @@ parser.add_argument('--encoder', type=str, default='gat')
 parser.add_argument('--decoder', type=str, default='gat')
 parser.add_argument('--in_drop', type=float, default=0.2, help="input feature dropout")
 parser.add_argument('--attn_drop', type=float, default=0.1, help="attention dropout")
-parser.add_argument('--epochs', type=int, default=20)
+parser.add_argument('--epochs', type=int, default=1000)
 parser.add_argument('--nlayers', type=int, default=3) #num_layer
 parser.add_argument('--hidden', type=int, default=256) # num_hidden
 parser.add_argument('--heads', type=int, default=4, help="number of hidden attention heads")
@@ -52,7 +52,7 @@ parser.add_argument('--seed', type=int, default=15, help='Random seed.')
 
 parser.add_argument('--normalize_features', type=bool, default=True)
 parser.add_argument('--scheduler', type=bool, default=True)
-parser.add_argument('--norm', type=str, default='layernorm')
+parser.add_argument('--norm', type=str, default=None)
 
 parser.add_argument('--keep_ratio', type=float, default=1.0)
 # parser.add_argument('--nsamples', type=int, default=20)
@@ -60,7 +60,7 @@ parser.add_argument('--alpha', type=float, default=0, help='regularization term.
 parser.add_argument('--debug', type=int, default=0)
 parser.add_argument('--sgc', type=int, default=1)
 parser.add_argument('--inner', type=int, default=1)
-parser.add_argument('--outer', type=int, default=5)
+parser.add_argument('--outer', type=int, default=20)
 parser.add_argument('--save', type=int, default=0)
 parser.add_argument("--concat_hidden", default=False)
 parser.add_argument("--negative_slope", type=float, default=0.2,

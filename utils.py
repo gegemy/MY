@@ -325,6 +325,8 @@ def match_loss(gw_syn, gw_real, args, device):
 
     else:
         exit('DC error: unknown distance function')
+        
+    print('match loss dis {}'.format(dis))
 
     return dis
 
