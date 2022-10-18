@@ -1,0 +1,87 @@
+Namespace(activation='prelu', alpha=0, alpha_l=3, attn_drop=0.1, concat_hidden=False, dataset='ogbn-arxiv', debug=0, decoder='gat', device=0, dis_metric='ours', drop_edge_rate=0.0, dropout=0.0, encoder='gat', epochs=50, heads=4, hidden=256, in_drop=0.2, inner=1, keep_ratio=1.0, linear_prob=False, loss_fn='sce', lr_adj=0.01, lr_adj_f=0.01, lr_feat=0.01, lr_feat_f=0.01, lr_model=0.01, lr_model_f=0.01, mask_rate=0.5, max_epoch=1000, max_epoch_f=600, negative_slope=0.2, nlayers=2, norm=None, normalize_features=True, num_out_heads=1, optimizer='adam', outer=20, reduction_rate=0.0025, replace_rate=0.05, residual=False, save=1, scheduler=True, seed=1, sgc=1, weight_decay=0.0, weight_decay_f=0.0)
+num classes is: 40
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 0, outer_loop 0, loss real 1.032350778579712
+Epoch 0, outer_loop 0, loss syn 0.9888348579406738
+match loss dis 924.2098388671875
+Epoch 0, outer_loop 0, loss 924.2098388671875
+Epoch 0, outer_loop 1, loss real 1.0565050840377808
+Epoch 0, outer_loop 1, loss syn 0.9119767546653748
+match loss dis 867.4421997070312
+Epoch 0, outer_loop 1, loss 867.4421997070312
+Epoch 0, outer_loop 2, loss real 1.0477759838104248
+Epoch 0, outer_loop 2, loss syn 0.8855627775192261
+match loss dis 901.1690063476562
+Epoch 0, outer_loop 2, loss 901.1690063476562
+Epoch 0, outer_loop 3, loss real 1.0405329465866089
+Epoch 0, outer_loop 3, loss syn 0.8429062962532043
+match loss dis 918.1697998046875
+Epoch 0, outer_loop 3, loss 918.1697998046875
+Epoch 0, outer_loop 4, loss real 1.0406568050384521
+Epoch 0, outer_loop 4, loss syn 0.8955498337745667
+match loss dis 889.7926635742188
+Epoch 0, outer_loop 4, loss 889.7926635742188
+Epoch 0, outer_loop 5, loss real 1.0437177419662476
+Epoch 0, outer_loop 5, loss syn 0.8649517297744751
+match loss dis 898.78125
+Epoch 0, outer_loop 5, loss 898.78125
+Epoch 0, outer_loop 6, loss real 1.043696641921997
+Epoch 0, outer_loop 6, loss syn 0.8504329323768616
+match loss dis 890.7381591796875
+Epoch 0, outer_loop 6, loss 890.7381591796875
+Epoch 0, outer_loop 7, loss real 1.041146159172058
+Epoch 0, outer_loop 7, loss syn 0.8557546138763428
+match loss dis 880.2518310546875
+Epoch 0, outer_loop 7, loss 880.2518310546875
+Epoch 0, outer_loop 8, loss real 1.0386159420013428
+Epoch 0, outer_loop 8, loss syn 0.8411718606948853
+match loss dis 896.875
+Epoch 0, outer_loop 8, loss 896.875
+Epoch 0, outer_loop 9, loss real 1.036407470703125
+Epoch 0, outer_loop 9, loss syn 0.8383681178092957
+match loss dis 911.3863525390625
+Epoch 0, outer_loop 9, loss 911.3863525390625
+Epoch 0, outer_loop 10, loss real 1.034837245941162
+Epoch 0, outer_loop 10, loss syn 0.8376014232635498
+match loss dis 919.373291015625
+Epoch 0, outer_loop 10, loss 919.373291015625
+Epoch 0, outer_loop 11, loss real 1.0320614576339722
+Epoch 0, outer_loop 11, loss syn 0.8382835984230042
+match loss dis 903.0430297851562
+Epoch 0, outer_loop 11, loss 903.0430297851562
+Epoch 0, outer_loop 12, loss real 1.0323946475982666
+Epoch 0, outer_loop 12, loss syn 0.8419849276542664
+match loss dis 900.2442016601562
+Epoch 0, outer_loop 12, loss 900.2442016601562
+Epoch 0, outer_loop 13, loss real 1.031948447227478
+Epoch 0, outer_loop 13, loss syn 0.843109130859375
+match loss dis 897.5484619140625
+Epoch 0, outer_loop 13, loss 897.5484619140625
+Epoch 0, outer_loop 14, loss real 1.0312784910202026
+Epoch 0, outer_loop 14, loss syn 0.8379371166229248
+match loss dis 901.5830688476562
+Epoch 0, outer_loop 14, loss 901.5830688476562
+Epoch 0, outer_loop 15, loss real 1.0300711393356323
+Epoch 0, outer_loop 15, loss syn 0.8165874481201172
+match loss dis 921.4010009765625
+Epoch 0, outer_loop 15, loss 921.4010009765625
+Epoch 0, outer_loop 16, loss real 1.0305604934692383
+Epoch 0, outer_loop 16, loss syn 0.8450593948364258
+match loss dis 912.7940063476562
+Epoch 0, outer_loop 16, loss 912.7940063476562
+Epoch 0, outer_loop 17, loss real 1.0280948877334595
+Epoch 0, outer_loop 17, loss syn 0.8325486779212952
+match loss dis 897.7061767578125
+Epoch 0, outer_loop 17, loss 897.7061767578125
+Epoch 0, outer_loop 18, loss real 1.02926504611969
+Epoch 0, outer_loop 18, loss syn 0.8080341815948486
+match loss dis 908.5707397460938
+Epoch 0, outer_loop 18, loss 908.5707397460938
+Epoch 0, outer_loop 19, loss real 1.0303080081939697
+Epoch 0, outer_loop 19, loss syn 0.8628847599029541
+match loss dis 929.0013427734375
+Epoch 0, outer_loop 19, loss 929.0013427734375
+Epoch 0, loss_avg: 903.5040710449218
+******************** EVAL Epoch *******************
+num parameters for finetuning: 110122

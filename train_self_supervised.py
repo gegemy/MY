@@ -24,8 +24,8 @@ parser.add_argument('--nlayers', type=int, default=3) #num_layer
 parser.add_argument('--hidden', type=int, default=256) # num_hidden
 parser.add_argument('--heads', type=int, default=4, help="number of hidden attention heads")
 parser.add_argument("--num_out_heads", type=int, default=1, help="number of output attention heads")
-parser.add_argument('--max_epoch', type=int, default=10, help="number of training epochs")
-parser.add_argument('--max_epoch_f', type=int, default=10, help="for evaluation")
+parser.add_argument('--max_epoch', type=int, default=1000, help="number of training epochs")
+parser.add_argument('--max_epoch_f', type=int, default=600, help="for evaluation")
 
 parser.add_argument('--lr_adj', type=float, default=0.01)
 parser.add_argument('--lr_feat', type=float, default=0.01)
