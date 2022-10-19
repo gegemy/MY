@@ -85,3 +85,4114 @@ Epoch 0, outer_loop 19, loss 929.0013427734375
 Epoch 0, loss_avg: 903.5040710449218
 ******************** EVAL Epoch *******************
 num parameters for finetuning: 110122
+--- TestAcc: 0.7176, early-stopping-TestAcc: 0.7201, Best ValAcc: 0.7321 in epoch 533 --- 
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 1, outer_loop 0, loss real 1.001870036125183
+Epoch 1, outer_loop 0, loss syn 1.052980661392212
+match loss dis 912.71240234375
+Epoch 1, outer_loop 0, loss 912.71240234375
+Epoch 1, outer_loop 1, loss real 1.0186082124710083
+Epoch 1, outer_loop 1, loss syn 0.9036188721656799
+match loss dis 919.1124267578125
+Epoch 1, outer_loop 1, loss 919.1124267578125
+Epoch 1, outer_loop 2, loss real 1.024137020111084
+Epoch 1, outer_loop 2, loss syn 0.8444918990135193
+match loss dis 881.7046508789062
+Epoch 1, outer_loop 2, loss 881.7046508789062
+Epoch 1, outer_loop 3, loss real 1.0304880142211914
+Epoch 1, outer_loop 3, loss syn 0.8628093004226685
+match loss dis 878.173583984375
+Epoch 1, outer_loop 3, loss 878.173583984375
+Epoch 1, outer_loop 4, loss real 1.0330162048339844
+Epoch 1, outer_loop 4, loss syn 0.8724002838134766
+match loss dis 861.6693115234375
+Epoch 1, outer_loop 4, loss 861.6693115234375
+Epoch 1, outer_loop 5, loss real 1.0359342098236084
+Epoch 1, outer_loop 5, loss syn 0.8737133741378784
+match loss dis 852.2113647460938
+Epoch 1, outer_loop 5, loss 852.2113647460938
+Epoch 1, outer_loop 6, loss real 1.032656192779541
+Epoch 1, outer_loop 6, loss syn 0.861603319644928
+match loss dis 897.931640625
+Epoch 1, outer_loop 6, loss 897.931640625
+Epoch 1, outer_loop 7, loss real 1.025829553604126
+Epoch 1, outer_loop 7, loss syn 0.8500814437866211
+match loss dis 902.060546875
+Epoch 1, outer_loop 7, loss 902.060546875
+Epoch 1, outer_loop 8, loss real 1.0260587930679321
+Epoch 1, outer_loop 8, loss syn 0.8336181640625
+match loss dis 912.3901977539062
+Epoch 1, outer_loop 8, loss 912.3901977539062
+Epoch 1, outer_loop 9, loss real 1.0235233306884766
+Epoch 1, outer_loop 9, loss syn 0.833488941192627
+match loss dis 920.17333984375
+Epoch 1, outer_loop 9, loss 920.17333984375
+Epoch 1, outer_loop 10, loss real 1.0252622365951538
+Epoch 1, outer_loop 10, loss syn 0.8645761609077454
+match loss dis 899.23974609375
+Epoch 1, outer_loop 10, loss 899.23974609375
+Epoch 1, outer_loop 11, loss real 1.025398850440979
+Epoch 1, outer_loop 11, loss syn 0.832845151424408
+match loss dis 916.738525390625
+Epoch 1, outer_loop 11, loss 916.738525390625
+Epoch 1, outer_loop 12, loss real 1.0265766382217407
+Epoch 1, outer_loop 12, loss syn 0.841202974319458
+match loss dis 900.018310546875
+Epoch 1, outer_loop 12, loss 900.018310546875
+Epoch 1, outer_loop 13, loss real 1.0283225774765015
+Epoch 1, outer_loop 13, loss syn 0.874679446220398
+match loss dis 915.7721557617188
+Epoch 1, outer_loop 13, loss 915.7721557617188
+Epoch 1, outer_loop 14, loss real 1.0287617444992065
+Epoch 1, outer_loop 14, loss syn 0.8348572850227356
+match loss dis 908.1192016601562
+Epoch 1, outer_loop 14, loss 908.1192016601562
+Epoch 1, outer_loop 15, loss real 1.02835214138031
+Epoch 1, outer_loop 15, loss syn 0.848229706287384
+match loss dis 899.23779296875
+Epoch 1, outer_loop 15, loss 899.23779296875
+Epoch 1, outer_loop 16, loss real 1.0299153327941895
+Epoch 1, outer_loop 16, loss syn 0.8304771184921265
+match loss dis 911.8880004882812
+Epoch 1, outer_loop 16, loss 911.8880004882812
+Epoch 1, outer_loop 17, loss real 1.0290234088897705
+Epoch 1, outer_loop 17, loss syn 0.7943181395530701
+match loss dis 903.8883056640625
+Epoch 1, outer_loop 17, loss 903.8883056640625
+Epoch 1, outer_loop 18, loss real 1.0313332080841064
+Epoch 1, outer_loop 18, loss syn 0.8443983197212219
+match loss dis 912.421875
+Epoch 1, outer_loop 18, loss 912.421875
+Epoch 1, outer_loop 19, loss real 1.0305739641189575
+Epoch 1, outer_loop 19, loss syn 0.8585001230239868
+match loss dis 903.5185546875
+Epoch 1, outer_loop 19, loss 903.5185546875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 2, outer_loop 0, loss real 1.0926331281661987
+Epoch 2, outer_loop 0, loss syn 0.9938406944274902
+match loss dis 902.5048828125
+Epoch 2, outer_loop 0, loss 902.5048828125
+Epoch 2, outer_loop 1, loss real 1.0577962398529053
+Epoch 2, outer_loop 1, loss syn 0.910811722278595
+match loss dis 882.8740844726562
+Epoch 2, outer_loop 1, loss 882.8740844726562
+Epoch 2, outer_loop 2, loss real 1.0542720556259155
+Epoch 2, outer_loop 2, loss syn 0.8587509989738464
+match loss dis 868.4578857421875
+Epoch 2, outer_loop 2, loss 868.4578857421875
+Epoch 2, outer_loop 3, loss real 1.0416183471679688
+Epoch 2, outer_loop 3, loss syn 0.8643689155578613
+match loss dis 908.1710205078125
+Epoch 2, outer_loop 3, loss 908.1710205078125
+Epoch 2, outer_loop 4, loss real 1.0336835384368896
+Epoch 2, outer_loop 4, loss syn 0.8603493571281433
+match loss dis 896.350830078125
+Epoch 2, outer_loop 4, loss 896.350830078125
+Epoch 2, outer_loop 5, loss real 1.0305333137512207
+Epoch 2, outer_loop 5, loss syn 0.8769079446792603
+match loss dis 899.425537109375
+Epoch 2, outer_loop 5, loss 899.425537109375
+Epoch 2, outer_loop 6, loss real 1.0345560312271118
+Epoch 2, outer_loop 6, loss syn 0.8567946553230286
+match loss dis 923.660888671875
+Epoch 2, outer_loop 6, loss 923.660888671875
+Epoch 2, outer_loop 7, loss real 1.036247968673706
+Epoch 2, outer_loop 7, loss syn 0.8385380506515503
+match loss dis 864.4845581054688
+Epoch 2, outer_loop 7, loss 864.4845581054688
+Epoch 2, outer_loop 8, loss real 1.0383226871490479
+Epoch 2, outer_loop 8, loss syn 0.8605952262878418
+match loss dis 849.6363525390625
+Epoch 2, outer_loop 8, loss 849.6363525390625
+Epoch 2, outer_loop 9, loss real 1.0388078689575195
+Epoch 2, outer_loop 9, loss syn 0.8468353748321533
+match loss dis 921.3602294921875
+Epoch 2, outer_loop 9, loss 921.3602294921875
+Epoch 2, outer_loop 10, loss real 1.0395745038986206
+Epoch 2, outer_loop 10, loss syn 0.868462860584259
+match loss dis 893.7118530273438
+Epoch 2, outer_loop 10, loss 893.7118530273438
+Epoch 2, outer_loop 11, loss real 1.0382686853408813
+Epoch 2, outer_loop 11, loss syn 0.8265595436096191
+match loss dis 891.9614868164062
+Epoch 2, outer_loop 11, loss 891.9614868164062
+Epoch 2, outer_loop 12, loss real 1.0377782583236694
+Epoch 2, outer_loop 12, loss syn 0.873115062713623
+match loss dis 882.8832397460938
+Epoch 2, outer_loop 12, loss 882.8832397460938
+Epoch 2, outer_loop 13, loss real 1.0377376079559326
+Epoch 2, outer_loop 13, loss syn 0.8119535446166992
+match loss dis 874.79345703125
+Epoch 2, outer_loop 13, loss 874.79345703125
+Epoch 2, outer_loop 14, loss real 1.0379101037979126
+Epoch 2, outer_loop 14, loss syn 0.8780885934829712
+match loss dis 874.442626953125
+Epoch 2, outer_loop 14, loss 874.442626953125
+Epoch 2, outer_loop 15, loss real 1.0376032590866089
+Epoch 2, outer_loop 15, loss syn 0.8368687033653259
+match loss dis 898.0789794921875
+Epoch 2, outer_loop 15, loss 898.0789794921875
+Epoch 2, outer_loop 16, loss real 1.0363613367080688
+Epoch 2, outer_loop 16, loss syn 0.8368605971336365
+match loss dis 903.0404663085938
+Epoch 2, outer_loop 16, loss 903.0404663085938
+Epoch 2, outer_loop 17, loss real 1.036014199256897
+Epoch 2, outer_loop 17, loss syn 0.8466336131095886
+match loss dis 887.40771484375
+Epoch 2, outer_loop 17, loss 887.40771484375
+Epoch 2, outer_loop 18, loss real 1.0384873151779175
+Epoch 2, outer_loop 18, loss syn 0.8446417450904846
+match loss dis 869.5718994140625
+Epoch 2, outer_loop 18, loss 869.5718994140625
+Epoch 2, outer_loop 19, loss real 1.038481593132019
+Epoch 2, outer_loop 19, loss syn 0.8735292553901672
+match loss dis 894.2850341796875
+Epoch 2, outer_loop 19, loss 894.2850341796875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 3, outer_loop 0, loss real 1.034379005432129
+Epoch 3, outer_loop 0, loss syn 1.0343512296676636
+match loss dis 894.62255859375
+Epoch 3, outer_loop 0, loss 894.62255859375
+Epoch 3, outer_loop 1, loss real 1.0149534940719604
+Epoch 3, outer_loop 1, loss syn 0.8995285630226135
+match loss dis 925.5956420898438
+Epoch 3, outer_loop 1, loss 925.5956420898438
+Epoch 3, outer_loop 2, loss real 1.0160973072052002
+Epoch 3, outer_loop 2, loss syn 0.8841556310653687
+match loss dis 938.8123779296875
+Epoch 3, outer_loop 2, loss 938.8123779296875
+Epoch 3, outer_loop 3, loss real 1.0272327661514282
+Epoch 3, outer_loop 3, loss syn 0.8593382835388184
+match loss dis 898.1337280273438
+Epoch 3, outer_loop 3, loss 898.1337280273438
+Epoch 3, outer_loop 4, loss real 1.0275236368179321
+Epoch 3, outer_loop 4, loss syn 0.8689476847648621
+match loss dis 892.6034545898438
+Epoch 3, outer_loop 4, loss 892.6034545898438
+Epoch 3, outer_loop 5, loss real 1.0314767360687256
+Epoch 3, outer_loop 5, loss syn 0.8670653104782104
+match loss dis 894.088134765625
+Epoch 3, outer_loop 5, loss 894.088134765625
+Epoch 3, outer_loop 6, loss real 1.0276739597320557
+Epoch 3, outer_loop 6, loss syn 0.899038553237915
+match loss dis 901.88037109375
+Epoch 3, outer_loop 6, loss 901.88037109375
+Epoch 3, outer_loop 7, loss real 1.0277833938598633
+Epoch 3, outer_loop 7, loss syn 0.903689980506897
+match loss dis 902.0
+Epoch 3, outer_loop 7, loss 902.0
+Epoch 3, outer_loop 8, loss real 1.0236016511917114
+Epoch 3, outer_loop 8, loss syn 0.9022505879402161
+match loss dis 902.0
+Epoch 3, outer_loop 8, loss 902.0
+Epoch 3, outer_loop 9, loss real 1.025642991065979
+Epoch 3, outer_loop 9, loss syn 0.8600960373878479
+match loss dis 902.0
+Epoch 3, outer_loop 9, loss 902.0
+Epoch 3, outer_loop 10, loss real 1.0260003805160522
+Epoch 3, outer_loop 10, loss syn 0.8788130283355713
+match loss dis 902.0
+Epoch 3, outer_loop 10, loss 902.0
+Epoch 3, outer_loop 11, loss real 1.025449275970459
+Epoch 3, outer_loop 11, loss syn 0.8635290265083313
+match loss dis 902.0
+Epoch 3, outer_loop 11, loss 902.0
+Epoch 3, outer_loop 12, loss real 1.0262458324432373
+Epoch 3, outer_loop 12, loss syn 0.8697860836982727
+match loss dis 902.0
+Epoch 3, outer_loop 12, loss 902.0
+Epoch 3, outer_loop 13, loss real 1.0259597301483154
+Epoch 3, outer_loop 13, loss syn 0.85020512342453
+match loss dis 902.0
+Epoch 3, outer_loop 13, loss 902.0
+Epoch 3, outer_loop 14, loss real 1.0275475978851318
+Epoch 3, outer_loop 14, loss syn 0.8528119325637817
+match loss dis 902.0
+Epoch 3, outer_loop 14, loss 902.0
+Epoch 3, outer_loop 15, loss real 1.0277637243270874
+Epoch 3, outer_loop 15, loss syn 0.8337635397911072
+match loss dis 902.0
+Epoch 3, outer_loop 15, loss 902.0
+Epoch 3, outer_loop 16, loss real 1.0270969867706299
+Epoch 3, outer_loop 16, loss syn 0.8255029320716858
+match loss dis 902.0
+Epoch 3, outer_loop 16, loss 902.0
+Epoch 3, outer_loop 17, loss real 1.0275598764419556
+Epoch 3, outer_loop 17, loss syn 0.8349983096122742
+match loss dis 902.0
+Epoch 3, outer_loop 17, loss 902.0
+Epoch 3, outer_loop 18, loss real 1.028247594833374
+Epoch 3, outer_loop 18, loss syn 0.827908992767334
+match loss dis 902.0
+Epoch 3, outer_loop 18, loss 902.0
+Epoch 3, outer_loop 19, loss real 1.0288537740707397
+Epoch 3, outer_loop 19, loss syn 0.8321071267127991
+match loss dis 902.0
+Epoch 3, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 4, outer_loop 0, loss real 1.0292606353759766
+Epoch 4, outer_loop 0, loss syn 1.0212922096252441
+match loss dis 920.972412109375
+Epoch 4, outer_loop 0, loss 920.972412109375
+Epoch 4, outer_loop 1, loss real 1.028437852859497
+Epoch 4, outer_loop 1, loss syn 0.898949384689331
+match loss dis 887.80419921875
+Epoch 4, outer_loop 1, loss 887.80419921875
+Epoch 4, outer_loop 2, loss real 1.0159759521484375
+Epoch 4, outer_loop 2, loss syn 0.8730320930480957
+match loss dis 904.461181640625
+Epoch 4, outer_loop 2, loss 904.461181640625
+Epoch 4, outer_loop 3, loss real 1.0196118354797363
+Epoch 4, outer_loop 3, loss syn 0.85084468126297
+match loss dis 963.0531005859375
+Epoch 4, outer_loop 3, loss 963.0531005859375
+Epoch 4, outer_loop 4, loss real 1.0267722606658936
+Epoch 4, outer_loop 4, loss syn 0.8695206046104431
+match loss dis 949.025146484375
+Epoch 4, outer_loop 4, loss 949.025146484375
+Epoch 4, outer_loop 5, loss real 1.0286228656768799
+Epoch 4, outer_loop 5, loss syn 0.8272759914398193
+match loss dis 903.2042236328125
+Epoch 4, outer_loop 5, loss 903.2042236328125
+Epoch 4, outer_loop 6, loss real 1.032319188117981
+Epoch 4, outer_loop 6, loss syn 0.8488103747367859
+match loss dis 896.9240112304688
+Epoch 4, outer_loop 6, loss 896.9240112304688
+Epoch 4, outer_loop 7, loss real 1.0318262577056885
+Epoch 4, outer_loop 7, loss syn 0.8658716082572937
+match loss dis 899.144775390625
+Epoch 4, outer_loop 7, loss 899.144775390625
+Epoch 4, outer_loop 8, loss real 1.0337408781051636
+Epoch 4, outer_loop 8, loss syn 0.831526517868042
+match loss dis 870.3595581054688
+Epoch 4, outer_loop 8, loss 870.3595581054688
+Epoch 4, outer_loop 9, loss real 1.034594178199768
+Epoch 4, outer_loop 9, loss syn 0.8386631608009338
+match loss dis 901.5643920898438
+Epoch 4, outer_loop 9, loss 901.5643920898438
+Epoch 4, outer_loop 10, loss real 1.0332025289535522
+Epoch 4, outer_loop 10, loss syn 0.8570753931999207
+match loss dis 906.91064453125
+Epoch 4, outer_loop 10, loss 906.91064453125
+Epoch 4, outer_loop 11, loss real 1.0324088335037231
+Epoch 4, outer_loop 11, loss syn 0.8573359847068787
+match loss dis 911.9215698242188
+Epoch 4, outer_loop 11, loss 911.9215698242188
+Epoch 4, outer_loop 12, loss real 1.0330865383148193
+Epoch 4, outer_loop 12, loss syn 0.8320421576499939
+match loss dis 886.5178833007812
+Epoch 4, outer_loop 12, loss 886.5178833007812
+Epoch 4, outer_loop 13, loss real 1.0317860841751099
+Epoch 4, outer_loop 13, loss syn 0.8056753277778625
+match loss dis 917.169189453125
+Epoch 4, outer_loop 13, loss 917.169189453125
+Epoch 4, outer_loop 14, loss real 1.0327147245407104
+Epoch 4, outer_loop 14, loss syn 0.8018406629562378
+match loss dis 915.5589599609375
+Epoch 4, outer_loop 14, loss 915.5589599609375
+Epoch 4, outer_loop 15, loss real 1.0312767028808594
+Epoch 4, outer_loop 15, loss syn 0.8534936308860779
+match loss dis 904.7069091796875
+Epoch 4, outer_loop 15, loss 904.7069091796875
+Epoch 4, outer_loop 16, loss real 1.030642032623291
+Epoch 4, outer_loop 16, loss syn 0.8683075904846191
+match loss dis 913.9073486328125
+Epoch 4, outer_loop 16, loss 913.9073486328125
+Epoch 4, outer_loop 17, loss real 1.0305815935134888
+Epoch 4, outer_loop 17, loss syn 0.8482639193534851
+match loss dis 910.7085571289062
+Epoch 4, outer_loop 17, loss 910.7085571289062
+Epoch 4, outer_loop 18, loss real 1.029463768005371
+Epoch 4, outer_loop 18, loss syn 0.8334319591522217
+match loss dis 890.416748046875
+Epoch 4, outer_loop 18, loss 890.416748046875
+Epoch 4, outer_loop 19, loss real 1.0294114351272583
+Epoch 4, outer_loop 19, loss syn 0.8576492667198181
+match loss dis 889.6402587890625
+Epoch 4, outer_loop 19, loss 889.6402587890625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 5, outer_loop 0, loss real 1.0103803873062134
+Epoch 5, outer_loop 0, loss syn 1.0699198246002197
+match loss dis 888.9559936523438
+Epoch 5, outer_loop 0, loss 888.9559936523438
+Epoch 5, outer_loop 1, loss real 1.0054898262023926
+Epoch 5, outer_loop 1, loss syn 0.9247059226036072
+match loss dis 923.5283203125
+Epoch 5, outer_loop 1, loss 923.5283203125
+Epoch 5, outer_loop 2, loss real 1.031767725944519
+Epoch 5, outer_loop 2, loss syn 0.8792609572410583
+match loss dis 899.569580078125
+Epoch 5, outer_loop 2, loss 899.569580078125
+Epoch 5, outer_loop 3, loss real 1.0347838401794434
+Epoch 5, outer_loop 3, loss syn 0.8447184562683105
+match loss dis 873.9767456054688
+Epoch 5, outer_loop 3, loss 873.9767456054688
+Epoch 5, outer_loop 4, loss real 1.0315183401107788
+Epoch 5, outer_loop 4, loss syn 0.8764159679412842
+match loss dis 899.7349853515625
+Epoch 5, outer_loop 4, loss 899.7349853515625
+Epoch 5, outer_loop 5, loss real 1.027010440826416
+Epoch 5, outer_loop 5, loss syn 0.8330785632133484
+match loss dis 919.1356201171875
+Epoch 5, outer_loop 5, loss 919.1356201171875
+Epoch 5, outer_loop 6, loss real 1.0195469856262207
+Epoch 5, outer_loop 6, loss syn 0.8671549558639526
+match loss dis 893.7613525390625
+Epoch 5, outer_loop 6, loss 893.7613525390625
+Epoch 5, outer_loop 7, loss real 1.0191020965576172
+Epoch 5, outer_loop 7, loss syn 0.8481201529502869
+match loss dis 942.28125
+Epoch 5, outer_loop 7, loss 942.28125
+Epoch 5, outer_loop 8, loss real 1.0181443691253662
+Epoch 5, outer_loop 8, loss syn 0.875529944896698
+match loss dis 913.5661010742188
+Epoch 5, outer_loop 8, loss 913.5661010742188
+Epoch 5, outer_loop 9, loss real 1.0177918672561646
+Epoch 5, outer_loop 9, loss syn 0.8316759467124939
+match loss dis 923.4226684570312
+Epoch 5, outer_loop 9, loss 923.4226684570312
+Epoch 5, outer_loop 10, loss real 1.0186687707901
+Epoch 5, outer_loop 10, loss syn 0.851629376411438
+match loss dis 963.65576171875
+Epoch 5, outer_loop 10, loss 963.65576171875
+Epoch 5, outer_loop 11, loss real 1.0189086198806763
+Epoch 5, outer_loop 11, loss syn 0.8694179654121399
+match loss dis 917.2246704101562
+Epoch 5, outer_loop 11, loss 917.2246704101562
+Epoch 5, outer_loop 12, loss real 1.0206091403961182
+Epoch 5, outer_loop 12, loss syn 0.8374256491661072
+match loss dis 887.173828125
+Epoch 5, outer_loop 12, loss 887.173828125
+Epoch 5, outer_loop 13, loss real 1.0248793363571167
+Epoch 5, outer_loop 13, loss syn 0.8375434279441833
+match loss dis 929.364501953125
+Epoch 5, outer_loop 13, loss 929.364501953125
+Epoch 5, outer_loop 14, loss real 1.0251998901367188
+Epoch 5, outer_loop 14, loss syn 0.8309451937675476
+match loss dis 919.09033203125
+Epoch 5, outer_loop 14, loss 919.09033203125
+Epoch 5, outer_loop 15, loss real 1.025977611541748
+Epoch 5, outer_loop 15, loss syn 0.855204701423645
+match loss dis 918.7837524414062
+Epoch 5, outer_loop 15, loss 918.7837524414062
+Epoch 5, outer_loop 16, loss real 1.0259857177734375
+Epoch 5, outer_loop 16, loss syn 0.8204942941665649
+match loss dis 924.297607421875
+Epoch 5, outer_loop 16, loss 924.297607421875
+Epoch 5, outer_loop 17, loss real 1.0254788398742676
+Epoch 5, outer_loop 17, loss syn 0.8277467489242554
+match loss dis 891.3384399414062
+Epoch 5, outer_loop 17, loss 891.3384399414062
+Epoch 5, outer_loop 18, loss real 1.0214263200759888
+Epoch 5, outer_loop 18, loss syn 0.8581557273864746
+match loss dis 909.2766723632812
+Epoch 5, outer_loop 18, loss 909.2766723632812
+Epoch 5, outer_loop 19, loss real 1.0183168649673462
+Epoch 5, outer_loop 19, loss syn 0.8559069037437439
+match loss dis 1303.105224609375
+Epoch 5, outer_loop 19, loss 1303.105224609375
+Epoch 5, loss_avg: 979.7981446626796
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 6, outer_loop 0, loss real 0.9978030920028687
+Epoch 6, outer_loop 0, loss syn 0.9900780320167542
+match loss dis 915.6011352539062
+Epoch 6, outer_loop 0, loss 915.6011352539062
+Epoch 6, outer_loop 1, loss real 1.013464093208313
+Epoch 6, outer_loop 1, loss syn 0.9032036662101746
+match loss dis 896.4366455078125
+Epoch 6, outer_loop 1, loss 896.4366455078125
+Epoch 6, outer_loop 2, loss real 1.0209994316101074
+Epoch 6, outer_loop 2, loss syn 0.8569635152816772
+match loss dis 887.4967041015625
+Epoch 6, outer_loop 2, loss 887.4967041015625
+Epoch 6, outer_loop 3, loss real 1.025794267654419
+Epoch 6, outer_loop 3, loss syn 0.8803845643997192
+match loss dis 928.7907104492188
+Epoch 6, outer_loop 3, loss 928.7907104492188
+Epoch 6, outer_loop 4, loss real 1.0445703268051147
+Epoch 6, outer_loop 4, loss syn 0.8873849511146545
+match loss dis 847.03662109375
+Epoch 6, outer_loop 4, loss 847.03662109375
+Epoch 6, outer_loop 5, loss real 1.0389108657836914
+Epoch 6, outer_loop 5, loss syn 0.8959634900093079
+match loss dis 594.8242797851562
+Epoch 6, outer_loop 5, loss 594.8242797851562
+Epoch 6, outer_loop 6, loss real 1.0385369062423706
+Epoch 6, outer_loop 6, loss syn 0.8722995519638062
+match loss dis 860.2940063476562
+Epoch 6, outer_loop 6, loss 860.2940063476562
+Epoch 6, outer_loop 7, loss real 1.03997802734375
+Epoch 6, outer_loop 7, loss syn 0.9348889589309692
+match loss dis 847.0286254882812
+Epoch 6, outer_loop 7, loss 847.0286254882812
+Epoch 6, outer_loop 8, loss real 1.037768840789795
+Epoch 6, outer_loop 8, loss syn 0.910536527633667
+match loss dis 904.1350708007812
+Epoch 6, outer_loop 8, loss 904.1350708007812
+Epoch 6, outer_loop 9, loss real 1.0359992980957031
+Epoch 6, outer_loop 9, loss syn 0.8952489495277405
+match loss dis 906.5201416015625
+Epoch 6, outer_loop 9, loss 906.5201416015625
+Epoch 6, outer_loop 10, loss real 1.0340021848678589
+Epoch 6, outer_loop 10, loss syn 0.8849101066589355
+match loss dis 878.8714599609375
+Epoch 6, outer_loop 10, loss 878.8714599609375
+Epoch 6, outer_loop 11, loss real 1.032419204711914
+Epoch 6, outer_loop 11, loss syn 0.8871634006500244
+match loss dis 886.2520751953125
+Epoch 6, outer_loop 11, loss 886.2520751953125
+Epoch 6, outer_loop 12, loss real 1.032057523727417
+Epoch 6, outer_loop 12, loss syn 0.8880323767662048
+match loss dis 919.4411010742188
+Epoch 6, outer_loop 12, loss 919.4411010742188
+Epoch 6, outer_loop 13, loss real 1.0334155559539795
+Epoch 6, outer_loop 13, loss syn 0.8633445501327515
+match loss dis 888.3438110351562
+Epoch 6, outer_loop 13, loss 888.3438110351562
+Epoch 6, outer_loop 14, loss real 1.0330398082733154
+Epoch 6, outer_loop 14, loss syn 0.8660768270492554
+match loss dis 903.7117919921875
+Epoch 6, outer_loop 14, loss 903.7117919921875
+Epoch 6, outer_loop 15, loss real 1.033411979675293
+Epoch 6, outer_loop 15, loss syn 0.8726269602775574
+match loss dis 890.7389526367188
+Epoch 6, outer_loop 15, loss 890.7389526367188
+Epoch 6, outer_loop 16, loss real 1.0322879552841187
+Epoch 6, outer_loop 16, loss syn 0.8631552457809448
+match loss dis 906.26318359375
+Epoch 6, outer_loop 16, loss 906.26318359375
+Epoch 6, outer_loop 17, loss real 1.032117486000061
+Epoch 6, outer_loop 17, loss syn 0.833793044090271
+match loss dis 905.140625
+Epoch 6, outer_loop 17, loss 905.140625
+Epoch 6, outer_loop 18, loss real 1.0323145389556885
+Epoch 6, outer_loop 18, loss syn 0.8670752644538879
+match loss dis 909.3229370117188
+Epoch 6, outer_loop 18, loss 909.3229370117188
+Epoch 6, outer_loop 19, loss real 1.0318278074264526
+Epoch 6, outer_loop 19, loss syn 0.8820938467979431
+match loss dis 901.7020874023438
+Epoch 6, outer_loop 19, loss 901.7020874023438
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 7, outer_loop 0, loss real 1.0092121362686157
+Epoch 7, outer_loop 0, loss syn 1.0590879917144775
+match loss dis 907.283203125
+Epoch 7, outer_loop 0, loss 907.283203125
+Epoch 7, outer_loop 1, loss real 1.0372498035430908
+Epoch 7, outer_loop 1, loss syn 0.9059706330299377
+match loss dis 866.074462890625
+Epoch 7, outer_loop 1, loss 866.074462890625
+Epoch 7, outer_loop 2, loss real 1.0210871696472168
+Epoch 7, outer_loop 2, loss syn 0.888243556022644
+match loss dis 905.0389404296875
+Epoch 7, outer_loop 2, loss 905.0389404296875
+Epoch 7, outer_loop 3, loss real 1.0142018795013428
+Epoch 7, outer_loop 3, loss syn 0.8445419073104858
+match loss dis 921.3112182617188
+Epoch 7, outer_loop 3, loss 921.3112182617188
+Epoch 7, outer_loop 4, loss real 1.013903260231018
+Epoch 7, outer_loop 4, loss syn 0.8733769059181213
+match loss dis 897.920166015625
+Epoch 7, outer_loop 4, loss 897.920166015625
+Epoch 7, outer_loop 5, loss real 1.0130934715270996
+Epoch 7, outer_loop 5, loss syn 0.8493608236312866
+match loss dis 908.435546875
+Epoch 7, outer_loop 5, loss 908.435546875
+Epoch 7, outer_loop 6, loss real 1.0139271020889282
+Epoch 7, outer_loop 6, loss syn 0.8514998555183411
+match loss dis 906.1002197265625
+Epoch 7, outer_loop 6, loss 906.1002197265625
+Epoch 7, outer_loop 7, loss real 1.0172185897827148
+Epoch 7, outer_loop 7, loss syn 0.8443604111671448
+match loss dis 923.8006591796875
+Epoch 7, outer_loop 7, loss 923.8006591796875
+Epoch 7, outer_loop 8, loss real 1.0183918476104736
+Epoch 7, outer_loop 8, loss syn 0.8325056433677673
+match loss dis 918.1796875
+Epoch 7, outer_loop 8, loss 918.1796875
+Epoch 7, outer_loop 9, loss real 1.0189542770385742
+Epoch 7, outer_loop 9, loss syn 0.8212754130363464
+match loss dis 915.0098266601562
+Epoch 7, outer_loop 9, loss 915.0098266601562
+Epoch 7, outer_loop 10, loss real 1.0206108093261719
+Epoch 7, outer_loop 10, loss syn 0.818906307220459
+match loss dis 912.138427734375
+Epoch 7, outer_loop 10, loss 912.138427734375
+Epoch 7, outer_loop 11, loss real 1.020557165145874
+Epoch 7, outer_loop 11, loss syn 0.8376126289367676
+match loss dis 928.1100463867188
+Epoch 7, outer_loop 11, loss 928.1100463867188
+Epoch 7, outer_loop 12, loss real 1.0202624797821045
+Epoch 7, outer_loop 12, loss syn 0.8274290561676025
+match loss dis 877.048828125
+Epoch 7, outer_loop 12, loss 877.048828125
+Epoch 7, outer_loop 13, loss real 1.0198789834976196
+Epoch 7, outer_loop 13, loss syn 0.8414413332939148
+match loss dis 923.391845703125
+Epoch 7, outer_loop 13, loss 923.391845703125
+Epoch 7, outer_loop 14, loss real 1.0207536220550537
+Epoch 7, outer_loop 14, loss syn 0.8341266512870789
+match loss dis 928.88427734375
+Epoch 7, outer_loop 14, loss 928.88427734375
+Epoch 7, outer_loop 15, loss real 1.0196818113327026
+Epoch 7, outer_loop 15, loss syn 0.8398410677909851
+match loss dis 922.7755126953125
+Epoch 7, outer_loop 15, loss 922.7755126953125
+Epoch 7, outer_loop 16, loss real 1.0211132764816284
+Epoch 7, outer_loop 16, loss syn 0.884324848651886
+match loss dis 919.8982543945312
+Epoch 7, outer_loop 16, loss 919.8982543945312
+Epoch 7, outer_loop 17, loss real 1.0193793773651123
+Epoch 7, outer_loop 17, loss syn 0.8488225340843201
+match loss dis 904.8517456054688
+Epoch 7, outer_loop 17, loss 904.8517456054688
+Epoch 7, outer_loop 18, loss real 1.0204490423202515
+Epoch 7, outer_loop 18, loss syn 0.8085644841194153
+match loss dis 894.7214965820312
+Epoch 7, outer_loop 18, loss 894.7214965820312
+Epoch 7, outer_loop 19, loss real 1.020683765411377
+Epoch 7, outer_loop 19, loss syn 0.8293529748916626
+match loss dis 896.08935546875
+Epoch 7, outer_loop 19, loss 896.08935546875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 8, outer_loop 0, loss real 1.024440884590149
+Epoch 8, outer_loop 0, loss syn 1.0556538105010986
+match loss dis 905.9385375976562
+Epoch 8, outer_loop 0, loss 905.9385375976562
+Epoch 8, outer_loop 1, loss real 1.0673857927322388
+Epoch 8, outer_loop 1, loss syn 0.9233880639076233
+match loss dis 899.1764526367188
+Epoch 8, outer_loop 1, loss 899.1764526367188
+Epoch 8, outer_loop 2, loss real 1.0662232637405396
+Epoch 8, outer_loop 2, loss syn 0.8711462616920471
+match loss dis 911.1475219726562
+Epoch 8, outer_loop 2, loss 911.1475219726562
+Epoch 8, outer_loop 3, loss real 1.060623288154602
+Epoch 8, outer_loop 3, loss syn 0.8801736831665039
+match loss dis 721.8563232421875
+Epoch 8, outer_loop 3, loss 721.8563232421875
+Epoch 8, outer_loop 4, loss real 1.0393445491790771
+Epoch 8, outer_loop 4, loss syn 0.8730418682098389
+match loss dis 913.249755859375
+Epoch 8, outer_loop 4, loss 913.249755859375
+Epoch 8, outer_loop 5, loss real 1.0356757640838623
+Epoch 8, outer_loop 5, loss syn 0.8799622058868408
+match loss dis 967.0891723632812
+Epoch 8, outer_loop 5, loss 967.0891723632812
+Epoch 8, outer_loop 6, loss real 1.034866213798523
+Epoch 8, outer_loop 6, loss syn 0.8750810623168945
+match loss dis 931.9036865234375
+Epoch 8, outer_loop 6, loss 931.9036865234375
+Epoch 8, outer_loop 7, loss real 1.0338636636734009
+Epoch 8, outer_loop 7, loss syn 0.8329231142997742
+match loss dis 951.534423828125
+Epoch 8, outer_loop 7, loss 951.534423828125
+Epoch 8, outer_loop 8, loss real 1.0353692770004272
+Epoch 8, outer_loop 8, loss syn 0.8700650334358215
+match loss dis 903.3595581054688
+Epoch 8, outer_loop 8, loss 903.3595581054688
+Epoch 8, outer_loop 9, loss real 1.0350478887557983
+Epoch 8, outer_loop 9, loss syn 0.8727821111679077
+match loss dis 922.7510375976562
+Epoch 8, outer_loop 9, loss 922.7510375976562
+Epoch 8, outer_loop 10, loss real 1.0346062183380127
+Epoch 8, outer_loop 10, loss syn 0.8272522687911987
+match loss dis 928.9608764648438
+Epoch 8, outer_loop 10, loss 928.9608764648438
+Epoch 8, outer_loop 11, loss real 1.0328534841537476
+Epoch 8, outer_loop 11, loss syn 0.803338348865509
+match loss dis 871.960693359375
+Epoch 8, outer_loop 11, loss 871.960693359375
+Epoch 8, outer_loop 12, loss real 1.0341395139694214
+Epoch 8, outer_loop 12, loss syn 0.8498353958129883
+match loss dis 886.7235107421875
+Epoch 8, outer_loop 12, loss 886.7235107421875
+Epoch 8, outer_loop 13, loss real 1.0341442823410034
+Epoch 8, outer_loop 13, loss syn 0.8434350490570068
+match loss dis 909.01806640625
+Epoch 8, outer_loop 13, loss 909.01806640625
+Epoch 8, outer_loop 14, loss real 1.0317734479904175
+Epoch 8, outer_loop 14, loss syn 0.8511849641799927
+match loss dis 907.7235717773438
+Epoch 8, outer_loop 14, loss 907.7235717773438
+Epoch 8, outer_loop 15, loss real 1.032976508140564
+Epoch 8, outer_loop 15, loss syn 0.8516196012496948
+match loss dis 890.3798828125
+Epoch 8, outer_loop 15, loss 890.3798828125
+Epoch 8, outer_loop 16, loss real 1.0317143201828003
+Epoch 8, outer_loop 16, loss syn 0.8545599579811096
+match loss dis 923.7750244140625
+Epoch 8, outer_loop 16, loss 923.7750244140625
+Epoch 8, outer_loop 17, loss real 1.0330538749694824
+Epoch 8, outer_loop 17, loss syn 0.850868821144104
+match loss dis 917.6357421875
+Epoch 8, outer_loop 17, loss 917.6357421875
+Epoch 8, outer_loop 18, loss real 1.0329341888427734
+Epoch 8, outer_loop 18, loss syn 0.8179985880851746
+match loss dis 888.19970703125
+Epoch 8, outer_loop 18, loss 888.19970703125
+Epoch 8, outer_loop 19, loss real 1.0338411331176758
+Epoch 8, outer_loop 19, loss syn 0.8424175977706909
+match loss dis 903.8568115234375
+Epoch 8, outer_loop 19, loss 903.8568115234375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 9, outer_loop 0, loss real 1.0068707466125488
+Epoch 9, outer_loop 0, loss syn 1.0229427814483643
+match loss dis 904.73583984375
+Epoch 9, outer_loop 0, loss 904.73583984375
+Epoch 9, outer_loop 1, loss real 1.0144106149673462
+Epoch 9, outer_loop 1, loss syn 0.8899118900299072
+match loss dis 891.1422729492188
+Epoch 9, outer_loop 1, loss 891.1422729492188
+Epoch 9, outer_loop 2, loss real 1.0228289365768433
+Epoch 9, outer_loop 2, loss syn 0.8867394328117371
+match loss dis 909.539306640625
+Epoch 9, outer_loop 2, loss 909.539306640625
+Epoch 9, outer_loop 3, loss real 1.0306206941604614
+Epoch 9, outer_loop 3, loss syn 0.8643696308135986
+match loss dis 890.02685546875
+Epoch 9, outer_loop 3, loss 890.02685546875
+Epoch 9, outer_loop 4, loss real 1.0269273519515991
+Epoch 9, outer_loop 4, loss syn 0.8828853964805603
+match loss dis 904.3521728515625
+Epoch 9, outer_loop 4, loss 904.3521728515625
+Epoch 9, outer_loop 5, loss real 1.0280791521072388
+Epoch 9, outer_loop 5, loss syn 0.8404672145843506
+match loss dis 896.9948120117188
+Epoch 9, outer_loop 5, loss 896.9948120117188
+Epoch 9, outer_loop 6, loss real 1.0269349813461304
+Epoch 9, outer_loop 6, loss syn 0.8635639548301697
+match loss dis 910.873779296875
+Epoch 9, outer_loop 6, loss 910.873779296875
+Epoch 9, outer_loop 7, loss real 1.0254011154174805
+Epoch 9, outer_loop 7, loss syn 0.8585307598114014
+match loss dis 881.7528686523438
+Epoch 9, outer_loop 7, loss 881.7528686523438
+Epoch 9, outer_loop 8, loss real 1.0242317914962769
+Epoch 9, outer_loop 8, loss syn 0.8499115705490112
+match loss dis 900.7227172851562
+Epoch 9, outer_loop 8, loss 900.7227172851562
+Epoch 9, outer_loop 9, loss real 1.0235997438430786
+Epoch 9, outer_loop 9, loss syn 0.8384429812431335
+match loss dis 892.343505859375
+Epoch 9, outer_loop 9, loss 892.343505859375
+Epoch 9, outer_loop 10, loss real 1.0216630697250366
+Epoch 9, outer_loop 10, loss syn 0.8609552979469299
+match loss dis 903.739501953125
+Epoch 9, outer_loop 10, loss 903.739501953125
+Epoch 9, outer_loop 11, loss real 1.0207717418670654
+Epoch 9, outer_loop 11, loss syn 0.8445343971252441
+match loss dis 905.4649658203125
+Epoch 9, outer_loop 11, loss 905.4649658203125
+Epoch 9, outer_loop 12, loss real 1.0185213088989258
+Epoch 9, outer_loop 12, loss syn 0.8381966352462769
+match loss dis 917.5244140625
+Epoch 9, outer_loop 12, loss 917.5244140625
+Epoch 9, outer_loop 13, loss real 1.0169063806533813
+Epoch 9, outer_loop 13, loss syn 0.8339395523071289
+match loss dis 907.188232421875
+Epoch 9, outer_loop 13, loss 907.188232421875
+Epoch 9, outer_loop 14, loss real 1.0172874927520752
+Epoch 9, outer_loop 14, loss syn 0.8601376414299011
+match loss dis 862.897705078125
+Epoch 9, outer_loop 14, loss 862.897705078125
+Epoch 9, outer_loop 15, loss real 1.0169124603271484
+Epoch 9, outer_loop 15, loss syn 0.8390845656394958
+match loss dis 936.9047241210938
+Epoch 9, outer_loop 15, loss 936.9047241210938
+Epoch 9, outer_loop 16, loss real 1.0181833505630493
+Epoch 9, outer_loop 16, loss syn 0.8387778997421265
+match loss dis 920.0159912109375
+Epoch 9, outer_loop 16, loss 920.0159912109375
+Epoch 9, outer_loop 17, loss real 1.0191861391067505
+Epoch 9, outer_loop 17, loss syn 0.8462027907371521
+match loss dis 913.9556884765625
+Epoch 9, outer_loop 17, loss 913.9556884765625
+Epoch 9, outer_loop 18, loss real 1.0198177099227905
+Epoch 9, outer_loop 18, loss syn 0.8337062001228333
+match loss dis 910.375
+Epoch 9, outer_loop 18, loss 910.375
+Epoch 9, outer_loop 19, loss real 1.0206936597824097
+Epoch 9, outer_loop 19, loss syn 0.857429027557373
+match loss dis 930.481201171875
+Epoch 9, outer_loop 19, loss 930.481201171875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 10, outer_loop 0, loss real 0.9758954644203186
+Epoch 10, outer_loop 0, loss syn 1.046923041343689
+match loss dis 892.3582763671875
+Epoch 10, outer_loop 0, loss 892.3582763671875
+Epoch 10, outer_loop 1, loss real 1.020722508430481
+Epoch 10, outer_loop 1, loss syn 0.9507496356964111
+match loss dis 894.8894653320312
+Epoch 10, outer_loop 1, loss 894.8894653320312
+Epoch 10, outer_loop 2, loss real 1.0275837182998657
+Epoch 10, outer_loop 2, loss syn 0.8869035840034485
+match loss dis 900.169189453125
+Epoch 10, outer_loop 2, loss 900.169189453125
+Epoch 10, outer_loop 3, loss real 1.028644323348999
+Epoch 10, outer_loop 3, loss syn 0.8739035725593567
+match loss dis 903.8148803710938
+Epoch 10, outer_loop 3, loss 903.8148803710938
+Epoch 10, outer_loop 4, loss real 1.0254545211791992
+Epoch 10, outer_loop 4, loss syn 0.8330455422401428
+match loss dis 954.5797119140625
+Epoch 10, outer_loop 4, loss 954.5797119140625
+Epoch 10, outer_loop 5, loss real 1.0279109477996826
+Epoch 10, outer_loop 5, loss syn 0.8426894545555115
+match loss dis 908.2811889648438
+Epoch 10, outer_loop 5, loss 908.2811889648438
+Epoch 10, outer_loop 6, loss real 1.0278352499008179
+Epoch 10, outer_loop 6, loss syn 0.8296798467636108
+match loss dis 870.0742797851562
+Epoch 10, outer_loop 6, loss 870.0742797851562
+Epoch 10, outer_loop 7, loss real 1.0340278148651123
+Epoch 10, outer_loop 7, loss syn 0.8452789187431335
+match loss dis 928.5488891601562
+Epoch 10, outer_loop 7, loss 928.5488891601562
+Epoch 10, outer_loop 8, loss real 1.0345879793167114
+Epoch 10, outer_loop 8, loss syn 0.8488202095031738
+match loss dis 921.80615234375
+Epoch 10, outer_loop 8, loss 921.80615234375
+Epoch 10, outer_loop 9, loss real 1.0345172882080078
+Epoch 10, outer_loop 9, loss syn 0.8573366403579712
+match loss dis 888.4024658203125
+Epoch 10, outer_loop 9, loss 888.4024658203125
+Epoch 10, outer_loop 10, loss real 1.0345052480697632
+Epoch 10, outer_loop 10, loss syn 0.8575964570045471
+match loss dis 909.2498779296875
+Epoch 10, outer_loop 10, loss 909.2498779296875
+Epoch 10, outer_loop 11, loss real 1.033398151397705
+Epoch 10, outer_loop 11, loss syn 0.8141616582870483
+match loss dis 876.4297485351562
+Epoch 10, outer_loop 11, loss 876.4297485351562
+Epoch 10, outer_loop 12, loss real 1.0321986675262451
+Epoch 10, outer_loop 12, loss syn 0.8309760689735413
+match loss dis 918.4253540039062
+Epoch 10, outer_loop 12, loss 918.4253540039062
+Epoch 10, outer_loop 13, loss real 1.031418800354004
+Epoch 10, outer_loop 13, loss syn 0.8329246044158936
+match loss dis 888.96826171875
+Epoch 10, outer_loop 13, loss 888.96826171875
+Epoch 10, outer_loop 14, loss real 1.0289218425750732
+Epoch 10, outer_loop 14, loss syn 0.8454799056053162
+match loss dis 901.4456787109375
+Epoch 10, outer_loop 14, loss 901.4456787109375
+Epoch 10, outer_loop 15, loss real 1.0270137786865234
+Epoch 10, outer_loop 15, loss syn 0.8384342789649963
+match loss dis 900.940673828125
+Epoch 10, outer_loop 15, loss 900.940673828125
+Epoch 10, outer_loop 16, loss real 1.0265717506408691
+Epoch 10, outer_loop 16, loss syn 0.8580139875411987
+match loss dis 911.88330078125
+Epoch 10, outer_loop 16, loss 911.88330078125
+Epoch 10, outer_loop 17, loss real 1.02860689163208
+Epoch 10, outer_loop 17, loss syn 0.8917009234428406
+match loss dis 902.0230712890625
+Epoch 10, outer_loop 17, loss 902.0230712890625
+Epoch 10, outer_loop 18, loss real 1.0262401103973389
+Epoch 10, outer_loop 18, loss syn 0.9095196723937988
+match loss dis 904.856201171875
+Epoch 10, outer_loop 18, loss 904.856201171875
+Epoch 10, outer_loop 19, loss real 1.0260735750198364
+Epoch 10, outer_loop 19, loss syn 0.8650949001312256
+match loss dis 903.1292724609375
+Epoch 10, outer_loop 19, loss 903.1292724609375
+Epoch 10, loss_avg: 951.6178118747291
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 11, outer_loop 0, loss real 0.9764402508735657
+Epoch 11, outer_loop 0, loss syn 0.9882994890213013
+match loss dis 891.4029541015625
+Epoch 11, outer_loop 0, loss 891.4029541015625
+Epoch 11, outer_loop 1, loss real 0.9977657794952393
+Epoch 11, outer_loop 1, loss syn 0.8826584219932556
+match loss dis 921.226806640625
+Epoch 11, outer_loop 1, loss 921.226806640625
+Epoch 11, outer_loop 2, loss real 1.0042719841003418
+Epoch 11, outer_loop 2, loss syn 0.8869571089744568
+match loss dis 923.3390502929688
+Epoch 11, outer_loop 2, loss 923.3390502929688
+Epoch 11, outer_loop 3, loss real 1.0109062194824219
+Epoch 11, outer_loop 3, loss syn 0.9306466579437256
+match loss dis 754.166748046875
+Epoch 11, outer_loop 3, loss 754.166748046875
+Epoch 11, outer_loop 4, loss real 1.0036303997039795
+Epoch 11, outer_loop 4, loss syn 0.8771981000900269
+match loss dis 913.6893310546875
+Epoch 11, outer_loop 4, loss 913.6893310546875
+Epoch 11, outer_loop 5, loss real 1.0068938732147217
+Epoch 11, outer_loop 5, loss syn 0.8505864143371582
+match loss dis 892.1589965820312
+Epoch 11, outer_loop 5, loss 892.1589965820312
+Epoch 11, outer_loop 6, loss real 1.0084359645843506
+Epoch 11, outer_loop 6, loss syn 0.8463797569274902
+match loss dis 901.9896240234375
+Epoch 11, outer_loop 6, loss 901.9896240234375
+Epoch 11, outer_loop 7, loss real 1.0105048418045044
+Epoch 11, outer_loop 7, loss syn 0.8761622905731201
+match loss dis 929.5885620117188
+Epoch 11, outer_loop 7, loss 929.5885620117188
+Epoch 11, outer_loop 8, loss real 1.0151623487472534
+Epoch 11, outer_loop 8, loss syn 0.8399257659912109
+match loss dis 901.35205078125
+Epoch 11, outer_loop 8, loss 901.35205078125
+Epoch 11, outer_loop 9, loss real 1.0143073797225952
+Epoch 11, outer_loop 9, loss syn 0.8795709013938904
+match loss dis 900.1707153320312
+Epoch 11, outer_loop 9, loss 900.1707153320312
+Epoch 11, outer_loop 10, loss real 1.0171574354171753
+Epoch 11, outer_loop 10, loss syn 0.8814613223075867
+match loss dis 912.7753295898438
+Epoch 11, outer_loop 10, loss 912.7753295898438
+Epoch 11, outer_loop 11, loss real 1.0185034275054932
+Epoch 11, outer_loop 11, loss syn 0.8630236983299255
+match loss dis 936.3228149414062
+Epoch 11, outer_loop 11, loss 936.3228149414062
+Epoch 11, outer_loop 12, loss real 1.0182806253433228
+Epoch 11, outer_loop 12, loss syn 0.8375594615936279
+match loss dis 898.137451171875
+Epoch 11, outer_loop 12, loss 898.137451171875
+Epoch 11, outer_loop 13, loss real 1.0215073823928833
+Epoch 11, outer_loop 13, loss syn 0.8380128741264343
+match loss dis 884.1087036132812
+Epoch 11, outer_loop 13, loss 884.1087036132812
+Epoch 11, outer_loop 14, loss real 1.0202161073684692
+Epoch 11, outer_loop 14, loss syn 0.8529506325721741
+match loss dis 909.1702880859375
+Epoch 11, outer_loop 14, loss 909.1702880859375
+Epoch 11, outer_loop 15, loss real 1.0199835300445557
+Epoch 11, outer_loop 15, loss syn 0.8576698899269104
+match loss dis 928.2369384765625
+Epoch 11, outer_loop 15, loss 928.2369384765625
+Epoch 11, outer_loop 16, loss real 1.0205811262130737
+Epoch 11, outer_loop 16, loss syn 0.8134322762489319
+match loss dis 912.6749267578125
+Epoch 11, outer_loop 16, loss 912.6749267578125
+Epoch 11, outer_loop 17, loss real 1.0220565795898438
+Epoch 11, outer_loop 17, loss syn 0.8629904389381409
+match loss dis 902.6549072265625
+Epoch 11, outer_loop 17, loss 902.6549072265625
+Epoch 11, outer_loop 18, loss real 1.0216023921966553
+Epoch 11, outer_loop 18, loss syn 0.8251697421073914
+match loss dis 906.5401611328125
+Epoch 11, outer_loop 18, loss 906.5401611328125
+Epoch 11, outer_loop 19, loss real 1.0231945514678955
+Epoch 11, outer_loop 19, loss syn 0.837904691696167
+match loss dis 899.4226684570312
+Epoch 11, outer_loop 19, loss 899.4226684570312
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 12, outer_loop 0, loss real 1.0195504426956177
+Epoch 12, outer_loop 0, loss syn 0.9945935010910034
+match loss dis 912.284912109375
+Epoch 12, outer_loop 0, loss 912.284912109375
+Epoch 12, outer_loop 1, loss real 1.0740636587142944
+Epoch 12, outer_loop 1, loss syn 0.9181132912635803
+match loss dis 860.737548828125
+Epoch 12, outer_loop 1, loss 860.737548828125
+Epoch 12, outer_loop 2, loss real 1.0686616897583008
+Epoch 12, outer_loop 2, loss syn 0.8706636428833008
+match loss dis 856.1761474609375
+Epoch 12, outer_loop 2, loss 856.1761474609375
+Epoch 12, outer_loop 3, loss real 1.0574580430984497
+Epoch 12, outer_loop 3, loss syn 0.8278660178184509
+match loss dis 891.5171508789062
+Epoch 12, outer_loop 3, loss 891.5171508789062
+Epoch 12, outer_loop 4, loss real 1.0519695281982422
+Epoch 12, outer_loop 4, loss syn 0.8557212352752686
+match loss dis 919.5172119140625
+Epoch 12, outer_loop 4, loss 919.5172119140625
+Epoch 12, outer_loop 5, loss real 1.0473042726516724
+Epoch 12, outer_loop 5, loss syn 0.8529946804046631
+match loss dis 911.14990234375
+Epoch 12, outer_loop 5, loss 911.14990234375
+Epoch 12, outer_loop 6, loss real 1.04518461227417
+Epoch 12, outer_loop 6, loss syn 0.8595617413520813
+match loss dis 882.7550048828125
+Epoch 12, outer_loop 6, loss 882.7550048828125
+Epoch 12, outer_loop 7, loss real 1.0417760610580444
+Epoch 12, outer_loop 7, loss syn 0.8562697768211365
+match loss dis 855.321044921875
+Epoch 12, outer_loop 7, loss 855.321044921875
+Epoch 12, outer_loop 8, loss real 1.0415339469909668
+Epoch 12, outer_loop 8, loss syn 0.8406034708023071
+match loss dis 906.5816650390625
+Epoch 12, outer_loop 8, loss 906.5816650390625
+Epoch 12, outer_loop 9, loss real 1.0487438440322876
+Epoch 12, outer_loop 9, loss syn 0.8419223427772522
+match loss dis 585.0370483398438
+Epoch 12, outer_loop 9, loss 585.0370483398438
+Epoch 12, outer_loop 10, loss real 1.0505712032318115
+Epoch 12, outer_loop 10, loss syn 0.8306463956832886
+match loss dis 439.16680908203125
+Epoch 12, outer_loop 10, loss 439.16680908203125
+Epoch 12, outer_loop 11, loss real 1.063771367073059
+Epoch 12, outer_loop 11, loss syn 0.891136884689331
+match loss dis 842.8701171875
+Epoch 12, outer_loop 11, loss 842.8701171875
+Epoch 12, outer_loop 12, loss real 1.0636004209518433
+Epoch 12, outer_loop 12, loss syn 0.8642542958259583
+match loss dis 901.9989013671875
+Epoch 12, outer_loop 12, loss 901.9989013671875
+Epoch 12, outer_loop 13, loss real 1.0384337902069092
+Epoch 12, outer_loop 13, loss syn 0.8320963382720947
+match loss dis 902.9720458984375
+Epoch 12, outer_loop 13, loss 902.9720458984375
+Epoch 12, outer_loop 14, loss real 1.0373773574829102
+Epoch 12, outer_loop 14, loss syn 0.8275187015533447
+match loss dis 901.88623046875
+Epoch 12, outer_loop 14, loss 901.88623046875
+Epoch 12, outer_loop 15, loss real 1.038744568824768
+Epoch 12, outer_loop 15, loss syn 0.8818885087966919
+match loss dis 887.21240234375
+Epoch 12, outer_loop 15, loss 887.21240234375
+Epoch 12, outer_loop 16, loss real 1.0393422842025757
+Epoch 12, outer_loop 16, loss syn 0.8533751964569092
+match loss dis 897.1184692382812
+Epoch 12, outer_loop 16, loss 897.1184692382812
+Epoch 12, outer_loop 17, loss real 1.038089632987976
+Epoch 12, outer_loop 17, loss syn 0.8224489092826843
+match loss dis 881.5170288085938
+Epoch 12, outer_loop 17, loss 881.5170288085938
+Epoch 12, outer_loop 18, loss real 1.0382264852523804
+Epoch 12, outer_loop 18, loss syn 0.8193545937538147
+match loss dis 856.6403198242188
+Epoch 12, outer_loop 18, loss 856.6403198242188
+Epoch 12, outer_loop 19, loss real 1.0365818738937378
+Epoch 12, outer_loop 19, loss syn 0.8511240482330322
+match loss dis 919.06494140625
+Epoch 12, outer_loop 19, loss 919.06494140625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 13, outer_loop 0, loss real 0.9758425354957581
+Epoch 13, outer_loop 0, loss syn 0.9994826912879944
+match loss dis 889.2605590820312
+Epoch 13, outer_loop 0, loss 889.2605590820312
+Epoch 13, outer_loop 1, loss real 1.0078051090240479
+Epoch 13, outer_loop 1, loss syn 0.9148162007331848
+match loss dis 879.091064453125
+Epoch 13, outer_loop 1, loss 879.091064453125
+Epoch 13, outer_loop 2, loss real 1.0270525217056274
+Epoch 13, outer_loop 2, loss syn 0.8562023043632507
+match loss dis 903.6712646484375
+Epoch 13, outer_loop 2, loss 903.6712646484375
+Epoch 13, outer_loop 3, loss real 1.0289825201034546
+Epoch 13, outer_loop 3, loss syn 0.8721432089805603
+match loss dis 897.1843872070312
+Epoch 13, outer_loop 3, loss 897.1843872070312
+Epoch 13, outer_loop 4, loss real 1.0304549932479858
+Epoch 13, outer_loop 4, loss syn 0.8403249979019165
+match loss dis 891.1541748046875
+Epoch 13, outer_loop 4, loss 891.1541748046875
+Epoch 13, outer_loop 5, loss real 1.032660961151123
+Epoch 13, outer_loop 5, loss syn 0.8643398880958557
+match loss dis 927.7514038085938
+Epoch 13, outer_loop 5, loss 927.7514038085938
+Epoch 13, outer_loop 6, loss real 1.0351345539093018
+Epoch 13, outer_loop 6, loss syn 0.8283978700637817
+match loss dis 897.7295532226562
+Epoch 13, outer_loop 6, loss 897.7295532226562
+Epoch 13, outer_loop 7, loss real 1.0355794429779053
+Epoch 13, outer_loop 7, loss syn 0.855883002281189
+match loss dis 935.2955932617188
+Epoch 13, outer_loop 7, loss 935.2955932617188
+Epoch 13, outer_loop 8, loss real 1.0352497100830078
+Epoch 13, outer_loop 8, loss syn 0.8507308959960938
+match loss dis 911.8944091796875
+Epoch 13, outer_loop 8, loss 911.8944091796875
+Epoch 13, outer_loop 9, loss real 1.0345996618270874
+Epoch 13, outer_loop 9, loss syn 0.8402073383331299
+match loss dis 903.8936767578125
+Epoch 13, outer_loop 9, loss 903.8936767578125
+Epoch 13, outer_loop 10, loss real 1.0338327884674072
+Epoch 13, outer_loop 10, loss syn 0.8554493188858032
+match loss dis 911.8425903320312
+Epoch 13, outer_loop 10, loss 911.8425903320312
+Epoch 13, outer_loop 11, loss real 1.0337096452713013
+Epoch 13, outer_loop 11, loss syn 0.842534065246582
+match loss dis 888.3362426757812
+Epoch 13, outer_loop 11, loss 888.3362426757812
+Epoch 13, outer_loop 12, loss real 1.0324742794036865
+Epoch 13, outer_loop 12, loss syn 0.8394075632095337
+match loss dis 909.451904296875
+Epoch 13, outer_loop 12, loss 909.451904296875
+Epoch 13, outer_loop 13, loss real 1.0324103832244873
+Epoch 13, outer_loop 13, loss syn 0.8397395014762878
+match loss dis 908.1544189453125
+Epoch 13, outer_loop 13, loss 908.1544189453125
+Epoch 13, outer_loop 14, loss real 1.0316396951675415
+Epoch 13, outer_loop 14, loss syn 0.8478655219078064
+match loss dis 911.7772216796875
+Epoch 13, outer_loop 14, loss 911.7772216796875
+Epoch 13, outer_loop 15, loss real 1.030554175376892
+Epoch 13, outer_loop 15, loss syn 0.8209518790245056
+match loss dis 907.3241577148438
+Epoch 13, outer_loop 15, loss 907.3241577148438
+Epoch 13, outer_loop 16, loss real 1.0308860540390015
+Epoch 13, outer_loop 16, loss syn 0.8433106541633606
+match loss dis 912.5623168945312
+Epoch 13, outer_loop 16, loss 912.5623168945312
+Epoch 13, outer_loop 17, loss real 1.029624342918396
+Epoch 13, outer_loop 17, loss syn 0.8559764623641968
+match loss dis 925.0347900390625
+Epoch 13, outer_loop 17, loss 925.0347900390625
+Epoch 13, outer_loop 18, loss real 1.0311999320983887
+Epoch 13, outer_loop 18, loss syn 0.8190059065818787
+match loss dis 906.0439453125
+Epoch 13, outer_loop 18, loss 906.0439453125
+Epoch 13, outer_loop 19, loss real 1.030335783958435
+Epoch 13, outer_loop 19, loss syn 0.8359776139259338
+match loss dis 907.279296875
+Epoch 13, outer_loop 19, loss 907.279296875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 14, outer_loop 0, loss real 1.0379639863967896
+Epoch 14, outer_loop 0, loss syn 1.0307061672210693
+match loss dis 906.6756591796875
+Epoch 14, outer_loop 0, loss 906.6756591796875
+Epoch 14, outer_loop 1, loss real 1.025742769241333
+Epoch 14, outer_loop 1, loss syn 0.8827913403511047
+match loss dis 864.085205078125
+Epoch 14, outer_loop 1, loss 864.085205078125
+Epoch 14, outer_loop 2, loss real 1.0212777853012085
+Epoch 14, outer_loop 2, loss syn 0.8785719275474548
+match loss dis 888.7865600585938
+Epoch 14, outer_loop 2, loss 888.7865600585938
+Epoch 14, outer_loop 3, loss real 1.0200470685958862
+Epoch 14, outer_loop 3, loss syn 0.8878592252731323
+match loss dis 928.5718994140625
+Epoch 14, outer_loop 3, loss 928.5718994140625
+Epoch 14, outer_loop 4, loss real 1.0159759521484375
+Epoch 14, outer_loop 4, loss syn 0.8740110397338867
+match loss dis 940.5089111328125
+Epoch 14, outer_loop 4, loss 940.5089111328125
+Epoch 14, outer_loop 5, loss real 1.0204943418502808
+Epoch 14, outer_loop 5, loss syn 0.8553680181503296
+match loss dis 919.7044677734375
+Epoch 14, outer_loop 5, loss 919.7044677734375
+Epoch 14, outer_loop 6, loss real 1.0223801136016846
+Epoch 14, outer_loop 6, loss syn 0.8476052284240723
+match loss dis 934.8529052734375
+Epoch 14, outer_loop 6, loss 934.8529052734375
+Epoch 14, outer_loop 7, loss real 1.0249499082565308
+Epoch 14, outer_loop 7, loss syn 0.8346689939498901
+match loss dis 881.5616455078125
+Epoch 14, outer_loop 7, loss 881.5616455078125
+Epoch 14, outer_loop 8, loss real 1.0237277746200562
+Epoch 14, outer_loop 8, loss syn 0.8471918702125549
+match loss dis 905.3379516601562
+Epoch 14, outer_loop 8, loss 905.3379516601562
+Epoch 14, outer_loop 9, loss real 1.0237802267074585
+Epoch 14, outer_loop 9, loss syn 0.8400696516036987
+match loss dis 892.6143798828125
+Epoch 14, outer_loop 9, loss 892.6143798828125
+Epoch 14, outer_loop 10, loss real 1.0234575271606445
+Epoch 14, outer_loop 10, loss syn 0.8514652848243713
+match loss dis 916.1677856445312
+Epoch 14, outer_loop 10, loss 916.1677856445312
+Epoch 14, outer_loop 11, loss real 1.023935317993164
+Epoch 14, outer_loop 11, loss syn 0.8542974591255188
+match loss dis 888.2741088867188
+Epoch 14, outer_loop 11, loss 888.2741088867188
+Epoch 14, outer_loop 12, loss real 1.0255011320114136
+Epoch 14, outer_loop 12, loss syn 0.846523642539978
+match loss dis 905.0086669921875
+Epoch 14, outer_loop 12, loss 905.0086669921875
+Epoch 14, outer_loop 13, loss real 1.025369644165039
+Epoch 14, outer_loop 13, loss syn 0.8610274195671082
+match loss dis 916.741455078125
+Epoch 14, outer_loop 13, loss 916.741455078125
+Epoch 14, outer_loop 14, loss real 1.0265434980392456
+Epoch 14, outer_loop 14, loss syn 0.8234390020370483
+match loss dis 916.0695190429688
+Epoch 14, outer_loop 14, loss 916.0695190429688
+Epoch 14, outer_loop 15, loss real 1.0258387327194214
+Epoch 14, outer_loop 15, loss syn 0.8305830359458923
+match loss dis 906.781982421875
+Epoch 14, outer_loop 15, loss 906.781982421875
+Epoch 14, outer_loop 16, loss real 1.025445580482483
+Epoch 14, outer_loop 16, loss syn 0.8292937278747559
+match loss dis 917.177001953125
+Epoch 14, outer_loop 16, loss 917.177001953125
+Epoch 14, outer_loop 17, loss real 1.02531099319458
+Epoch 14, outer_loop 17, loss syn 0.8373331427574158
+match loss dis 922.232421875
+Epoch 14, outer_loop 17, loss 922.232421875
+Epoch 14, outer_loop 18, loss real 1.027053952217102
+Epoch 14, outer_loop 18, loss syn 0.8764488101005554
+match loss dis 906.0391235351562
+Epoch 14, outer_loop 18, loss 906.0391235351562
+Epoch 14, outer_loop 19, loss real 1.0268899202346802
+Epoch 14, outer_loop 19, loss syn 0.8112497925758362
+match loss dis 900.3534545898438
+Epoch 14, outer_loop 19, loss 900.3534545898438
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 15, outer_loop 0, loss real 1.0361825227737427
+Epoch 15, outer_loop 0, loss syn 1.0581387281417847
+match loss dis 910.0728149414062
+Epoch 15, outer_loop 0, loss 910.0728149414062
+Epoch 15, outer_loop 1, loss real 1.028136134147644
+Epoch 15, outer_loop 1, loss syn 0.9360647201538086
+match loss dis 890.9412841796875
+Epoch 15, outer_loop 1, loss 890.9412841796875
+Epoch 15, outer_loop 2, loss real 1.046912670135498
+Epoch 15, outer_loop 2, loss syn 0.9003706574440002
+match loss dis 870.2979125976562
+Epoch 15, outer_loop 2, loss 870.2979125976562
+Epoch 15, outer_loop 3, loss real 1.045372486114502
+Epoch 15, outer_loop 3, loss syn 0.8580318689346313
+match loss dis 888.5592651367188
+Epoch 15, outer_loop 3, loss 888.5592651367188
+Epoch 15, outer_loop 4, loss real 1.038414716720581
+Epoch 15, outer_loop 4, loss syn 0.8564261198043823
+match loss dis 888.6321411132812
+Epoch 15, outer_loop 4, loss 888.6321411132812
+Epoch 15, outer_loop 5, loss real 1.0322741270065308
+Epoch 15, outer_loop 5, loss syn 0.8445144295692444
+match loss dis 913.6075439453125
+Epoch 15, outer_loop 5, loss 913.6075439453125
+Epoch 15, outer_loop 6, loss real 1.0298563241958618
+Epoch 15, outer_loop 6, loss syn 0.8598458766937256
+match loss dis 891.0225219726562
+Epoch 15, outer_loop 6, loss 891.0225219726562
+Epoch 15, outer_loop 7, loss real 1.0280859470367432
+Epoch 15, outer_loop 7, loss syn 0.8217871785163879
+match loss dis 949.1470947265625
+Epoch 15, outer_loop 7, loss 949.1470947265625
+Epoch 15, outer_loop 8, loss real 1.0229709148406982
+Epoch 15, outer_loop 8, loss syn 0.8039425015449524
+match loss dis 929.2860717773438
+Epoch 15, outer_loop 8, loss 929.2860717773438
+Epoch 15, outer_loop 9, loss real 1.0224758386611938
+Epoch 15, outer_loop 9, loss syn 0.8538215160369873
+match loss dis 898.3615112304688
+Epoch 15, outer_loop 9, loss 898.3615112304688
+Epoch 15, outer_loop 10, loss real 1.0252279043197632
+Epoch 15, outer_loop 10, loss syn 0.8732523322105408
+match loss dis 924.6011352539062
+Epoch 15, outer_loop 10, loss 924.6011352539062
+Epoch 15, outer_loop 11, loss real 1.0261200666427612
+Epoch 15, outer_loop 11, loss syn 0.869583010673523
+match loss dis 909.8567504882812
+Epoch 15, outer_loop 11, loss 909.8567504882812
+Epoch 15, outer_loop 12, loss real 1.0316829681396484
+Epoch 15, outer_loop 12, loss syn 0.8375518321990967
+match loss dis 930.6231079101562
+Epoch 15, outer_loop 12, loss 930.6231079101562
+Epoch 15, outer_loop 13, loss real 1.0363737344741821
+Epoch 15, outer_loop 13, loss syn 0.8472573161125183
+match loss dis 922.2162475585938
+Epoch 15, outer_loop 13, loss 922.2162475585938
+Epoch 15, outer_loop 14, loss real 1.0411043167114258
+Epoch 15, outer_loop 14, loss syn 0.836595356464386
+match loss dis 828.9425048828125
+Epoch 15, outer_loop 14, loss 828.9425048828125
+Epoch 15, outer_loop 15, loss real 1.045106291770935
+Epoch 15, outer_loop 15, loss syn 0.8646303415298462
+match loss dis 939.8767700195312
+Epoch 15, outer_loop 15, loss 939.8767700195312
+Epoch 15, outer_loop 16, loss real 1.0514458417892456
+Epoch 15, outer_loop 16, loss syn 0.8998884558677673
+match loss dis 891.775390625
+Epoch 15, outer_loop 16, loss 891.775390625
+Epoch 15, outer_loop 17, loss real 1.0520615577697754
+Epoch 15, outer_loop 17, loss syn 0.8837780952453613
+match loss dis 902.0
+Epoch 15, outer_loop 17, loss 902.0
+Epoch 15, outer_loop 18, loss real 1.0514520406723022
+Epoch 15, outer_loop 18, loss syn 0.8881530165672302
+match loss dis 902.0
+Epoch 15, outer_loop 18, loss 902.0
+Epoch 15, outer_loop 19, loss real 1.0499296188354492
+Epoch 15, outer_loop 19, loss syn 0.8953138589859009
+match loss dis 902.0
+Epoch 15, outer_loop 19, loss 902.0
+Epoch 15, loss_avg: 951.962708190846
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 16, outer_loop 0, loss real 1.0377850532531738
+Epoch 16, outer_loop 0, loss syn 1.020890235900879
+match loss dis 895.3842163085938
+Epoch 16, outer_loop 0, loss 895.3842163085938
+Epoch 16, outer_loop 1, loss real 1.0326353311538696
+Epoch 16, outer_loop 1, loss syn 0.8954249620437622
+match loss dis 918.8021240234375
+Epoch 16, outer_loop 1, loss 918.8021240234375
+Epoch 16, outer_loop 2, loss real 1.0266095399856567
+Epoch 16, outer_loop 2, loss syn 0.8753275871276855
+match loss dis 856.1699829101562
+Epoch 16, outer_loop 2, loss 856.1699829101562
+Epoch 16, outer_loop 3, loss real 1.0262410640716553
+Epoch 16, outer_loop 3, loss syn 0.8773802518844604
+match loss dis 901.054443359375
+Epoch 16, outer_loop 3, loss 901.054443359375
+Epoch 16, outer_loop 4, loss real 1.026285171508789
+Epoch 16, outer_loop 4, loss syn 0.8671988844871521
+match loss dis 888.71337890625
+Epoch 16, outer_loop 4, loss 888.71337890625
+Epoch 16, outer_loop 5, loss real 1.0248092412948608
+Epoch 16, outer_loop 5, loss syn 0.8374961018562317
+match loss dis 886.4110107421875
+Epoch 16, outer_loop 5, loss 886.4110107421875
+Epoch 16, outer_loop 6, loss real 1.0237421989440918
+Epoch 16, outer_loop 6, loss syn 0.8502724766731262
+match loss dis 903.72265625
+Epoch 16, outer_loop 6, loss 903.72265625
+Epoch 16, outer_loop 7, loss real 1.0211679935455322
+Epoch 16, outer_loop 7, loss syn 0.8431376218795776
+match loss dis 871.7319946289062
+Epoch 16, outer_loop 7, loss 871.7319946289062
+Epoch 16, outer_loop 8, loss real 1.0205456018447876
+Epoch 16, outer_loop 8, loss syn 0.8380005955696106
+match loss dis 892.3602905273438
+Epoch 16, outer_loop 8, loss 892.3602905273438
+Epoch 16, outer_loop 9, loss real 1.0215017795562744
+Epoch 16, outer_loop 9, loss syn 0.8546139597892761
+match loss dis 906.7840576171875
+Epoch 16, outer_loop 9, loss 906.7840576171875
+Epoch 16, outer_loop 10, loss real 1.0188502073287964
+Epoch 16, outer_loop 10, loss syn 0.8343828320503235
+match loss dis 885.5701904296875
+Epoch 16, outer_loop 10, loss 885.5701904296875
+Epoch 16, outer_loop 11, loss real 1.0196322202682495
+Epoch 16, outer_loop 11, loss syn 0.8490400910377502
+match loss dis 928.00244140625
+Epoch 16, outer_loop 11, loss 928.00244140625
+Epoch 16, outer_loop 12, loss real 1.0195726156234741
+Epoch 16, outer_loop 12, loss syn 0.86328125
+match loss dis 914.8012084960938
+Epoch 16, outer_loop 12, loss 914.8012084960938
+Epoch 16, outer_loop 13, loss real 1.0187385082244873
+Epoch 16, outer_loop 13, loss syn 0.8345611095428467
+match loss dis 934.8862915039062
+Epoch 16, outer_loop 13, loss 934.8862915039062
+Epoch 16, outer_loop 14, loss real 1.0207816362380981
+Epoch 16, outer_loop 14, loss syn 0.8628587126731873
+match loss dis 892.7112426757812
+Epoch 16, outer_loop 14, loss 892.7112426757812
+Epoch 16, outer_loop 15, loss real 1.020857810974121
+Epoch 16, outer_loop 15, loss syn 0.8222895264625549
+match loss dis 904.013427734375
+Epoch 16, outer_loop 15, loss 904.013427734375
+Epoch 16, outer_loop 16, loss real 1.0219826698303223
+Epoch 16, outer_loop 16, loss syn 0.8038727045059204
+match loss dis 914.9659423828125
+Epoch 16, outer_loop 16, loss 914.9659423828125
+Epoch 16, outer_loop 17, loss real 1.023690938949585
+Epoch 16, outer_loop 17, loss syn 0.818108081817627
+match loss dis 919.3916015625
+Epoch 16, outer_loop 17, loss 919.3916015625
+Epoch 16, outer_loop 18, loss real 1.0258183479309082
+Epoch 16, outer_loop 18, loss syn 0.8460433483123779
+match loss dis 933.177978515625
+Epoch 16, outer_loop 18, loss 933.177978515625
+Epoch 16, outer_loop 19, loss real 1.0278048515319824
+Epoch 16, outer_loop 19, loss syn 0.8325534462928772
+match loss dis 911.7444458007812
+Epoch 16, outer_loop 19, loss 911.7444458007812
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 17, outer_loop 0, loss real 1.0115431547164917
+Epoch 17, outer_loop 0, loss syn 1.0290337800979614
+match loss dis 906.3189697265625
+Epoch 17, outer_loop 0, loss 906.3189697265625
+Epoch 17, outer_loop 1, loss real 1.0310355424880981
+Epoch 17, outer_loop 1, loss syn 0.9136375188827515
+match loss dis 890.0560913085938
+Epoch 17, outer_loop 1, loss 890.0560913085938
+Epoch 17, outer_loop 2, loss real 1.033532977104187
+Epoch 17, outer_loop 2, loss syn 0.8839827179908752
+match loss dis 882.0806884765625
+Epoch 17, outer_loop 2, loss 882.0806884765625
+Epoch 17, outer_loop 3, loss real 1.0312391519546509
+Epoch 17, outer_loop 3, loss syn 0.8502649664878845
+match loss dis 910.731201171875
+Epoch 17, outer_loop 3, loss 910.731201171875
+Epoch 17, outer_loop 4, loss real 1.0242209434509277
+Epoch 17, outer_loop 4, loss syn 0.8448302745819092
+match loss dis 905.0283813476562
+Epoch 17, outer_loop 4, loss 905.0283813476562
+Epoch 17, outer_loop 5, loss real 1.0218849182128906
+Epoch 17, outer_loop 5, loss syn 0.8335306644439697
+match loss dis 914.3975219726562
+Epoch 17, outer_loop 5, loss 914.3975219726562
+Epoch 17, outer_loop 6, loss real 1.0170689821243286
+Epoch 17, outer_loop 6, loss syn 0.8282538056373596
+match loss dis 927.9288330078125
+Epoch 17, outer_loop 6, loss 927.9288330078125
+Epoch 17, outer_loop 7, loss real 1.0189465284347534
+Epoch 17, outer_loop 7, loss syn 0.8547115325927734
+match loss dis 873.7717895507812
+Epoch 17, outer_loop 7, loss 873.7717895507812
+Epoch 17, outer_loop 8, loss real 1.0210795402526855
+Epoch 17, outer_loop 8, loss syn 0.7966665029525757
+match loss dis 875.9219970703125
+Epoch 17, outer_loop 8, loss 875.9219970703125
+Epoch 17, outer_loop 9, loss real 1.0238966941833496
+Epoch 17, outer_loop 9, loss syn 0.8275526165962219
+match loss dis 901.6824340820312
+Epoch 17, outer_loop 9, loss 901.6824340820312
+Epoch 17, outer_loop 10, loss real 1.0257799625396729
+Epoch 17, outer_loop 10, loss syn 0.8561893105506897
+match loss dis 924.856689453125
+Epoch 17, outer_loop 10, loss 924.856689453125
+Epoch 17, outer_loop 11, loss real 1.0269049406051636
+Epoch 17, outer_loop 11, loss syn 0.8455865979194641
+match loss dis 887.8948974609375
+Epoch 17, outer_loop 11, loss 887.8948974609375
+Epoch 17, outer_loop 12, loss real 1.0266457796096802
+Epoch 17, outer_loop 12, loss syn 0.8690509796142578
+match loss dis 909.8626708984375
+Epoch 17, outer_loop 12, loss 909.8626708984375
+Epoch 17, outer_loop 13, loss real 1.0292978286743164
+Epoch 17, outer_loop 13, loss syn 0.8465918898582458
+match loss dis 930.1449584960938
+Epoch 17, outer_loop 13, loss 930.1449584960938
+Epoch 17, outer_loop 14, loss real 1.0283520221710205
+Epoch 17, outer_loop 14, loss syn 0.8413146734237671
+match loss dis 677.0443115234375
+Epoch 17, outer_loop 14, loss 677.0443115234375
+Epoch 17, outer_loop 15, loss real 1.0263651609420776
+Epoch 17, outer_loop 15, loss syn 0.8429372906684875
+match loss dis 826.5585327148438
+Epoch 17, outer_loop 15, loss 826.5585327148438
+Epoch 17, outer_loop 16, loss real 1.032465934753418
+Epoch 17, outer_loop 16, loss syn 0.8199780583381653
+match loss dis 902.7276611328125
+Epoch 17, outer_loop 16, loss 902.7276611328125
+Epoch 17, outer_loop 17, loss real 1.0352990627288818
+Epoch 17, outer_loop 17, loss syn 0.831554114818573
+match loss dis 899.2490234375
+Epoch 17, outer_loop 17, loss 899.2490234375
+Epoch 17, outer_loop 18, loss real 1.0345429182052612
+Epoch 17, outer_loop 18, loss syn 0.8139219284057617
+match loss dis 900.0601196289062
+Epoch 17, outer_loop 18, loss 900.0601196289062
+Epoch 17, outer_loop 19, loss real 1.0335859060287476
+Epoch 17, outer_loop 19, loss syn 0.804619550704956
+match loss dis 913.7275390625
+Epoch 17, outer_loop 19, loss 913.7275390625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 18, outer_loop 0, loss real 0.9988190531730652
+Epoch 18, outer_loop 0, loss syn 1.0104341506958008
+match loss dis 909.5714111328125
+Epoch 18, outer_loop 0, loss 909.5714111328125
+Epoch 18, outer_loop 1, loss real 1.0161391496658325
+Epoch 18, outer_loop 1, loss syn 0.8869639039039612
+match loss dis 904.666259765625
+Epoch 18, outer_loop 1, loss 904.666259765625
+Epoch 18, outer_loop 2, loss real 1.0147475004196167
+Epoch 18, outer_loop 2, loss syn 0.8718494176864624
+match loss dis 943.5279541015625
+Epoch 18, outer_loop 2, loss 943.5279541015625
+Epoch 18, outer_loop 3, loss real 1.0150827169418335
+Epoch 18, outer_loop 3, loss syn 0.8744131326675415
+match loss dis 919.8328247070312
+Epoch 18, outer_loop 3, loss 919.8328247070312
+Epoch 18, outer_loop 4, loss real 1.0190695524215698
+Epoch 18, outer_loop 4, loss syn 0.8574090600013733
+match loss dis 898.17333984375
+Epoch 18, outer_loop 4, loss 898.17333984375
+Epoch 18, outer_loop 5, loss real 1.023563027381897
+Epoch 18, outer_loop 5, loss syn 0.8518113493919373
+match loss dis 855.88134765625
+Epoch 18, outer_loop 5, loss 855.88134765625
+Epoch 18, outer_loop 6, loss real 1.0245639085769653
+Epoch 18, outer_loop 6, loss syn 0.8369256258010864
+match loss dis 888.4650268554688
+Epoch 18, outer_loop 6, loss 888.4650268554688
+Epoch 18, outer_loop 7, loss real 1.0241564512252808
+Epoch 18, outer_loop 7, loss syn 0.8352089524269104
+match loss dis 906.10498046875
+Epoch 18, outer_loop 7, loss 906.10498046875
+Epoch 18, outer_loop 8, loss real 1.0258917808532715
+Epoch 18, outer_loop 8, loss syn 0.8851953148841858
+match loss dis 809.2899169921875
+Epoch 18, outer_loop 8, loss 809.2899169921875
+Epoch 18, outer_loop 9, loss real 1.027782678604126
+Epoch 18, outer_loop 9, loss syn 0.844555139541626
+match loss dis 905.467529296875
+Epoch 18, outer_loop 9, loss 905.467529296875
+Epoch 18, outer_loop 10, loss real 1.0281709432601929
+Epoch 18, outer_loop 10, loss syn 0.8084909915924072
+match loss dis 905.01318359375
+Epoch 18, outer_loop 10, loss 905.01318359375
+Epoch 18, outer_loop 11, loss real 1.0294545888900757
+Epoch 18, outer_loop 11, loss syn 0.880530834197998
+match loss dis 894.933349609375
+Epoch 18, outer_loop 11, loss 894.933349609375
+Epoch 18, outer_loop 12, loss real 1.0320789813995361
+Epoch 18, outer_loop 12, loss syn 0.8309573531150818
+match loss dis 907.02099609375
+Epoch 18, outer_loop 12, loss 907.02099609375
+Epoch 18, outer_loop 13, loss real 1.0336079597473145
+Epoch 18, outer_loop 13, loss syn 0.8369108438491821
+match loss dis 904.78466796875
+Epoch 18, outer_loop 13, loss 904.78466796875
+Epoch 18, outer_loop 14, loss real 1.0328866243362427
+Epoch 18, outer_loop 14, loss syn 0.829506516456604
+match loss dis 941.56640625
+Epoch 18, outer_loop 14, loss 941.56640625
+Epoch 18, outer_loop 15, loss real 1.0342857837677002
+Epoch 18, outer_loop 15, loss syn 0.8522492051124573
+match loss dis 888.7938232421875
+Epoch 18, outer_loop 15, loss 888.7938232421875
+Epoch 18, outer_loop 16, loss real 1.0349725484848022
+Epoch 18, outer_loop 16, loss syn 0.8256278038024902
+match loss dis 905.5289306640625
+Epoch 18, outer_loop 16, loss 905.5289306640625
+Epoch 18, outer_loop 17, loss real 1.0344129800796509
+Epoch 18, outer_loop 17, loss syn 0.8253660798072815
+match loss dis 883.836669921875
+Epoch 18, outer_loop 17, loss 883.836669921875
+Epoch 18, outer_loop 18, loss real 1.0333266258239746
+Epoch 18, outer_loop 18, loss syn 0.824669599533081
+match loss dis 892.8621215820312
+Epoch 18, outer_loop 18, loss 892.8621215820312
+Epoch 18, outer_loop 19, loss real 1.0330687761306763
+Epoch 18, outer_loop 19, loss syn 0.8496606945991516
+match loss dis 902.0567626953125
+Epoch 18, outer_loop 19, loss 902.0567626953125
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 19, outer_loop 0, loss real 1.0813418626785278
+Epoch 19, outer_loop 0, loss syn 1.036055326461792
+match loss dis 896.1295166015625
+Epoch 19, outer_loop 0, loss 896.1295166015625
+Epoch 19, outer_loop 1, loss real 1.0430660247802734
+Epoch 19, outer_loop 1, loss syn 0.9005835652351379
+match loss dis 886.6862182617188
+Epoch 19, outer_loop 1, loss 886.6862182617188
+Epoch 19, outer_loop 2, loss real 1.0295039415359497
+Epoch 19, outer_loop 2, loss syn 0.8816177248954773
+match loss dis 921.9423828125
+Epoch 19, outer_loop 2, loss 921.9423828125
+Epoch 19, outer_loop 3, loss real 1.0274991989135742
+Epoch 19, outer_loop 3, loss syn 0.8344592452049255
+match loss dis 952.3694458007812
+Epoch 19, outer_loop 3, loss 952.3694458007812
+Epoch 19, outer_loop 4, loss real 1.0284966230392456
+Epoch 19, outer_loop 4, loss syn 0.9034704566001892
+match loss dis 721.6214599609375
+Epoch 19, outer_loop 4, loss 721.6214599609375
+Epoch 19, outer_loop 5, loss real 1.0289777517318726
+Epoch 19, outer_loop 5, loss syn 0.9030402302742004
+match loss dis 908.1932983398438
+Epoch 19, outer_loop 5, loss 908.1932983398438
+Epoch 19, outer_loop 6, loss real 1.0324569940567017
+Epoch 19, outer_loop 6, loss syn 0.8976252675056458
+match loss dis 913.0250244140625
+Epoch 19, outer_loop 6, loss 913.0250244140625
+Epoch 19, outer_loop 7, loss real 1.0341547727584839
+Epoch 19, outer_loop 7, loss syn 0.8527578115463257
+match loss dis 916.9937744140625
+Epoch 19, outer_loop 7, loss 916.9937744140625
+Epoch 19, outer_loop 8, loss real 1.0364469289779663
+Epoch 19, outer_loop 8, loss syn 0.9091045260429382
+match loss dis 893.8297729492188
+Epoch 19, outer_loop 8, loss 893.8297729492188
+Epoch 19, outer_loop 9, loss real 1.0360420942306519
+Epoch 19, outer_loop 9, loss syn 0.8533276319503784
+match loss dis 889.2012939453125
+Epoch 19, outer_loop 9, loss 889.2012939453125
+Epoch 19, outer_loop 10, loss real 1.0380622148513794
+Epoch 19, outer_loop 10, loss syn 0.8558686971664429
+match loss dis 899.0032348632812
+Epoch 19, outer_loop 10, loss 899.0032348632812
+Epoch 19, outer_loop 11, loss real 1.0398668050765991
+Epoch 19, outer_loop 11, loss syn 0.8435284495353699
+match loss dis 916.2552490234375
+Epoch 19, outer_loop 11, loss 916.2552490234375
+Epoch 19, outer_loop 12, loss real 1.0391138792037964
+Epoch 19, outer_loop 12, loss syn 0.8665411472320557
+match loss dis 917.719482421875
+Epoch 19, outer_loop 12, loss 917.719482421875
+Epoch 19, outer_loop 13, loss real 1.03854238986969
+Epoch 19, outer_loop 13, loss syn 0.8707742691040039
+match loss dis 917.806640625
+Epoch 19, outer_loop 13, loss 917.806640625
+Epoch 19, outer_loop 14, loss real 1.0410473346710205
+Epoch 19, outer_loop 14, loss syn 0.8779780268669128
+match loss dis 892.6109619140625
+Epoch 19, outer_loop 14, loss 892.6109619140625
+Epoch 19, outer_loop 15, loss real 1.0404268503189087
+Epoch 19, outer_loop 15, loss syn 0.8761658668518066
+match loss dis 912.3988037109375
+Epoch 19, outer_loop 15, loss 912.3988037109375
+Epoch 19, outer_loop 16, loss real 1.0404139757156372
+Epoch 19, outer_loop 16, loss syn 0.8343389630317688
+match loss dis 884.2939453125
+Epoch 19, outer_loop 16, loss 884.2939453125
+Epoch 19, outer_loop 17, loss real 1.040312647819519
+Epoch 19, outer_loop 17, loss syn 0.8303570747375488
+match loss dis 914.961669921875
+Epoch 19, outer_loop 17, loss 914.961669921875
+Epoch 19, outer_loop 18, loss real 1.0401583909988403
+Epoch 19, outer_loop 18, loss syn 0.8424713015556335
+match loss dis 902.4385986328125
+Epoch 19, outer_loop 18, loss 902.4385986328125
+Epoch 19, outer_loop 19, loss real 1.0415499210357666
+Epoch 19, outer_loop 19, loss syn 0.8570752143859863
+match loss dis 902.0767211914062
+Epoch 19, outer_loop 19, loss 902.0767211914062
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 20, outer_loop 0, loss real 1.0185625553131104
+Epoch 20, outer_loop 0, loss syn 0.9942430853843689
+match loss dis 917.761962890625
+Epoch 20, outer_loop 0, loss 917.761962890625
+Epoch 20, outer_loop 1, loss real 1.0370166301727295
+Epoch 20, outer_loop 1, loss syn 0.8901907205581665
+match loss dis 925.0878295898438
+Epoch 20, outer_loop 1, loss 925.0878295898438
+Epoch 20, outer_loop 2, loss real 1.0449897050857544
+Epoch 20, outer_loop 2, loss syn 0.908766508102417
+match loss dis 902.608154296875
+Epoch 20, outer_loop 2, loss 902.608154296875
+Epoch 20, outer_loop 3, loss real 1.0474661588668823
+Epoch 20, outer_loop 3, loss syn 0.8685645461082458
+match loss dis 926.0631103515625
+Epoch 20, outer_loop 3, loss 926.0631103515625
+Epoch 20, outer_loop 4, loss real 1.0444276332855225
+Epoch 20, outer_loop 4, loss syn 0.8683899641036987
+match loss dis 930.5794067382812
+Epoch 20, outer_loop 4, loss 930.5794067382812
+Epoch 20, outer_loop 5, loss real 1.0468080043792725
+Epoch 20, outer_loop 5, loss syn 0.848098874092102
+match loss dis 881.7423706054688
+Epoch 20, outer_loop 5, loss 881.7423706054688
+Epoch 20, outer_loop 6, loss real 1.0444716215133667
+Epoch 20, outer_loop 6, loss syn 0.868976354598999
+match loss dis 862.1458740234375
+Epoch 20, outer_loop 6, loss 862.1458740234375
+Epoch 20, outer_loop 7, loss real 1.0466915369033813
+Epoch 20, outer_loop 7, loss syn 0.8475764393806458
+match loss dis 898.7528686523438
+Epoch 20, outer_loop 7, loss 898.7528686523438
+Epoch 20, outer_loop 8, loss real 1.0464863777160645
+Epoch 20, outer_loop 8, loss syn 0.8640428781509399
+match loss dis 877.3662109375
+Epoch 20, outer_loop 8, loss 877.3662109375
+Epoch 20, outer_loop 9, loss real 1.0491065979003906
+Epoch 20, outer_loop 9, loss syn 0.8483784794807434
+match loss dis 896.5692138671875
+Epoch 20, outer_loop 9, loss 896.5692138671875
+Epoch 20, outer_loop 10, loss real 1.0497102737426758
+Epoch 20, outer_loop 10, loss syn 0.8610632419586182
+match loss dis 884.2387084960938
+Epoch 20, outer_loop 10, loss 884.2387084960938
+Epoch 20, outer_loop 11, loss real 1.0513867139816284
+Epoch 20, outer_loop 11, loss syn 0.8555557727813721
+match loss dis 919.5330810546875
+Epoch 20, outer_loop 11, loss 919.5330810546875
+Epoch 20, outer_loop 12, loss real 1.051048994064331
+Epoch 20, outer_loop 12, loss syn 0.8296095728874207
+match loss dis 895.6271362304688
+Epoch 20, outer_loop 12, loss 895.6271362304688
+Epoch 20, outer_loop 13, loss real 1.0484622716903687
+Epoch 20, outer_loop 13, loss syn 0.8606464862823486
+match loss dis 850.0675048828125
+Epoch 20, outer_loop 13, loss 850.0675048828125
+Epoch 20, outer_loop 14, loss real 1.0475856065750122
+Epoch 20, outer_loop 14, loss syn 0.8482308983802795
+match loss dis 891.31396484375
+Epoch 20, outer_loop 14, loss 891.31396484375
+Epoch 20, outer_loop 15, loss real 1.0461204051971436
+Epoch 20, outer_loop 15, loss syn 0.8318496346473694
+match loss dis 919.3566284179688
+Epoch 20, outer_loop 15, loss 919.3566284179688
+Epoch 20, outer_loop 16, loss real 1.0453578233718872
+Epoch 20, outer_loop 16, loss syn 0.8325057029724121
+match loss dis 925.5442504882812
+Epoch 20, outer_loop 16, loss 925.5442504882812
+Epoch 20, outer_loop 17, loss real 1.0445905923843384
+Epoch 20, outer_loop 17, loss syn 0.8380671143531799
+match loss dis 894.6303100585938
+Epoch 20, outer_loop 17, loss 894.6303100585938
+Epoch 20, outer_loop 18, loss real 1.0414825677871704
+Epoch 20, outer_loop 18, loss syn 0.8381527662277222
+match loss dis 900.738525390625
+Epoch 20, outer_loop 18, loss 900.738525390625
+Epoch 20, outer_loop 19, loss real 1.0387307405471802
+Epoch 20, outer_loop 19, loss syn 0.8560202121734619
+match loss dis 834.9637451171875
+Epoch 20, outer_loop 19, loss 834.9637451171875
+Epoch 20, loss_avg: 943.9963004122353
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 21, outer_loop 0, loss real 0.9861060380935669
+Epoch 21, outer_loop 0, loss syn 1.0102009773254395
+match loss dis 895.2861328125
+Epoch 21, outer_loop 0, loss 895.2861328125
+Epoch 21, outer_loop 1, loss real 1.0058852434158325
+Epoch 21, outer_loop 1, loss syn 0.9448602795600891
+match loss dis 872.8934936523438
+Epoch 21, outer_loop 1, loss 872.8934936523438
+Epoch 21, outer_loop 2, loss real 1.0157126188278198
+Epoch 21, outer_loop 2, loss syn 0.86176997423172
+match loss dis 942.5885620117188
+Epoch 21, outer_loop 2, loss 942.5885620117188
+Epoch 21, outer_loop 3, loss real 1.0335617065429688
+Epoch 21, outer_loop 3, loss syn 0.8635911345481873
+match loss dis 913.3604125976562
+Epoch 21, outer_loop 3, loss 913.3604125976562
+Epoch 21, outer_loop 4, loss real 1.0344372987747192
+Epoch 21, outer_loop 4, loss syn 0.8819188475608826
+match loss dis 866.92626953125
+Epoch 21, outer_loop 4, loss 866.92626953125
+Epoch 21, outer_loop 5, loss real 1.0324690341949463
+Epoch 21, outer_loop 5, loss syn 0.8687713146209717
+match loss dis 912.8001708984375
+Epoch 21, outer_loop 5, loss 912.8001708984375
+Epoch 21, outer_loop 6, loss real 1.0294967889785767
+Epoch 21, outer_loop 6, loss syn 0.8483225107192993
+match loss dis 893.0588989257812
+Epoch 21, outer_loop 6, loss 893.0588989257812
+Epoch 21, outer_loop 7, loss real 1.029852271080017
+Epoch 21, outer_loop 7, loss syn 0.8748317956924438
+match loss dis 913.364501953125
+Epoch 21, outer_loop 7, loss 913.364501953125
+Epoch 21, outer_loop 8, loss real 1.0296216011047363
+Epoch 21, outer_loop 8, loss syn 0.8637591600418091
+match loss dis 895.468017578125
+Epoch 21, outer_loop 8, loss 895.468017578125
+Epoch 21, outer_loop 9, loss real 1.031378984451294
+Epoch 21, outer_loop 9, loss syn 0.8414164185523987
+match loss dis 896.8102416992188
+Epoch 21, outer_loop 9, loss 896.8102416992188
+Epoch 21, outer_loop 10, loss real 1.0303772687911987
+Epoch 21, outer_loop 10, loss syn 0.8609761595726013
+match loss dis 907.0784912109375
+Epoch 21, outer_loop 10, loss 907.0784912109375
+Epoch 21, outer_loop 11, loss real 1.0306626558303833
+Epoch 21, outer_loop 11, loss syn 0.8209936618804932
+match loss dis 901.1002197265625
+Epoch 21, outer_loop 11, loss 901.1002197265625
+Epoch 21, outer_loop 12, loss real 1.03075110912323
+Epoch 21, outer_loop 12, loss syn 0.8298949003219604
+match loss dis 904.5608520507812
+Epoch 21, outer_loop 12, loss 904.5608520507812
+Epoch 21, outer_loop 13, loss real 1.0299755334854126
+Epoch 21, outer_loop 13, loss syn 0.8511125445365906
+match loss dis 863.23583984375
+Epoch 21, outer_loop 13, loss 863.23583984375
+Epoch 21, outer_loop 14, loss real 1.0306212902069092
+Epoch 21, outer_loop 14, loss syn 0.8434741497039795
+match loss dis 898.9947509765625
+Epoch 21, outer_loop 14, loss 898.9947509765625
+Epoch 21, outer_loop 15, loss real 1.0302197933197021
+Epoch 21, outer_loop 15, loss syn 0.8668296337127686
+match loss dis 892.2424926757812
+Epoch 21, outer_loop 15, loss 892.2424926757812
+Epoch 21, outer_loop 16, loss real 1.0311294794082642
+Epoch 21, outer_loop 16, loss syn 0.8529958724975586
+match loss dis 905.8717041015625
+Epoch 21, outer_loop 16, loss 905.8717041015625
+Epoch 21, outer_loop 17, loss real 1.0312182903289795
+Epoch 21, outer_loop 17, loss syn 0.8158342242240906
+match loss dis 894.7487182617188
+Epoch 21, outer_loop 17, loss 894.7487182617188
+Epoch 21, outer_loop 18, loss real 1.0305445194244385
+Epoch 21, outer_loop 18, loss syn 0.8624303936958313
+match loss dis 900.7752685546875
+Epoch 21, outer_loop 18, loss 900.7752685546875
+Epoch 21, outer_loop 19, loss real 1.030820369720459
+Epoch 21, outer_loop 19, loss syn 0.8311015367507935
+match loss dis 898.0916748046875
+Epoch 21, outer_loop 19, loss 898.0916748046875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 22, outer_loop 0, loss real 1.0082426071166992
+Epoch 22, outer_loop 0, loss syn 0.9998806118965149
+match loss dis 901.119873046875
+Epoch 22, outer_loop 0, loss 901.119873046875
+Epoch 22, outer_loop 1, loss real 0.9992904663085938
+Epoch 22, outer_loop 1, loss syn 0.8923176527023315
+match loss dis 940.5503540039062
+Epoch 22, outer_loop 1, loss 940.5503540039062
+Epoch 22, outer_loop 2, loss real 1.027842402458191
+Epoch 22, outer_loop 2, loss syn 0.85390305519104
+match loss dis 887.8312377929688
+Epoch 22, outer_loop 2, loss 887.8312377929688
+Epoch 22, outer_loop 3, loss real 1.0407347679138184
+Epoch 22, outer_loop 3, loss syn 0.8682303428649902
+match loss dis 911.83544921875
+Epoch 22, outer_loop 3, loss 911.83544921875
+Epoch 22, outer_loop 4, loss real 1.0390474796295166
+Epoch 22, outer_loop 4, loss syn 0.838560938835144
+match loss dis 919.443359375
+Epoch 22, outer_loop 4, loss 919.443359375
+Epoch 22, outer_loop 5, loss real 1.0199394226074219
+Epoch 22, outer_loop 5, loss syn 0.8775521516799927
+match loss dis 902.0
+Epoch 22, outer_loop 5, loss 902.0
+Epoch 22, outer_loop 6, loss real 1.02260422706604
+Epoch 22, outer_loop 6, loss syn 0.8783397674560547
+match loss dis 902.0
+Epoch 22, outer_loop 6, loss 902.0
+Epoch 22, outer_loop 7, loss real 1.0250775814056396
+Epoch 22, outer_loop 7, loss syn 0.8593956828117371
+match loss dis 902.0
+Epoch 22, outer_loop 7, loss 902.0
+Epoch 22, outer_loop 8, loss real 1.0265613794326782
+Epoch 22, outer_loop 8, loss syn 0.8265648484230042
+match loss dis 902.0
+Epoch 22, outer_loop 8, loss 902.0
+Epoch 22, outer_loop 9, loss real 1.0292859077453613
+Epoch 22, outer_loop 9, loss syn 0.8486014604568481
+match loss dis 902.0
+Epoch 22, outer_loop 9, loss 902.0
+Epoch 22, outer_loop 10, loss real 1.0321959257125854
+Epoch 22, outer_loop 10, loss syn 0.8449798822402954
+match loss dis 902.0
+Epoch 22, outer_loop 10, loss 902.0
+Epoch 22, outer_loop 11, loss real 1.0325266122817993
+Epoch 22, outer_loop 11, loss syn 0.8481287956237793
+match loss dis 902.0
+Epoch 22, outer_loop 11, loss 902.0
+Epoch 22, outer_loop 12, loss real 1.0313540697097778
+Epoch 22, outer_loop 12, loss syn 0.8259360790252686
+match loss dis 902.0
+Epoch 22, outer_loop 12, loss 902.0
+Epoch 22, outer_loop 13, loss real 1.0299556255340576
+Epoch 22, outer_loop 13, loss syn 0.8473528027534485
+match loss dis 902.0
+Epoch 22, outer_loop 13, loss 902.0
+Epoch 22, outer_loop 14, loss real 1.0288196802139282
+Epoch 22, outer_loop 14, loss syn 0.8268817663192749
+match loss dis 902.0
+Epoch 22, outer_loop 14, loss 902.0
+Epoch 22, outer_loop 15, loss real 1.029067873954773
+Epoch 22, outer_loop 15, loss syn 0.8500427007675171
+match loss dis 902.0
+Epoch 22, outer_loop 15, loss 902.0
+Epoch 22, outer_loop 16, loss real 1.028334379196167
+Epoch 22, outer_loop 16, loss syn 0.8665217161178589
+match loss dis 902.0
+Epoch 22, outer_loop 16, loss 902.0
+Epoch 22, outer_loop 17, loss real 1.0281717777252197
+Epoch 22, outer_loop 17, loss syn 0.8394010663032532
+match loss dis 902.0
+Epoch 22, outer_loop 17, loss 902.0
+Epoch 22, outer_loop 18, loss real 1.0287224054336548
+Epoch 22, outer_loop 18, loss syn 0.8436313271522522
+match loss dis 902.0
+Epoch 22, outer_loop 18, loss 902.0
+Epoch 22, outer_loop 19, loss real 1.0303901433944702
+Epoch 22, outer_loop 19, loss syn 0.8486409783363342
+match loss dis 902.0
+Epoch 22, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 23, outer_loop 0, loss real 1.036304235458374
+Epoch 23, outer_loop 0, loss syn 1.00287663936615
+match loss dis 910.0897216796875
+Epoch 23, outer_loop 0, loss 910.0897216796875
+Epoch 23, outer_loop 1, loss real 1.0245556831359863
+Epoch 23, outer_loop 1, loss syn 0.9150589108467102
+match loss dis 890.0989379882812
+Epoch 23, outer_loop 1, loss 890.0989379882812
+Epoch 23, outer_loop 2, loss real 1.0372885465621948
+Epoch 23, outer_loop 2, loss syn 0.876815140247345
+match loss dis 875.8408203125
+Epoch 23, outer_loop 2, loss 875.8408203125
+Epoch 23, outer_loop 3, loss real 1.042510986328125
+Epoch 23, outer_loop 3, loss syn 0.8753795027732849
+match loss dis 885.6370239257812
+Epoch 23, outer_loop 3, loss 885.6370239257812
+Epoch 23, outer_loop 4, loss real 1.0406914949417114
+Epoch 23, outer_loop 4, loss syn 0.857990026473999
+match loss dis 884.9892578125
+Epoch 23, outer_loop 4, loss 884.9892578125
+Epoch 23, outer_loop 5, loss real 1.0364288091659546
+Epoch 23, outer_loop 5, loss syn 0.8490304946899414
+match loss dis 895.6463012695312
+Epoch 23, outer_loop 5, loss 895.6463012695312
+Epoch 23, outer_loop 6, loss real 1.0368483066558838
+Epoch 23, outer_loop 6, loss syn 0.8849862813949585
+match loss dis 896.13037109375
+Epoch 23, outer_loop 6, loss 896.13037109375
+Epoch 23, outer_loop 7, loss real 1.0365122556686401
+Epoch 23, outer_loop 7, loss syn 0.8606724143028259
+match loss dis 908.5219116210938
+Epoch 23, outer_loop 7, loss 908.5219116210938
+Epoch 23, outer_loop 8, loss real 1.0396040678024292
+Epoch 23, outer_loop 8, loss syn 0.8554254174232483
+match loss dis 924.2445068359375
+Epoch 23, outer_loop 8, loss 924.2445068359375
+Epoch 23, outer_loop 9, loss real 1.0395195484161377
+Epoch 23, outer_loop 9, loss syn 0.8424312472343445
+match loss dis 902.9701538085938
+Epoch 23, outer_loop 9, loss 902.9701538085938
+Epoch 23, outer_loop 10, loss real 1.036881923675537
+Epoch 23, outer_loop 10, loss syn 0.8559058308601379
+match loss dis 865.286865234375
+Epoch 23, outer_loop 10, loss 865.286865234375
+Epoch 23, outer_loop 11, loss real 1.0369902849197388
+Epoch 23, outer_loop 11, loss syn 0.8304802775382996
+match loss dis 890.1650390625
+Epoch 23, outer_loop 11, loss 890.1650390625
+Epoch 23, outer_loop 12, loss real 1.038130521774292
+Epoch 23, outer_loop 12, loss syn 0.854053795337677
+match loss dis 882.6777954101562
+Epoch 23, outer_loop 12, loss 882.6777954101562
+Epoch 23, outer_loop 13, loss real 1.0357416868209839
+Epoch 23, outer_loop 13, loss syn 0.832924485206604
+match loss dis 884.29345703125
+Epoch 23, outer_loop 13, loss 884.29345703125
+Epoch 23, outer_loop 14, loss real 1.03456711769104
+Epoch 23, outer_loop 14, loss syn 0.8635626435279846
+match loss dis 897.8768310546875
+Epoch 23, outer_loop 14, loss 897.8768310546875
+Epoch 23, outer_loop 15, loss real 1.0345474481582642
+Epoch 23, outer_loop 15, loss syn 0.8526294827461243
+match loss dis 893.2355346679688
+Epoch 23, outer_loop 15, loss 893.2355346679688
+Epoch 23, outer_loop 16, loss real 1.0349942445755005
+Epoch 23, outer_loop 16, loss syn 0.8358413577079773
+match loss dis 921.1483154296875
+Epoch 23, outer_loop 16, loss 921.1483154296875
+Epoch 23, outer_loop 17, loss real 1.0329980850219727
+Epoch 23, outer_loop 17, loss syn 0.8222712874412537
+match loss dis 893.698486328125
+Epoch 23, outer_loop 17, loss 893.698486328125
+Epoch 23, outer_loop 18, loss real 1.034380316734314
+Epoch 23, outer_loop 18, loss syn 0.8670464158058167
+match loss dis 877.405517578125
+Epoch 23, outer_loop 18, loss 877.405517578125
+Epoch 23, outer_loop 19, loss real 1.0336802005767822
+Epoch 23, outer_loop 19, loss syn 0.8240624070167542
+match loss dis 887.426025390625
+Epoch 23, outer_loop 19, loss 887.426025390625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 24, outer_loop 0, loss real 0.9847320914268494
+Epoch 24, outer_loop 0, loss syn 1.023427963256836
+match loss dis 897.021484375
+Epoch 24, outer_loop 0, loss 897.021484375
+Epoch 24, outer_loop 1, loss real 0.999268114566803
+Epoch 24, outer_loop 1, loss syn 0.9042131304740906
+match loss dis 943.2503051757812
+Epoch 24, outer_loop 1, loss 943.2503051757812
+Epoch 24, outer_loop 2, loss real 1.0192022323608398
+Epoch 24, outer_loop 2, loss syn 0.8889628648757935
+match loss dis 880.6240844726562
+Epoch 24, outer_loop 2, loss 880.6240844726562
+Epoch 24, outer_loop 3, loss real 1.0218313932418823
+Epoch 24, outer_loop 3, loss syn 0.8583648800849915
+match loss dis 925.2678833007812
+Epoch 24, outer_loop 3, loss 925.2678833007812
+Epoch 24, outer_loop 4, loss real 1.0238882303237915
+Epoch 24, outer_loop 4, loss syn 0.8470628261566162
+match loss dis 881.267822265625
+Epoch 24, outer_loop 4, loss 881.267822265625
+Epoch 24, outer_loop 5, loss real 1.0265743732452393
+Epoch 24, outer_loop 5, loss syn 0.8441174030303955
+match loss dis 901.99853515625
+Epoch 24, outer_loop 5, loss 901.99853515625
+Epoch 24, outer_loop 6, loss real 1.031433343887329
+Epoch 24, outer_loop 6, loss syn 0.9031468033790588
+match loss dis 902.0
+Epoch 24, outer_loop 6, loss 902.0
+Epoch 24, outer_loop 7, loss real 1.0330785512924194
+Epoch 24, outer_loop 7, loss syn 0.8380662798881531
+match loss dis 902.0
+Epoch 24, outer_loop 7, loss 902.0
+Epoch 24, outer_loop 8, loss real 1.0361019372940063
+Epoch 24, outer_loop 8, loss syn 0.8317671418190002
+match loss dis 902.0
+Epoch 24, outer_loop 8, loss 902.0
+Epoch 24, outer_loop 9, loss real 1.0365328788757324
+Epoch 24, outer_loop 9, loss syn 0.8418699502944946
+match loss dis 902.0
+Epoch 24, outer_loop 9, loss 902.0
+Epoch 24, outer_loop 10, loss real 1.0363351106643677
+Epoch 24, outer_loop 10, loss syn 0.8536087274551392
+match loss dis 902.0
+Epoch 24, outer_loop 10, loss 902.0
+Epoch 24, outer_loop 11, loss real 1.0338472127914429
+Epoch 24, outer_loop 11, loss syn 0.8420447111129761
+match loss dis 902.0
+Epoch 24, outer_loop 11, loss 902.0
+Epoch 24, outer_loop 12, loss real 1.03335702419281
+Epoch 24, outer_loop 12, loss syn 0.8364588618278503
+match loss dis 902.0
+Epoch 24, outer_loop 12, loss 902.0
+Epoch 24, outer_loop 13, loss real 1.0339857339859009
+Epoch 24, outer_loop 13, loss syn 0.8774144053459167
+match loss dis 902.0
+Epoch 24, outer_loop 13, loss 902.0
+Epoch 24, outer_loop 14, loss real 1.0325639247894287
+Epoch 24, outer_loop 14, loss syn 0.8468055129051208
+match loss dis 902.0
+Epoch 24, outer_loop 14, loss 902.0
+Epoch 24, outer_loop 15, loss real 1.0319286584854126
+Epoch 24, outer_loop 15, loss syn 0.8411548137664795
+match loss dis 902.0
+Epoch 24, outer_loop 15, loss 902.0
+Epoch 24, outer_loop 16, loss real 1.032287836074829
+Epoch 24, outer_loop 16, loss syn 0.8603719472885132
+match loss dis 902.0
+Epoch 24, outer_loop 16, loss 902.0
+Epoch 24, outer_loop 17, loss real 1.0327938795089722
+Epoch 24, outer_loop 17, loss syn 0.8454412817955017
+match loss dis 902.0
+Epoch 24, outer_loop 17, loss 902.0
+Epoch 24, outer_loop 18, loss real 1.0336421728134155
+Epoch 24, outer_loop 18, loss syn 0.8615890145301819
+match loss dis 902.0
+Epoch 24, outer_loop 18, loss 902.0
+Epoch 24, outer_loop 19, loss real 1.0339711904525757
+Epoch 24, outer_loop 19, loss syn 0.8174015879631042
+match loss dis 902.0
+Epoch 24, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 25, outer_loop 0, loss real 1.039984941482544
+Epoch 25, outer_loop 0, loss syn 1.0695292949676514
+match loss dis 903.734619140625
+Epoch 25, outer_loop 0, loss 903.734619140625
+Epoch 25, outer_loop 1, loss real 1.0078482627868652
+Epoch 25, outer_loop 1, loss syn 0.8995041251182556
+match loss dis 903.0687866210938
+Epoch 25, outer_loop 1, loss 903.0687866210938
+Epoch 25, outer_loop 2, loss real 1.0174357891082764
+Epoch 25, outer_loop 2, loss syn 0.8600204586982727
+match loss dis 858.91455078125
+Epoch 25, outer_loop 2, loss 858.91455078125
+Epoch 25, outer_loop 3, loss real 1.024552583694458
+Epoch 25, outer_loop 3, loss syn 0.8938879370689392
+match loss dis 897.376953125
+Epoch 25, outer_loop 3, loss 897.376953125
+Epoch 25, outer_loop 4, loss real 1.0345109701156616
+Epoch 25, outer_loop 4, loss syn 0.874895453453064
+match loss dis 894.9530639648438
+Epoch 25, outer_loop 4, loss 894.9530639648438
+Epoch 25, outer_loop 5, loss real 1.0408178567886353
+Epoch 25, outer_loop 5, loss syn 0.8446115255355835
+match loss dis 872.4053344726562
+Epoch 25, outer_loop 5, loss 872.4053344726562
+Epoch 25, outer_loop 6, loss real 1.0392855405807495
+Epoch 25, outer_loop 6, loss syn 0.8551754355430603
+match loss dis 882.2530517578125
+Epoch 25, outer_loop 6, loss 882.2530517578125
+Epoch 25, outer_loop 7, loss real 1.0414299964904785
+Epoch 25, outer_loop 7, loss syn 0.8517588376998901
+match loss dis 922.2620239257812
+Epoch 25, outer_loop 7, loss 922.2620239257812
+Epoch 25, outer_loop 8, loss real 1.0408055782318115
+Epoch 25, outer_loop 8, loss syn 0.8528085947036743
+match loss dis 895.83984375
+Epoch 25, outer_loop 8, loss 895.83984375
+Epoch 25, outer_loop 9, loss real 1.0432435274124146
+Epoch 25, outer_loop 9, loss syn 0.8579225540161133
+match loss dis 879.259033203125
+Epoch 25, outer_loop 9, loss 879.259033203125
+Epoch 25, outer_loop 10, loss real 1.0430487394332886
+Epoch 25, outer_loop 10, loss syn 0.869682788848877
+match loss dis 910.346435546875
+Epoch 25, outer_loop 10, loss 910.346435546875
+Epoch 25, outer_loop 11, loss real 1.043510913848877
+Epoch 25, outer_loop 11, loss syn 0.894916832447052
+match loss dis 901.934814453125
+Epoch 25, outer_loop 11, loss 901.934814453125
+Epoch 25, outer_loop 12, loss real 1.0440274477005005
+Epoch 25, outer_loop 12, loss syn 0.8424484133720398
+match loss dis 877.8270263671875
+Epoch 25, outer_loop 12, loss 877.8270263671875
+Epoch 25, outer_loop 13, loss real 1.0442663431167603
+Epoch 25, outer_loop 13, loss syn 0.8603510856628418
+match loss dis 885.2864379882812
+Epoch 25, outer_loop 13, loss 885.2864379882812
+Epoch 25, outer_loop 14, loss real 1.0438328981399536
+Epoch 25, outer_loop 14, loss syn 0.8525981903076172
+match loss dis 889.650390625
+Epoch 25, outer_loop 14, loss 889.650390625
+Epoch 25, outer_loop 15, loss real 1.0433247089385986
+Epoch 25, outer_loop 15, loss syn 0.8390229940414429
+match loss dis 907.2979125976562
+Epoch 25, outer_loop 15, loss 907.2979125976562
+Epoch 25, outer_loop 16, loss real 1.0442545413970947
+Epoch 25, outer_loop 16, loss syn 0.851199209690094
+match loss dis 880.9498901367188
+Epoch 25, outer_loop 16, loss 880.9498901367188
+Epoch 25, outer_loop 17, loss real 1.044466257095337
+Epoch 25, outer_loop 17, loss syn 0.8286241888999939
+match loss dis 899.366943359375
+Epoch 25, outer_loop 17, loss 899.366943359375
+Epoch 25, outer_loop 18, loss real 1.0441621541976929
+Epoch 25, outer_loop 18, loss syn 0.8450713157653809
+match loss dis 876.5013427734375
+Epoch 25, outer_loop 18, loss 876.5013427734375
+Epoch 25, outer_loop 19, loss real 1.044730305671692
+Epoch 25, outer_loop 19, loss syn 0.8529689908027649
+match loss dis 916.1265869140625
+Epoch 25, outer_loop 19, loss 916.1265869140625
+Epoch 25, loss_avg: 940.2637279895283
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 26, outer_loop 0, loss real 0.9690022468566895
+Epoch 26, outer_loop 0, loss syn 0.9954304695129395
+match loss dis 910.5108642578125
+Epoch 26, outer_loop 0, loss 910.5108642578125
+Epoch 26, outer_loop 1, loss real 1.007643222808838
+Epoch 26, outer_loop 1, loss syn 0.9282664060592651
+match loss dis 939.8637084960938
+Epoch 26, outer_loop 1, loss 939.8637084960938
+Epoch 26, outer_loop 2, loss real 1.0188519954681396
+Epoch 26, outer_loop 2, loss syn 0.8703423142433167
+match loss dis 890.846923828125
+Epoch 26, outer_loop 2, loss 890.846923828125
+Epoch 26, outer_loop 3, loss real 1.022975206375122
+Epoch 26, outer_loop 3, loss syn 0.8604521751403809
+match loss dis 924.7423095703125
+Epoch 26, outer_loop 3, loss 924.7423095703125
+Epoch 26, outer_loop 4, loss real 1.0281174182891846
+Epoch 26, outer_loop 4, loss syn 0.8652886152267456
+match loss dis 960.172607421875
+Epoch 26, outer_loop 4, loss 960.172607421875
+Epoch 26, outer_loop 5, loss real 1.0326650142669678
+Epoch 26, outer_loop 5, loss syn 0.8761875033378601
+match loss dis 854.9395141601562
+Epoch 26, outer_loop 5, loss 854.9395141601562
+Epoch 26, outer_loop 6, loss real 1.027677297592163
+Epoch 26, outer_loop 6, loss syn 0.9099849462509155
+match loss dis 1257.01123046875
+Epoch 26, outer_loop 6, loss 1257.01123046875
+Epoch 26, outer_loop 7, loss real 1.0265332460403442
+Epoch 26, outer_loop 7, loss syn 0.8407053351402283
+match loss dis 879.2194213867188
+Epoch 26, outer_loop 7, loss 879.2194213867188
+Epoch 26, outer_loop 8, loss real 1.0237758159637451
+Epoch 26, outer_loop 8, loss syn 0.8676278591156006
+match loss dis 903.7168579101562
+Epoch 26, outer_loop 8, loss 903.7168579101562
+Epoch 26, outer_loop 9, loss real 1.0193119049072266
+Epoch 26, outer_loop 9, loss syn 0.8542008996009827
+match loss dis 889.801513671875
+Epoch 26, outer_loop 9, loss 889.801513671875
+Epoch 26, outer_loop 10, loss real 1.0181242227554321
+Epoch 26, outer_loop 10, loss syn 0.8545429110527039
+match loss dis 921.33447265625
+Epoch 26, outer_loop 10, loss 921.33447265625
+Epoch 26, outer_loop 11, loss real 1.0156368017196655
+Epoch 26, outer_loop 11, loss syn 0.8600462675094604
+match loss dis 912.2503662109375
+Epoch 26, outer_loop 11, loss 912.2503662109375
+Epoch 26, outer_loop 12, loss real 1.0148849487304688
+Epoch 26, outer_loop 12, loss syn 0.8514216542243958
+match loss dis 901.4852294921875
+Epoch 26, outer_loop 12, loss 901.4852294921875
+Epoch 26, outer_loop 13, loss real 1.0127239227294922
+Epoch 26, outer_loop 13, loss syn 0.8919497728347778
+match loss dis 898.2681884765625
+Epoch 26, outer_loop 13, loss 898.2681884765625
+Epoch 26, outer_loop 14, loss real 1.0136584043502808
+Epoch 26, outer_loop 14, loss syn 0.8253890872001648
+match loss dis 897.222412109375
+Epoch 26, outer_loop 14, loss 897.222412109375
+Epoch 26, outer_loop 15, loss real 1.012945532798767
+Epoch 26, outer_loop 15, loss syn 0.8869583010673523
+match loss dis 909.170654296875
+Epoch 26, outer_loop 15, loss 909.170654296875
+Epoch 26, outer_loop 16, loss real 1.0119844675064087
+Epoch 26, outer_loop 16, loss syn 0.8380483984947205
+match loss dis 905.28564453125
+Epoch 26, outer_loop 16, loss 905.28564453125
+Epoch 26, outer_loop 17, loss real 1.0122547149658203
+Epoch 26, outer_loop 17, loss syn 0.8406147956848145
+match loss dis 928.248046875
+Epoch 26, outer_loop 17, loss 928.248046875
+Epoch 26, outer_loop 18, loss real 1.0115059614181519
+Epoch 26, outer_loop 18, loss syn 0.8597296476364136
+match loss dis 916.1153564453125
+Epoch 26, outer_loop 18, loss 916.1153564453125
+Epoch 26, outer_loop 19, loss real 1.013349175453186
+Epoch 26, outer_loop 19, loss syn 0.8617069125175476
+match loss dis 906.843994140625
+Epoch 26, outer_loop 19, loss 906.843994140625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 27, outer_loop 0, loss real 1.0350860357284546
+Epoch 27, outer_loop 0, loss syn 1.0362391471862793
+match loss dis 882.6843872070312
+Epoch 27, outer_loop 0, loss 882.6843872070312
+Epoch 27, outer_loop 1, loss real 1.0092068910598755
+Epoch 27, outer_loop 1, loss syn 0.9085204005241394
+match loss dis 883.0557861328125
+Epoch 27, outer_loop 1, loss 883.0557861328125
+Epoch 27, outer_loop 2, loss real 1.0153985023498535
+Epoch 27, outer_loop 2, loss syn 0.8776840567588806
+match loss dis 907.8944091796875
+Epoch 27, outer_loop 2, loss 907.8944091796875
+Epoch 27, outer_loop 3, loss real 1.0230093002319336
+Epoch 27, outer_loop 3, loss syn 0.8529970645904541
+match loss dis 863.84814453125
+Epoch 27, outer_loop 3, loss 863.84814453125
+Epoch 27, outer_loop 4, loss real 1.0242173671722412
+Epoch 27, outer_loop 4, loss syn 0.8558012247085571
+match loss dis 931.5880737304688
+Epoch 27, outer_loop 4, loss 931.5880737304688
+Epoch 27, outer_loop 5, loss real 1.0233317613601685
+Epoch 27, outer_loop 5, loss syn 0.8506131172180176
+match loss dis 913.6207885742188
+Epoch 27, outer_loop 5, loss 913.6207885742188
+Epoch 27, outer_loop 6, loss real 1.0226584672927856
+Epoch 27, outer_loop 6, loss syn 0.8450148701667786
+match loss dis 918.2830200195312
+Epoch 27, outer_loop 6, loss 918.2830200195312
+Epoch 27, outer_loop 7, loss real 1.021557331085205
+Epoch 27, outer_loop 7, loss syn 0.8424906730651855
+match loss dis 928.6420288085938
+Epoch 27, outer_loop 7, loss 928.6420288085938
+Epoch 27, outer_loop 8, loss real 1.0210546255111694
+Epoch 27, outer_loop 8, loss syn 0.8350045680999756
+match loss dis 916.0337524414062
+Epoch 27, outer_loop 8, loss 916.0337524414062
+Epoch 27, outer_loop 9, loss real 1.0215370655059814
+Epoch 27, outer_loop 9, loss syn 0.8519235849380493
+match loss dis 916.9957275390625
+Epoch 27, outer_loop 9, loss 916.9957275390625
+Epoch 27, outer_loop 10, loss real 1.021034598350525
+Epoch 27, outer_loop 10, loss syn 0.848315954208374
+match loss dis 915.5653686523438
+Epoch 27, outer_loop 10, loss 915.5653686523438
+Epoch 27, outer_loop 11, loss real 1.0211398601531982
+Epoch 27, outer_loop 11, loss syn 0.82869553565979
+match loss dis 905.01220703125
+Epoch 27, outer_loop 11, loss 905.01220703125
+Epoch 27, outer_loop 12, loss real 1.0204838514328003
+Epoch 27, outer_loop 12, loss syn 0.8553380966186523
+match loss dis 892.619873046875
+Epoch 27, outer_loop 12, loss 892.619873046875
+Epoch 27, outer_loop 13, loss real 1.0213513374328613
+Epoch 27, outer_loop 13, loss syn 0.8497329354286194
+match loss dis 905.1126098632812
+Epoch 27, outer_loop 13, loss 905.1126098632812
+Epoch 27, outer_loop 14, loss real 1.0212626457214355
+Epoch 27, outer_loop 14, loss syn 0.8279178738594055
+match loss dis 921.4771728515625
+Epoch 27, outer_loop 14, loss 921.4771728515625
+Epoch 27, outer_loop 15, loss real 1.0209710597991943
+Epoch 27, outer_loop 15, loss syn 0.8183302283287048
+match loss dis 898.9852294921875
+Epoch 27, outer_loop 15, loss 898.9852294921875
+Epoch 27, outer_loop 16, loss real 1.0192875862121582
+Epoch 27, outer_loop 16, loss syn 0.8322123289108276
+match loss dis 890.7578125
+Epoch 27, outer_loop 16, loss 890.7578125
+Epoch 27, outer_loop 17, loss real 1.0190706253051758
+Epoch 27, outer_loop 17, loss syn 0.8549156785011292
+match loss dis 924.1776733398438
+Epoch 27, outer_loop 17, loss 924.1776733398438
+Epoch 27, outer_loop 18, loss real 1.0195642709732056
+Epoch 27, outer_loop 18, loss syn 0.8457295894622803
+match loss dis 912.223388671875
+Epoch 27, outer_loop 18, loss 912.223388671875
+Epoch 27, outer_loop 19, loss real 1.019665002822876
+Epoch 27, outer_loop 19, loss syn 0.8241474032402039
+match loss dis 909.8583984375
+Epoch 27, outer_loop 19, loss 909.8583984375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 28, outer_loop 0, loss real 1.0720890760421753
+Epoch 28, outer_loop 0, loss syn 1.0018930435180664
+match loss dis 889.3934936523438
+Epoch 28, outer_loop 0, loss 889.3934936523438
+Epoch 28, outer_loop 1, loss real 1.0422782897949219
+Epoch 28, outer_loop 1, loss syn 0.9397740364074707
+match loss dis 930.4985961914062
+Epoch 28, outer_loop 1, loss 930.4985961914062
+Epoch 28, outer_loop 2, loss real 1.0396519899368286
+Epoch 28, outer_loop 2, loss syn 0.9180037379264832
+match loss dis 905.4048461914062
+Epoch 28, outer_loop 2, loss 905.4048461914062
+Epoch 28, outer_loop 3, loss real 1.039899230003357
+Epoch 28, outer_loop 3, loss syn 0.8382587432861328
+match loss dis 865.0797119140625
+Epoch 28, outer_loop 3, loss 865.0797119140625
+Epoch 28, outer_loop 4, loss real 1.0381524562835693
+Epoch 28, outer_loop 4, loss syn 0.8847626447677612
+match loss dis 873.8345947265625
+Epoch 28, outer_loop 4, loss 873.8345947265625
+Epoch 28, outer_loop 5, loss real 1.040055513381958
+Epoch 28, outer_loop 5, loss syn 0.8781218528747559
+match loss dis 905.0379028320312
+Epoch 28, outer_loop 5, loss 905.0379028320312
+Epoch 28, outer_loop 6, loss real 1.038888931274414
+Epoch 28, outer_loop 6, loss syn 0.8497964143753052
+match loss dis 889.5602416992188
+Epoch 28, outer_loop 6, loss 889.5602416992188
+Epoch 28, outer_loop 7, loss real 1.038425326347351
+Epoch 28, outer_loop 7, loss syn 0.855233371257782
+match loss dis 875.0426025390625
+Epoch 28, outer_loop 7, loss 875.0426025390625
+Epoch 28, outer_loop 8, loss real 1.0389471054077148
+Epoch 28, outer_loop 8, loss syn 0.8359904885292053
+match loss dis 911.1779174804688
+Epoch 28, outer_loop 8, loss 911.1779174804688
+Epoch 28, outer_loop 9, loss real 1.0371829271316528
+Epoch 28, outer_loop 9, loss syn 0.8224511742591858
+match loss dis 898.674072265625
+Epoch 28, outer_loop 9, loss 898.674072265625
+Epoch 28, outer_loop 10, loss real 1.0355864763259888
+Epoch 28, outer_loop 10, loss syn 0.8249812722206116
+match loss dis 886.5947265625
+Epoch 28, outer_loop 10, loss 886.5947265625
+Epoch 28, outer_loop 11, loss real 1.0363322496414185
+Epoch 28, outer_loop 11, loss syn 0.8630391359329224
+match loss dis 934.5629272460938
+Epoch 28, outer_loop 11, loss 934.5629272460938
+Epoch 28, outer_loop 12, loss real 1.0334651470184326
+Epoch 28, outer_loop 12, loss syn 0.8332138061523438
+match loss dis 882.322509765625
+Epoch 28, outer_loop 12, loss 882.322509765625
+Epoch 28, outer_loop 13, loss real 1.0339056253433228
+Epoch 28, outer_loop 13, loss syn 0.8584569096565247
+match loss dis 922.3885498046875
+Epoch 28, outer_loop 13, loss 922.3885498046875
+Epoch 28, outer_loop 14, loss real 1.0332612991333008
+Epoch 28, outer_loop 14, loss syn 0.8242806196212769
+match loss dis 889.3052368164062
+Epoch 28, outer_loop 14, loss 889.3052368164062
+Epoch 28, outer_loop 15, loss real 1.032771348953247
+Epoch 28, outer_loop 15, loss syn 0.8465474843978882
+match loss dis 945.4552612304688
+Epoch 28, outer_loop 15, loss 945.4552612304688
+Epoch 28, outer_loop 16, loss real 1.0337244272232056
+Epoch 28, outer_loop 16, loss syn 0.8462819457054138
+match loss dis 906.267822265625
+Epoch 28, outer_loop 16, loss 906.267822265625
+Epoch 28, outer_loop 17, loss real 1.0344092845916748
+Epoch 28, outer_loop 17, loss syn 0.8346909284591675
+match loss dis 906.4877319335938
+Epoch 28, outer_loop 17, loss 906.4877319335938
+Epoch 28, outer_loop 18, loss real 1.0332890748977661
+Epoch 28, outer_loop 18, loss syn 0.8479672074317932
+match loss dis 915.1054077148438
+Epoch 28, outer_loop 18, loss 915.1054077148438
+Epoch 28, outer_loop 19, loss real 1.0329735279083252
+Epoch 28, outer_loop 19, loss syn 0.8468661904335022
+match loss dis 913.45849609375
+Epoch 28, outer_loop 19, loss 913.45849609375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 29, outer_loop 0, loss real 0.9834319949150085
+Epoch 29, outer_loop 0, loss syn 1.0128313302993774
+match loss dis 903.5465087890625
+Epoch 29, outer_loop 0, loss 903.5465087890625
+Epoch 29, outer_loop 1, loss real 1.0252900123596191
+Epoch 29, outer_loop 1, loss syn 0.9403325915336609
+match loss dis 880.3861083984375
+Epoch 29, outer_loop 1, loss 880.3861083984375
+Epoch 29, outer_loop 2, loss real 1.0419001579284668
+Epoch 29, outer_loop 2, loss syn 0.906509518623352
+match loss dis 872.9783935546875
+Epoch 29, outer_loop 2, loss 872.9783935546875
+Epoch 29, outer_loop 3, loss real 1.0403319597244263
+Epoch 29, outer_loop 3, loss syn 0.8759182691574097
+match loss dis 880.3895263671875
+Epoch 29, outer_loop 3, loss 880.3895263671875
+Epoch 29, outer_loop 4, loss real 1.0415748357772827
+Epoch 29, outer_loop 4, loss syn 0.8558990955352783
+match loss dis 877.9913330078125
+Epoch 29, outer_loop 4, loss 877.9913330078125
+Epoch 29, outer_loop 5, loss real 1.0410528182983398
+Epoch 29, outer_loop 5, loss syn 0.8450164198875427
+match loss dis 903.3482666015625
+Epoch 29, outer_loop 5, loss 903.3482666015625
+Epoch 29, outer_loop 6, loss real 1.0390074253082275
+Epoch 29, outer_loop 6, loss syn 0.8433623313903809
+match loss dis 912.1928100585938
+Epoch 29, outer_loop 6, loss 912.1928100585938
+Epoch 29, outer_loop 7, loss real 1.039507269859314
+Epoch 29, outer_loop 7, loss syn 0.8548441529273987
+match loss dis 888.1046142578125
+Epoch 29, outer_loop 7, loss 888.1046142578125
+Epoch 29, outer_loop 8, loss real 1.041607141494751
+Epoch 29, outer_loop 8, loss syn 0.8564485311508179
+match loss dis 880.4066162109375
+Epoch 29, outer_loop 8, loss 880.4066162109375
+Epoch 29, outer_loop 9, loss real 1.0397075414657593
+Epoch 29, outer_loop 9, loss syn 0.8456289768218994
+match loss dis 923.4317016601562
+Epoch 29, outer_loop 9, loss 923.4317016601562
+Epoch 29, outer_loop 10, loss real 1.0405833721160889
+Epoch 29, outer_loop 10, loss syn 0.8567250967025757
+match loss dis 941.0003662109375
+Epoch 29, outer_loop 10, loss 941.0003662109375
+Epoch 29, outer_loop 11, loss real 1.04017972946167
+Epoch 29, outer_loop 11, loss syn 0.8163888454437256
+match loss dis 871.384521484375
+Epoch 29, outer_loop 11, loss 871.384521484375
+Epoch 29, outer_loop 12, loss real 1.0408120155334473
+Epoch 29, outer_loop 12, loss syn 0.8483077883720398
+match loss dis 908.2606201171875
+Epoch 29, outer_loop 12, loss 908.2606201171875
+Epoch 29, outer_loop 13, loss real 1.0400809049606323
+Epoch 29, outer_loop 13, loss syn 0.8522886633872986
+match loss dis 902.7573852539062
+Epoch 29, outer_loop 13, loss 902.7573852539062
+Epoch 29, outer_loop 14, loss real 1.0416953563690186
+Epoch 29, outer_loop 14, loss syn 0.8448426127433777
+match loss dis 920.9622802734375
+Epoch 29, outer_loop 14, loss 920.9622802734375
+Epoch 29, outer_loop 15, loss real 1.0524922609329224
+Epoch 29, outer_loop 15, loss syn 0.861903190612793
+match loss dis 542.2506103515625
+Epoch 29, outer_loop 15, loss 542.2506103515625
+Epoch 29, outer_loop 16, loss real 1.0536292791366577
+Epoch 29, outer_loop 16, loss syn 0.8697008490562439
+match loss dis 902.0
+Epoch 29, outer_loop 16, loss 902.0
+Epoch 29, outer_loop 17, loss real 1.050163984298706
+Epoch 29, outer_loop 17, loss syn 0.8819373250007629
+match loss dis 902.0
+Epoch 29, outer_loop 17, loss 902.0
+Epoch 29, outer_loop 18, loss real 1.0474528074264526
+Epoch 29, outer_loop 18, loss syn 0.8516688942909241
+match loss dis 902.0
+Epoch 29, outer_loop 18, loss 902.0
+Epoch 29, outer_loop 19, loss real 1.044649600982666
+Epoch 29, outer_loop 19, loss syn 0.8832751512527466
+match loss dis 902.0
+Epoch 29, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 30, outer_loop 0, loss real 1.0172290802001953
+Epoch 30, outer_loop 0, loss syn 1.0345531702041626
+match loss dis 887.13671875
+Epoch 30, outer_loop 0, loss 887.13671875
+Epoch 30, outer_loop 1, loss real 1.0157809257507324
+Epoch 30, outer_loop 1, loss syn 0.9017849564552307
+match loss dis 898.845703125
+Epoch 30, outer_loop 1, loss 898.845703125
+Epoch 30, outer_loop 2, loss real 1.0133051872253418
+Epoch 30, outer_loop 2, loss syn 0.8462342023849487
+match loss dis 909.2161865234375
+Epoch 30, outer_loop 2, loss 909.2161865234375
+Epoch 30, outer_loop 3, loss real 1.0092543363571167
+Epoch 30, outer_loop 3, loss syn 0.8558791279792786
+match loss dis 935.184814453125
+Epoch 30, outer_loop 3, loss 935.184814453125
+Epoch 30, outer_loop 4, loss real 1.010305404663086
+Epoch 30, outer_loop 4, loss syn 0.8691213726997375
+match loss dis 910.323486328125
+Epoch 30, outer_loop 4, loss 910.323486328125
+Epoch 30, outer_loop 5, loss real 1.0162245035171509
+Epoch 30, outer_loop 5, loss syn 0.8661289215087891
+match loss dis 932.4977416992188
+Epoch 30, outer_loop 5, loss 932.4977416992188
+Epoch 30, outer_loop 6, loss real 1.0191222429275513
+Epoch 30, outer_loop 6, loss syn 0.8246565461158752
+match loss dis 903.9591674804688
+Epoch 30, outer_loop 6, loss 903.9591674804688
+Epoch 30, outer_loop 7, loss real 1.0233774185180664
+Epoch 30, outer_loop 7, loss syn 0.8437226414680481
+match loss dis 917.6712646484375
+Epoch 30, outer_loop 7, loss 917.6712646484375
+Epoch 30, outer_loop 8, loss real 1.0259073972702026
+Epoch 30, outer_loop 8, loss syn 0.8277077674865723
+match loss dis 896.4273681640625
+Epoch 30, outer_loop 8, loss 896.4273681640625
+Epoch 30, outer_loop 9, loss real 1.027506947517395
+Epoch 30, outer_loop 9, loss syn 0.8408827781677246
+match loss dis 884.0089721679688
+Epoch 30, outer_loop 9, loss 884.0089721679688
+Epoch 30, outer_loop 10, loss real 1.0293041467666626
+Epoch 30, outer_loop 10, loss syn 0.8383782505989075
+match loss dis 903.4039306640625
+Epoch 30, outer_loop 10, loss 903.4039306640625
+Epoch 30, outer_loop 11, loss real 1.0328342914581299
+Epoch 30, outer_loop 11, loss syn 0.8590799570083618
+match loss dis 890.4293823242188
+Epoch 30, outer_loop 11, loss 890.4293823242188
+Epoch 30, outer_loop 12, loss real 1.0354537963867188
+Epoch 30, outer_loop 12, loss syn 0.843790590763092
+match loss dis 907.87841796875
+Epoch 30, outer_loop 12, loss 907.87841796875
+Epoch 30, outer_loop 13, loss real 1.0375986099243164
+Epoch 30, outer_loop 13, loss syn 0.8269588947296143
+match loss dis 905.1502685546875
+Epoch 30, outer_loop 13, loss 905.1502685546875
+Epoch 30, outer_loop 14, loss real 1.0382503271102905
+Epoch 30, outer_loop 14, loss syn 0.8464306592941284
+match loss dis 893.4994506835938
+Epoch 30, outer_loop 14, loss 893.4994506835938
+Epoch 30, outer_loop 15, loss real 1.0411611795425415
+Epoch 30, outer_loop 15, loss syn 0.815079927444458
+match loss dis 863.6115112304688
+Epoch 30, outer_loop 15, loss 863.6115112304688
+Epoch 30, outer_loop 16, loss real 1.0409533977508545
+Epoch 30, outer_loop 16, loss syn 0.8300349116325378
+match loss dis 889.1024780273438
+Epoch 30, outer_loop 16, loss 889.1024780273438
+Epoch 30, outer_loop 17, loss real 1.0407743453979492
+Epoch 30, outer_loop 17, loss syn 0.8168789744377136
+match loss dis 894.900634765625
+Epoch 30, outer_loop 17, loss 894.900634765625
+Epoch 30, outer_loop 18, loss real 1.040095567703247
+Epoch 30, outer_loop 18, loss syn 0.8804276585578918
+match loss dis 929.0807495117188
+Epoch 30, outer_loop 18, loss 929.0807495117188
+Epoch 30, outer_loop 19, loss real 1.041725516319275
+Epoch 30, outer_loop 19, loss syn 0.8447088599205017
+match loss dis 874.0283813476562
+Epoch 30, outer_loop 19, loss 874.0283813476562
+Epoch 30, loss_avg: 947.7364596679101
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 31, outer_loop 0, loss real 1.0710232257843018
+Epoch 31, outer_loop 0, loss syn 0.9939351081848145
+match loss dis 905.5128784179688
+Epoch 31, outer_loop 0, loss 905.5128784179688
+Epoch 31, outer_loop 1, loss real 1.0477906465530396
+Epoch 31, outer_loop 1, loss syn 0.8681369423866272
+match loss dis 851.865966796875
+Epoch 31, outer_loop 1, loss 851.865966796875
+Epoch 31, outer_loop 2, loss real 1.0222874879837036
+Epoch 31, outer_loop 2, loss syn 0.8438037633895874
+match loss dis 948.170654296875
+Epoch 31, outer_loop 2, loss 948.170654296875
+Epoch 31, outer_loop 3, loss real 1.0166881084442139
+Epoch 31, outer_loop 3, loss syn 0.8416079878807068
+match loss dis 937.471923828125
+Epoch 31, outer_loop 3, loss 937.471923828125
+Epoch 31, outer_loop 4, loss real 1.0181128978729248
+Epoch 31, outer_loop 4, loss syn 0.8870021104812622
+match loss dis 897.9013671875
+Epoch 31, outer_loop 4, loss 897.9013671875
+Epoch 31, outer_loop 5, loss real 1.021999478340149
+Epoch 31, outer_loop 5, loss syn 0.8260252475738525
+match loss dis 920.9281005859375
+Epoch 31, outer_loop 5, loss 920.9281005859375
+Epoch 31, outer_loop 6, loss real 1.0239579677581787
+Epoch 31, outer_loop 6, loss syn 0.8369142413139343
+match loss dis 897.5665283203125
+Epoch 31, outer_loop 6, loss 897.5665283203125
+Epoch 31, outer_loop 7, loss real 1.0263574123382568
+Epoch 31, outer_loop 7, loss syn 0.8397558331489563
+match loss dis 900.4508056640625
+Epoch 31, outer_loop 7, loss 900.4508056640625
+Epoch 31, outer_loop 8, loss real 1.0277258157730103
+Epoch 31, outer_loop 8, loss syn 0.8476588129997253
+match loss dis 896.3719482421875
+Epoch 31, outer_loop 8, loss 896.3719482421875
+Epoch 31, outer_loop 9, loss real 1.0297540426254272
+Epoch 31, outer_loop 9, loss syn 0.8475108742713928
+match loss dis 898.1362915039062
+Epoch 31, outer_loop 9, loss 898.1362915039062
+Epoch 31, outer_loop 10, loss real 1.0292952060699463
+Epoch 31, outer_loop 10, loss syn 0.8356674313545227
+match loss dis 918.8663330078125
+Epoch 31, outer_loop 10, loss 918.8663330078125
+Epoch 31, outer_loop 11, loss real 1.0291215181350708
+Epoch 31, outer_loop 11, loss syn 0.8359237313270569
+match loss dis 887.0931396484375
+Epoch 31, outer_loop 11, loss 887.0931396484375
+Epoch 31, outer_loop 12, loss real 1.0293689966201782
+Epoch 31, outer_loop 12, loss syn 0.8093664050102234
+match loss dis 894.4639892578125
+Epoch 31, outer_loop 12, loss 894.4639892578125
+Epoch 31, outer_loop 13, loss real 1.028366208076477
+Epoch 31, outer_loop 13, loss syn 0.8335801959037781
+match loss dis 910.0987548828125
+Epoch 31, outer_loop 13, loss 910.0987548828125
+Epoch 31, outer_loop 14, loss real 1.028533697128296
+Epoch 31, outer_loop 14, loss syn 0.8352518677711487
+match loss dis 914.7051391601562
+Epoch 31, outer_loop 14, loss 914.7051391601562
+Epoch 31, outer_loop 15, loss real 1.0295418500900269
+Epoch 31, outer_loop 15, loss syn 0.8565059304237366
+match loss dis 901.8565673828125
+Epoch 31, outer_loop 15, loss 901.8565673828125
+Epoch 31, outer_loop 16, loss real 1.0285654067993164
+Epoch 31, outer_loop 16, loss syn 0.8485780954360962
+match loss dis 883.265625
+Epoch 31, outer_loop 16, loss 883.265625
+Epoch 31, outer_loop 17, loss real 1.0304784774780273
+Epoch 31, outer_loop 17, loss syn 0.8403308391571045
+match loss dis 887.479248046875
+Epoch 31, outer_loop 17, loss 887.479248046875
+Epoch 31, outer_loop 18, loss real 1.0281530618667603
+Epoch 31, outer_loop 18, loss syn 0.8427994847297668
+match loss dis 895.062744140625
+Epoch 31, outer_loop 18, loss 895.062744140625
+Epoch 31, outer_loop 19, loss real 1.0295771360397339
+Epoch 31, outer_loop 19, loss syn 0.826271116733551
+match loss dis 896.010009765625
+Epoch 31, outer_loop 19, loss 896.010009765625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 32, outer_loop 0, loss real 1.0315659046173096
+Epoch 32, outer_loop 0, loss syn 1.0271413326263428
+match loss dis 889.0353393554688
+Epoch 32, outer_loop 0, loss 889.0353393554688
+Epoch 32, outer_loop 1, loss real 1.0093905925750732
+Epoch 32, outer_loop 1, loss syn 0.9294566512107849
+match loss dis 902.3294677734375
+Epoch 32, outer_loop 1, loss 902.3294677734375
+Epoch 32, outer_loop 2, loss real 1.0156664848327637
+Epoch 32, outer_loop 2, loss syn 0.8843451142311096
+match loss dis 882.4852294921875
+Epoch 32, outer_loop 2, loss 882.4852294921875
+Epoch 32, outer_loop 3, loss real 1.0190106630325317
+Epoch 32, outer_loop 3, loss syn 0.9050350785255432
+match loss dis 1134.679931640625
+Epoch 32, outer_loop 3, loss 1134.679931640625
+Epoch 32, outer_loop 4, loss real 1.040737271308899
+Epoch 32, outer_loop 4, loss syn 0.8547183871269226
+match loss dis 1081.422607421875
+Epoch 32, outer_loop 4, loss 1081.422607421875
+Epoch 32, outer_loop 5, loss real 1.0177327394485474
+Epoch 32, outer_loop 5, loss syn 0.8584150671958923
+match loss dis 902.0
+Epoch 32, outer_loop 5, loss 902.0
+Epoch 32, outer_loop 6, loss real 1.0193041563034058
+Epoch 32, outer_loop 6, loss syn 0.8563053011894226
+match loss dis 902.0
+Epoch 32, outer_loop 6, loss 902.0
+Epoch 32, outer_loop 7, loss real 1.0210871696472168
+Epoch 32, outer_loop 7, loss syn 0.8416897654533386
+match loss dis 902.0
+Epoch 32, outer_loop 7, loss 902.0
+Epoch 32, outer_loop 8, loss real 1.0229847431182861
+Epoch 32, outer_loop 8, loss syn 0.8661686778068542
+match loss dis 902.0
+Epoch 32, outer_loop 8, loss 902.0
+Epoch 32, outer_loop 9, loss real 1.0242639780044556
+Epoch 32, outer_loop 9, loss syn 0.8500280380249023
+match loss dis 902.0
+Epoch 32, outer_loop 9, loss 902.0
+Epoch 32, outer_loop 10, loss real 1.027219533920288
+Epoch 32, outer_loop 10, loss syn 0.8280134201049805
+match loss dis 902.0
+Epoch 32, outer_loop 10, loss 902.0
+Epoch 32, outer_loop 11, loss real 1.0269182920455933
+Epoch 32, outer_loop 11, loss syn 0.8361504673957825
+match loss dis 902.0
+Epoch 32, outer_loop 11, loss 902.0
+Epoch 32, outer_loop 12, loss real 1.0275239944458008
+Epoch 32, outer_loop 12, loss syn 0.8300773501396179
+match loss dis 902.0
+Epoch 32, outer_loop 12, loss 902.0
+Epoch 32, outer_loop 13, loss real 1.0284725427627563
+Epoch 32, outer_loop 13, loss syn 0.8484172821044922
+match loss dis 902.0
+Epoch 32, outer_loop 13, loss 902.0
+Epoch 32, outer_loop 14, loss real 1.029073715209961
+Epoch 32, outer_loop 14, loss syn 0.8150240182876587
+match loss dis 902.0
+Epoch 32, outer_loop 14, loss 902.0
+Epoch 32, outer_loop 15, loss real 1.0291709899902344
+Epoch 32, outer_loop 15, loss syn 0.8533242344856262
+match loss dis 902.0
+Epoch 32, outer_loop 15, loss 902.0
+Epoch 32, outer_loop 16, loss real 1.0290343761444092
+Epoch 32, outer_loop 16, loss syn 0.8248070478439331
+match loss dis 902.0
+Epoch 32, outer_loop 16, loss 902.0
+Epoch 32, outer_loop 17, loss real 1.028364896774292
+Epoch 32, outer_loop 17, loss syn 0.8429418206214905
+match loss dis 902.0
+Epoch 32, outer_loop 17, loss 902.0
+Epoch 32, outer_loop 18, loss real 1.0301222801208496
+Epoch 32, outer_loop 18, loss syn 0.8259547352790833
+match loss dis 902.0
+Epoch 32, outer_loop 18, loss 902.0
+Epoch 32, outer_loop 19, loss real 1.0310364961624146
+Epoch 32, outer_loop 19, loss syn 0.8440256118774414
+match loss dis 902.0
+Epoch 32, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 33, outer_loop 0, loss real 1.002607822418213
+Epoch 33, outer_loop 0, loss syn 0.9785251021385193
+match loss dis 909.7332153320312
+Epoch 33, outer_loop 0, loss 909.7332153320312
+Epoch 33, outer_loop 1, loss real 1.0208442211151123
+Epoch 33, outer_loop 1, loss syn 0.9178383946418762
+match loss dis 903.2347412109375
+Epoch 33, outer_loop 1, loss 903.2347412109375
+Epoch 33, outer_loop 2, loss real 1.029165267944336
+Epoch 33, outer_loop 2, loss syn 0.885606050491333
+match loss dis 945.3643188476562
+Epoch 33, outer_loop 2, loss 945.3643188476562
+Epoch 33, outer_loop 3, loss real 1.0332058668136597
+Epoch 33, outer_loop 3, loss syn 0.876166820526123
+match loss dis 908.4785766601562
+Epoch 33, outer_loop 3, loss 908.4785766601562
+Epoch 33, outer_loop 4, loss real 1.0364761352539062
+Epoch 33, outer_loop 4, loss syn 0.8560430407524109
+match loss dis 888.8914794921875
+Epoch 33, outer_loop 4, loss 888.8914794921875
+Epoch 33, outer_loop 5, loss real 1.0357179641723633
+Epoch 33, outer_loop 5, loss syn 0.8130336999893188
+match loss dis 885.4345703125
+Epoch 33, outer_loop 5, loss 885.4345703125
+Epoch 33, outer_loop 6, loss real 1.0374524593353271
+Epoch 33, outer_loop 6, loss syn 0.8515657186508179
+match loss dis 877.7141723632812
+Epoch 33, outer_loop 6, loss 877.7141723632812
+Epoch 33, outer_loop 7, loss real 1.0348992347717285
+Epoch 33, outer_loop 7, loss syn 0.8162083029747009
+match loss dis 930.63671875
+Epoch 33, outer_loop 7, loss 930.63671875
+Epoch 33, outer_loop 8, loss real 1.0358868837356567
+Epoch 33, outer_loop 8, loss syn 0.8573475480079651
+match loss dis 912.0042724609375
+Epoch 33, outer_loop 8, loss 912.0042724609375
+Epoch 33, outer_loop 9, loss real 1.0324498414993286
+Epoch 33, outer_loop 9, loss syn 0.8444970846176147
+match loss dis 912.0380249023438
+Epoch 33, outer_loop 9, loss 912.0380249023438
+Epoch 33, outer_loop 10, loss real 1.033577799797058
+Epoch 33, outer_loop 10, loss syn 0.8631523847579956
+match loss dis 905.6197509765625
+Epoch 33, outer_loop 10, loss 905.6197509765625
+Epoch 33, outer_loop 11, loss real 1.0324420928955078
+Epoch 33, outer_loop 11, loss syn 0.8582276701927185
+match loss dis 932.7692260742188
+Epoch 33, outer_loop 11, loss 932.7692260742188
+Epoch 33, outer_loop 12, loss real 1.0325679779052734
+Epoch 33, outer_loop 12, loss syn 0.8458359837532043
+match loss dis 884.260498046875
+Epoch 33, outer_loop 12, loss 884.260498046875
+Epoch 33, outer_loop 13, loss real 1.030672311782837
+Epoch 33, outer_loop 13, loss syn 0.8338816165924072
+match loss dis 900.227294921875
+Epoch 33, outer_loop 13, loss 900.227294921875
+Epoch 33, outer_loop 14, loss real 1.0317307710647583
+Epoch 33, outer_loop 14, loss syn 0.837351381778717
+match loss dis 931.6408081054688
+Epoch 33, outer_loop 14, loss 931.6408081054688
+Epoch 33, outer_loop 15, loss real 1.0321598052978516
+Epoch 33, outer_loop 15, loss syn 0.8483020067214966
+match loss dis 905.6965942382812
+Epoch 33, outer_loop 15, loss 905.6965942382812
+Epoch 33, outer_loop 16, loss real 1.030801773071289
+Epoch 33, outer_loop 16, loss syn 0.8714191317558289
+match loss dis 888.1904907226562
+Epoch 33, outer_loop 16, loss 888.1904907226562
+Epoch 33, outer_loop 17, loss real 1.0306921005249023
+Epoch 33, outer_loop 17, loss syn 0.8582713603973389
+match loss dis 914.6682739257812
+Epoch 33, outer_loop 17, loss 914.6682739257812
+Epoch 33, outer_loop 18, loss real 1.0311084985733032
+Epoch 33, outer_loop 18, loss syn 0.8308964371681213
+match loss dis 925.1495971679688
+Epoch 33, outer_loop 18, loss 925.1495971679688
+Epoch 33, outer_loop 19, loss real 1.0280303955078125
+Epoch 33, outer_loop 19, loss syn 0.846687912940979
+match loss dis 904.8761596679688
+Epoch 33, outer_loop 19, loss 904.8761596679688
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 34, outer_loop 0, loss real 1.0195732116699219
+Epoch 34, outer_loop 0, loss syn 0.9985235333442688
+match loss dis 888.8167724609375
+Epoch 34, outer_loop 0, loss 888.8167724609375
+Epoch 34, outer_loop 1, loss real 1.0358778238296509
+Epoch 34, outer_loop 1, loss syn 0.9261648654937744
+match loss dis 879.599609375
+Epoch 34, outer_loop 1, loss 879.599609375
+Epoch 34, outer_loop 2, loss real 1.0350922346115112
+Epoch 34, outer_loop 2, loss syn 0.8306730389595032
+match loss dis 898.1153564453125
+Epoch 34, outer_loop 2, loss 898.1153564453125
+Epoch 34, outer_loop 3, loss real 1.033929467201233
+Epoch 34, outer_loop 3, loss syn 0.9014479517936707
+match loss dis 900.6891479492188
+Epoch 34, outer_loop 3, loss 900.6891479492188
+Epoch 34, outer_loop 4, loss real 1.0326063632965088
+Epoch 34, outer_loop 4, loss syn 0.8595332503318787
+match loss dis 920.6689453125
+Epoch 34, outer_loop 4, loss 920.6689453125
+Epoch 34, outer_loop 5, loss real 1.0315107107162476
+Epoch 34, outer_loop 5, loss syn 0.8649726510047913
+match loss dis 901.7149658203125
+Epoch 34, outer_loop 5, loss 901.7149658203125
+Epoch 34, outer_loop 6, loss real 1.031028151512146
+Epoch 34, outer_loop 6, loss syn 0.8600489497184753
+match loss dis 889.1622924804688
+Epoch 34, outer_loop 6, loss 889.1622924804688
+Epoch 34, outer_loop 7, loss real 1.0309914350509644
+Epoch 34, outer_loop 7, loss syn 0.831954836845398
+match loss dis 909.5618896484375
+Epoch 34, outer_loop 7, loss 909.5618896484375
+Epoch 34, outer_loop 8, loss real 1.030665397644043
+Epoch 34, outer_loop 8, loss syn 0.8433167934417725
+match loss dis 891.853515625
+Epoch 34, outer_loop 8, loss 891.853515625
+Epoch 34, outer_loop 9, loss real 1.0296211242675781
+Epoch 34, outer_loop 9, loss syn 0.8653467297554016
+match loss dis 910.079345703125
+Epoch 34, outer_loop 9, loss 910.079345703125
+Epoch 34, outer_loop 10, loss real 1.0317326784133911
+Epoch 34, outer_loop 10, loss syn 0.8337094187736511
+match loss dis 888.48046875
+Epoch 34, outer_loop 10, loss 888.48046875
+Epoch 34, outer_loop 11, loss real 1.0298629999160767
+Epoch 34, outer_loop 11, loss syn 0.8459442853927612
+match loss dis 920.2210083007812
+Epoch 34, outer_loop 11, loss 920.2210083007812
+Epoch 34, outer_loop 12, loss real 1.0302679538726807
+Epoch 34, outer_loop 12, loss syn 0.8448153734207153
+match loss dis 885.9757080078125
+Epoch 34, outer_loop 12, loss 885.9757080078125
+Epoch 34, outer_loop 13, loss real 1.0309237241744995
+Epoch 34, outer_loop 13, loss syn 0.8296773433685303
+match loss dis 930.758056640625
+Epoch 34, outer_loop 13, loss 930.758056640625
+Epoch 34, outer_loop 14, loss real 1.0308308601379395
+Epoch 34, outer_loop 14, loss syn 0.844559907913208
+match loss dis 903.196533203125
+Epoch 34, outer_loop 14, loss 903.196533203125
+Epoch 34, outer_loop 15, loss real 1.0302072763442993
+Epoch 34, outer_loop 15, loss syn 0.8385530710220337
+match loss dis 891.3998413085938
+Epoch 34, outer_loop 15, loss 891.3998413085938
+Epoch 34, outer_loop 16, loss real 1.0302695035934448
+Epoch 34, outer_loop 16, loss syn 0.8300530910491943
+match loss dis 896.6529541015625
+Epoch 34, outer_loop 16, loss 896.6529541015625
+Epoch 34, outer_loop 17, loss real 1.0284948348999023
+Epoch 34, outer_loop 17, loss syn 0.8535622358322144
+match loss dis 906.2953491210938
+Epoch 34, outer_loop 17, loss 906.2953491210938
+Epoch 34, outer_loop 18, loss real 1.02875554561615
+Epoch 34, outer_loop 18, loss syn 0.8361971378326416
+match loss dis 882.9835205078125
+Epoch 34, outer_loop 18, loss 882.9835205078125
+Epoch 34, outer_loop 19, loss real 1.0295765399932861
+Epoch 34, outer_loop 19, loss syn 0.8181240558624268
+match loss dis 874.1891479492188
+Epoch 34, outer_loop 19, loss 874.1891479492188
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 35, outer_loop 0, loss real 1.021991491317749
+Epoch 35, outer_loop 0, loss syn 1.0601036548614502
+match loss dis 896.5673828125
+Epoch 35, outer_loop 0, loss 896.5673828125
+Epoch 35, outer_loop 1, loss real 1.045838475227356
+Epoch 35, outer_loop 1, loss syn 0.9326832294464111
+match loss dis 879.0870361328125
+Epoch 35, outer_loop 1, loss 879.0870361328125
+Epoch 35, outer_loop 2, loss real 1.0376769304275513
+Epoch 35, outer_loop 2, loss syn 0.9388896226882935
+match loss dis 869.6116943359375
+Epoch 35, outer_loop 2, loss 869.6116943359375
+Epoch 35, outer_loop 3, loss real 1.0422993898391724
+Epoch 35, outer_loop 3, loss syn 0.8693698644638062
+match loss dis 922.4595336914062
+Epoch 35, outer_loop 3, loss 922.4595336914062
+Epoch 35, outer_loop 4, loss real 1.0503835678100586
+Epoch 35, outer_loop 4, loss syn 0.863554835319519
+match loss dis 903.1264038085938
+Epoch 35, outer_loop 4, loss 903.1264038085938
+Epoch 35, outer_loop 5, loss real 1.0479261875152588
+Epoch 35, outer_loop 5, loss syn 0.8470237255096436
+match loss dis 882.5269775390625
+Epoch 35, outer_loop 5, loss 882.5269775390625
+Epoch 35, outer_loop 6, loss real 1.0433058738708496
+Epoch 35, outer_loop 6, loss syn 0.8231128454208374
+match loss dis 902.6729736328125
+Epoch 35, outer_loop 6, loss 902.6729736328125
+Epoch 35, outer_loop 7, loss real 1.040031909942627
+Epoch 35, outer_loop 7, loss syn 0.8430836200714111
+match loss dis 901.9527587890625
+Epoch 35, outer_loop 7, loss 901.9527587890625
+Epoch 35, outer_loop 8, loss real 1.0358589887619019
+Epoch 35, outer_loop 8, loss syn 0.8401321768760681
+match loss dis 955.4811401367188
+Epoch 35, outer_loop 8, loss 955.4811401367188
+Epoch 35, outer_loop 9, loss real 1.034529209136963
+Epoch 35, outer_loop 9, loss syn 0.8228425979614258
+match loss dis 910.6521606445312
+Epoch 35, outer_loop 9, loss 910.6521606445312
+Epoch 35, outer_loop 10, loss real 1.0322185754776
+Epoch 35, outer_loop 10, loss syn 0.8436011672019958
+match loss dis 949.5528564453125
+Epoch 35, outer_loop 10, loss 949.5528564453125
+Epoch 35, outer_loop 11, loss real 1.031406044960022
+Epoch 35, outer_loop 11, loss syn 0.8142366409301758
+match loss dis 880.110595703125
+Epoch 35, outer_loop 11, loss 880.110595703125
+Epoch 35, outer_loop 12, loss real 1.032399296760559
+Epoch 35, outer_loop 12, loss syn 0.846405565738678
+match loss dis 914.2267456054688
+Epoch 35, outer_loop 12, loss 914.2267456054688
+Epoch 35, outer_loop 13, loss real 1.0324962139129639
+Epoch 35, outer_loop 13, loss syn 0.872787594795227
+match loss dis 889.0880737304688
+Epoch 35, outer_loop 13, loss 889.0880737304688
+Epoch 35, outer_loop 14, loss real 1.0321195125579834
+Epoch 35, outer_loop 14, loss syn 0.804615318775177
+match loss dis 885.5780029296875
+Epoch 35, outer_loop 14, loss 885.5780029296875
+Epoch 35, outer_loop 15, loss real 1.0323115587234497
+Epoch 35, outer_loop 15, loss syn 0.8635953068733215
+match loss dis 905.74853515625
+Epoch 35, outer_loop 15, loss 905.74853515625
+Epoch 35, outer_loop 16, loss real 1.030347228050232
+Epoch 35, outer_loop 16, loss syn 0.843291163444519
+match loss dis 913.7752685546875
+Epoch 35, outer_loop 16, loss 913.7752685546875
+Epoch 35, outer_loop 17, loss real 1.0300220251083374
+Epoch 35, outer_loop 17, loss syn 0.8444143533706665
+match loss dis 900.6064453125
+Epoch 35, outer_loop 17, loss 900.6064453125
+Epoch 35, outer_loop 18, loss real 1.0321025848388672
+Epoch 35, outer_loop 18, loss syn 0.8359664082527161
+match loss dis 915.9630126953125
+Epoch 35, outer_loop 18, loss 915.9630126953125
+Epoch 35, outer_loop 19, loss real 1.0317249298095703
+Epoch 35, outer_loop 19, loss syn 0.849766194820404
+match loss dis 903.2527465820312
+Epoch 35, outer_loop 19, loss 903.2527465820312
+Epoch 35, loss_avg: 951.4199412773353
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 36, outer_loop 0, loss real 1.00236177444458
+Epoch 36, outer_loop 0, loss syn 1.0090858936309814
+match loss dis 911.7191162109375
+Epoch 36, outer_loop 0, loss 911.7191162109375
+Epoch 36, outer_loop 1, loss real 1.0269900560379028
+Epoch 36, outer_loop 1, loss syn 0.8943912386894226
+match loss dis 902.9974975585938
+Epoch 36, outer_loop 1, loss 902.9974975585938
+Epoch 36, outer_loop 2, loss real 1.0323988199234009
+Epoch 36, outer_loop 2, loss syn 0.9173331260681152
+match loss dis 877.3065795898438
+Epoch 36, outer_loop 2, loss 877.3065795898438
+Epoch 36, outer_loop 3, loss real 1.025481939315796
+Epoch 36, outer_loop 3, loss syn 0.8725059032440186
+match loss dis 955.4395141601562
+Epoch 36, outer_loop 3, loss 955.4395141601562
+Epoch 36, outer_loop 4, loss real 1.0252630710601807
+Epoch 36, outer_loop 4, loss syn 0.8366727828979492
+match loss dis 898.7544555664062
+Epoch 36, outer_loop 4, loss 898.7544555664062
+Epoch 36, outer_loop 5, loss real 1.028403639793396
+Epoch 36, outer_loop 5, loss syn 0.8215510249137878
+match loss dis 875.890869140625
+Epoch 36, outer_loop 5, loss 875.890869140625
+Epoch 36, outer_loop 6, loss real 1.028894305229187
+Epoch 36, outer_loop 6, loss syn 0.8432691693305969
+match loss dis 920.5108642578125
+Epoch 36, outer_loop 6, loss 920.5108642578125
+Epoch 36, outer_loop 7, loss real 1.0304138660430908
+Epoch 36, outer_loop 7, loss syn 0.8538121581077576
+match loss dis 920.3167724609375
+Epoch 36, outer_loop 7, loss 920.3167724609375
+Epoch 36, outer_loop 8, loss real 1.029843807220459
+Epoch 36, outer_loop 8, loss syn 0.817401647567749
+match loss dis 911.7947998046875
+Epoch 36, outer_loop 8, loss 911.7947998046875
+Epoch 36, outer_loop 9, loss real 1.0305675268173218
+Epoch 36, outer_loop 9, loss syn 0.8403706550598145
+match loss dis 873.0807495117188
+Epoch 36, outer_loop 9, loss 873.0807495117188
+Epoch 36, outer_loop 10, loss real 1.0310468673706055
+Epoch 36, outer_loop 10, loss syn 0.8394271731376648
+match loss dis 891.52392578125
+Epoch 36, outer_loop 10, loss 891.52392578125
+Epoch 36, outer_loop 11, loss real 1.0305078029632568
+Epoch 36, outer_loop 11, loss syn 0.8676788210868835
+match loss dis 903.3318481445312
+Epoch 36, outer_loop 11, loss 903.3318481445312
+Epoch 36, outer_loop 12, loss real 1.0321154594421387
+Epoch 36, outer_loop 12, loss syn 0.8207541704177856
+match loss dis 932.093505859375
+Epoch 36, outer_loop 12, loss 932.093505859375
+Epoch 36, outer_loop 13, loss real 1.0319008827209473
+Epoch 36, outer_loop 13, loss syn 0.8438469767570496
+match loss dis 918.17919921875
+Epoch 36, outer_loop 13, loss 918.17919921875
+Epoch 36, outer_loop 14, loss real 1.0308213233947754
+Epoch 36, outer_loop 14, loss syn 0.8600341081619263
+match loss dis 921.15966796875
+Epoch 36, outer_loop 14, loss 921.15966796875
+Epoch 36, outer_loop 15, loss real 1.032454490661621
+Epoch 36, outer_loop 15, loss syn 0.879141092300415
+match loss dis 920.0814208984375
+Epoch 36, outer_loop 15, loss 920.0814208984375
+Epoch 36, outer_loop 16, loss real 1.0321189165115356
+Epoch 36, outer_loop 16, loss syn 0.8255946636199951
+match loss dis 895.1148681640625
+Epoch 36, outer_loop 16, loss 895.1148681640625
+Epoch 36, outer_loop 17, loss real 1.033386468887329
+Epoch 36, outer_loop 17, loss syn 0.8174076676368713
+match loss dis 874.0042724609375
+Epoch 36, outer_loop 17, loss 874.0042724609375
+Epoch 36, outer_loop 18, loss real 1.0334193706512451
+Epoch 36, outer_loop 18, loss syn 0.8677657246589661
+match loss dis 901.2872314453125
+Epoch 36, outer_loop 18, loss 901.2872314453125
+Epoch 36, outer_loop 19, loss real 1.0332919359207153
+Epoch 36, outer_loop 19, loss syn 0.8543331027030945
+match loss dis 892.902099609375
+Epoch 36, outer_loop 19, loss 892.902099609375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 37, outer_loop 0, loss real 1.0031360387802124
+Epoch 37, outer_loop 0, loss syn 1.034472107887268
+match loss dis 894.9268188476562
+Epoch 37, outer_loop 0, loss 894.9268188476562
+Epoch 37, outer_loop 1, loss real 1.0174405574798584
+Epoch 37, outer_loop 1, loss syn 0.9288724064826965
+match loss dis 876.1336669921875
+Epoch 37, outer_loop 1, loss 876.1336669921875
+Epoch 37, outer_loop 2, loss real 1.014821171760559
+Epoch 37, outer_loop 2, loss syn 0.9023512005805969
+match loss dis 945.316650390625
+Epoch 37, outer_loop 2, loss 945.316650390625
+Epoch 37, outer_loop 3, loss real 1.0155917406082153
+Epoch 37, outer_loop 3, loss syn 0.8452423810958862
+match loss dis 907.87353515625
+Epoch 37, outer_loop 3, loss 907.87353515625
+Epoch 37, outer_loop 4, loss real 1.0176364183425903
+Epoch 37, outer_loop 4, loss syn 0.8887574672698975
+match loss dis 915.6504516601562
+Epoch 37, outer_loop 4, loss 915.6504516601562
+Epoch 37, outer_loop 5, loss real 1.0223631858825684
+Epoch 37, outer_loop 5, loss syn 0.8589956760406494
+match loss dis 900.5007934570312
+Epoch 37, outer_loop 5, loss 900.5007934570312
+Epoch 37, outer_loop 6, loss real 1.0232875347137451
+Epoch 37, outer_loop 6, loss syn 0.863053560256958
+match loss dis 943.330810546875
+Epoch 37, outer_loop 6, loss 943.330810546875
+Epoch 37, outer_loop 7, loss real 1.0298880338668823
+Epoch 37, outer_loop 7, loss syn 0.8332170248031616
+match loss dis 903.8580322265625
+Epoch 37, outer_loop 7, loss 903.8580322265625
+Epoch 37, outer_loop 8, loss real 1.0310490131378174
+Epoch 37, outer_loop 8, loss syn 0.8230844736099243
+match loss dis 939.443603515625
+Epoch 37, outer_loop 8, loss 939.443603515625
+Epoch 37, outer_loop 9, loss real 1.0315132141113281
+Epoch 37, outer_loop 9, loss syn 0.8627740740776062
+match loss dis 902.1689453125
+Epoch 37, outer_loop 9, loss 902.1689453125
+Epoch 37, outer_loop 10, loss real 1.0319561958312988
+Epoch 37, outer_loop 10, loss syn 0.8280753493309021
+match loss dis 888.4387817382812
+Epoch 37, outer_loop 10, loss 888.4387817382812
+Epoch 37, outer_loop 11, loss real 1.0337806940078735
+Epoch 37, outer_loop 11, loss syn 0.847978949546814
+match loss dis 900.9066162109375
+Epoch 37, outer_loop 11, loss 900.9066162109375
+Epoch 37, outer_loop 12, loss real 1.0313904285430908
+Epoch 37, outer_loop 12, loss syn 0.8708435297012329
+match loss dis 889.6800537109375
+Epoch 37, outer_loop 12, loss 889.6800537109375
+Epoch 37, outer_loop 13, loss real 1.0319757461547852
+Epoch 37, outer_loop 13, loss syn 0.8076404333114624
+match loss dis 892.1488037109375
+Epoch 37, outer_loop 13, loss 892.1488037109375
+Epoch 37, outer_loop 14, loss real 1.0309784412384033
+Epoch 37, outer_loop 14, loss syn 0.8208608627319336
+match loss dis 908.3836669921875
+Epoch 37, outer_loop 14, loss 908.3836669921875
+Epoch 37, outer_loop 15, loss real 1.0314700603485107
+Epoch 37, outer_loop 15, loss syn 0.8544209003448486
+match loss dis 924.5695190429688
+Epoch 37, outer_loop 15, loss 924.5695190429688
+Epoch 37, outer_loop 16, loss real 1.0308743715286255
+Epoch 37, outer_loop 16, loss syn 0.8619976043701172
+match loss dis 898.7626953125
+Epoch 37, outer_loop 16, loss 898.7626953125
+Epoch 37, outer_loop 17, loss real 1.029910922050476
+Epoch 37, outer_loop 17, loss syn 0.8293012976646423
+match loss dis 896.2239990234375
+Epoch 37, outer_loop 17, loss 896.2239990234375
+Epoch 37, outer_loop 18, loss real 1.0307663679122925
+Epoch 37, outer_loop 18, loss syn 0.8473464846611023
+match loss dis 895.20263671875
+Epoch 37, outer_loop 18, loss 895.20263671875
+Epoch 37, outer_loop 19, loss real 1.031448245048523
+Epoch 37, outer_loop 19, loss syn 0.8449563980102539
+match loss dis 903.9031372070312
+Epoch 37, outer_loop 19, loss 903.9031372070312
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 38, outer_loop 0, loss real 1.012749195098877
+Epoch 38, outer_loop 0, loss syn 0.9623007774353027
+match loss dis 902.2014770507812
+Epoch 38, outer_loop 0, loss 902.2014770507812
+Epoch 38, outer_loop 1, loss real 1.0192359685897827
+Epoch 38, outer_loop 1, loss syn 0.8832411170005798
+match loss dis 908.7408447265625
+Epoch 38, outer_loop 1, loss 908.7408447265625
+Epoch 38, outer_loop 2, loss real 1.0319733619689941
+Epoch 38, outer_loop 2, loss syn 0.8821314573287964
+match loss dis 921.7763061523438
+Epoch 38, outer_loop 2, loss 921.7763061523438
+Epoch 38, outer_loop 3, loss real 1.0275005102157593
+Epoch 38, outer_loop 3, loss syn 0.8339845538139343
+match loss dis 898.4920654296875
+Epoch 38, outer_loop 3, loss 898.4920654296875
+Epoch 38, outer_loop 4, loss real 1.026702642440796
+Epoch 38, outer_loop 4, loss syn 0.8834418058395386
+match loss dis 932.2120361328125
+Epoch 38, outer_loop 4, loss 932.2120361328125
+Epoch 38, outer_loop 5, loss real 1.0251046419143677
+Epoch 38, outer_loop 5, loss syn 0.8716937303543091
+match loss dis 958.5015258789062
+Epoch 38, outer_loop 5, loss 958.5015258789062
+Epoch 38, outer_loop 6, loss real 1.0324252843856812
+Epoch 38, outer_loop 6, loss syn 0.8449177145957947
+match loss dis 905.3258666992188
+Epoch 38, outer_loop 6, loss 905.3258666992188
+Epoch 38, outer_loop 7, loss real 1.0307506322860718
+Epoch 38, outer_loop 7, loss syn 0.8272498250007629
+match loss dis 911.5363159179688
+Epoch 38, outer_loop 7, loss 911.5363159179688
+Epoch 38, outer_loop 8, loss real 1.032227635383606
+Epoch 38, outer_loop 8, loss syn 0.8490853309631348
+match loss dis 876.0972900390625
+Epoch 38, outer_loop 8, loss 876.0972900390625
+Epoch 38, outer_loop 9, loss real 1.0321831703186035
+Epoch 38, outer_loop 9, loss syn 0.8450958728790283
+match loss dis 869.00146484375
+Epoch 38, outer_loop 9, loss 869.00146484375
+Epoch 38, outer_loop 10, loss real 1.0314726829528809
+Epoch 38, outer_loop 10, loss syn 0.8342534303665161
+match loss dis 867.6910400390625
+Epoch 38, outer_loop 10, loss 867.6910400390625
+Epoch 38, outer_loop 11, loss real 1.0320695638656616
+Epoch 38, outer_loop 11, loss syn 0.8420427441596985
+match loss dis 921.7134399414062
+Epoch 38, outer_loop 11, loss 921.7134399414062
+Epoch 38, outer_loop 12, loss real 1.0300633907318115
+Epoch 38, outer_loop 12, loss syn 0.8163008093833923
+match loss dis 877.1490478515625
+Epoch 38, outer_loop 12, loss 877.1490478515625
+Epoch 38, outer_loop 13, loss real 1.028918743133545
+Epoch 38, outer_loop 13, loss syn 0.8588108420372009
+match loss dis 920.6941528320312
+Epoch 38, outer_loop 13, loss 920.6941528320312
+Epoch 38, outer_loop 14, loss real 1.0283961296081543
+Epoch 38, outer_loop 14, loss syn 0.8319289684295654
+match loss dis 899.5560913085938
+Epoch 38, outer_loop 14, loss 899.5560913085938
+Epoch 38, outer_loop 15, loss real 1.029504418373108
+Epoch 38, outer_loop 15, loss syn 0.8408563137054443
+match loss dis 878.2244262695312
+Epoch 38, outer_loop 15, loss 878.2244262695312
+Epoch 38, outer_loop 16, loss real 1.027458667755127
+Epoch 38, outer_loop 16, loss syn 0.8120561242103577
+match loss dis 898.3842163085938
+Epoch 38, outer_loop 16, loss 898.3842163085938
+Epoch 38, outer_loop 17, loss real 1.025083303451538
+Epoch 38, outer_loop 17, loss syn 0.8306228518486023
+match loss dis 902.5872802734375
+Epoch 38, outer_loop 17, loss 902.5872802734375
+Epoch 38, outer_loop 18, loss real 1.0246857404708862
+Epoch 38, outer_loop 18, loss syn 0.8472183346748352
+match loss dis 888.0905151367188
+Epoch 38, outer_loop 18, loss 888.0905151367188
+Epoch 38, outer_loop 19, loss real 1.0230234861373901
+Epoch 38, outer_loop 19, loss syn 0.8166494369506836
+match loss dis 918.958251953125
+Epoch 38, outer_loop 19, loss 918.958251953125
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 39, outer_loop 0, loss real 1.036899447441101
+Epoch 39, outer_loop 0, loss syn 1.0870945453643799
+match loss dis 893.2294921875
+Epoch 39, outer_loop 0, loss 893.2294921875
+Epoch 39, outer_loop 1, loss real 1.0375560522079468
+Epoch 39, outer_loop 1, loss syn 0.941696286201477
+match loss dis 900.5651245117188
+Epoch 39, outer_loop 1, loss 900.5651245117188
+Epoch 39, outer_loop 2, loss real 1.024578332901001
+Epoch 39, outer_loop 2, loss syn 0.9125022292137146
+match loss dis 886.919677734375
+Epoch 39, outer_loop 2, loss 886.919677734375
+Epoch 39, outer_loop 3, loss real 1.0191060304641724
+Epoch 39, outer_loop 3, loss syn 0.8657054901123047
+match loss dis 881.5965576171875
+Epoch 39, outer_loop 3, loss 881.5965576171875
+Epoch 39, outer_loop 4, loss real 1.0150182247161865
+Epoch 39, outer_loop 4, loss syn 0.8504461646080017
+match loss dis 885.3115234375
+Epoch 39, outer_loop 4, loss 885.3115234375
+Epoch 39, outer_loop 5, loss real 1.0120769739151
+Epoch 39, outer_loop 5, loss syn 0.8590894937515259
+match loss dis 907.2361450195312
+Epoch 39, outer_loop 5, loss 907.2361450195312
+Epoch 39, outer_loop 6, loss real 1.0098944902420044
+Epoch 39, outer_loop 6, loss syn 0.8200158476829529
+match loss dis 900.5394287109375
+Epoch 39, outer_loop 6, loss 900.5394287109375
+Epoch 39, outer_loop 7, loss real 1.0113918781280518
+Epoch 39, outer_loop 7, loss syn 0.8531636595726013
+match loss dis 915.8988037109375
+Epoch 39, outer_loop 7, loss 915.8988037109375
+Epoch 39, outer_loop 8, loss real 1.0147051811218262
+Epoch 39, outer_loop 8, loss syn 0.852622926235199
+match loss dis 930.7035522460938
+Epoch 39, outer_loop 8, loss 930.7035522460938
+Epoch 39, outer_loop 9, loss real 1.0169031620025635
+Epoch 39, outer_loop 9, loss syn 0.8445766568183899
+match loss dis 936.31494140625
+Epoch 39, outer_loop 9, loss 936.31494140625
+Epoch 39, outer_loop 10, loss real 1.0200952291488647
+Epoch 39, outer_loop 10, loss syn 0.8423229455947876
+match loss dis 909.1600952148438
+Epoch 39, outer_loop 10, loss 909.1600952148438
+Epoch 39, outer_loop 11, loss real 1.021510362625122
+Epoch 39, outer_loop 11, loss syn 0.827742874622345
+match loss dis 886.4827880859375
+Epoch 39, outer_loop 11, loss 886.4827880859375
+Epoch 39, outer_loop 12, loss real 1.0224214792251587
+Epoch 39, outer_loop 12, loss syn 0.8253970742225647
+match loss dis 904.2174072265625
+Epoch 39, outer_loop 12, loss 904.2174072265625
+Epoch 39, outer_loop 13, loss real 1.0240451097488403
+Epoch 39, outer_loop 13, loss syn 0.8612472414970398
+match loss dis 899.9016723632812
+Epoch 39, outer_loop 13, loss 899.9016723632812
+Epoch 39, outer_loop 14, loss real 1.0263293981552124
+Epoch 39, outer_loop 14, loss syn 0.8765162825584412
+match loss dis 898.39306640625
+Epoch 39, outer_loop 14, loss 898.39306640625
+Epoch 39, outer_loop 15, loss real 1.0250192880630493
+Epoch 39, outer_loop 15, loss syn 0.8502955436706543
+match loss dis 904.8990478515625
+Epoch 39, outer_loop 15, loss 904.8990478515625
+Epoch 39, outer_loop 16, loss real 1.0259672403335571
+Epoch 39, outer_loop 16, loss syn 0.8553621768951416
+match loss dis 882.3109130859375
+Epoch 39, outer_loop 16, loss 882.3109130859375
+Epoch 39, outer_loop 17, loss real 1.0271366834640503
+Epoch 39, outer_loop 17, loss syn 0.8423507809638977
+match loss dis 937.0274047851562
+Epoch 39, outer_loop 17, loss 937.0274047851562
+Epoch 39, outer_loop 18, loss real 1.028931975364685
+Epoch 39, outer_loop 18, loss syn 0.8263030648231506
+match loss dis 885.0037841796875
+Epoch 39, outer_loop 18, loss 885.0037841796875
+Epoch 39, outer_loop 19, loss real 1.0294346809387207
+Epoch 39, outer_loop 19, loss syn 0.8394009470939636
+match loss dis 884.785400390625
+Epoch 39, outer_loop 19, loss 884.785400390625
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 40, outer_loop 0, loss real 1.0197136402130127
+Epoch 40, outer_loop 0, loss syn 1.0288857221603394
+match loss dis 906.18701171875
+Epoch 40, outer_loop 0, loss 906.18701171875
+Epoch 40, outer_loop 1, loss real 1.0306971073150635
+Epoch 40, outer_loop 1, loss syn 0.8856175541877747
+match loss dis 886.892333984375
+Epoch 40, outer_loop 1, loss 886.892333984375
+Epoch 40, outer_loop 2, loss real 1.017519474029541
+Epoch 40, outer_loop 2, loss syn 0.8606411814689636
+match loss dis 914.65478515625
+Epoch 40, outer_loop 2, loss 914.65478515625
+Epoch 40, outer_loop 3, loss real 1.0196115970611572
+Epoch 40, outer_loop 3, loss syn 0.8500207662582397
+match loss dis 932.12451171875
+Epoch 40, outer_loop 3, loss 932.12451171875
+Epoch 40, outer_loop 4, loss real 1.023416519165039
+Epoch 40, outer_loop 4, loss syn 0.8420811295509338
+match loss dis 923.7477416992188
+Epoch 40, outer_loop 4, loss 923.7477416992188
+Epoch 40, outer_loop 5, loss real 1.0272084474563599
+Epoch 40, outer_loop 5, loss syn 0.8631111979484558
+match loss dis 972.38916015625
+Epoch 40, outer_loop 5, loss 972.38916015625
+Epoch 40, outer_loop 6, loss real 1.0413768291473389
+Epoch 40, outer_loop 6, loss syn 0.8958313465118408
+match loss dis 902.0
+Epoch 40, outer_loop 6, loss 902.0
+Epoch 40, outer_loop 7, loss real 1.0394904613494873
+Epoch 40, outer_loop 7, loss syn 0.8878172039985657
+match loss dis 902.0
+Epoch 40, outer_loop 7, loss 902.0
+Epoch 40, outer_loop 8, loss real 1.0389842987060547
+Epoch 40, outer_loop 8, loss syn 0.8793487548828125
+match loss dis 902.0
+Epoch 40, outer_loop 8, loss 902.0
+Epoch 40, outer_loop 9, loss real 1.0389262437820435
+Epoch 40, outer_loop 9, loss syn 0.8325180411338806
+match loss dis 902.0
+Epoch 40, outer_loop 9, loss 902.0
+Epoch 40, outer_loop 10, loss real 1.0378066301345825
+Epoch 40, outer_loop 10, loss syn 0.86076420545578
+match loss dis 902.0
+Epoch 40, outer_loop 10, loss 902.0
+Epoch 40, outer_loop 11, loss real 1.03864586353302
+Epoch 40, outer_loop 11, loss syn 0.8672451376914978
+match loss dis 902.0
+Epoch 40, outer_loop 11, loss 902.0
+Epoch 40, outer_loop 12, loss real 1.0345131158828735
+Epoch 40, outer_loop 12, loss syn 0.8460824489593506
+match loss dis 902.0
+Epoch 40, outer_loop 12, loss 902.0
+Epoch 40, outer_loop 13, loss real 1.0353002548217773
+Epoch 40, outer_loop 13, loss syn 0.845991849899292
+match loss dis 902.0
+Epoch 40, outer_loop 13, loss 902.0
+Epoch 40, outer_loop 14, loss real 1.0329896211624146
+Epoch 40, outer_loop 14, loss syn 0.8424215912818909
+match loss dis 902.0
+Epoch 40, outer_loop 14, loss 902.0
+Epoch 40, outer_loop 15, loss real 1.0310572385787964
+Epoch 40, outer_loop 15, loss syn 0.8500604629516602
+match loss dis 902.0
+Epoch 40, outer_loop 15, loss 902.0
+Epoch 40, outer_loop 16, loss real 1.0302865505218506
+Epoch 40, outer_loop 16, loss syn 0.8509883284568787
+match loss dis 902.0
+Epoch 40, outer_loop 16, loss 902.0
+Epoch 40, outer_loop 17, loss real 1.028793454170227
+Epoch 40, outer_loop 17, loss syn 0.8427515625953674
+match loss dis 902.0
+Epoch 40, outer_loop 17, loss 902.0
+Epoch 40, outer_loop 18, loss real 1.0290552377700806
+Epoch 40, outer_loop 18, loss syn 0.8563874959945679
+match loss dis 902.0
+Epoch 40, outer_loop 18, loss 902.0
+Epoch 40, outer_loop 19, loss real 1.0269334316253662
+Epoch 40, outer_loop 19, loss syn 0.8242645263671875
+match loss dis 902.0
+Epoch 40, outer_loop 19, loss 902.0
+Epoch 40, loss_avg: 955.6523851731934
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 41, outer_loop 0, loss real 1.0336042642593384
+Epoch 41, outer_loop 0, loss syn 1.0487353801727295
+match loss dis 909.1956787109375
+Epoch 41, outer_loop 0, loss 909.1956787109375
+Epoch 41, outer_loop 1, loss real 1.0397696495056152
+Epoch 41, outer_loop 1, loss syn 0.8754301071166992
+match loss dis 915.02587890625
+Epoch 41, outer_loop 1, loss 915.02587890625
+Epoch 41, outer_loop 2, loss real 1.0317771434783936
+Epoch 41, outer_loop 2, loss syn 0.8776016235351562
+match loss dis 877.5546875
+Epoch 41, outer_loop 2, loss 877.5546875
+Epoch 41, outer_loop 3, loss real 1.020753026008606
+Epoch 41, outer_loop 3, loss syn 0.8610122799873352
+match loss dis 948.9891357421875
+Epoch 41, outer_loop 3, loss 948.9891357421875
+Epoch 41, outer_loop 4, loss real 1.0166784524917603
+Epoch 41, outer_loop 4, loss syn 0.8377492427825928
+match loss dis 929.1654052734375
+Epoch 41, outer_loop 4, loss 929.1654052734375
+Epoch 41, outer_loop 5, loss real 1.0157198905944824
+Epoch 41, outer_loop 5, loss syn 0.8550775051116943
+match loss dis 934.0831909179688
+Epoch 41, outer_loop 5, loss 934.0831909179688
+Epoch 41, outer_loop 6, loss real 1.0180542469024658
+Epoch 41, outer_loop 6, loss syn 0.8332788348197937
+match loss dis 944.87646484375
+Epoch 41, outer_loop 6, loss 944.87646484375
+Epoch 41, outer_loop 7, loss real 1.0221368074417114
+Epoch 41, outer_loop 7, loss syn 0.8210383057594299
+match loss dis 921.2200927734375
+Epoch 41, outer_loop 7, loss 921.2200927734375
+Epoch 41, outer_loop 8, loss real 1.0257810354232788
+Epoch 41, outer_loop 8, loss syn 0.8481611609458923
+match loss dis 884.6314697265625
+Epoch 41, outer_loop 8, loss 884.6314697265625
+Epoch 41, outer_loop 9, loss real 1.0288796424865723
+Epoch 41, outer_loop 9, loss syn 0.839974045753479
+match loss dis 884.5845947265625
+Epoch 41, outer_loop 9, loss 884.5845947265625
+Epoch 41, outer_loop 10, loss real 1.0325607061386108
+Epoch 41, outer_loop 10, loss syn 0.8322880268096924
+match loss dis 861.4275512695312
+Epoch 41, outer_loop 10, loss 861.4275512695312
+Epoch 41, outer_loop 11, loss real 1.0337048768997192
+Epoch 41, outer_loop 11, loss syn 0.8418043255805969
+match loss dis 871.8690185546875
+Epoch 41, outer_loop 11, loss 871.8690185546875
+Epoch 41, outer_loop 12, loss real 1.0364406108856201
+Epoch 41, outer_loop 12, loss syn 0.8395044803619385
+match loss dis 889.0262451171875
+Epoch 41, outer_loop 12, loss 889.0262451171875
+Epoch 41, outer_loop 13, loss real 1.0373284816741943
+Epoch 41, outer_loop 13, loss syn 0.8489481210708618
+match loss dis 911.2776489257812
+Epoch 41, outer_loop 13, loss 911.2776489257812
+Epoch 41, outer_loop 14, loss real 1.0356218814849854
+Epoch 41, outer_loop 14, loss syn 0.847473680973053
+match loss dis 878.4281005859375
+Epoch 41, outer_loop 14, loss 878.4281005859375
+Epoch 41, outer_loop 15, loss real 1.034391164779663
+Epoch 41, outer_loop 15, loss syn 0.8373351097106934
+match loss dis 925.0360717773438
+Epoch 41, outer_loop 15, loss 925.0360717773438
+Epoch 41, outer_loop 16, loss real 1.0319678783416748
+Epoch 41, outer_loop 16, loss syn 0.8372765183448792
+match loss dis 902.4964599609375
+Epoch 41, outer_loop 16, loss 902.4964599609375
+Epoch 41, outer_loop 17, loss real 1.0331966876983643
+Epoch 41, outer_loop 17, loss syn 0.8248195052146912
+match loss dis 904.7385864257812
+Epoch 41, outer_loop 17, loss 904.7385864257812
+Epoch 41, outer_loop 18, loss real 1.0310744047164917
+Epoch 41, outer_loop 18, loss syn 0.8430688977241516
+match loss dis 890.6376953125
+Epoch 41, outer_loop 18, loss 890.6376953125
+Epoch 41, outer_loop 19, loss real 1.0300214290618896
+Epoch 41, outer_loop 19, loss syn 0.8349447250366211
+match loss dis 887.68701171875
+Epoch 41, outer_loop 19, loss 887.68701171875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 42, outer_loop 0, loss real 1.031041145324707
+Epoch 42, outer_loop 0, loss syn 1.023485541343689
+match loss dis 900.05859375
+Epoch 42, outer_loop 0, loss 900.05859375
+Epoch 42, outer_loop 1, loss real 1.0273324251174927
+Epoch 42, outer_loop 1, loss syn 0.9275497794151306
+match loss dis 906.8770751953125
+Epoch 42, outer_loop 1, loss 906.8770751953125
+Epoch 42, outer_loop 2, loss real 1.0294667482376099
+Epoch 42, outer_loop 2, loss syn 0.9079241156578064
+match loss dis 901.9195556640625
+Epoch 42, outer_loop 2, loss 901.9195556640625
+Epoch 42, outer_loop 3, loss real 1.0249422788619995
+Epoch 42, outer_loop 3, loss syn 0.8835355043411255
+match loss dis 897.1079711914062
+Epoch 42, outer_loop 3, loss 897.1079711914062
+Epoch 42, outer_loop 4, loss real 1.0285676717758179
+Epoch 42, outer_loop 4, loss syn 0.8669864535331726
+match loss dis 881.9848022460938
+Epoch 42, outer_loop 4, loss 881.9848022460938
+Epoch 42, outer_loop 5, loss real 1.0330551862716675
+Epoch 42, outer_loop 5, loss syn 0.8592050075531006
+match loss dis 902.0050048828125
+Epoch 42, outer_loop 5, loss 902.0050048828125
+Epoch 42, outer_loop 6, loss real 1.0321725606918335
+Epoch 42, outer_loop 6, loss syn 0.8701319694519043
+match loss dis 902.0
+Epoch 42, outer_loop 6, loss 902.0
+Epoch 42, outer_loop 7, loss real 1.035126805305481
+Epoch 42, outer_loop 7, loss syn 0.8467998504638672
+match loss dis 902.0
+Epoch 42, outer_loop 7, loss 902.0
+Epoch 42, outer_loop 8, loss real 1.040026307106018
+Epoch 42, outer_loop 8, loss syn 0.8748562335968018
+match loss dis 902.0
+Epoch 42, outer_loop 8, loss 902.0
+Epoch 42, outer_loop 9, loss real 1.041834831237793
+Epoch 42, outer_loop 9, loss syn 0.8188313245773315
+match loss dis 902.0
+Epoch 42, outer_loop 9, loss 902.0
+Epoch 42, outer_loop 10, loss real 1.040415644645691
+Epoch 42, outer_loop 10, loss syn 0.8447062969207764
+match loss dis 902.0
+Epoch 42, outer_loop 10, loss 902.0
+Epoch 42, outer_loop 11, loss real 1.0392165184020996
+Epoch 42, outer_loop 11, loss syn 0.839784562587738
+match loss dis 902.0
+Epoch 42, outer_loop 11, loss 902.0
+Epoch 42, outer_loop 12, loss real 1.0388966798782349
+Epoch 42, outer_loop 12, loss syn 0.839323878288269
+match loss dis 902.0
+Epoch 42, outer_loop 12, loss 902.0
+Epoch 42, outer_loop 13, loss real 1.0365761518478394
+Epoch 42, outer_loop 13, loss syn 0.848488450050354
+match loss dis 902.0
+Epoch 42, outer_loop 13, loss 902.0
+Epoch 42, outer_loop 14, loss real 1.0348544120788574
+Epoch 42, outer_loop 14, loss syn 0.842056155204773
+match loss dis 902.0
+Epoch 42, outer_loop 14, loss 902.0
+Epoch 42, outer_loop 15, loss real 1.031345248222351
+Epoch 42, outer_loop 15, loss syn 0.8265741467475891
+match loss dis 902.0
+Epoch 42, outer_loop 15, loss 902.0
+Epoch 42, outer_loop 16, loss real 1.0302687883377075
+Epoch 42, outer_loop 16, loss syn 0.8203598856925964
+match loss dis 902.0
+Epoch 42, outer_loop 16, loss 902.0
+Epoch 42, outer_loop 17, loss real 1.0294054746627808
+Epoch 42, outer_loop 17, loss syn 0.8278914093971252
+match loss dis 902.0
+Epoch 42, outer_loop 17, loss 902.0
+Epoch 42, outer_loop 18, loss real 1.0283368825912476
+Epoch 42, outer_loop 18, loss syn 0.8465996384620667
+match loss dis 902.0
+Epoch 42, outer_loop 18, loss 902.0
+Epoch 42, outer_loop 19, loss real 1.0265018939971924
+Epoch 42, outer_loop 19, loss syn 0.8418923616409302
+match loss dis 902.0
+Epoch 42, outer_loop 19, loss 902.0
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 43, outer_loop 0, loss real 1.0070220232009888
+Epoch 43, outer_loop 0, loss syn 1.0416319370269775
+match loss dis 898.3314819335938
+Epoch 43, outer_loop 0, loss 898.3314819335938
+Epoch 43, outer_loop 1, loss real 1.010659098625183
+Epoch 43, outer_loop 1, loss syn 0.9025557637214661
+match loss dis 917.3106689453125
+Epoch 43, outer_loop 1, loss 917.3106689453125
+Epoch 43, outer_loop 2, loss real 1.010798454284668
+Epoch 43, outer_loop 2, loss syn 0.8846330046653748
+match loss dis 911.9172973632812
+Epoch 43, outer_loop 2, loss 911.9172973632812
+Epoch 43, outer_loop 3, loss real 1.0127235651016235
+Epoch 43, outer_loop 3, loss syn 0.859353244304657
+match loss dis 888.3822021484375
+Epoch 43, outer_loop 3, loss 888.3822021484375
+Epoch 43, outer_loop 4, loss real 1.0187703371047974
+Epoch 43, outer_loop 4, loss syn 0.8689319491386414
+match loss dis 909.6849975585938
+Epoch 43, outer_loop 4, loss 909.6849975585938
+Epoch 43, outer_loop 5, loss real 1.0205432176589966
+Epoch 43, outer_loop 5, loss syn 0.8323978781700134
+match loss dis 877.13916015625
+Epoch 43, outer_loop 5, loss 877.13916015625
+Epoch 43, outer_loop 6, loss real 1.0234805345535278
+Epoch 43, outer_loop 6, loss syn 0.8399578332901001
+match loss dis 944.3175048828125
+Epoch 43, outer_loop 6, loss 944.3175048828125
+Epoch 43, outer_loop 7, loss real 1.0248051881790161
+Epoch 43, outer_loop 7, loss syn 0.8219978213310242
+match loss dis 933.783447265625
+Epoch 43, outer_loop 7, loss 933.783447265625
+Epoch 43, outer_loop 8, loss real 1.027485966682434
+Epoch 43, outer_loop 8, loss syn 0.8445398807525635
+match loss dis 878.0673217773438
+Epoch 43, outer_loop 8, loss 878.0673217773438
+Epoch 43, outer_loop 9, loss real 1.0284497737884521
+Epoch 43, outer_loop 9, loss syn 0.8350757360458374
+match loss dis 897.4918823242188
+Epoch 43, outer_loop 9, loss 897.4918823242188
+Epoch 43, outer_loop 10, loss real 1.029934048652649
+Epoch 43, outer_loop 10, loss syn 0.8566904664039612
+match loss dis 890.02734375
+Epoch 43, outer_loop 10, loss 890.02734375
+Epoch 43, outer_loop 11, loss real 1.0305325984954834
+Epoch 43, outer_loop 11, loss syn 0.8640135526657104
+match loss dis 913.0050659179688
+Epoch 43, outer_loop 11, loss 913.0050659179688
+Epoch 43, outer_loop 12, loss real 1.0296149253845215
+Epoch 43, outer_loop 12, loss syn 0.8226822018623352
+match loss dis 860.121826171875
+Epoch 43, outer_loop 12, loss 860.121826171875
+Epoch 43, outer_loop 13, loss real 1.0312843322753906
+Epoch 43, outer_loop 13, loss syn 0.8492506146430969
+match loss dis 934.0650634765625
+Epoch 43, outer_loop 13, loss 934.0650634765625
+Epoch 43, outer_loop 14, loss real 1.0323517322540283
+Epoch 43, outer_loop 14, loss syn 0.8450432419776917
+match loss dis 889.2501220703125
+Epoch 43, outer_loop 14, loss 889.2501220703125
+Epoch 43, outer_loop 15, loss real 1.033705472946167
+Epoch 43, outer_loop 15, loss syn 0.8291720747947693
+match loss dis 753.84765625
+Epoch 43, outer_loop 15, loss 753.84765625
+Epoch 43, outer_loop 16, loss real 1.0369455814361572
+Epoch 43, outer_loop 16, loss syn 0.8441711664199829
+match loss dis 900.0997314453125
+Epoch 43, outer_loop 16, loss 900.0997314453125
+Epoch 43, outer_loop 17, loss real 1.027954339981079
+Epoch 43, outer_loop 17, loss syn 0.8320567011833191
+match loss dis 912.1310424804688
+Epoch 43, outer_loop 17, loss 912.1310424804688
+Epoch 43, outer_loop 18, loss real 1.0251777172088623
+Epoch 43, outer_loop 18, loss syn 0.8460158109664917
+match loss dis 906.9469604492188
+Epoch 43, outer_loop 18, loss 906.9469604492188
+Epoch 43, outer_loop 19, loss real 1.0246388912200928
+Epoch 43, outer_loop 19, loss syn 0.8148257732391357
+match loss dis 925.0936889648438
+Epoch 43, outer_loop 19, loss 925.0936889648438
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 44, outer_loop 0, loss real 1.025232195854187
+Epoch 44, outer_loop 0, loss syn 1.0144187211990356
+match loss dis 894.1926879882812
+Epoch 44, outer_loop 0, loss 894.1926879882812
+Epoch 44, outer_loop 1, loss real 1.0424809455871582
+Epoch 44, outer_loop 1, loss syn 0.8791533708572388
+match loss dis 862.5274047851562
+Epoch 44, outer_loop 1, loss 862.5274047851562
+Epoch 44, outer_loop 2, loss real 1.0194443464279175
+Epoch 44, outer_loop 2, loss syn 0.8667014241218567
+match loss dis 920.4381103515625
+Epoch 44, outer_loop 2, loss 920.4381103515625
+Epoch 44, outer_loop 3, loss real 1.0223853588104248
+Epoch 44, outer_loop 3, loss syn 0.8564423322677612
+match loss dis 914.40380859375
+Epoch 44, outer_loop 3, loss 914.40380859375
+Epoch 44, outer_loop 4, loss real 1.0273298025131226
+Epoch 44, outer_loop 4, loss syn 0.8635016083717346
+match loss dis 916.0302124023438
+Epoch 44, outer_loop 4, loss 916.0302124023438
+Epoch 44, outer_loop 5, loss real 1.033846139907837
+Epoch 44, outer_loop 5, loss syn 0.8182055950164795
+match loss dis 872.605224609375
+Epoch 44, outer_loop 5, loss 872.605224609375
+Epoch 44, outer_loop 6, loss real 1.0328398942947388
+Epoch 44, outer_loop 6, loss syn 0.8553756475448608
+match loss dis 899.1494750976562
+Epoch 44, outer_loop 6, loss 899.1494750976562
+Epoch 44, outer_loop 7, loss real 1.0339385271072388
+Epoch 44, outer_loop 7, loss syn 0.8492287397384644
+match loss dis 907.9075927734375
+Epoch 44, outer_loop 7, loss 907.9075927734375
+Epoch 44, outer_loop 8, loss real 1.0342738628387451
+Epoch 44, outer_loop 8, loss syn 0.8379781246185303
+match loss dis 870.9795532226562
+Epoch 44, outer_loop 8, loss 870.9795532226562
+Epoch 44, outer_loop 9, loss real 1.0343937873840332
+Epoch 44, outer_loop 9, loss syn 0.8436434268951416
+match loss dis 886.11767578125
+Epoch 44, outer_loop 9, loss 886.11767578125
+Epoch 44, outer_loop 10, loss real 1.035173773765564
+Epoch 44, outer_loop 10, loss syn 0.8465777635574341
+match loss dis 916.1525268554688
+Epoch 44, outer_loop 10, loss 916.1525268554688
+Epoch 44, outer_loop 11, loss real 1.0363805294036865
+Epoch 44, outer_loop 11, loss syn 0.8233380317687988
+match loss dis 880.8591918945312
+Epoch 44, outer_loop 11, loss 880.8591918945312
+Epoch 44, outer_loop 12, loss real 1.0348244905471802
+Epoch 44, outer_loop 12, loss syn 0.8438079953193665
+match loss dis 894.0116577148438
+Epoch 44, outer_loop 12, loss 894.0116577148438
+Epoch 44, outer_loop 13, loss real 1.034974455833435
+Epoch 44, outer_loop 13, loss syn 0.8379836678504944
+match loss dis 904.1785888671875
+Epoch 44, outer_loop 13, loss 904.1785888671875
+Epoch 44, outer_loop 14, loss real 1.0352487564086914
+Epoch 44, outer_loop 14, loss syn 0.8371001482009888
+match loss dis 919.0588989257812
+Epoch 44, outer_loop 14, loss 919.0588989257812
+Epoch 44, outer_loop 15, loss real 1.036184310913086
+Epoch 44, outer_loop 15, loss syn 0.8436163663864136
+match loss dis 907.2841186523438
+Epoch 44, outer_loop 15, loss 907.2841186523438
+Epoch 44, outer_loop 16, loss real 1.0372238159179688
+Epoch 44, outer_loop 16, loss syn 0.8211719989776611
+match loss dis 890.948974609375
+Epoch 44, outer_loop 16, loss 890.948974609375
+Epoch 44, outer_loop 17, loss real 1.0358521938323975
+Epoch 44, outer_loop 17, loss syn 0.8284712433815002
+match loss dis 894.182861328125
+Epoch 44, outer_loop 17, loss 894.182861328125
+Epoch 44, outer_loop 18, loss real 1.0344352722167969
+Epoch 44, outer_loop 18, loss syn 0.8265464305877686
+match loss dis 900.1747436523438
+Epoch 44, outer_loop 18, loss 900.1747436523438
+Epoch 44, outer_loop 19, loss real 1.0354961156845093
+Epoch 44, outer_loop 19, loss syn 0.8456258773803711
+match loss dis 914.6468505859375
+Epoch 44, outer_loop 19, loss 914.6468505859375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 45, outer_loop 0, loss real 0.9806259274482727
+Epoch 45, outer_loop 0, loss syn 1.0413439273834229
+match loss dis 897.2789306640625
+Epoch 45, outer_loop 0, loss 897.2789306640625
+Epoch 45, outer_loop 1, loss real 1.010881781578064
+Epoch 45, outer_loop 1, loss syn 0.9063073992729187
+match loss dis 921.7061157226562
+Epoch 45, outer_loop 1, loss 921.7061157226562
+Epoch 45, outer_loop 2, loss real 1.0305724143981934
+Epoch 45, outer_loop 2, loss syn 0.8492401838302612
+match loss dis 865.4034423828125
+Epoch 45, outer_loop 2, loss 865.4034423828125
+Epoch 45, outer_loop 3, loss real 1.044329285621643
+Epoch 45, outer_loop 3, loss syn 0.8733362555503845
+match loss dis 871.9771728515625
+Epoch 45, outer_loop 3, loss 871.9771728515625
+Epoch 45, outer_loop 4, loss real 1.0469074249267578
+Epoch 45, outer_loop 4, loss syn 0.8684272170066833
+match loss dis 861.6026611328125
+Epoch 45, outer_loop 4, loss 861.6026611328125
+Epoch 45, outer_loop 5, loss real 1.0432837009429932
+Epoch 45, outer_loop 5, loss syn 0.8523010015487671
+match loss dis 913.9053955078125
+Epoch 45, outer_loop 5, loss 913.9053955078125
+Epoch 45, outer_loop 6, loss real 1.0392022132873535
+Epoch 45, outer_loop 6, loss syn 0.8490873575210571
+match loss dis 880.845947265625
+Epoch 45, outer_loop 6, loss 880.845947265625
+Epoch 45, outer_loop 7, loss real 1.0332838296890259
+Epoch 45, outer_loop 7, loss syn 0.8528971672058105
+match loss dis 888.5746459960938
+Epoch 45, outer_loop 7, loss 888.5746459960938
+Epoch 45, outer_loop 8, loss real 1.0304992198944092
+Epoch 45, outer_loop 8, loss syn 0.8291499614715576
+match loss dis 907.799072265625
+Epoch 45, outer_loop 8, loss 907.799072265625
+Epoch 45, outer_loop 9, loss real 1.0270565748214722
+Epoch 45, outer_loop 9, loss syn 0.8369356393814087
+match loss dis 893.505615234375
+Epoch 45, outer_loop 9, loss 893.505615234375
+Epoch 45, outer_loop 10, loss real 1.0260964632034302
+Epoch 45, outer_loop 10, loss syn 0.8171977996826172
+match loss dis 887.9437255859375
+Epoch 45, outer_loop 10, loss 887.9437255859375
+Epoch 45, outer_loop 11, loss real 1.02442467212677
+Epoch 45, outer_loop 11, loss syn 0.8442155718803406
+match loss dis 923.1751708984375
+Epoch 45, outer_loop 11, loss 923.1751708984375
+Epoch 45, outer_loop 12, loss real 1.0267242193222046
+Epoch 45, outer_loop 12, loss syn 0.861476719379425
+match loss dis 919.2280883789062
+Epoch 45, outer_loop 12, loss 919.2280883789062
+Epoch 45, outer_loop 13, loss real 1.0262067317962646
+Epoch 45, outer_loop 13, loss syn 0.8371527791023254
+match loss dis 911.44189453125
+Epoch 45, outer_loop 13, loss 911.44189453125
+Epoch 45, outer_loop 14, loss real 1.024951696395874
+Epoch 45, outer_loop 14, loss syn 0.8277776837348938
+match loss dis 891.091064453125
+Epoch 45, outer_loop 14, loss 891.091064453125
+Epoch 45, outer_loop 15, loss real 1.0246577262878418
+Epoch 45, outer_loop 15, loss syn 0.8655344843864441
+match loss dis 896.4246826171875
+Epoch 45, outer_loop 15, loss 896.4246826171875
+Epoch 45, outer_loop 16, loss real 1.0249112844467163
+Epoch 45, outer_loop 16, loss syn 0.8381754159927368
+match loss dis 911.6392822265625
+Epoch 45, outer_loop 16, loss 911.6392822265625
+Epoch 45, outer_loop 17, loss real 1.0229084491729736
+Epoch 45, outer_loop 17, loss syn 0.8513081073760986
+match loss dis 921.5802001953125
+Epoch 45, outer_loop 17, loss 921.5802001953125
+Epoch 45, outer_loop 18, loss real 1.0246880054473877
+Epoch 45, outer_loop 18, loss syn 0.838126540184021
+match loss dis 918.9822387695312
+Epoch 45, outer_loop 18, loss 918.9822387695312
+Epoch 45, outer_loop 19, loss real 1.0234943628311157
+Epoch 45, outer_loop 19, loss syn 0.8753270506858826
+match loss dis 916.2437133789062
+Epoch 45, outer_loop 19, loss 916.2437133789062
+Epoch 45, loss_avg: 947.2932635401473
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 46, outer_loop 0, loss real 1.0365567207336426
+Epoch 46, outer_loop 0, loss syn 0.9973857402801514
+match loss dis 914.7138061523438
+Epoch 46, outer_loop 0, loss 914.7138061523438
+Epoch 46, outer_loop 1, loss real 1.0540423393249512
+Epoch 46, outer_loop 1, loss syn 0.935065746307373
+match loss dis 916.1195068359375
+Epoch 46, outer_loop 1, loss 916.1195068359375
+Epoch 46, outer_loop 2, loss real 1.0396661758422852
+Epoch 46, outer_loop 2, loss syn 0.8904101848602295
+match loss dis 908.3154296875
+Epoch 46, outer_loop 2, loss 908.3154296875
+Epoch 46, outer_loop 3, loss real 1.0304405689239502
+Epoch 46, outer_loop 3, loss syn 0.8431001305580139
+match loss dis 860.1468505859375
+Epoch 46, outer_loop 3, loss 860.1468505859375
+Epoch 46, outer_loop 4, loss real 1.0286279916763306
+Epoch 46, outer_loop 4, loss syn 0.8815473914146423
+match loss dis 944.848388671875
+Epoch 46, outer_loop 4, loss 944.848388671875
+Epoch 46, outer_loop 5, loss real 1.0297958850860596
+Epoch 46, outer_loop 5, loss syn 0.8635419011116028
+match loss dis 902.496337890625
+Epoch 46, outer_loop 5, loss 902.496337890625
+Epoch 46, outer_loop 6, loss real 1.0275037288665771
+Epoch 46, outer_loop 6, loss syn 0.8460415601730347
+match loss dis 915.7659912109375
+Epoch 46, outer_loop 6, loss 915.7659912109375
+Epoch 46, outer_loop 7, loss real 1.029539704322815
+Epoch 46, outer_loop 7, loss syn 0.8092508316040039
+match loss dis 909.044189453125
+Epoch 46, outer_loop 7, loss 909.044189453125
+Epoch 46, outer_loop 8, loss real 1.0281823873519897
+Epoch 46, outer_loop 8, loss syn 0.8477304577827454
+match loss dis 904.8211059570312
+Epoch 46, outer_loop 8, loss 904.8211059570312
+Epoch 46, outer_loop 9, loss real 1.0277332067489624
+Epoch 46, outer_loop 9, loss syn 0.8418269753456116
+match loss dis 921.0341796875
+Epoch 46, outer_loop 9, loss 921.0341796875
+Epoch 46, outer_loop 10, loss real 1.0282307863235474
+Epoch 46, outer_loop 10, loss syn 0.8446679711341858
+match loss dis 878.9581298828125
+Epoch 46, outer_loop 10, loss 878.9581298828125
+Epoch 46, outer_loop 11, loss real 1.0266077518463135
+Epoch 46, outer_loop 11, loss syn 0.8414530754089355
+match loss dis 910.07666015625
+Epoch 46, outer_loop 11, loss 910.07666015625
+Epoch 46, outer_loop 12, loss real 1.0255656242370605
+Epoch 46, outer_loop 12, loss syn 0.830384373664856
+match loss dis 921.3951416015625
+Epoch 46, outer_loop 12, loss 921.3951416015625
+Epoch 46, outer_loop 13, loss real 1.0246154069900513
+Epoch 46, outer_loop 13, loss syn 0.8677341341972351
+match loss dis 924.5175170898438
+Epoch 46, outer_loop 13, loss 924.5175170898438
+Epoch 46, outer_loop 14, loss real 1.0251785516738892
+Epoch 46, outer_loop 14, loss syn 0.828147828578949
+match loss dis 918.0499877929688
+Epoch 46, outer_loop 14, loss 918.0499877929688
+Epoch 46, outer_loop 15, loss real 1.0253324508666992
+Epoch 46, outer_loop 15, loss syn 0.8334070444107056
+match loss dis 901.4912109375
+Epoch 46, outer_loop 15, loss 901.4912109375
+Epoch 46, outer_loop 16, loss real 1.0278719663619995
+Epoch 46, outer_loop 16, loss syn 0.8356525897979736
+match loss dis 908.9014282226562
+Epoch 46, outer_loop 16, loss 908.9014282226562
+Epoch 46, outer_loop 17, loss real 1.0249199867248535
+Epoch 46, outer_loop 17, loss syn 0.8318079710006714
+match loss dis 927.1031494140625
+Epoch 46, outer_loop 17, loss 927.1031494140625
+Epoch 46, outer_loop 18, loss real 1.0259809494018555
+Epoch 46, outer_loop 18, loss syn 0.8402005434036255
+match loss dis 888.0632934570312
+Epoch 46, outer_loop 18, loss 888.0632934570312
+Epoch 46, outer_loop 19, loss real 1.0264854431152344
+Epoch 46, outer_loop 19, loss syn 0.825394868850708
+match loss dis 912.9856567382812
+Epoch 46, outer_loop 19, loss 912.9856567382812
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 47, outer_loop 0, loss real 1.0304418802261353
+Epoch 47, outer_loop 0, loss syn 1.0106127262115479
+match loss dis 897.2825317382812
+Epoch 47, outer_loop 0, loss 897.2825317382812
+Epoch 47, outer_loop 1, loss real 1.0401523113250732
+Epoch 47, outer_loop 1, loss syn 0.9127222895622253
+match loss dis 878.12451171875
+Epoch 47, outer_loop 1, loss 878.12451171875
+Epoch 47, outer_loop 2, loss real 1.0182995796203613
+Epoch 47, outer_loop 2, loss syn 0.8745742440223694
+match loss dis 856.4736328125
+Epoch 47, outer_loop 2, loss 856.4736328125
+Epoch 47, outer_loop 3, loss real 1.0093257427215576
+Epoch 47, outer_loop 3, loss syn 0.909117579460144
+match loss dis 900.156494140625
+Epoch 47, outer_loop 3, loss 900.156494140625
+Epoch 47, outer_loop 4, loss real 1.0057214498519897
+Epoch 47, outer_loop 4, loss syn 0.857835590839386
+match loss dis 939.2679443359375
+Epoch 47, outer_loop 4, loss 939.2679443359375
+Epoch 47, outer_loop 5, loss real 1.0051664113998413
+Epoch 47, outer_loop 5, loss syn 0.8516582250595093
+match loss dis 976.24658203125
+Epoch 47, outer_loop 5, loss 976.24658203125
+Epoch 47, outer_loop 6, loss real 1.0066782236099243
+Epoch 47, outer_loop 6, loss syn 0.8281514644622803
+match loss dis 901.5686645507812
+Epoch 47, outer_loop 6, loss 901.5686645507812
+Epoch 47, outer_loop 7, loss real 1.008311152458191
+Epoch 47, outer_loop 7, loss syn 0.8336158394813538
+match loss dis 938.8077392578125
+Epoch 47, outer_loop 7, loss 938.8077392578125
+Epoch 47, outer_loop 8, loss real 1.0107749700546265
+Epoch 47, outer_loop 8, loss syn 0.8421945571899414
+match loss dis 903.28759765625
+Epoch 47, outer_loop 8, loss 903.28759765625
+Epoch 47, outer_loop 9, loss real 1.0133105516433716
+Epoch 47, outer_loop 9, loss syn 0.8012164831161499
+match loss dis 898.42431640625
+Epoch 47, outer_loop 9, loss 898.42431640625
+Epoch 47, outer_loop 10, loss real 1.0150434970855713
+Epoch 47, outer_loop 10, loss syn 0.8511717319488525
+match loss dis 912.3046875
+Epoch 47, outer_loop 10, loss 912.3046875
+Epoch 47, outer_loop 11, loss real 1.017928957939148
+Epoch 47, outer_loop 11, loss syn 0.8335508704185486
+match loss dis 920.5931396484375
+Epoch 47, outer_loop 11, loss 920.5931396484375
+Epoch 47, outer_loop 12, loss real 1.0208240747451782
+Epoch 47, outer_loop 12, loss syn 0.8226187229156494
+match loss dis 913.1004638671875
+Epoch 47, outer_loop 12, loss 913.1004638671875
+Epoch 47, outer_loop 13, loss real 1.0247821807861328
+Epoch 47, outer_loop 13, loss syn 0.8504722118377686
+match loss dis 898.3416137695312
+Epoch 47, outer_loop 13, loss 898.3416137695312
+Epoch 47, outer_loop 14, loss real 1.027127742767334
+Epoch 47, outer_loop 14, loss syn 0.8398056626319885
+match loss dis 900.8089599609375
+Epoch 47, outer_loop 14, loss 900.8089599609375
+Epoch 47, outer_loop 15, loss real 1.0281344652175903
+Epoch 47, outer_loop 15, loss syn 0.8695594072341919
+match loss dis 896.4381103515625
+Epoch 47, outer_loop 15, loss 896.4381103515625
+Epoch 47, outer_loop 16, loss real 1.0299057960510254
+Epoch 47, outer_loop 16, loss syn 0.8267421126365662
+match loss dis 880.7725219726562
+Epoch 47, outer_loop 16, loss 880.7725219726562
+Epoch 47, outer_loop 17, loss real 1.0312025547027588
+Epoch 47, outer_loop 17, loss syn 0.8470954298973083
+match loss dis 909.3670654296875
+Epoch 47, outer_loop 17, loss 909.3670654296875
+Epoch 47, outer_loop 18, loss real 1.032699704170227
+Epoch 47, outer_loop 18, loss syn 0.8456379175186157
+match loss dis 905.15185546875
+Epoch 47, outer_loop 18, loss 905.15185546875
+Epoch 47, outer_loop 19, loss real 1.0326290130615234
+Epoch 47, outer_loop 19, loss syn 0.8360261917114258
+match loss dis 888.3870849609375
+Epoch 47, outer_loop 19, loss 888.3870849609375
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 48, outer_loop 0, loss real 1.0418577194213867
+Epoch 48, outer_loop 0, loss syn 1.0142377614974976
+match loss dis 900.1640625
+Epoch 48, outer_loop 0, loss 900.1640625
+Epoch 48, outer_loop 1, loss real 1.0503607988357544
+Epoch 48, outer_loop 1, loss syn 0.8856826424598694
+match loss dis 899.7938232421875
+Epoch 48, outer_loop 1, loss 899.7938232421875
+Epoch 48, outer_loop 2, loss real 1.0609928369522095
+Epoch 48, outer_loop 2, loss syn 0.8743811249732971
+match loss dis 864.462158203125
+Epoch 48, outer_loop 2, loss 864.462158203125
+Epoch 48, outer_loop 3, loss real 1.0552513599395752
+Epoch 48, outer_loop 3, loss syn 0.8505803942680359
+match loss dis 866.6318969726562
+Epoch 48, outer_loop 3, loss 866.6318969726562
+Epoch 48, outer_loop 4, loss real 1.0540649890899658
+Epoch 48, outer_loop 4, loss syn 0.863368034362793
+match loss dis 912.7962036132812
+Epoch 48, outer_loop 4, loss 912.7962036132812
+Epoch 48, outer_loop 5, loss real 1.050154447555542
+Epoch 48, outer_loop 5, loss syn 0.8560388684272766
+match loss dis 871.1581420898438
+Epoch 48, outer_loop 5, loss 871.1581420898438
+Epoch 48, outer_loop 6, loss real 1.0461375713348389
+Epoch 48, outer_loop 6, loss syn 0.8604432344436646
+match loss dis 877.1666870117188
+Epoch 48, outer_loop 6, loss 877.1666870117188
+Epoch 48, outer_loop 7, loss real 1.044386386871338
+Epoch 48, outer_loop 7, loss syn 0.8575354218482971
+match loss dis 871.4871826171875
+Epoch 48, outer_loop 7, loss 871.4871826171875
+Epoch 48, outer_loop 8, loss real 1.0411288738250732
+Epoch 48, outer_loop 8, loss syn 0.8544281721115112
+match loss dis 905.89501953125
+Epoch 48, outer_loop 8, loss 905.89501953125
+Epoch 48, outer_loop 9, loss real 1.0387448072433472
+Epoch 48, outer_loop 9, loss syn 0.8728861212730408
+match loss dis 857.4259033203125
+Epoch 48, outer_loop 9, loss 857.4259033203125
+Epoch 48, outer_loop 10, loss real 1.0359138250350952
+Epoch 48, outer_loop 10, loss syn 0.8337860703468323
+match loss dis 982.3320922851562
+Epoch 48, outer_loop 10, loss 982.3320922851562
+Epoch 48, outer_loop 11, loss real 1.0342133045196533
+Epoch 48, outer_loop 11, loss syn 0.8503281474113464
+match loss dis 827.9511108398438
+Epoch 48, outer_loop 11, loss 827.9511108398438
+Epoch 48, outer_loop 12, loss real 1.030442476272583
+Epoch 48, outer_loop 12, loss syn 0.8653136491775513
+match loss dis 908.0595703125
+Epoch 48, outer_loop 12, loss 908.0595703125
+Epoch 48, outer_loop 13, loss real 1.028511643409729
+Epoch 48, outer_loop 13, loss syn 0.8318049311637878
+match loss dis 910.4266967773438
+Epoch 48, outer_loop 13, loss 910.4266967773438
+Epoch 48, outer_loop 14, loss real 1.0274033546447754
+Epoch 48, outer_loop 14, loss syn 0.8346328735351562
+match loss dis 934.6256713867188
+Epoch 48, outer_loop 14, loss 934.6256713867188
+Epoch 48, outer_loop 15, loss real 1.0261784791946411
+Epoch 48, outer_loop 15, loss syn 0.8218073844909668
+match loss dis 923.231201171875
+Epoch 48, outer_loop 15, loss 923.231201171875
+Epoch 48, outer_loop 16, loss real 1.0244636535644531
+Epoch 48, outer_loop 16, loss syn 0.8459916710853577
+match loss dis 919.1300048828125
+Epoch 48, outer_loop 16, loss 919.1300048828125
+Epoch 48, outer_loop 17, loss real 1.0237774848937988
+Epoch 48, outer_loop 17, loss syn 0.8055817484855652
+match loss dis 889.6376953125
+Epoch 48, outer_loop 17, loss 889.6376953125
+Epoch 48, outer_loop 18, loss real 1.0244024991989136
+Epoch 48, outer_loop 18, loss syn 0.8447434902191162
+match loss dis 920.9915771484375
+Epoch 48, outer_loop 18, loss 920.9915771484375
+Epoch 48, outer_loop 19, loss real 1.0224937200546265
+Epoch 48, outer_loop 19, loss syn 0.821723461151123
+match loss dis 917.2774658203125
+Epoch 48, outer_loop 19, loss 917.2774658203125
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 49, outer_loop 0, loss real 1.0391744375228882
+Epoch 49, outer_loop 0, loss syn 1.0441924333572388
+match loss dis 938.7942504882812
+Epoch 49, outer_loop 0, loss 938.7942504882812
+Epoch 49, outer_loop 1, loss real 1.033245325088501
+Epoch 49, outer_loop 1, loss syn 0.9240307211875916
+match loss dis 920.0355224609375
+Epoch 49, outer_loop 1, loss 920.0355224609375
+Epoch 49, outer_loop 2, loss real 1.0352116823196411
+Epoch 49, outer_loop 2, loss syn 0.909363329410553
+match loss dis 871.342529296875
+Epoch 49, outer_loop 2, loss 871.342529296875
+Epoch 49, outer_loop 3, loss real 1.0360792875289917
+Epoch 49, outer_loop 3, loss syn 0.8523029088973999
+match loss dis 932.983642578125
+Epoch 49, outer_loop 3, loss 932.983642578125
+Epoch 49, outer_loop 4, loss real 1.035998821258545
+Epoch 49, outer_loop 4, loss syn 0.8490678071975708
+match loss dis 906.5321044921875
+Epoch 49, outer_loop 4, loss 906.5321044921875
+Epoch 49, outer_loop 5, loss real 1.0397297143936157
+Epoch 49, outer_loop 5, loss syn 0.8710881471633911
+match loss dis 944.4840087890625
+Epoch 49, outer_loop 5, loss 944.4840087890625
+Epoch 49, outer_loop 6, loss real 1.0360263586044312
+Epoch 49, outer_loop 6, loss syn 0.8571541905403137
+match loss dis 918.7978515625
+Epoch 49, outer_loop 6, loss 918.7978515625
+Epoch 49, outer_loop 7, loss real 1.0352534055709839
+Epoch 49, outer_loop 7, loss syn 0.832689106464386
+match loss dis 910.5053100585938
+Epoch 49, outer_loop 7, loss 910.5053100585938
+Epoch 49, outer_loop 8, loss real 1.0360912084579468
+Epoch 49, outer_loop 8, loss syn 0.8657609820365906
+match loss dis 917.7965087890625
+Epoch 49, outer_loop 8, loss 917.7965087890625
+Epoch 49, outer_loop 9, loss real 1.0385282039642334
+Epoch 49, outer_loop 9, loss syn 0.846092700958252
+match loss dis 878.9393920898438
+Epoch 49, outer_loop 9, loss 878.9393920898438
+Epoch 49, outer_loop 10, loss real 1.0405775308609009
+Epoch 49, outer_loop 10, loss syn 0.8322736024856567
+match loss dis 874.6358032226562
+Epoch 49, outer_loop 10, loss 874.6358032226562
+Epoch 49, outer_loop 11, loss real 1.0388580560684204
+Epoch 49, outer_loop 11, loss syn 0.8710448145866394
+match loss dis 890.9426879882812
+Epoch 49, outer_loop 11, loss 890.9426879882812
+Epoch 49, outer_loop 12, loss real 1.0407562255859375
+Epoch 49, outer_loop 12, loss syn 0.8558969497680664
+match loss dis 911.275146484375
+Epoch 49, outer_loop 12, loss 911.275146484375
+Epoch 49, outer_loop 13, loss real 1.0389636754989624
+Epoch 49, outer_loop 13, loss syn 0.8318342566490173
+match loss dis 886.6397094726562
+Epoch 49, outer_loop 13, loss 886.6397094726562
+Epoch 49, outer_loop 14, loss real 1.0391969680786133
+Epoch 49, outer_loop 14, loss syn 0.8394203782081604
+match loss dis 890.5818481445312
+Epoch 49, outer_loop 14, loss 890.5818481445312
+Epoch 49, outer_loop 15, loss real 1.0382969379425049
+Epoch 49, outer_loop 15, loss syn 0.8666550517082214
+match loss dis 906.719482421875
+Epoch 49, outer_loop 15, loss 906.719482421875
+Epoch 49, outer_loop 16, loss real 1.0373172760009766
+Epoch 49, outer_loop 16, loss syn 0.8336892127990723
+match loss dis 883.8428955078125
+Epoch 49, outer_loop 16, loss 883.8428955078125
+Epoch 49, outer_loop 17, loss real 1.0355638265609741
+Epoch 49, outer_loop 17, loss syn 0.8530691862106323
+match loss dis 903.4116821289062
+Epoch 49, outer_loop 17, loss 903.4116821289062
+Epoch 49, outer_loop 18, loss real 1.0360242128372192
+Epoch 49, outer_loop 18, loss syn 0.8369224071502686
+match loss dis 921.9862060546875
+Epoch 49, outer_loop 18, loss 921.9862060546875
+Epoch 49, outer_loop 19, loss real 1.0357649326324463
+Epoch 49, outer_loop 19, loss syn 0.8255388140678406
+match loss dis 917.78857421875
+Epoch 49, outer_loop 19, loss 917.78857421875
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+Epoch 50, outer_loop 0, loss real 1.0500377416610718
+Epoch 50, outer_loop 0, loss syn 1.02369225025177
+match loss dis 896.8614501953125
+Epoch 50, outer_loop 0, loss 896.8614501953125
+Epoch 50, outer_loop 1, loss real 1.0302101373672485
+Epoch 50, outer_loop 1, loss syn 0.8912757039070129
+match loss dis 903.1124877929688
+Epoch 50, outer_loop 1, loss 903.1124877929688
+Epoch 50, outer_loop 2, loss real 1.0286611318588257
+Epoch 50, outer_loop 2, loss syn 0.8657727241516113
+match loss dis 884.4204711914062
+Epoch 50, outer_loop 2, loss 884.4204711914062
+Epoch 50, outer_loop 3, loss real 1.0292495489120483
+Epoch 50, outer_loop 3, loss syn 0.834565281867981
+match loss dis 904.38330078125
+Epoch 50, outer_loop 3, loss 904.38330078125
+Epoch 50, outer_loop 4, loss real 1.0324636697769165
+Epoch 50, outer_loop 4, loss syn 0.8861273527145386
+match loss dis 906.7620849609375
+Epoch 50, outer_loop 4, loss 906.7620849609375
+Epoch 50, outer_loop 5, loss real 1.033210039138794
+Epoch 50, outer_loop 5, loss syn 0.8641538619995117
+match loss dis 911.6749877929688
+Epoch 50, outer_loop 5, loss 911.6749877929688
+Epoch 50, outer_loop 6, loss real 1.037424087524414
+Epoch 50, outer_loop 6, loss syn 0.8460608124732971
+match loss dis 885.639892578125
+Epoch 50, outer_loop 6, loss 885.639892578125
+Epoch 50, outer_loop 7, loss real 1.0389482975006104
+Epoch 50, outer_loop 7, loss syn 0.8524306416511536
+match loss dis 905.1747436523438
+Epoch 50, outer_loop 7, loss 905.1747436523438
+Epoch 50, outer_loop 8, loss real 1.0410921573638916
+Epoch 50, outer_loop 8, loss syn 0.8251692652702332
+match loss dis 871.0096435546875
+Epoch 50, outer_loop 8, loss 871.0096435546875
+Epoch 50, outer_loop 9, loss real 1.038050651550293
+Epoch 50, outer_loop 9, loss syn 0.8368932604789734
+match loss dis 910.1389770507812
+Epoch 50, outer_loop 9, loss 910.1389770507812
+Epoch 50, outer_loop 10, loss real 1.0376876592636108
+Epoch 50, outer_loop 10, loss syn 0.8190179467201233
+match loss dis 878.6995849609375
+Epoch 50, outer_loop 10, loss 878.6995849609375
+Epoch 50, outer_loop 11, loss real 1.0367698669433594
+Epoch 50, outer_loop 11, loss syn 0.8319007754325867
+match loss dis 896.8638305664062
+Epoch 50, outer_loop 11, loss 896.8638305664062
+Epoch 50, outer_loop 12, loss real 1.0369088649749756
+Epoch 50, outer_loop 12, loss syn 0.8389175534248352
+match loss dis 872.0186157226562
+Epoch 50, outer_loop 12, loss 872.0186157226562
+Epoch 50, outer_loop 13, loss real 1.0367316007614136
+Epoch 50, outer_loop 13, loss syn 0.8366631865501404
+match loss dis 925.1846923828125
+Epoch 50, outer_loop 13, loss 925.1846923828125
+Epoch 50, outer_loop 14, loss real 1.0369752645492554
+Epoch 50, outer_loop 14, loss syn 0.8566364049911499
+match loss dis 886.0114135742188
+Epoch 50, outer_loop 14, loss 886.0114135742188
+Epoch 50, outer_loop 15, loss real 1.0373317003250122
+Epoch 50, outer_loop 15, loss syn 0.8265487551689148
+match loss dis 879.3302001953125
+Epoch 50, outer_loop 15, loss 879.3302001953125
+Epoch 50, outer_loop 16, loss real 1.036649227142334
+Epoch 50, outer_loop 16, loss syn 0.8382712602615356
+match loss dis 897.2861328125
+Epoch 50, outer_loop 16, loss 897.2861328125
+Epoch 50, outer_loop 17, loss real 1.037186622619629
+Epoch 50, outer_loop 17, loss syn 0.8415338397026062
+match loss dis 888.8400268554688
+Epoch 50, outer_loop 17, loss 888.8400268554688
+Epoch 50, outer_loop 18, loss real 1.0365675687789917
+Epoch 50, outer_loop 18, loss syn 0.8474453091621399
+match loss dis 892.58056640625
+Epoch 50, outer_loop 18, loss 892.58056640625
+Epoch 50, outer_loop 19, loss real 1.0365111827850342
+Epoch 50, outer_loop 19, loss syn 0.8283296823501587
+match loss dis 883.913818359375
+Epoch 50, outer_loop 19, loss 883.913818359375
+Epoch 50, loss_avg: 941.6797126842084
