@@ -15,7 +15,7 @@ from tqdm import tqdm
 from self_supervised_InIModel import InIModel
 import dgl
 import networkx as nx
-from evaluation import node_classification_evaluation
+from evaluation import node_classification_evaluation, syn_train
 
 class GM:
     # gradient matching class
@@ -163,9 +163,9 @@ class GM:
                 for j in range(inner_loop):
                     optimizer_model.zero_grad()
                     #TODO feature and adj to device and fed into model
-                    graph = dgl.from_networkx(nx.from_numpy_array(adj_syn_inner_norm.detach().cpu().numpy()), device=self.device)
-                    x = feat_syn_inner_norm.to(self.device)
-                    loss_syn_inner, loss_syn_inner_item = model(graph, x)
+                    graph_syn_norm = dgl.from_networkx(nx.from_numpy_array(adj_syn_inner_norm.detach().cpu().numpy()), device=self.device)
+                    x_syn_norm = feat_syn_inner_norm.to(self.device)
+                    loss_syn_inner, loss_syn_inner_item = model(graph_syn_norm, x_syn_norm)
                     loss_syn_inner.backward()
                     optimizer_model.step()
             
@@ -173,12 +173,19 @@ class GM:
             if it % 5 == 0:
                 print('Epoch {}, loss_avg: {}'.format(it, loss_avg))
                 
-            # TODO evaluation
-            # eval_epochs = [10, 20, 30, 40, 50]
             
             if it % 100 == 0:
                 print('******************** EVAL Epoch *******************')
-                final_acc, estp_acc = node_classification_evaluation(model, graph_orig, x_orig, self.args.num_classes, self.args.lr_adj_f,self.args.weight_decay_f, self.args.max_epoch_f, self.device, self.args.linear_prob)
+                #TODO
+                #init new GraphMAE model
+                evalModel = InIModel(data=self.data, args=self.args)
+                evalModel.to(self.device)
+                evalmodel_parameters = list(evalModel.parameters())
+                evaloptimizer_model = torch.optim.Adam(evalmodel_parameters, lr=args.lr_model)
+                
+                #using syn to train model, using orig to evaluate model
+                final_acc, estp_acc = syn_train(evalModel, graph_orig, graph_syn, x_orig, x_syn, evaloptimizer_model, self.device, self.args.num_classes, self.args.lr_adj_f, self.args.weight_decay_f, self.args.max_epoch_f, self.args.linear_prob, self.args.max_epoch_s)
+                
                 self.final_acc_list.append(final_acc)
                 self.estp_acc_list.append(estp_acc)
                 

@@ -5,8 +5,35 @@ import torch.nn as nn
 
 from utils import create_optimizer, accuracy
 
+def syn_train(model, graph, graph_syn, feat, feat_syn, optimizer, device, num_classes, lr_f, weight_decay_f, max_epoch_f, linear_prob, max_epoch_s):
+    print('using syn graph for training...')
+    graph = graph.to(device)
+    graph_syn = graph_syn.to(device)
+    x = feat.to(device)
+    x_syn = feat_syn.to(device)
+    best_model = None
+    
+    epoch_iter = tqdm(range(max_epoch_s))
+    
+    test_model = None
+    
+    for epoch in epoch_iter:
+        model.train()
+        loss, loss_dict = model(graph_syn, x_syn)
+        optimizer.zero_grad()
+        
+        loss.backward()
+        optimizer.step()
+        
+        # epoch_iter.set_description(f"# Epoch {epoch}: train_loss: {loss.item():.4f}")
+        
+
+    final_acc, estp_acc = node_classification_evaluation(model, graph, x, num_classes, lr_f, weight_decay_f, max_epoch_f, device, linear_prob)
+            
+    return final_acc, estp_acc
 
 def node_classification_evaluation(model, graph, x, num_classes, lr_f, weight_decay_f, max_epoch_f, device, linear_prob=True, mute=False):
+    print('using orig graph for evaluating...')
     model.eval()
     if linear_prob:
         with torch.no_grad():
@@ -25,9 +52,9 @@ def node_classification_evaluation(model, graph, x, num_classes, lr_f, weight_de
     optimizer_f = create_optimizer("adam", encoder, lr_f, weight_decay_f)
     final_acc, estp_acc = linear_probing_for_transductive_node_classiifcation(encoder, graph, x, optimizer_f, max_epoch_f, device, mute)
     return final_acc, estp_acc
+        
 
-
-def linear_probing_for_transductive_node_classiifcation(model, graph, feat, optimizer, max_epoch, device, mute=False):
+def linear_probing_for_transductive_node_classiifcation(model, graph, feat, optimizer, max_epoch, device, mute=True):
     criterion = torch.nn.CrossEntropyLoss()
 
     graph = graph.to(device)

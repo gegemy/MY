@@ -26,6 +26,7 @@ parser.add_argument('--heads', type=int, default=4, help="number of hidden atten
 parser.add_argument("--num_out_heads", type=int, default=1, help="number of output attention heads")
 parser.add_argument('--max_epoch', type=int, default=1000, help="number of training epochs")
 parser.add_argument('--max_epoch_f', type=int, default=600, help="for evaluation")
+parser.add_argument('--max_epoch_s', type=int, default=1000, help="for syn train")
 
 parser.add_argument('--lr_adj', type=float, default=0.01)
 parser.add_argument('--lr_feat', type=float, default=0.01)
