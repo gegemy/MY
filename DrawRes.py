@@ -121,7 +121,7 @@ if __name__=="__main__":
     res_base_path = '/home/Exp/3/MY/MY/res'
     save_base_path = '/home/Exp/3/MY/MY/pic'
     dataset_list = ['arxiv']
-    file_list = ['1019_res.txt']
+    file_list = ['1103_res.txt']
     
     for dataset in dataset_list:
         for f in file_list:

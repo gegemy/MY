@@ -96,16 +96,27 @@ class GM:
         self.final_acc_list = []
         self.estp_acc_list = []
         
-
+        # using the same model for training
+        # model = InIModel(data=self.data, args=self.args)
+        # model.to(self.device)
+        # model_parameters = list(model.parameters())
         
         for it in range(args.epochs+1):
             # print('model parameters:')
             # for tmp in model.parameters():
             #     print(tmp.shape)
             # exit()
-            model = InIModel(data=self.data, args=self.args)
-            model.to(self.device)
-            model_parameters = list(model.parameters())
+            
+            # init model for each epoch
+            # model = InIModel(data=self.data, args=self.args)
+            # model.to(self.device)
+            # model_parameters = list(model.parameters())
+            
+            if it % 200 == 0:
+                # period init model for training
+                model = InIModel(data=self.data, args=self.args)
+                model.to(self.device)
+                model_parameters = list(model.parameters())
             
             optimizer_model = torch.optim.Adam(model_parameters, lr=args.lr_model)
             model.train()
@@ -123,6 +134,8 @@ class GM:
                 gw_real = torch.autograd.grad(loss_real, model_parameters)
                 gw_real = list((_.detach().clone() for _ in gw_real))
                 
+                model.zero_grad()
+                
                 # TODO graph_syn and feature_syn to device                
                 graph_syn = dgl.from_networkx(nx.from_numpy_array(adj_syn_norm.detach().cpu().numpy()), device=self.device)
                 x_syn = feat_syn.to(self.device)
@@ -132,7 +145,7 @@ class GM:
                 
                 gw_syn = torch.autograd.grad(loss_syn, model_parameters, create_graph=True)
                 
-                # TODO coeff relaed (different labels bias)
+                # TODO coeff related (different labels bias)
                 
                 loss += match_loss(gw_syn, gw_real, args, device=self.device)
                 print('Epoch {}, outer_loop {}, loss {}'.format(it, ol, loss))
@@ -188,6 +201,8 @@ class GM:
                 
                 self.final_acc_list.append(final_acc)
                 self.estp_acc_list.append(estp_acc)
+            
+            model.zero_grad()
                 
                 
                 
