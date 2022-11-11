@@ -16,6 +16,7 @@ from models.gat_mae import GAT
 from models.loss_func import sce_loss
 from utils import create_norm
 from functools import partial
+import copy
 
 def setup_module(model_type, args) -> nn.Module:
     if args.encoder in ("gat"):
@@ -159,8 +160,68 @@ class InIModel(nn.Module):
         
         return use_g, out_x, (mask_nodes, keep_nodes)
     
-    def mask_attr_prediction(self, g, x):
-        pre_use_g, use_x, (mask_nodes, keep_nodes) = self.encoding_mask_noise(g, x, self._mask_rate)
+    def encoding_syn_mask_noise(self, g, x, c, mask_rate):
+        num_nodes = torch.numel(g.ndata['cluster'][g.ndata['cluster']==c])
+        nodes = (g.ndata['cluster']==c).nonzero(as_tuple=True)[0]        
+        perm = torch.randperm(num_nodes, device=x.device)
+        perm = nodes.view(-1)[perm].view(nodes.size())
+        num_mask_nodes = int(mask_rate * num_nodes)        
+        mask_nodes = perm[: num_mask_nodes]
+        
+        all_nodes = np.arange(g.num_nodes())
+        mask = mask_nodes.cpu().numpy()
+        keep_nodes = torch.tensor(np.delete(all_nodes, mask), device=x.device)
+        
+        out_x = x.clone()
+        token_nodes = mask_nodes
+        out_x[mask_nodes] = 0.0
+            
+        out_x[token_nodes] += self.enc_mask_token
+        use_g = g.clone()
+        
+        return use_g, out_x, (mask_nodes, keep_nodes)
+    
+    def encoding_cluster_mask_noise(self, g, x, mask_rate):
+        print('mask rate is:{}'.format(mask_rate))
+        mask_cluster_dic = dict()
+        for c in range(g.cluster_num):
+            num_nodes = torch.numel(g.ndata['cluster'][g.ndata['cluster']==c])
+            nodes = (g.ndata['cluster']==c).nonzero(as_tuple=True)[0]        
+            perm = torch.randperm(num_nodes, device=x.device)
+            perm = nodes.view(-1)[perm].view(nodes.size())
+            num_mask_nodes = int(mask_rate * num_nodes)
+            mask_nodes = perm[: num_mask_nodes]
+            mask_cluster_dic[c] = mask_nodes
+            if c == 0:
+                all_mask_nodes = copy.deepcopy(mask_nodes)  
+            else:
+                all_mask_nodes = torch.cat((all_mask_nodes, mask_nodes))
+        
+        all_nodes = np.arange(g.num_nodes())
+        mask = all_mask_nodes.cpu().numpy()
+        keep_nodes = torch.tensor(np.delete(all_nodes, mask), device=x.device)
+        
+        out_x = x.clone()
+        token_nodes = all_mask_nodes
+        out_x[all_mask_nodes] = 0.0
+            
+        out_x[token_nodes] += self.enc_mask_token
+        use_g = g.clone()
+        
+        return use_g, out_x, (all_mask_nodes, keep_nodes), mask_cluster_dic
+    
+    def mask_attr_prediction(self, g, x, c=None, gtype=None, mask_rate=None):
+        mask_cluster_dic = None
+        if gtype == None:
+            pre_use_g, use_x, (mask_nodes, keep_nodes) = self.encoding_mask_noise(g, x, self._mask_rate)
+        elif gtype == 'orig':
+        # mask half nodes in the specific class(for orig), and mask all nodes in the specific class for syn
+            pre_use_g, use_x, (mask_nodes, keep_nodes), mask_cluster_dic = self.encoding_cluster_mask_noise(g, x, self._mask_rate)
+        elif gtype == 'syn':
+            pre_use_g, use_x, (mask_nodes, keep_nodes) = self.encoding_syn_mask_noise(g, x, c, mask_rate=1)
+        else:
+            print('ERROR for attr mask')
+            exit()
         if self._drop_edge_rate > 0:
             use_g, mask_edgess = drop_edge(pre_use_g, self._drop_edge_rate, return_edges=True)
         else:
@@ -181,11 +242,18 @@ class InIModel(nn.Module):
             recon = self.decoder(rep)
         else:
             recon = self.decoder(pre_use_g, rep)
-            
-        x_init = x[mask_nodes]
-        x_rec = recon[mask_nodes]
         
-        loss = self.criterion(x_rec, x_init)
+        if mask_cluster_dic != None:
+            loss = []
+            for c in range(g.cluster_num):
+                x_init = x[mask_cluster_dic[c]]
+                x_rec = recon[mask_cluster_dic[c]]
+                tmp_loss = self.criterion(x_rec, x_init)
+                loss.append(tmp_loss)
+        else:
+            x_init = x[mask_nodes]
+            x_rec = recon[mask_nodes]
+            loss = self.criterion(x_rec, x_init)
         return loss
     
     def embed(self, g, x):
@@ -202,10 +270,9 @@ class InIModel(nn.Module):
             
     
     # TODO forward
-    def forward(self, g, x):
-        loss = self.mask_attr_prediction(g, x)
-        loss_item = {"loss": loss.item()}
-        return loss, loss_item
+    def forward(self, g, x, c=None, gtype=None, mask_rate=0.3):
+        loss = self.mask_attr_prediction(g, x, c, gtype, mask_rate)
+        return loss
         
 
             

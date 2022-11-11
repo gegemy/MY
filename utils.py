@@ -18,6 +18,46 @@ from torch_geometric.utils import add_remaining_self_loops, to_undirected
 from torch_geometric.datasets import Planetoid
 from torch import optim as optim
 import torch.nn as nn
+from time import time
+# for kmeans
+from sklearn import metrics
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from kmeans_pytorch import kmeans
+
+def add_cluster_idx(data, cluster_idx):
+    data.cluster_full = cluster_idx
+    data.cluster_train = cluster_idx[data.idx_train]
+    data.cluster_val = cluster_idx[data.idx_val]
+    data.cluster_test = cluster_idx[data.idx_test]
+    return data
+
+# def k_means_process(kmeans, data):
+def k_means_process(data, n_clusters, device):
+    # t0 = time()
+    # print(data.shape)
+    # print(type(data))
+    
+    # # estimator = make_pipeline(StandardScaler(), kmeans).fit(data)
+    # data = torch.from_numpy(data)
+    # cluster_ids, _  = kmeans(X=data, num_clusters=n_clusters, distance='euclidean', device=device)
+    
+    # fit_time = time() - t0
+    # print('fit time:{}'.format(fit_time))
+    
+    # # results = estimator[-1].labels_
+    
+    # results = cluster_ids.numpy()
+    # print(len(results))
+    # print(results)
+    # print(len(np.unique(results)))
+    # np.savetxt('tmp/tmp.txt', results)
+    results = np.loadtxt('tmp/tmp.txt').astype(int)
+    return results
+    
+    
 
 def accuracy(y_pred, y_true):
     y_true = y_true.squeeze().long()
@@ -326,7 +366,7 @@ def match_loss(gw_syn, gw_real, args, device):
     else:
         exit('DC error: unknown distance function')
         
-    print('match loss dis {}'.format(dis))
+    # print('match loss dis {}'.format(dis))
 
     return dis
 

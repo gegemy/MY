@@ -55,6 +55,7 @@ class DataGraphSAINT:
         self.data_full = GraphData(adj_full, feat, labels, idx_train, idx_val, idx_test)
         self.class_dict = None
         self.class_dict2 = None
+        self.cluster_dict = None
 
         self.adj_full = adj_full
         self.feat_full = feat
@@ -91,6 +92,58 @@ class DataGraphSAINT:
         idx = np.arange(len(self.labels_train))
         idx = idx[self.class_dict['class_%s'%c]]
         return np.random.permutation(idx)[:num]
+    
+    def retrieve_cluster(self, c, nnodes, num=256):
+        if self.cluster_dict is None:
+            self.cluster_dict = {}
+            for i in range(nnodes):
+                self.cluster_dict['cluster_%s'%i] = (self.cluster_train == i)
+        idx = np.arange(len(self.cluster_train))
+        idx = idx[self.cluster_dict['cluster_%s'%c]]
+        return np.random.permutation(idx)[:num]
+    
+    def retrieve_cluster_sampler(self, c, adj, nnodes_syn, transductive, num=256, args=None):
+        if args.nlayers == 1:
+            sizes = [30]
+        if args.nlayers == 2:
+            if args.dataset in ['reddit', 'flickr']:
+                if args.option == 0:
+                    sizes = [15, 8]
+                if args.option == 1:
+                    sizes = [20, 10]
+                if args.option == 2:
+                    sizes = [25, 10]
+            else:
+                sizes = [10, 5]
+
+        if self.class_dict2 is None:
+            print('sizes')
+            print(sizes)
+            self.class_dict2 = {}
+            for i in range(nnodes_syn):
+                if transductive:
+                    idx_train = np.array(self.idx_train)
+                    idx = idx_train[self.cluster_train == i]
+                else:
+                    idx = np.arange(len(self.cluster_train))[self.cluster_train==i]
+                self.class_dict2[i] = idx
+
+        if self.samplers is None:
+            self.samplers = []
+            for i in range(nnodes_syn):
+                node_idx = torch.LongTensor(self.class_dict2[i])
+                if len(node_idx) == 0:
+                    continue
+
+                self.samplers.append(NeighborSampler(adj,
+                                    node_idx=node_idx,
+                                    sizes=sizes, batch_size=num,
+                                    num_workers=8, return_e_id=False,
+                                    num_nodes=adj.size(0),
+                                    shuffle=True))
+        batch = np.random.permutation(self.class_dict2[c])[:num]
+        out = self.samplers[c].sample(batch)
+        return out
 
     def retrieve_class_sampler(self, c, adj, transductive, num=256, args=None):
         if args.nlayers == 1:
@@ -155,6 +208,7 @@ class Data2Pyg:
         self.nclass = data.nclass
         self.nfeat = data.nfeat
         self.class_dict = None
+        self.cluster_dict = None
 
     def retrieve_class(self, c, num=256):
         if self.class_dict is None:

@@ -19,7 +19,7 @@ def syn_train(model, graph, graph_syn, feat, feat_syn, optimizer, device, num_cl
     
     for epoch in epoch_iter:
         model.train()
-        loss, loss_dict = model(graph_syn, x_syn)
+        loss = model(graph_syn, x_syn)
         optimizer.zero_grad()
         
         loss.backward()

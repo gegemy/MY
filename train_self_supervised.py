@@ -9,6 +9,15 @@ import torch.nn.functional as F
 from self_supervised_GM import GM
 from utils_graphsaint import DataGraphSAINT
 
+# for kmeans
+from sklearn import metrics
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from kmeans_pytorch import kmeans
+
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--device', type=int, default=0, help='gpu id')
@@ -94,6 +103,18 @@ args.num_classes = data.nclass
 print('num classes is: {}'.format(args.num_classes))
 
 device = args.device if args.device >= 0 else "cpu"
+
+
+
+# pre cluster data into condensation graph size
+pre_clusters = int(data.feat_train.shape[0] * args.reduction_rate)
+print("clusters: {}".format(pre_clusters))
+
+# kmeans = KMeans(init='random', n_clusters=pre_clusters)
+# k_means_process(kmeans, data.feat_val)
+cluster_idx = k_means_process(data.feat_full, pre_clusters, device)
+data = add_cluster_idx(data, cluster_idx)
+
 model = GM(data=data, args=args, device=device)
 
 model.train()
