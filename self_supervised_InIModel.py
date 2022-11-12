@@ -160,26 +160,35 @@ class InIModel(nn.Module):
         
         return use_g, out_x, (mask_nodes, keep_nodes)
     
-    def encoding_syn_mask_noise(self, g, x, c, mask_rate):
-        num_nodes = torch.numel(g.ndata['cluster'][g.ndata['cluster']==c])
-        nodes = (g.ndata['cluster']==c).nonzero(as_tuple=True)[0]        
+    def encoding_syn_mask_noise(self, g, x, mask_rate):
+        mask_cluster_list = []
+        num_nodes = g.num_nodes()
         perm = torch.randperm(num_nodes, device=x.device)
-        perm = nodes.view(-1)[perm].view(nodes.size())
-        num_mask_nodes = int(mask_rate * num_nodes)        
+        num_mask_nodes = int(mask_rate * num_nodes)
+        
         mask_nodes = perm[: num_mask_nodes]
+        mask_cluster_list = mask_nodes
+        keep_nodes = perm[num_mask_nodes: ]
         
-        all_nodes = np.arange(g.num_nodes())
-        mask = mask_nodes.cpu().numpy()
-        keep_nodes = torch.tensor(np.delete(all_nodes, mask), device=x.device)
-        
-        out_x = x.clone()
-        token_nodes = mask_nodes
-        out_x[mask_nodes] = 0.0
+        if self._replace_rate > 0:
+            num_noise_nodes = int(self._replace_rate * num_mask_nodes)
+            perm_mask = torch.randperm(num_mask_nodes, device = x.device)
+            token_nodes = mask_nodes[perm_mask[: int(self._mask_token_rate * num_mask_nodes)]]
+            noise_nodes = mask_nodes[perm_mask[-int(self._replace_rate * num_mask_nodes):]]
+            noise_to_be_chosen = torch.randperm(num_nodes, device=x.device)[:num_noise_nodes]
+            
+            out_x = x.clone()
+            out_x[token_nodes] = 0.0
+            out_x[noise_nodes] = x[noise_to_be_chosen]
+        else:
+            out_x = x.clone()
+            token_nodes = mask_nodes
+            out_x[mask_nodes] = 0.0
             
         out_x[token_nodes] += self.enc_mask_token
         use_g = g.clone()
         
-        return use_g, out_x, (mask_nodes, keep_nodes)
+        return use_g, out_x, (mask_nodes, keep_nodes), mask_cluster_list
     
     def encoding_cluster_mask_noise(self, g, x, mask_rate):
         print('mask rate is:{}'.format(mask_rate))
@@ -212,13 +221,14 @@ class InIModel(nn.Module):
     
     def mask_attr_prediction(self, g, x, c=None, gtype=None, mask_rate=None):
         mask_cluster_dic = None
+        mask_cluster_list = None
         if gtype == None:
             pre_use_g, use_x, (mask_nodes, keep_nodes) = self.encoding_mask_noise(g, x, self._mask_rate)
         elif gtype == 'orig':
         # mask half nodes in the specific class(for orig), and mask all nodes in the specific class for syn
             pre_use_g, use_x, (mask_nodes, keep_nodes), mask_cluster_dic = self.encoding_cluster_mask_noise(g, x, self._mask_rate)
         elif gtype == 'syn':
-            pre_use_g, use_x, (mask_nodes, keep_nodes) = self.encoding_syn_mask_noise(g, x, c, mask_rate=1)
+            pre_use_g, use_x, (mask_nodes, keep_nodes), mask_cluster_list = self.encoding_syn_mask_noise(g, x, self._mask_rate)
         else:
             print('ERROR for attr mask')
             exit()
@@ -250,6 +260,13 @@ class InIModel(nn.Module):
                 x_rec = recon[mask_cluster_dic[c]]
                 tmp_loss = self.criterion(x_rec, x_init)
                 loss.append(tmp_loss)
+        elif mask_cluster_list != None:
+            loss = dict()
+            for c in mask_cluster_list:
+                x_init = x[c]
+                x_rec = recon[c]
+                tmp_loss = self.criterion(x_rec, x_init)
+                loss[c] = tmp_loss
         else:
             x_init = x[mask_nodes]
             x_rec = recon[mask_nodes]

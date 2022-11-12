@@ -173,22 +173,44 @@ class GM:
                 # Calculate loss with whole graph                
                 loss_real_full = model(graph_orig, x_orig, gtype='orig')
                 
-                for c in range(self.nnodes_syn):
+                # Calculate loss with syn --- mask a batch nodes
+                graph_syn = dgl.from_networkx(nx.from_numpy_array(adj_syn_norm.detach().cpu().numpy()), device=self.device)
+                graph_syn.ndata['cluster'] = self.cluster_syn.to(self.device)
+                x_syn = feat_syn.to(self.device)
+                    
+                loss_syn_full = model(graph_syn, x_syn, gtype='syn')
+                print(type(loss_syn_full))    
+                
+                for c in loss_syn_full.keys():
+                    # print(c)
                     loss_real = loss_real_full[c]
                     lreal += loss_real
                     gw_real = torch.autograd.grad(loss_real, model_parameters, retain_graph=True)
                     gw_real = list((_.detach().clone() for _ in gw_real))
                     
-                    graph_syn = dgl.from_networkx(nx.from_numpy_array(adj_syn_norm.detach().cpu().numpy()), device=self.device)
-                    graph_syn.ndata['cluster'] = self.cluster_syn.to(self.device)
-                    x_syn = feat_syn.to(self.device)
-                    
-                    loss_syn = model(graph_syn, x_syn, c, gtype='syn', mask_rate=1.0)
+                    loss_syn = loss_syn_full[c]
                     ls += loss_syn
                     
-                    gw_syn = torch.autograd.grad(loss_syn, model_parameters, create_graph=True)
-                    coeff = self.num_cluster_dict[c] / max(self.num_cluster_dict.values())
-                    loss += coeff  * match_loss(gw_syn, gw_real, args, device=self.device)
+                    gw_syn = torch.autograd.grad(loss_syn, model_parameters, create_graph=True, retain_graph=True)
+                    coeff = self.num_cluster_dict[c.item()] / max(self.num_cluster_dict.values())
+                    loss += coeff  * match_loss(gw_syn, gw_real, args, device=self.device)        
+                
+                # for c in range(self.nnodes_syn):
+                #     loss_real = loss_real_full[c]
+                #     lreal += loss_real
+                #     gw_real = torch.autograd.grad(loss_real, model_parameters, retain_graph=True)
+                #     gw_real = list((_.detach().clone() for _ in gw_real))
+                    
+                #     graph_syn = dgl.from_networkx(nx.from_numpy_array(adj_syn_norm.detach().cpu().numpy()), device=self.device)
+                #     graph_syn.ndata['cluster'] = self.cluster_syn.to(self.device)
+                #     x_syn = feat_syn.to(self.device)
+                    
+                #     loss_syn = model(graph_syn, x_syn, c, gtype='syn', mask_rate=1.0)
+                #     ls += loss_syn
+                    
+                #     gw_syn = torch.autograd.grad(loss_syn, model_parameters, create_graph=True)
+                #     coeff = self.num_cluster_dict[c] / max(self.num_cluster_dict.values())
+                #     loss += coeff  * match_loss(gw_syn, gw_real, args, device=self.device)
                     
                 print('Epoch {}, outer_loop {}, loss real {}'.format(it, ol, lreal))
                 print('Epoch {}, outer_loop {}, loss syn {}'.format(it, ol, ls))

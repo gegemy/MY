@@ -1,0 +1,1492 @@
+Namespace(activation='prelu', alpha=0, alpha_l=3, attn_drop=0.1, concat_hidden=False, dataset='ogbn-arxiv', debug=0, decoder='gat', device=0, dis_metric='ours', drop_edge_rate=0.0, dropout=0.0, encoder='gat', epochs=1000, heads=4, hidden=256, in_drop=0.2, inner=1, keep_ratio=1.0, linear_prob=False, loss_fn='sce', lr_adj=0.01, lr_adj_f=0.01, lr_feat=0.01, lr_feat_f=0.01, lr_model=0.01, lr_model_f=0.01, mask_rate=0.5, max_epoch=1000, max_epoch_f=600, max_epoch_s=1000, negative_slope=0.2, nlayers=2, norm=None, normalize_features=True, num_out_heads=1, optimizer='adam', outer=20, reduction_rate=0.0025, replace_rate=0.05, residual=False, save=1, scheduler=True, seed=1, sgc=1, weight_decay=0.0, weight_decay_f=0.0)
+num classes is: 40
+clusters: 227
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 0, loss real 114.00062561035156
+Epoch 0, outer_loop 0, loss syn 119.63833618164062
+Epoch 0, outer_loop 0, loss 36672.51171875
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 1, loss real 106.80205535888672
+Epoch 0, outer_loop 1, loss syn 101.38123321533203
+Epoch 0, outer_loop 1, loss 33890.671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 2, loss real 104.59811401367188
+Epoch 0, outer_loop 2, loss syn 91.65045166015625
+Epoch 0, outer_loop 2, loss 33427.5
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 3, loss real 113.02745819091797
+Epoch 0, outer_loop 3, loss syn 102.1849365234375
+Epoch 0, outer_loop 3, loss 35563.453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 4, loss real 106.3408203125
+Epoch 0, outer_loop 4, loss syn 93.64270782470703
+Epoch 0, outer_loop 4, loss 31178.62890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 5, loss real 110.92894744873047
+Epoch 0, outer_loop 5, loss syn 93.81298065185547
+Epoch 0, outer_loop 5, loss 34242.48828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 6, loss real 110.89404296875
+Epoch 0, outer_loop 6, loss syn 93.32546997070312
+Epoch 0, outer_loop 6, loss 31750.8046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 7, loss real 108.23736572265625
+Epoch 0, outer_loop 7, loss syn 95.36000061035156
+Epoch 0, outer_loop 7, loss 30981.146484375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 8, loss real 110.98396301269531
+Epoch 0, outer_loop 8, loss syn 96.05769348144531
+Epoch 0, outer_loop 8, loss 31099.81640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 9, loss real 109.3624038696289
+Epoch 0, outer_loop 9, loss syn 94.00987243652344
+Epoch 0, outer_loop 9, loss 32648.7890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 10, loss real 111.23191833496094
+Epoch 0, outer_loop 10, loss syn 96.4943618774414
+Epoch 0, outer_loop 10, loss 31862.685546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 11, loss real 107.8332748413086
+Epoch 0, outer_loop 11, loss syn 92.64559173583984
+Epoch 0, outer_loop 11, loss 35777.5234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 12, loss real 107.45208740234375
+Epoch 0, outer_loop 12, loss syn 91.72317504882812
+Epoch 0, outer_loop 12, loss 32125.8984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 13, loss real 108.1673812866211
+Epoch 0, outer_loop 13, loss syn 95.88472747802734
+Epoch 0, outer_loop 13, loss 36765.99609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 14, loss real 108.87229919433594
+Epoch 0, outer_loop 14, loss syn 94.55143737792969
+Epoch 0, outer_loop 14, loss 33177.58203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 15, loss real 109.05206298828125
+Epoch 0, outer_loop 15, loss syn 96.82626342773438
+Epoch 0, outer_loop 15, loss 32614.89453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 16, loss real 109.68367004394531
+Epoch 0, outer_loop 16, loss syn 93.06321716308594
+Epoch 0, outer_loop 16, loss 36713.15234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 17, loss real 106.5677490234375
+Epoch 0, outer_loop 17, loss syn 95.77909851074219
+Epoch 0, outer_loop 17, loss 38547.00390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 18, loss real 103.93559265136719
+Epoch 0, outer_loop 18, loss syn 89.0025405883789
+Epoch 0, outer_loop 18, loss 31065.8984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 0, outer_loop 19, loss real 106.17449188232422
+Epoch 0, outer_loop 19, loss syn 92.89407348632812
+Epoch 0, outer_loop 19, loss 40521.30859375
+Epoch 0, loss_avg: 149.918007468337
+******************** EVAL Epoch *******************
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+using syn graph for training...
+using orig graph for evaluating...
+num parameters for finetuning: 110122
+--- TestAcc: 0.7171, early-stopping-TestAcc: 0.7199, Best ValAcc: 0.7320 in epoch 591 --- 
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 0, loss real 103.35556030273438
+Epoch 1, outer_loop 0, loss syn 92.80673217773438
+Epoch 1, outer_loop 0, loss 39903.10546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 1, loss real 106.1009521484375
+Epoch 1, outer_loop 1, loss syn 93.1323471069336
+Epoch 1, outer_loop 1, loss 40710.06640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 2, loss real 110.218994140625
+Epoch 1, outer_loop 2, loss syn 95.03707885742188
+Epoch 1, outer_loop 2, loss 37733.4921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 3, loss real 107.34574890136719
+Epoch 1, outer_loop 3, loss syn 92.58907318115234
+Epoch 1, outer_loop 3, loss 35125.8671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 4, loss real 107.6637191772461
+Epoch 1, outer_loop 4, loss syn 88.15160369873047
+Epoch 1, outer_loop 4, loss 34673.68359375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 5, loss real 109.17654418945312
+Epoch 1, outer_loop 5, loss syn 96.05033874511719
+Epoch 1, outer_loop 5, loss 34018.95703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 6, loss real 109.30165100097656
+Epoch 1, outer_loop 6, loss syn 90.47816467285156
+Epoch 1, outer_loop 6, loss 35234.37109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 7, loss real 107.0840072631836
+Epoch 1, outer_loop 7, loss syn 92.38272857666016
+Epoch 1, outer_loop 7, loss 39334.37109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 8, loss real 111.79035186767578
+Epoch 1, outer_loop 8, loss syn 94.26647186279297
+Epoch 1, outer_loop 8, loss 39889.5546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 9, loss real 111.87461853027344
+Epoch 1, outer_loop 9, loss syn 94.93736267089844
+Epoch 1, outer_loop 9, loss 38551.3671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 10, loss real 110.4308853149414
+Epoch 1, outer_loop 10, loss syn 96.2896728515625
+Epoch 1, outer_loop 10, loss 41315.54296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 11, loss real 107.29861450195312
+Epoch 1, outer_loop 11, loss syn 96.67333221435547
+Epoch 1, outer_loop 11, loss 39906.83984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 12, loss real 110.02989196777344
+Epoch 1, outer_loop 12, loss syn 92.03630065917969
+Epoch 1, outer_loop 12, loss 42882.9609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 13, loss real 107.7341079711914
+Epoch 1, outer_loop 13, loss syn 97.1988525390625
+Epoch 1, outer_loop 13, loss 39978.8046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 14, loss real 108.67404174804688
+Epoch 1, outer_loop 14, loss syn 97.6936264038086
+Epoch 1, outer_loop 14, loss 42161.34375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 15, loss real 110.07489013671875
+Epoch 1, outer_loop 15, loss syn 95.30158233642578
+Epoch 1, outer_loop 15, loss 41814.35546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 16, loss real 110.0889663696289
+Epoch 1, outer_loop 16, loss syn 96.99397277832031
+Epoch 1, outer_loop 16, loss 44107.80078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 17, loss real 105.75704956054688
+Epoch 1, outer_loop 17, loss syn 92.57460021972656
+Epoch 1, outer_loop 17, loss 41494.46875
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 18, loss real 110.02130889892578
+Epoch 1, outer_loop 18, loss syn 93.84300231933594
+Epoch 1, outer_loop 18, loss 41171.12109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 1, outer_loop 19, loss real 105.64077758789062
+Epoch 1, outer_loop 19, loss syn 90.31714630126953
+Epoch 1, outer_loop 19, loss 40988.75390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 0, loss real 109.4440689086914
+Epoch 2, outer_loop 0, loss syn 93.85491943359375
+Epoch 2, outer_loop 0, loss 41284.49609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 1, loss real 108.09629821777344
+Epoch 2, outer_loop 1, loss syn 93.01014709472656
+Epoch 2, outer_loop 1, loss 43154.046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 2, loss real 107.73040008544922
+Epoch 2, outer_loop 2, loss syn 94.36473846435547
+Epoch 2, outer_loop 2, loss 41090.78125
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 3, loss real 108.6298828125
+Epoch 2, outer_loop 3, loss syn 91.58870697021484
+Epoch 2, outer_loop 3, loss 40420.94140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 4, loss real 110.49525451660156
+Epoch 2, outer_loop 4, loss syn 96.96482849121094
+Epoch 2, outer_loop 4, loss 40971.0078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 5, loss real 108.87471008300781
+Epoch 2, outer_loop 5, loss syn 94.48194885253906
+Epoch 2, outer_loop 5, loss 42459.06640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 6, loss real 109.87421417236328
+Epoch 2, outer_loop 6, loss syn 92.0634994506836
+Epoch 2, outer_loop 6, loss 41144.00390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 7, loss real 109.65543365478516
+Epoch 2, outer_loop 7, loss syn 92.30388641357422
+Epoch 2, outer_loop 7, loss 40269.125
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 8, loss real 106.58329010009766
+Epoch 2, outer_loop 8, loss syn 90.19792938232422
+Epoch 2, outer_loop 8, loss 42902.1796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 9, loss real 104.80304718017578
+Epoch 2, outer_loop 9, loss syn 93.6686019897461
+Epoch 2, outer_loop 9, loss 42279.66015625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 10, loss real 105.83502197265625
+Epoch 2, outer_loop 10, loss syn 91.6651611328125
+Epoch 2, outer_loop 10, loss 40457.8984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 11, loss real 104.60362243652344
+Epoch 2, outer_loop 11, loss syn 91.85118865966797
+Epoch 2, outer_loop 11, loss 40671.8046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 12, loss real 107.51840209960938
+Epoch 2, outer_loop 12, loss syn 95.66111755371094
+Epoch 2, outer_loop 12, loss 42758.7265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 13, loss real 108.31107330322266
+Epoch 2, outer_loop 13, loss syn 93.05207061767578
+Epoch 2, outer_loop 13, loss 40034.01953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 14, loss real 106.03986358642578
+Epoch 2, outer_loop 14, loss syn 88.18633270263672
+Epoch 2, outer_loop 14, loss 38810.640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 15, loss real 110.12809753417969
+Epoch 2, outer_loop 15, loss syn 97.96636199951172
+Epoch 2, outer_loop 15, loss 40911.86328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 16, loss real 109.11564636230469
+Epoch 2, outer_loop 16, loss syn 93.68276977539062
+Epoch 2, outer_loop 16, loss 41418.05859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 17, loss real 105.43744659423828
+Epoch 2, outer_loop 17, loss syn 90.12791442871094
+Epoch 2, outer_loop 17, loss 41866.10546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 18, loss real 105.85285186767578
+Epoch 2, outer_loop 18, loss syn 90.4925765991211
+Epoch 2, outer_loop 18, loss 41837.03515625
+mask rate is:0.5
+<class 'dict'>
+Epoch 2, outer_loop 19, loss real 105.64171600341797
+Epoch 2, outer_loop 19, loss syn 90.66845703125
+Epoch 2, outer_loop 19, loss 41265.69140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 0, loss real 109.16748809814453
+Epoch 3, outer_loop 0, loss syn 92.74832916259766
+Epoch 3, outer_loop 0, loss 40142.44921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 1, loss real 106.19981384277344
+Epoch 3, outer_loop 1, loss syn 90.61779022216797
+Epoch 3, outer_loop 1, loss 39643.15234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 2, loss real 106.67227935791016
+Epoch 3, outer_loop 2, loss syn 92.2142105102539
+Epoch 3, outer_loop 2, loss 41436.79296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 3, loss real 113.96289825439453
+Epoch 3, outer_loop 3, loss syn 98.04094696044922
+Epoch 3, outer_loop 3, loss 42865.69140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 4, loss real 109.86431884765625
+Epoch 3, outer_loop 4, loss syn 94.50514221191406
+Epoch 3, outer_loop 4, loss 36662.51953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 5, loss real 110.3769760131836
+Epoch 3, outer_loop 5, loss syn 91.54605865478516
+Epoch 3, outer_loop 5, loss 33988.61328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 6, loss real 109.6631851196289
+Epoch 3, outer_loop 6, loss syn 96.23966217041016
+Epoch 3, outer_loop 6, loss 33491.23046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 7, loss real 109.23332214355469
+Epoch 3, outer_loop 7, loss syn 92.80823516845703
+Epoch 3, outer_loop 7, loss 34280.0625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 8, loss real 108.14645385742188
+Epoch 3, outer_loop 8, loss syn 91.134521484375
+Epoch 3, outer_loop 8, loss 31554.265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 9, loss real 105.74402618408203
+Epoch 3, outer_loop 9, loss syn 90.53724670410156
+Epoch 3, outer_loop 9, loss 32959.875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 10, loss real 107.73921203613281
+Epoch 3, outer_loop 10, loss syn 97.31831359863281
+Epoch 3, outer_loop 10, loss 33166.34765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 11, loss real 107.66283416748047
+Epoch 3, outer_loop 11, loss syn 95.25527954101562
+Epoch 3, outer_loop 11, loss 36407.4609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 12, loss real 114.99254608154297
+Epoch 3, outer_loop 12, loss syn 97.45779418945312
+Epoch 3, outer_loop 12, loss 35159.69921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 13, loss real 107.09303283691406
+Epoch 3, outer_loop 13, loss syn 92.39225769042969
+Epoch 3, outer_loop 13, loss 34088.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 14, loss real 111.23979949951172
+Epoch 3, outer_loop 14, loss syn 92.33868408203125
+Epoch 3, outer_loop 14, loss 36673.87109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 15, loss real 108.95841217041016
+Epoch 3, outer_loop 15, loss syn 92.18790435791016
+Epoch 3, outer_loop 15, loss 33881.58984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 16, loss real 110.01931762695312
+Epoch 3, outer_loop 16, loss syn 97.30549621582031
+Epoch 3, outer_loop 16, loss 34257.1796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 17, loss real 104.43843841552734
+Epoch 3, outer_loop 17, loss syn 90.16130065917969
+Epoch 3, outer_loop 17, loss 35602.32421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 18, loss real 105.43385314941406
+Epoch 3, outer_loop 18, loss syn 90.53799438476562
+Epoch 3, outer_loop 18, loss 32081.380859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 3, outer_loop 19, loss real 108.77299499511719
+Epoch 3, outer_loop 19, loss syn 92.57050323486328
+Epoch 3, outer_loop 19, loss 34549.4921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 0, loss real 112.44694519042969
+Epoch 4, outer_loop 0, loss syn 95.77156829833984
+Epoch 4, outer_loop 0, loss 35873.98828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 1, loss real 110.6412124633789
+Epoch 4, outer_loop 1, loss syn 92.93425750732422
+Epoch 4, outer_loop 1, loss 34425.703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 2, loss real 106.89755249023438
+Epoch 4, outer_loop 2, loss syn 90.521728515625
+Epoch 4, outer_loop 2, loss 37562.484375
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 3, loss real 109.6273422241211
+Epoch 4, outer_loop 3, loss syn 95.00672912597656
+Epoch 4, outer_loop 3, loss 35556.20703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 4, loss real 110.19597625732422
+Epoch 4, outer_loop 4, loss syn 95.33717346191406
+Epoch 4, outer_loop 4, loss 37504.59765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 5, loss real 107.06146240234375
+Epoch 4, outer_loop 5, loss syn 91.57366180419922
+Epoch 4, outer_loop 5, loss 35619.6640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 6, loss real 114.18999481201172
+Epoch 4, outer_loop 6, loss syn 96.35150909423828
+Epoch 4, outer_loop 6, loss 36585.578125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 7, loss real 109.17588806152344
+Epoch 4, outer_loop 7, loss syn 94.2196044921875
+Epoch 4, outer_loop 7, loss 36713.921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 8, loss real 109.66790771484375
+Epoch 4, outer_loop 8, loss syn 95.390380859375
+Epoch 4, outer_loop 8, loss 34133.73046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 9, loss real 109.28915405273438
+Epoch 4, outer_loop 9, loss syn 92.14115905761719
+Epoch 4, outer_loop 9, loss 34628.63671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 10, loss real 112.39056396484375
+Epoch 4, outer_loop 10, loss syn 96.31487274169922
+Epoch 4, outer_loop 10, loss 34578.203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 11, loss real 110.78646850585938
+Epoch 4, outer_loop 11, loss syn 93.22481536865234
+Epoch 4, outer_loop 11, loss 35664.59375
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 12, loss real 109.85282135009766
+Epoch 4, outer_loop 12, loss syn 95.65262603759766
+Epoch 4, outer_loop 12, loss 35190.23828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 13, loss real 108.83252716064453
+Epoch 4, outer_loop 13, loss syn 94.2875747680664
+Epoch 4, outer_loop 13, loss 33786.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 14, loss real 110.12445068359375
+Epoch 4, outer_loop 14, loss syn 95.87152862548828
+Epoch 4, outer_loop 14, loss 33815.11328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 15, loss real 111.49736022949219
+Epoch 4, outer_loop 15, loss syn 95.5073471069336
+Epoch 4, outer_loop 15, loss 37234.984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 16, loss real 110.4974136352539
+Epoch 4, outer_loop 16, loss syn 95.15900421142578
+Epoch 4, outer_loop 16, loss 35084.875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 17, loss real 108.09661102294922
+Epoch 4, outer_loop 17, loss syn 95.09327697753906
+Epoch 4, outer_loop 17, loss 33552.0703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 18, loss real 109.40705871582031
+Epoch 4, outer_loop 18, loss syn 93.19839477539062
+Epoch 4, outer_loop 18, loss 34701.421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 4, outer_loop 19, loss real 109.18250274658203
+Epoch 4, outer_loop 19, loss syn 91.71621704101562
+Epoch 4, outer_loop 19, loss 35270.05078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 0, loss real 108.99259948730469
+Epoch 5, outer_loop 0, loss syn 95.46379852294922
+Epoch 5, outer_loop 0, loss 37264.765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 1, loss real 107.92332458496094
+Epoch 5, outer_loop 1, loss syn 90.74165344238281
+Epoch 5, outer_loop 1, loss 35393.33984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 2, loss real 110.6148910522461
+Epoch 5, outer_loop 2, loss syn 95.06809997558594
+Epoch 5, outer_loop 2, loss 34092.46875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 3, loss real 107.7293701171875
+Epoch 5, outer_loop 3, loss syn 92.38336181640625
+Epoch 5, outer_loop 3, loss 35230.13671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 4, loss real 108.67301177978516
+Epoch 5, outer_loop 4, loss syn 96.00987243652344
+Epoch 5, outer_loop 4, loss 35098.13671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 5, loss real 109.01593017578125
+Epoch 5, outer_loop 5, loss syn 94.19034576416016
+Epoch 5, outer_loop 5, loss 33880.27734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 6, loss real 107.66844940185547
+Epoch 5, outer_loop 6, loss syn 93.2255630493164
+Epoch 5, outer_loop 6, loss 34758.05078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 7, loss real 105.12317657470703
+Epoch 5, outer_loop 7, loss syn 88.84854888916016
+Epoch 5, outer_loop 7, loss 35624.01953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 8, loss real 108.31805419921875
+Epoch 5, outer_loop 8, loss syn 94.1921157836914
+Epoch 5, outer_loop 8, loss 33607.22265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 9, loss real 110.03154754638672
+Epoch 5, outer_loop 9, loss syn 94.00196838378906
+Epoch 5, outer_loop 9, loss 35531.0703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 10, loss real 107.15180206298828
+Epoch 5, outer_loop 10, loss syn 90.16316223144531
+Epoch 5, outer_loop 10, loss 34000.91015625
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 11, loss real 108.8441390991211
+Epoch 5, outer_loop 11, loss syn 94.33079528808594
+Epoch 5, outer_loop 11, loss 33988.546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 12, loss real 109.76661682128906
+Epoch 5, outer_loop 12, loss syn 93.79718780517578
+Epoch 5, outer_loop 12, loss 35474.2421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 13, loss real 111.77304077148438
+Epoch 5, outer_loop 13, loss syn 94.95223236083984
+Epoch 5, outer_loop 13, loss 35680.80859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 14, loss real 112.98921203613281
+Epoch 5, outer_loop 14, loss syn 95.34186553955078
+Epoch 5, outer_loop 14, loss 36747.43359375
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 15, loss real 110.30532836914062
+Epoch 5, outer_loop 15, loss syn 94.05842590332031
+Epoch 5, outer_loop 15, loss 36403.80859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 16, loss real 108.40928649902344
+Epoch 5, outer_loop 16, loss syn 92.55203247070312
+Epoch 5, outer_loop 16, loss 35981.79296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 17, loss real 109.48606872558594
+Epoch 5, outer_loop 17, loss syn 97.64225769042969
+Epoch 5, outer_loop 17, loss 35251.7890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 18, loss real 104.36327362060547
+Epoch 5, outer_loop 18, loss syn 88.05719757080078
+Epoch 5, outer_loop 18, loss 32270.728515625
+mask rate is:0.5
+<class 'dict'>
+Epoch 5, outer_loop 19, loss real 102.84510040283203
+Epoch 5, outer_loop 19, loss syn 90.83377838134766
+Epoch 5, outer_loop 19, loss 35373.7734375
+Epoch 5, loss_avg: 154.58352202169246
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 0, loss real 112.92237854003906
+Epoch 6, outer_loop 0, loss syn 96.58063507080078
+Epoch 6, outer_loop 0, loss 37881.8671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 1, loss real 107.35636138916016
+Epoch 6, outer_loop 1, loss syn 91.59651184082031
+Epoch 6, outer_loop 1, loss 33430.00390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 2, loss real 108.72810363769531
+Epoch 6, outer_loop 2, loss syn 94.25755310058594
+Epoch 6, outer_loop 2, loss 35734.44921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 3, loss real 108.62197875976562
+Epoch 6, outer_loop 3, loss syn 92.32203674316406
+Epoch 6, outer_loop 3, loss 33839.73046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 4, loss real 103.6452407836914
+Epoch 6, outer_loop 4, loss syn 88.29436492919922
+Epoch 6, outer_loop 4, loss 34128.74609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 5, loss real 105.65177917480469
+Epoch 6, outer_loop 5, loss syn 92.51436614990234
+Epoch 6, outer_loop 5, loss 35967.390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 6, loss real 107.36389923095703
+Epoch 6, outer_loop 6, loss syn 90.84444427490234
+Epoch 6, outer_loop 6, loss 35191.10546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 7, loss real 113.35265350341797
+Epoch 6, outer_loop 7, loss syn 96.30887603759766
+Epoch 6, outer_loop 7, loss 36609.81640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 8, loss real 109.6875
+Epoch 6, outer_loop 8, loss syn 94.16852569580078
+Epoch 6, outer_loop 8, loss 36831.33203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 9, loss real 110.52719116210938
+Epoch 6, outer_loop 9, loss syn 93.7071304321289
+Epoch 6, outer_loop 9, loss 38349.1640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 10, loss real 107.09427642822266
+Epoch 6, outer_loop 10, loss syn 90.26825714111328
+Epoch 6, outer_loop 10, loss 35135.51171875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 11, loss real 110.73340606689453
+Epoch 6, outer_loop 11, loss syn 96.70146942138672
+Epoch 6, outer_loop 11, loss 35817.35546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 12, loss real 109.10507202148438
+Epoch 6, outer_loop 12, loss syn 92.50151824951172
+Epoch 6, outer_loop 12, loss 35981.4140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 13, loss real 110.523193359375
+Epoch 6, outer_loop 13, loss syn 96.20098114013672
+Epoch 6, outer_loop 13, loss 36198.19921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 14, loss real 110.22977447509766
+Epoch 6, outer_loop 14, loss syn 92.85829162597656
+Epoch 6, outer_loop 14, loss 34700.9765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 15, loss real 109.21627807617188
+Epoch 6, outer_loop 15, loss syn 93.50834655761719
+Epoch 6, outer_loop 15, loss 36330.8203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 16, loss real 103.778564453125
+Epoch 6, outer_loop 16, loss syn 88.26170349121094
+Epoch 6, outer_loop 16, loss 34582.8203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 17, loss real 115.11859893798828
+Epoch 6, outer_loop 17, loss syn 99.92076110839844
+Epoch 6, outer_loop 17, loss 35880.19921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 18, loss real 109.9756851196289
+Epoch 6, outer_loop 18, loss syn 92.29460144042969
+Epoch 6, outer_loop 18, loss 36527.11328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 6, outer_loop 19, loss real 103.28335571289062
+Epoch 6, outer_loop 19, loss syn 87.94270324707031
+Epoch 6, outer_loop 19, loss 36737.24609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 0, loss real 108.43698120117188
+Epoch 7, outer_loop 0, loss syn 89.94158172607422
+Epoch 7, outer_loop 0, loss 35235.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 1, loss real 110.24908447265625
+Epoch 7, outer_loop 1, loss syn 92.72608184814453
+Epoch 7, outer_loop 1, loss 35726.61328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 2, loss real 106.205078125
+Epoch 7, outer_loop 2, loss syn 88.84162139892578
+Epoch 7, outer_loop 2, loss 35093.9296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 3, loss real 107.8883056640625
+Epoch 7, outer_loop 3, loss syn 88.35504913330078
+Epoch 7, outer_loop 3, loss 39016.49609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 4, loss real 107.72433471679688
+Epoch 7, outer_loop 4, loss syn 93.98724365234375
+Epoch 7, outer_loop 4, loss 36497.84375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 5, loss real 107.24183654785156
+Epoch 7, outer_loop 5, loss syn 92.92613983154297
+Epoch 7, outer_loop 5, loss 37083.6328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 6, loss real 110.20174407958984
+Epoch 7, outer_loop 6, loss syn 94.43029022216797
+Epoch 7, outer_loop 6, loss 37642.09375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 7, loss real 112.17928314208984
+Epoch 7, outer_loop 7, loss syn 97.75912475585938
+Epoch 7, outer_loop 7, loss 36518.15234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 8, loss real 107.14713287353516
+Epoch 7, outer_loop 8, loss syn 90.02767181396484
+Epoch 7, outer_loop 8, loss 37399.0703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 9, loss real 108.62594604492188
+Epoch 7, outer_loop 9, loss syn 90.12837219238281
+Epoch 7, outer_loop 9, loss 36271.87890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 10, loss real 109.8047866821289
+Epoch 7, outer_loop 10, loss syn 94.71702575683594
+Epoch 7, outer_loop 10, loss 37506.27734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 11, loss real 108.0279312133789
+Epoch 7, outer_loop 11, loss syn 94.01728820800781
+Epoch 7, outer_loop 11, loss 37261.8203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 12, loss real 108.24394226074219
+Epoch 7, outer_loop 12, loss syn 90.80828857421875
+Epoch 7, outer_loop 12, loss 37466.296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 13, loss real 111.69004821777344
+Epoch 7, outer_loop 13, loss syn 96.43049621582031
+Epoch 7, outer_loop 13, loss 37697.44921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 14, loss real 112.0692138671875
+Epoch 7, outer_loop 14, loss syn 99.1827621459961
+Epoch 7, outer_loop 14, loss 35238.77734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 15, loss real 106.27816772460938
+Epoch 7, outer_loop 15, loss syn 89.68565368652344
+Epoch 7, outer_loop 15, loss 36443.57421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 16, loss real 106.12382507324219
+Epoch 7, outer_loop 16, loss syn 89.43889617919922
+Epoch 7, outer_loop 16, loss 36937.35546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 17, loss real 107.56581115722656
+Epoch 7, outer_loop 17, loss syn 94.34954833984375
+Epoch 7, outer_loop 17, loss 39252.7265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 18, loss real 109.33350372314453
+Epoch 7, outer_loop 18, loss syn 96.01165771484375
+Epoch 7, outer_loop 18, loss 36210.2734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 7, outer_loop 19, loss real 107.9787826538086
+Epoch 7, outer_loop 19, loss syn 93.73121643066406
+Epoch 7, outer_loop 19, loss 36442.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 0, loss real 108.20481872558594
+Epoch 8, outer_loop 0, loss syn 93.30804443359375
+Epoch 8, outer_loop 0, loss 37736.9453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 1, loss real 111.18955993652344
+Epoch 8, outer_loop 1, loss syn 93.71209716796875
+Epoch 8, outer_loop 1, loss 36048.41796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 2, loss real 108.73402404785156
+Epoch 8, outer_loop 2, loss syn 92.63174438476562
+Epoch 8, outer_loop 2, loss 35930.98828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 3, loss real 105.36849975585938
+Epoch 8, outer_loop 3, loss syn 89.47550201416016
+Epoch 8, outer_loop 3, loss 36082.37890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 4, loss real 106.87667846679688
+Epoch 8, outer_loop 4, loss syn 92.74425506591797
+Epoch 8, outer_loop 4, loss 34909.01171875
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 5, loss real 108.29542541503906
+Epoch 8, outer_loop 5, loss syn 92.87033081054688
+Epoch 8, outer_loop 5, loss 35871.58203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 6, loss real 107.4646224975586
+Epoch 8, outer_loop 6, loss syn 90.33830261230469
+Epoch 8, outer_loop 6, loss 36630.125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 7, loss real 108.39330291748047
+Epoch 8, outer_loop 7, loss syn 94.04735565185547
+Epoch 8, outer_loop 7, loss 36454.1640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 8, loss real 104.88556671142578
+Epoch 8, outer_loop 8, loss syn 92.18655395507812
+Epoch 8, outer_loop 8, loss 34863.32421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 9, loss real 106.66673278808594
+Epoch 8, outer_loop 9, loss syn 91.35588836669922
+Epoch 8, outer_loop 9, loss 33294.45703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 10, loss real 105.76363372802734
+Epoch 8, outer_loop 10, loss syn 91.09337615966797
+Epoch 8, outer_loop 10, loss 36058.59375
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 11, loss real 111.96227264404297
+Epoch 8, outer_loop 11, loss syn 96.66677856445312
+Epoch 8, outer_loop 11, loss 35739.70703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 12, loss real 108.87459564208984
+Epoch 8, outer_loop 12, loss syn 91.55484008789062
+Epoch 8, outer_loop 12, loss 34385.51953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 13, loss real 108.91706848144531
+Epoch 8, outer_loop 13, loss syn 97.43887329101562
+Epoch 8, outer_loop 13, loss 36353.55859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 14, loss real 112.2450180053711
+Epoch 8, outer_loop 14, loss syn 95.75318908691406
+Epoch 8, outer_loop 14, loss 36861.078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 15, loss real 109.32422637939453
+Epoch 8, outer_loop 15, loss syn 92.00365447998047
+Epoch 8, outer_loop 15, loss 35558.34375
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 16, loss real 108.55150604248047
+Epoch 8, outer_loop 16, loss syn 95.97077941894531
+Epoch 8, outer_loop 16, loss 38285.59765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 17, loss real 108.12992095947266
+Epoch 8, outer_loop 17, loss syn 90.06381225585938
+Epoch 8, outer_loop 17, loss 37415.7265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 18, loss real 108.51765441894531
+Epoch 8, outer_loop 18, loss syn 93.97745513916016
+Epoch 8, outer_loop 18, loss 35989.04296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 8, outer_loop 19, loss real 108.97300720214844
+Epoch 8, outer_loop 19, loss syn 91.0624008178711
+Epoch 8, outer_loop 19, loss 37199.28125
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 0, loss real 106.20909118652344
+Epoch 9, outer_loop 0, loss syn 89.73405456542969
+Epoch 9, outer_loop 0, loss 33939.88671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 1, loss real 110.69692993164062
+Epoch 9, outer_loop 1, loss syn 93.68415069580078
+Epoch 9, outer_loop 1, loss 35907.8203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 2, loss real 109.47078704833984
+Epoch 9, outer_loop 2, loss syn 95.04425811767578
+Epoch 9, outer_loop 2, loss 35164.234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 3, loss real 105.1282730102539
+Epoch 9, outer_loop 3, loss syn 89.64256286621094
+Epoch 9, outer_loop 3, loss 35991.8984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 4, loss real 113.62837982177734
+Epoch 9, outer_loop 4, loss syn 94.91556549072266
+Epoch 9, outer_loop 4, loss 36515.69921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 5, loss real 107.9677963256836
+Epoch 9, outer_loop 5, loss syn 92.88450622558594
+Epoch 9, outer_loop 5, loss 37882.1875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 6, loss real 105.92430114746094
+Epoch 9, outer_loop 6, loss syn 89.00879669189453
+Epoch 9, outer_loop 6, loss 35648.6875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 7, loss real 112.49663543701172
+Epoch 9, outer_loop 7, loss syn 95.6190185546875
+Epoch 9, outer_loop 7, loss 36940.12890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 8, loss real 110.35965728759766
+Epoch 9, outer_loop 8, loss syn 92.91865539550781
+Epoch 9, outer_loop 8, loss 34652.44921875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 9, loss real 108.0241470336914
+Epoch 9, outer_loop 9, loss syn 93.09852600097656
+Epoch 9, outer_loop 9, loss 34694.98828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 10, loss real 108.52107238769531
+Epoch 9, outer_loop 10, loss syn 93.03024291992188
+Epoch 9, outer_loop 10, loss 37265.16015625
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 11, loss real 107.85285949707031
+Epoch 9, outer_loop 11, loss syn 92.91554260253906
+Epoch 9, outer_loop 11, loss 36203.6796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 12, loss real 108.69825744628906
+Epoch 9, outer_loop 12, loss syn 91.00884246826172
+Epoch 9, outer_loop 12, loss 36894.37109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 13, loss real 110.30252838134766
+Epoch 9, outer_loop 13, loss syn 95.61467742919922
+Epoch 9, outer_loop 13, loss 35494.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 14, loss real 105.2818832397461
+Epoch 9, outer_loop 14, loss syn 90.24225616455078
+Epoch 9, outer_loop 14, loss 36782.71484375
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 15, loss real 111.13736724853516
+Epoch 9, outer_loop 15, loss syn 93.26876831054688
+Epoch 9, outer_loop 15, loss 36168.62109375
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 16, loss real 110.53702545166016
+Epoch 9, outer_loop 16, loss syn 93.99969482421875
+Epoch 9, outer_loop 16, loss 36643.5078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 17, loss real 110.56678771972656
+Epoch 9, outer_loop 17, loss syn 96.90607452392578
+Epoch 9, outer_loop 17, loss 34669.6953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 18, loss real 108.8152084350586
+Epoch 9, outer_loop 18, loss syn 93.41259002685547
+Epoch 9, outer_loop 18, loss 36970.7421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 9, outer_loop 19, loss real 106.83951568603516
+Epoch 9, outer_loop 19, loss syn 88.98504638671875
+Epoch 9, outer_loop 19, loss 37226.09375
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 0, loss real 107.71205139160156
+Epoch 10, outer_loop 0, loss syn 90.94798278808594
+Epoch 10, outer_loop 0, loss 37011.8828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 1, loss real 107.61608123779297
+Epoch 10, outer_loop 1, loss syn 89.01246643066406
+Epoch 10, outer_loop 1, loss 34832.58984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 2, loss real 107.6258773803711
+Epoch 10, outer_loop 2, loss syn 91.09687042236328
+Epoch 10, outer_loop 2, loss 36032.6640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 3, loss real 109.37297821044922
+Epoch 10, outer_loop 3, loss syn 94.57456970214844
+Epoch 10, outer_loop 3, loss 34342.08984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 4, loss real 109.71542358398438
+Epoch 10, outer_loop 4, loss syn 95.73394012451172
+Epoch 10, outer_loop 4, loss 38496.08203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 5, loss real 104.27395629882812
+Epoch 10, outer_loop 5, loss syn 86.24320220947266
+Epoch 10, outer_loop 5, loss 34185.24609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 6, loss real 106.07707214355469
+Epoch 10, outer_loop 6, loss syn 89.60795593261719
+Epoch 10, outer_loop 6, loss 35220.0703125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 7, loss real 106.8097152709961
+Epoch 10, outer_loop 7, loss syn 89.37935638427734
+Epoch 10, outer_loop 7, loss 38198.61328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 8, loss real 106.19578552246094
+Epoch 10, outer_loop 8, loss syn 90.01335144042969
+Epoch 10, outer_loop 8, loss 36799.22265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 9, loss real 108.03132629394531
+Epoch 10, outer_loop 9, loss syn 94.23905181884766
+Epoch 10, outer_loop 9, loss 38281.4609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 10, loss real 105.80167388916016
+Epoch 10, outer_loop 10, loss syn 86.04971313476562
+Epoch 10, outer_loop 10, loss 38059.5625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 11, loss real 111.53978729248047
+Epoch 10, outer_loop 11, loss syn 97.88172912597656
+Epoch 10, outer_loop 11, loss 39878.4296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 12, loss real 107.76101684570312
+Epoch 10, outer_loop 12, loss syn 92.42527770996094
+Epoch 10, outer_loop 12, loss 36167.26171875
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 13, loss real 109.60047149658203
+Epoch 10, outer_loop 13, loss syn 94.16931915283203
+Epoch 10, outer_loop 13, loss 36667.98046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 14, loss real 110.06361389160156
+Epoch 10, outer_loop 14, loss syn 93.76493835449219
+Epoch 10, outer_loop 14, loss 37279.94140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 15, loss real 108.90544891357422
+Epoch 10, outer_loop 15, loss syn 93.56773376464844
+Epoch 10, outer_loop 15, loss 39008.69140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 16, loss real 106.54387664794922
+Epoch 10, outer_loop 16, loss syn 91.72773742675781
+Epoch 10, outer_loop 16, loss 37191.3828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 17, loss real 108.27812957763672
+Epoch 10, outer_loop 17, loss syn 93.20020294189453
+Epoch 10, outer_loop 17, loss 35664.0078125
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 18, loss real 107.46841430664062
+Epoch 10, outer_loop 18, loss syn 91.63350677490234
+Epoch 10, outer_loop 18, loss 36042.53515625
+mask rate is:0.5
+<class 'dict'>
+Epoch 10, outer_loop 19, loss real 110.00802612304688
+Epoch 10, outer_loop 19, loss syn 94.2600326538086
+Epoch 10, outer_loop 19, loss 36569.31640625
+Epoch 10, loss_avg: 162.1339254460549
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 0, loss real 110.23812103271484
+Epoch 11, outer_loop 0, loss syn 94.9282455444336
+Epoch 11, outer_loop 0, loss 38570.546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 1, loss real 104.86832427978516
+Epoch 11, outer_loop 1, loss syn 91.15074920654297
+Epoch 11, outer_loop 1, loss 35572.41015625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 2, loss real 107.07281494140625
+Epoch 11, outer_loop 2, loss syn 90.18538665771484
+Epoch 11, outer_loop 2, loss 36760.82421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 3, loss real 111.52877044677734
+Epoch 11, outer_loop 3, loss syn 94.14092254638672
+Epoch 11, outer_loop 3, loss 38493.72265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 4, loss real 107.88999938964844
+Epoch 11, outer_loop 4, loss syn 93.27836608886719
+Epoch 11, outer_loop 4, loss 34241.32421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 5, loss real 112.04361724853516
+Epoch 11, outer_loop 5, loss syn 96.61124420166016
+Epoch 11, outer_loop 5, loss 37605.61328125
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 6, loss real 109.840576171875
+Epoch 11, outer_loop 6, loss syn 95.19206237792969
+Epoch 11, outer_loop 6, loss 38167.73828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 7, loss real 109.47711181640625
+Epoch 11, outer_loop 7, loss syn 89.83145904541016
+Epoch 11, outer_loop 7, loss 37275.14453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 8, loss real 104.28484344482422
+Epoch 11, outer_loop 8, loss syn 89.92796325683594
+Epoch 11, outer_loop 8, loss 34575.53125
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 9, loss real 110.61415100097656
+Epoch 11, outer_loop 9, loss syn 94.87039947509766
+Epoch 11, outer_loop 9, loss 37906.4296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 10, loss real 110.71800231933594
+Epoch 11, outer_loop 10, loss syn 92.14686584472656
+Epoch 11, outer_loop 10, loss 35739.12890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 11, loss real 107.15140533447266
+Epoch 11, outer_loop 11, loss syn 90.7515640258789
+Epoch 11, outer_loop 11, loss 38310.984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 12, loss real 112.21102142333984
+Epoch 11, outer_loop 12, loss syn 97.25466918945312
+Epoch 11, outer_loop 12, loss 36409.7890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 13, loss real 110.2209701538086
+Epoch 11, outer_loop 13, loss syn 96.54769897460938
+Epoch 11, outer_loop 13, loss 36600.55859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 14, loss real 107.84712219238281
+Epoch 11, outer_loop 14, loss syn 90.88932037353516
+Epoch 11, outer_loop 14, loss 37164.84765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 15, loss real 107.19557189941406
+Epoch 11, outer_loop 15, loss syn 89.0625991821289
+Epoch 11, outer_loop 15, loss 37344.375
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 16, loss real 108.51113891601562
+Epoch 11, outer_loop 16, loss syn 94.77392578125
+Epoch 11, outer_loop 16, loss 36824.89453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 17, loss real 108.93939971923828
+Epoch 11, outer_loop 17, loss syn 96.4865493774414
+Epoch 11, outer_loop 17, loss 36775.65234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 18, loss real 108.02198028564453
+Epoch 11, outer_loop 18, loss syn 92.1413803100586
+Epoch 11, outer_loop 18, loss 36443.12890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 11, outer_loop 19, loss real 106.53048706054688
+Epoch 11, outer_loop 19, loss syn 92.30146789550781
+Epoch 11, outer_loop 19, loss 36838.98828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 0, loss real 106.19658660888672
+Epoch 12, outer_loop 0, loss syn 90.7867202758789
+Epoch 12, outer_loop 0, loss 37391.4765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 1, loss real 102.86503601074219
+Epoch 12, outer_loop 1, loss syn 87.52117919921875
+Epoch 12, outer_loop 1, loss 35494.59765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 2, loss real 111.46499633789062
+Epoch 12, outer_loop 2, loss syn 91.5511474609375
+Epoch 12, outer_loop 2, loss 35553.90234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 3, loss real 107.70353698730469
+Epoch 12, outer_loop 3, loss syn 92.19902801513672
+Epoch 12, outer_loop 3, loss 36557.69140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 4, loss real 109.85604095458984
+Epoch 12, outer_loop 4, loss syn 95.28761291503906
+Epoch 12, outer_loop 4, loss 35677.4140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 5, loss real 110.65474700927734
+Epoch 12, outer_loop 5, loss syn 95.41895294189453
+Epoch 12, outer_loop 5, loss 37951.5234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 6, loss real 108.26477813720703
+Epoch 12, outer_loop 6, loss syn 93.86771392822266
+Epoch 12, outer_loop 6, loss 35308.5859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 7, loss real 113.29814147949219
+Epoch 12, outer_loop 7, loss syn 99.08428192138672
+Epoch 12, outer_loop 7, loss 38500.65625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 8, loss real 111.30048370361328
+Epoch 12, outer_loop 8, loss syn 97.14575958251953
+Epoch 12, outer_loop 8, loss 37614.484375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 9, loss real 105.85952758789062
+Epoch 12, outer_loop 9, loss syn 87.0270004272461
+Epoch 12, outer_loop 9, loss 36005.18359375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 10, loss real 108.72803497314453
+Epoch 12, outer_loop 10, loss syn 94.1575927734375
+Epoch 12, outer_loop 10, loss 37382.4609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 11, loss real 108.0602035522461
+Epoch 12, outer_loop 11, loss syn 94.28143310546875
+Epoch 12, outer_loop 11, loss 38513.2265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 12, loss real 104.83966064453125
+Epoch 12, outer_loop 12, loss syn 89.31285858154297
+Epoch 12, outer_loop 12, loss 36985.1640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 13, loss real 107.67852783203125
+Epoch 12, outer_loop 13, loss syn 95.06212615966797
+Epoch 12, outer_loop 13, loss 36045.1953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 14, loss real 109.14735412597656
+Epoch 12, outer_loop 14, loss syn 91.25248718261719
+Epoch 12, outer_loop 14, loss 36734.08984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 15, loss real 108.34778594970703
+Epoch 12, outer_loop 15, loss syn 90.48780822753906
+Epoch 12, outer_loop 15, loss 36476.98046875
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 16, loss real 109.30569458007812
+Epoch 12, outer_loop 16, loss syn 96.77880859375
+Epoch 12, outer_loop 16, loss 39425.32421875
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 17, loss real 107.57711791992188
+Epoch 12, outer_loop 17, loss syn 91.33948516845703
+Epoch 12, outer_loop 17, loss 36363.9765625
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 18, loss real 109.27462768554688
+Epoch 12, outer_loop 18, loss syn 93.4982681274414
+Epoch 12, outer_loop 18, loss 35980.234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 12, outer_loop 19, loss real 106.29209899902344
+Epoch 12, outer_loop 19, loss syn 91.11841583251953
+Epoch 12, outer_loop 19, loss 37241.234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 0, loss real 108.90018463134766
+Epoch 13, outer_loop 0, loss syn 90.92378997802734
+Epoch 13, outer_loop 0, loss 38588.48828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 1, loss real 106.85326385498047
+Epoch 13, outer_loop 1, loss syn 94.7308578491211
+Epoch 13, outer_loop 1, loss 37720.10546875
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 2, loss real 109.29411315917969
+Epoch 13, outer_loop 2, loss syn 92.75523376464844
+Epoch 13, outer_loop 2, loss 38595.94140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 3, loss real 108.29905700683594
+Epoch 13, outer_loop 3, loss syn 92.15699005126953
+Epoch 13, outer_loop 3, loss 35793.2890625
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 4, loss real 106.98338317871094
+Epoch 13, outer_loop 4, loss syn 93.70885467529297
+Epoch 13, outer_loop 4, loss 37850.58203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 5, loss real 106.80720520019531
+Epoch 13, outer_loop 5, loss syn 89.14598846435547
+Epoch 13, outer_loop 5, loss 36867.33203125
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 6, loss real 111.51294708251953
+Epoch 13, outer_loop 6, loss syn 93.1747055053711
+Epoch 13, outer_loop 6, loss 39810.671875
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 7, loss real 109.81556701660156
+Epoch 13, outer_loop 7, loss syn 92.43580627441406
+Epoch 13, outer_loop 7, loss 36391.4296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 8, loss real 104.59700012207031
+Epoch 13, outer_loop 8, loss syn 91.24047088623047
+Epoch 13, outer_loop 8, loss 38255.17578125
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 9, loss real 108.11760711669922
+Epoch 13, outer_loop 9, loss syn 90.56640625
+Epoch 13, outer_loop 9, loss 37484.02734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 10, loss real 109.74787902832031
+Epoch 13, outer_loop 10, loss syn 90.74903106689453
+Epoch 13, outer_loop 10, loss 38376.58984375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 11, loss real 111.19536590576172
+Epoch 13, outer_loop 11, loss syn 94.19444274902344
+Epoch 13, outer_loop 11, loss 37512.55859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 12, loss real 107.35478210449219
+Epoch 13, outer_loop 12, loss syn 90.60182189941406
+Epoch 13, outer_loop 12, loss 37075.25390625
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 13, loss real 107.95337677001953
+Epoch 13, outer_loop 13, loss syn 91.6334457397461
+Epoch 13, outer_loop 13, loss 37354.5234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 14, loss real 107.0466079711914
+Epoch 13, outer_loop 14, loss syn 90.52715301513672
+Epoch 13, outer_loop 14, loss 36163.74609375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 15, loss real 112.3105697631836
+Epoch 13, outer_loop 15, loss syn 92.90521240234375
+Epoch 13, outer_loop 15, loss 40377.30859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 16, loss real 104.47109985351562
+Epoch 13, outer_loop 16, loss syn 85.74742126464844
+Epoch 13, outer_loop 16, loss 36614.41796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 17, loss real 106.72354125976562
+Epoch 13, outer_loop 17, loss syn 89.32337188720703
+Epoch 13, outer_loop 17, loss 34850.48828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 18, loss real 108.46629333496094
+Epoch 13, outer_loop 18, loss syn 89.03034973144531
+Epoch 13, outer_loop 18, loss 38276.41796875
+mask rate is:0.5
+<class 'dict'>
+Epoch 13, outer_loop 19, loss real 108.75813293457031
+Epoch 13, outer_loop 19, loss syn 92.11510467529297
+Epoch 13, outer_loop 19, loss 37693.7265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 0, loss real 106.7119369506836
+Epoch 14, outer_loop 0, loss syn 93.45616912841797
+Epoch 14, outer_loop 0, loss 36821.89453125
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 1, loss real 108.44441223144531
+Epoch 14, outer_loop 1, loss syn 91.75801086425781
+Epoch 14, outer_loop 1, loss 37201.6015625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 2, loss real 108.29115295410156
+Epoch 14, outer_loop 2, loss syn 91.11457824707031
+Epoch 14, outer_loop 2, loss 39368.01953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 3, loss real 110.08454132080078
+Epoch 14, outer_loop 3, loss syn 95.92868041992188
+Epoch 14, outer_loop 3, loss 36795.90234375
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 4, loss real 107.52505493164062
+Epoch 14, outer_loop 4, loss syn 89.8663330078125
+Epoch 14, outer_loop 4, loss 38516.98828125
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 5, loss real 107.0229721069336
+Epoch 14, outer_loop 5, loss syn 90.04718017578125
+Epoch 14, outer_loop 5, loss 37033.640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 6, loss real 107.48372650146484
+Epoch 14, outer_loop 6, loss syn 89.68376922607422
+Epoch 14, outer_loop 6, loss 35938.22265625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 7, loss real 108.24668884277344
+Epoch 14, outer_loop 7, loss syn 91.46699523925781
+Epoch 14, outer_loop 7, loss 35612.04296875
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 8, loss real 107.2760238647461
+Epoch 14, outer_loop 8, loss syn 90.95767211914062
+Epoch 14, outer_loop 8, loss 34457.953125
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 9, loss real 108.18758392333984
+Epoch 14, outer_loop 9, loss syn 93.38390350341797
+Epoch 14, outer_loop 9, loss 35291.19140625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 10, loss real 108.42550659179688
+Epoch 14, outer_loop 10, loss syn 92.7951431274414
+Epoch 14, outer_loop 10, loss 35277.05859375
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 11, loss real 109.04444122314453
+Epoch 14, outer_loop 11, loss syn 89.97440338134766
+Epoch 14, outer_loop 11, loss 35462.81640625
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 12, loss real 111.2988510131836
+Epoch 14, outer_loop 12, loss syn 95.26551055908203
+Epoch 14, outer_loop 12, loss 36592.77734375
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 13, loss real 108.45821380615234
+Epoch 14, outer_loop 13, loss syn 93.51782989501953
+Epoch 14, outer_loop 13, loss 35730.3125
+mask rate is:0.5
+<class 'dict'>
+Epoch 14, outer_loop 14, loss real 111.54460144042969
+Epoch 14, outer_loop 14, loss syn 95.06694793701172
+Epoch 14, outer_loop 14, loss 38549.11328125
+mask rate is:0.5
+<class 'dict'>

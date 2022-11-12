@@ -1,0 +1,1802 @@
+Namespace(activation='prelu', alpha=0, alpha_l=3, attn_drop=0.1, concat_hidden=False, dataset='ogbn-arxiv', debug=0, decoder='gat', device=0, dis_metric='ours', drop_edge_rate=0.0, dropout=0.0, encoder='gat', epochs=1000, heads=4, hidden=256, in_drop=0.2, inner=1, keep_ratio=1.0, linear_prob=False, loss_fn='sce', lr_adj=0.01, lr_adj_f=0.01, lr_feat=0.01, lr_feat_f=0.01, lr_model=0.01, lr_model_f=0.01, mask_rate=0.5, max_epoch=1000, max_epoch_f=600, max_epoch_s=1000, negative_slope=0.2, nlayers=2, norm=None, normalize_features=True, num_out_heads=1, optimizer='adam', outer=20, reduction_rate=0.0025, replace_rate=0.05, residual=False, save=1, scheduler=True, seed=1, sgc=1, weight_decay=0.0, weight_decay_f=0.0)
+num classes is: 40
+clusters: 227
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+mask rate is:0.5
+Epoch 0, outer_loop 0, loss real 232.46185302734375
+Epoch 0, outer_loop 0, loss syn 243.55038452148438
+Epoch 0, outer_loop 0, loss 72833.5
+mask rate is:0.5
+Epoch 0, outer_loop 1, loss real 219.44357299804688
+Epoch 0, outer_loop 1, loss syn 202.7479705810547
+Epoch 0, outer_loop 1, loss 68821.7734375
+mask rate is:0.5
+Epoch 0, outer_loop 2, loss real 220.1678924560547
+Epoch 0, outer_loop 2, loss syn 197.7474822998047
+Epoch 0, outer_loop 2, loss 66567.265625
+mask rate is:0.5
+Epoch 0, outer_loop 3, loss real 221.55763244628906
+Epoch 0, outer_loop 3, loss syn 194.87466430664062
+Epoch 0, outer_loop 3, loss 64476.87109375
+mask rate is:0.5
+Epoch 0, outer_loop 4, loss real 222.68704223632812
+Epoch 0, outer_loop 4, loss syn 198.90443420410156
+Epoch 0, outer_loop 4, loss 63845.04296875
+mask rate is:0.5
+Epoch 0, outer_loop 5, loss real 220.87318420410156
+Epoch 0, outer_loop 5, loss syn 192.213134765625
+Epoch 0, outer_loop 5, loss 66055.734375
+mask rate is:0.5
+Epoch 0, outer_loop 6, loss real 219.85804748535156
+Epoch 0, outer_loop 6, loss syn 191.18994140625
+Epoch 0, outer_loop 6, loss 65793.6953125
+mask rate is:0.5
+Epoch 0, outer_loop 7, loss real 219.2300262451172
+Epoch 0, outer_loop 7, loss syn 191.5940399169922
+Epoch 0, outer_loop 7, loss 65753.4609375
+mask rate is:0.5
+Epoch 0, outer_loop 8, loss real 219.44346618652344
+Epoch 0, outer_loop 8, loss syn 189.6204833984375
+Epoch 0, outer_loop 8, loss 66991.0
+mask rate is:0.5
+Epoch 0, outer_loop 9, loss real 218.8614044189453
+Epoch 0, outer_loop 9, loss syn 190.14268493652344
+Epoch 0, outer_loop 9, loss 67211.453125
+mask rate is:0.5
+Epoch 0, outer_loop 10, loss real 218.9059295654297
+Epoch 0, outer_loop 10, loss syn 189.10304260253906
+Epoch 0, outer_loop 10, loss 66653.8515625
+mask rate is:0.5
+Epoch 0, outer_loop 11, loss real 218.91189575195312
+Epoch 0, outer_loop 11, loss syn 191.7885284423828
+Epoch 0, outer_loop 11, loss 67926.421875
+mask rate is:0.5
+Epoch 0, outer_loop 12, loss real 218.96185302734375
+Epoch 0, outer_loop 12, loss syn 187.9530792236328
+Epoch 0, outer_loop 12, loss 66675.4375
+mask rate is:0.5
+Epoch 0, outer_loop 13, loss real 218.34799194335938
+Epoch 0, outer_loop 13, loss syn 187.75807189941406
+Epoch 0, outer_loop 13, loss 67981.5703125
+mask rate is:0.5
+Epoch 0, outer_loop 14, loss real 218.59466552734375
+Epoch 0, outer_loop 14, loss syn 192.51426696777344
+Epoch 0, outer_loop 14, loss 67836.71875
+mask rate is:0.5
+Epoch 0, outer_loop 15, loss real 218.7852325439453
+Epoch 0, outer_loop 15, loss syn 189.78509521484375
+Epoch 0, outer_loop 15, loss 67961.78125
+mask rate is:0.5
+Epoch 0, outer_loop 16, loss real 218.70970153808594
+Epoch 0, outer_loop 16, loss syn 189.35769653320312
+Epoch 0, outer_loop 16, loss 67303.90625
+mask rate is:0.5
+Epoch 0, outer_loop 17, loss real 218.5374755859375
+Epoch 0, outer_loop 17, loss syn 189.9023895263672
+Epoch 0, outer_loop 17, loss 67564.6015625
+mask rate is:0.5
+Epoch 0, outer_loop 18, loss real 218.720703125
+Epoch 0, outer_loop 18, loss syn 187.8521728515625
+Epoch 0, outer_loop 18, loss 68256.375
+mask rate is:0.5
+Epoch 0, outer_loop 19, loss real 218.81741333007812
+Epoch 0, outer_loop 19, loss syn 190.2222900390625
+Epoch 0, outer_loop 19, loss 67658.484375
+Epoch 0, loss_avg: 296.07245491464755
+******************** EVAL Epoch *******************
+in_dim:128, num_hidden:64,out_dim:64,num_layers:2,nhead:4,nhead_out:4, concat_out:True
+in_dim:256, num_hidden:256,out_dim:128,num_layers:1,nhead:4,nhead_out:1, concat_out:True
+using syn graph for training...
+using orig graph for evaluating...
+num parameters for finetuning: 110122
+--- TestAcc: 0.6967, early-stopping-TestAcc: 0.7148, Best ValAcc: 0.7308 in epoch 486 --- 
+mask rate is:0.5
+Epoch 1, outer_loop 0, loss real 218.36842346191406
+Epoch 1, outer_loop 0, loss syn 190.37059020996094
+Epoch 1, outer_loop 0, loss 68223.5859375
+mask rate is:0.5
+Epoch 1, outer_loop 1, loss real 218.02638244628906
+Epoch 1, outer_loop 1, loss syn 189.55227661132812
+Epoch 1, outer_loop 1, loss 69164.1171875
+mask rate is:0.5
+Epoch 1, outer_loop 2, loss real 217.75
+Epoch 1, outer_loop 2, loss syn 191.72369384765625
+Epoch 1, outer_loop 2, loss 68422.9765625
+mask rate is:0.5
+Epoch 1, outer_loop 3, loss real 217.50311279296875
+Epoch 1, outer_loop 3, loss syn 192.49789428710938
+Epoch 1, outer_loop 3, loss 69410.53125
+mask rate is:0.5
+Epoch 1, outer_loop 4, loss real 217.99693298339844
+Epoch 1, outer_loop 4, loss syn 191.22244262695312
+Epoch 1, outer_loop 4, loss 69891.796875
+mask rate is:0.5
+Epoch 1, outer_loop 5, loss real 218.03257751464844
+Epoch 1, outer_loop 5, loss syn 191.0247344970703
+Epoch 1, outer_loop 5, loss 70034.6171875
+mask rate is:0.5
+Epoch 1, outer_loop 6, loss real 219.0710906982422
+Epoch 1, outer_loop 6, loss syn 191.4828338623047
+Epoch 1, outer_loop 6, loss 70623.1640625
+mask rate is:0.5
+Epoch 1, outer_loop 7, loss real 219.11407470703125
+Epoch 1, outer_loop 7, loss syn 189.41558837890625
+Epoch 1, outer_loop 7, loss 71114.7109375
+mask rate is:0.5
+Epoch 1, outer_loop 8, loss real 219.52224731445312
+Epoch 1, outer_loop 8, loss syn 189.63478088378906
+Epoch 1, outer_loop 8, loss 71106.71875
+mask rate is:0.5
+Epoch 1, outer_loop 9, loss real 219.65455627441406
+Epoch 1, outer_loop 9, loss syn 189.7193145751953
+Epoch 1, outer_loop 9, loss 71367.125
+mask rate is:0.5
+Epoch 1, outer_loop 10, loss real 219.759765625
+Epoch 1, outer_loop 10, loss syn 191.10484313964844
+Epoch 1, outer_loop 10, loss 71082.6171875
+mask rate is:0.5
+Epoch 1, outer_loop 11, loss real 219.68731689453125
+Epoch 1, outer_loop 11, loss syn 188.32098388671875
+Epoch 1, outer_loop 11, loss 71612.34375
+mask rate is:0.5
+Epoch 1, outer_loop 12, loss real 219.4449005126953
+Epoch 1, outer_loop 12, loss syn 191.42381286621094
+Epoch 1, outer_loop 12, loss 71888.3046875
+mask rate is:0.5
+Epoch 1, outer_loop 13, loss real 219.17420959472656
+Epoch 1, outer_loop 13, loss syn 187.4827117919922
+Epoch 1, outer_loop 13, loss 71442.09375
+mask rate is:0.5
+Epoch 1, outer_loop 14, loss real 219.41392517089844
+Epoch 1, outer_loop 14, loss syn 190.79681396484375
+Epoch 1, outer_loop 14, loss 71505.390625
+mask rate is:0.5
+Epoch 1, outer_loop 15, loss real 219.29547119140625
+Epoch 1, outer_loop 15, loss syn 188.78504943847656
+Epoch 1, outer_loop 15, loss 70766.25
+mask rate is:0.5
+Epoch 1, outer_loop 16, loss real 218.5467987060547
+Epoch 1, outer_loop 16, loss syn 189.19802856445312
+Epoch 1, outer_loop 16, loss 71214.5390625
+mask rate is:0.5
+Epoch 1, outer_loop 17, loss real 218.20770263671875
+Epoch 1, outer_loop 17, loss syn 188.96682739257812
+Epoch 1, outer_loop 17, loss 71055.796875
+mask rate is:0.5
+Epoch 1, outer_loop 18, loss real 218.4048614501953
+Epoch 1, outer_loop 18, loss syn 184.33883666992188
+Epoch 1, outer_loop 18, loss 70816.796875
+mask rate is:0.5
+Epoch 1, outer_loop 19, loss real 218.36842346191406
+Epoch 1, outer_loop 19, loss syn 185.901123046875
+Epoch 1, outer_loop 19, loss 70428.6875
+mask rate is:0.5
+Epoch 2, outer_loop 0, loss real 218.2750244140625
+Epoch 2, outer_loop 0, loss syn 186.8028106689453
+Epoch 2, outer_loop 0, loss 70407.8515625
+mask rate is:0.5
+Epoch 2, outer_loop 1, loss real 218.8717803955078
+Epoch 2, outer_loop 1, loss syn 188.2173614501953
+Epoch 2, outer_loop 1, loss 70014.3203125
+mask rate is:0.5
+Epoch 2, outer_loop 2, loss real 219.52735900878906
+Epoch 2, outer_loop 2, loss syn 190.01754760742188
+Epoch 2, outer_loop 2, loss 71016.0859375
+mask rate is:0.5
+Epoch 2, outer_loop 3, loss real 220.27442932128906
+Epoch 2, outer_loop 3, loss syn 185.82696533203125
+Epoch 2, outer_loop 3, loss 71058.53125
+mask rate is:0.5
+Epoch 2, outer_loop 4, loss real 220.94580078125
+Epoch 2, outer_loop 4, loss syn 191.32427978515625
+Epoch 2, outer_loop 4, loss 71577.78125
+mask rate is:0.5
+Epoch 2, outer_loop 5, loss real 221.13783264160156
+Epoch 2, outer_loop 5, loss syn 189.33021545410156
+Epoch 2, outer_loop 5, loss 70962.3359375
+mask rate is:0.5
+Epoch 2, outer_loop 6, loss real 221.9156036376953
+Epoch 2, outer_loop 6, loss syn 188.70960998535156
+Epoch 2, outer_loop 6, loss 70571.484375
+mask rate is:0.5
+Epoch 2, outer_loop 7, loss real 221.54766845703125
+Epoch 2, outer_loop 7, loss syn 189.97894287109375
+Epoch 2, outer_loop 7, loss 70572.8515625
+mask rate is:0.5
+Epoch 2, outer_loop 8, loss real 221.57305908203125
+Epoch 2, outer_loop 8, loss syn 185.3767852783203
+Epoch 2, outer_loop 8, loss 71390.7734375
+mask rate is:0.5
+Epoch 2, outer_loop 9, loss real 220.9656524658203
+Epoch 2, outer_loop 9, loss syn 188.60902404785156
+Epoch 2, outer_loop 9, loss 71232.7421875
+mask rate is:0.5
+Epoch 2, outer_loop 10, loss real 220.735107421875
+Epoch 2, outer_loop 10, loss syn 190.08363342285156
+Epoch 2, outer_loop 10, loss 71527.2265625
+mask rate is:0.5
+Epoch 2, outer_loop 11, loss real 220.40826416015625
+Epoch 2, outer_loop 11, loss syn 187.63148498535156
+Epoch 2, outer_loop 11, loss 70687.1328125
+mask rate is:0.5
+Epoch 2, outer_loop 12, loss real 220.00738525390625
+Epoch 2, outer_loop 12, loss syn 188.62002563476562
+Epoch 2, outer_loop 12, loss 70664.3203125
+mask rate is:0.5
+Epoch 2, outer_loop 13, loss real 220.32635498046875
+Epoch 2, outer_loop 13, loss syn 188.7830352783203
+Epoch 2, outer_loop 13, loss 71124.59375
+mask rate is:0.5
+Epoch 2, outer_loop 14, loss real 219.80340576171875
+Epoch 2, outer_loop 14, loss syn 186.53164672851562
+Epoch 2, outer_loop 14, loss 72080.03125
+mask rate is:0.5
+Epoch 2, outer_loop 15, loss real 219.7433624267578
+Epoch 2, outer_loop 15, loss syn 189.15907287597656
+Epoch 2, outer_loop 15, loss 71673.1875
+mask rate is:0.5
+Epoch 2, outer_loop 16, loss real 219.8543243408203
+Epoch 2, outer_loop 16, loss syn 188.06198120117188
+Epoch 2, outer_loop 16, loss 71368.703125
+mask rate is:0.5
+Epoch 2, outer_loop 17, loss real 219.91311645507812
+Epoch 2, outer_loop 17, loss syn 187.52003479003906
+Epoch 2, outer_loop 17, loss 71054.984375
+mask rate is:0.5
+Epoch 2, outer_loop 18, loss real 220.06210327148438
+Epoch 2, outer_loop 18, loss syn 188.154052734375
+Epoch 2, outer_loop 18, loss 71407.9765625
+mask rate is:0.5
+Epoch 2, outer_loop 19, loss real 219.67971801757812
+Epoch 2, outer_loop 19, loss syn 187.93099975585938
+Epoch 2, outer_loop 19, loss 70895.421875
+mask rate is:0.5
+Epoch 3, outer_loop 0, loss real 219.10150146484375
+Epoch 3, outer_loop 0, loss syn 187.75784301757812
+Epoch 3, outer_loop 0, loss 71316.875
+mask rate is:0.5
+Epoch 3, outer_loop 1, loss real 219.953857421875
+Epoch 3, outer_loop 1, loss syn 186.8804168701172
+Epoch 3, outer_loop 1, loss 71711.3359375
+mask rate is:0.5
+Epoch 3, outer_loop 2, loss real 219.5124969482422
+Epoch 3, outer_loop 2, loss syn 188.0984649658203
+Epoch 3, outer_loop 2, loss 71427.46875
+mask rate is:0.5
+Epoch 3, outer_loop 3, loss real 219.6769256591797
+Epoch 3, outer_loop 3, loss syn 189.40138244628906
+Epoch 3, outer_loop 3, loss 72294.0546875
+mask rate is:0.5
+Epoch 3, outer_loop 4, loss real 219.77816772460938
+Epoch 3, outer_loop 4, loss syn 188.76510620117188
+Epoch 3, outer_loop 4, loss 72313.9375
+mask rate is:0.5
+Epoch 3, outer_loop 5, loss real 219.54757690429688
+Epoch 3, outer_loop 5, loss syn 186.94395446777344
+Epoch 3, outer_loop 5, loss 72480.0078125
+mask rate is:0.5
+Epoch 3, outer_loop 6, loss real 220.0415496826172
+Epoch 3, outer_loop 6, loss syn 189.1925048828125
+Epoch 3, outer_loop 6, loss 72814.25
+mask rate is:0.5
+Epoch 3, outer_loop 7, loss real 219.57980346679688
+Epoch 3, outer_loop 7, loss syn 188.2167510986328
+Epoch 3, outer_loop 7, loss 72584.7734375
+mask rate is:0.5
+Epoch 3, outer_loop 8, loss real 219.4154510498047
+Epoch 3, outer_loop 8, loss syn 186.8571319580078
+Epoch 3, outer_loop 8, loss 72494.5
+mask rate is:0.5
+Epoch 3, outer_loop 9, loss real 219.36154174804688
+Epoch 3, outer_loop 9, loss syn 188.69801330566406
+Epoch 3, outer_loop 9, loss 72747.1953125
+mask rate is:0.5
+Epoch 3, outer_loop 10, loss real 219.4831085205078
+Epoch 3, outer_loop 10, loss syn 186.1949920654297
+Epoch 3, outer_loop 10, loss 72537.3125
+mask rate is:0.5
+Epoch 3, outer_loop 11, loss real 219.2123565673828
+Epoch 3, outer_loop 11, loss syn 186.81063842773438
+Epoch 3, outer_loop 11, loss 72177.59375
+mask rate is:0.5
+Epoch 3, outer_loop 12, loss real 219.71958923339844
+Epoch 3, outer_loop 12, loss syn 185.818115234375
+Epoch 3, outer_loop 12, loss 72972.8203125
+mask rate is:0.5
+Epoch 3, outer_loop 13, loss real 219.4556427001953
+Epoch 3, outer_loop 13, loss syn 187.53839111328125
+Epoch 3, outer_loop 13, loss 72611.0859375
+mask rate is:0.5
+Epoch 3, outer_loop 14, loss real 219.2926483154297
+Epoch 3, outer_loop 14, loss syn 187.07769775390625
+Epoch 3, outer_loop 14, loss 72788.25
+mask rate is:0.5
+Epoch 3, outer_loop 15, loss real 219.34213256835938
+Epoch 3, outer_loop 15, loss syn 185.97979736328125
+Epoch 3, outer_loop 15, loss 72914.875
+mask rate is:0.5
+Epoch 3, outer_loop 16, loss real 219.85733032226562
+Epoch 3, outer_loop 16, loss syn 185.8480987548828
+Epoch 3, outer_loop 16, loss 71929.8125
+mask rate is:0.5
+Epoch 3, outer_loop 17, loss real 219.38034057617188
+Epoch 3, outer_loop 17, loss syn 186.17208862304688
+Epoch 3, outer_loop 17, loss 72567.8359375
+mask rate is:0.5
+Epoch 3, outer_loop 18, loss real 219.4912872314453
+Epoch 3, outer_loop 18, loss syn 188.1248321533203
+Epoch 3, outer_loop 18, loss 72630.3671875
+mask rate is:0.5
+Epoch 3, outer_loop 19, loss real 219.1850128173828
+Epoch 3, outer_loop 19, loss syn 187.62208557128906
+Epoch 3, outer_loop 19, loss 72329.5625
+mask rate is:0.5
+Epoch 4, outer_loop 0, loss real 219.27554321289062
+Epoch 4, outer_loop 0, loss syn 187.47923278808594
+Epoch 4, outer_loop 0, loss 72193.6015625
+mask rate is:0.5
+Epoch 4, outer_loop 1, loss real 219.0550537109375
+Epoch 4, outer_loop 1, loss syn 187.29566955566406
+Epoch 4, outer_loop 1, loss 71900.3515625
+mask rate is:0.5
+Epoch 4, outer_loop 2, loss real 218.942626953125
+Epoch 4, outer_loop 2, loss syn 186.5587615966797
+Epoch 4, outer_loop 2, loss 72928.8828125
+mask rate is:0.5
+Epoch 4, outer_loop 3, loss real 218.8045196533203
+Epoch 4, outer_loop 3, loss syn 188.04437255859375
+Epoch 4, outer_loop 3, loss 71962.6875
+mask rate is:0.5
+Epoch 4, outer_loop 4, loss real 218.72317504882812
+Epoch 4, outer_loop 4, loss syn 188.52188110351562
+Epoch 4, outer_loop 4, loss 72506.984375
+mask rate is:0.5
+Epoch 4, outer_loop 5, loss real 218.77516174316406
+Epoch 4, outer_loop 5, loss syn 187.00228881835938
+Epoch 4, outer_loop 5, loss 72738.59375
+mask rate is:0.5
+Epoch 4, outer_loop 6, loss real 218.8773651123047
+Epoch 4, outer_loop 6, loss syn 187.17208862304688
+Epoch 4, outer_loop 6, loss 72382.5234375
+mask rate is:0.5
+Epoch 4, outer_loop 7, loss real 218.79092407226562
+Epoch 4, outer_loop 7, loss syn 188.3570556640625
+Epoch 4, outer_loop 7, loss 72759.7734375
+mask rate is:0.5
+Epoch 4, outer_loop 8, loss real 218.40101623535156
+Epoch 4, outer_loop 8, loss syn 188.17303466796875
+Epoch 4, outer_loop 8, loss 72462.84375
+mask rate is:0.5
+Epoch 4, outer_loop 9, loss real 218.20155334472656
+Epoch 4, outer_loop 9, loss syn 187.13507080078125
+Epoch 4, outer_loop 9, loss 72617.9296875
+mask rate is:0.5
+Epoch 4, outer_loop 10, loss real 218.13430786132812
+Epoch 4, outer_loop 10, loss syn 188.57272338867188
+Epoch 4, outer_loop 10, loss 72928.5390625
+mask rate is:0.5
+Epoch 4, outer_loop 11, loss real 218.34552001953125
+Epoch 4, outer_loop 11, loss syn 186.56605529785156
+Epoch 4, outer_loop 11, loss 72558.296875
+mask rate is:0.5
+Epoch 4, outer_loop 12, loss real 217.90911865234375
+Epoch 4, outer_loop 12, loss syn 187.31968688964844
+Epoch 4, outer_loop 12, loss 72765.1640625
+mask rate is:0.5
+Epoch 4, outer_loop 13, loss real 218.27008056640625
+Epoch 4, outer_loop 13, loss syn 190.24624633789062
+Epoch 4, outer_loop 13, loss 73060.78125
+mask rate is:0.5
+Epoch 4, outer_loop 14, loss real 217.64691162109375
+Epoch 4, outer_loop 14, loss syn 187.10244750976562
+Epoch 4, outer_loop 14, loss 72837.28125
+mask rate is:0.5
+Epoch 4, outer_loop 15, loss real 218.007080078125
+Epoch 4, outer_loop 15, loss syn 187.00936889648438
+Epoch 4, outer_loop 15, loss 72494.1953125
+mask rate is:0.5
+Epoch 4, outer_loop 16, loss real 217.65794372558594
+Epoch 4, outer_loop 16, loss syn 186.7041473388672
+Epoch 4, outer_loop 16, loss 72573.0546875
+mask rate is:0.5
+Epoch 4, outer_loop 17, loss real 217.66600036621094
+Epoch 4, outer_loop 17, loss syn 186.5619354248047
+Epoch 4, outer_loop 17, loss 72825.9375
+mask rate is:0.5
+Epoch 4, outer_loop 18, loss real 218.08554077148438
+Epoch 4, outer_loop 18, loss syn 185.6078338623047
+Epoch 4, outer_loop 18, loss 72279.671875
+mask rate is:0.5
+Epoch 4, outer_loop 19, loss real 218.26040649414062
+Epoch 4, outer_loop 19, loss syn 186.59471130371094
+Epoch 4, outer_loop 19, loss 71466.6875
+mask rate is:0.5
+Epoch 5, outer_loop 0, loss real 218.173095703125
+Epoch 5, outer_loop 0, loss syn 185.8782958984375
+Epoch 5, outer_loop 0, loss 72295.703125
+mask rate is:0.5
+Epoch 5, outer_loop 1, loss real 218.3018035888672
+Epoch 5, outer_loop 1, loss syn 187.70912170410156
+Epoch 5, outer_loop 1, loss 72029.9453125
+mask rate is:0.5
+Epoch 5, outer_loop 2, loss real 219.6609344482422
+Epoch 5, outer_loop 2, loss syn 187.90798950195312
+Epoch 5, outer_loop 2, loss 70656.953125
+mask rate is:0.5
+Epoch 5, outer_loop 3, loss real 219.7744598388672
+Epoch 5, outer_loop 3, loss syn 188.08946228027344
+Epoch 5, outer_loop 3, loss 70973.7734375
+mask rate is:0.5
+Epoch 5, outer_loop 4, loss real 219.46160888671875
+Epoch 5, outer_loop 4, loss syn 189.18731689453125
+Epoch 5, outer_loop 4, loss 71174.1796875
+mask rate is:0.5
+Epoch 5, outer_loop 5, loss real 219.92864990234375
+Epoch 5, outer_loop 5, loss syn 187.71597290039062
+Epoch 5, outer_loop 5, loss 70924.1953125
+mask rate is:0.5
+Epoch 5, outer_loop 6, loss real 219.85653686523438
+Epoch 5, outer_loop 6, loss syn 187.6332550048828
+Epoch 5, outer_loop 6, loss 70636.7265625
+mask rate is:0.5
+Epoch 5, outer_loop 7, loss real 219.85122680664062
+Epoch 5, outer_loop 7, loss syn 186.8879852294922
+Epoch 5, outer_loop 7, loss 70291.453125
+mask rate is:0.5
+Epoch 5, outer_loop 8, loss real 219.83656311035156
+Epoch 5, outer_loop 8, loss syn 186.74436950683594
+Epoch 5, outer_loop 8, loss 70509.859375
+mask rate is:0.5
+Epoch 5, outer_loop 9, loss real 219.4942626953125
+Epoch 5, outer_loop 9, loss syn 187.51318359375
+Epoch 5, outer_loop 9, loss 71256.1796875
+mask rate is:0.5
+Epoch 5, outer_loop 10, loss real 219.4273681640625
+Epoch 5, outer_loop 10, loss syn 187.15635681152344
+Epoch 5, outer_loop 10, loss 71005.1796875
+mask rate is:0.5
+Epoch 5, outer_loop 11, loss real 219.2423858642578
+Epoch 5, outer_loop 11, loss syn 186.25787353515625
+Epoch 5, outer_loop 11, loss 70599.0390625
+mask rate is:0.5
+Epoch 5, outer_loop 12, loss real 219.35232543945312
+Epoch 5, outer_loop 12, loss syn 187.26016235351562
+Epoch 5, outer_loop 12, loss 70613.515625
+mask rate is:0.5
+Epoch 5, outer_loop 13, loss real 219.0836944580078
+Epoch 5, outer_loop 13, loss syn 185.4741973876953
+Epoch 5, outer_loop 13, loss 70773.7421875
+mask rate is:0.5
+Epoch 5, outer_loop 14, loss real 219.05235290527344
+Epoch 5, outer_loop 14, loss syn 186.5302276611328
+Epoch 5, outer_loop 14, loss 71482.296875
+mask rate is:0.5
+Epoch 5, outer_loop 15, loss real 218.8817901611328
+Epoch 5, outer_loop 15, loss syn 187.5367889404297
+Epoch 5, outer_loop 15, loss 71221.859375
+mask rate is:0.5
+Epoch 5, outer_loop 16, loss real 219.0940399169922
+Epoch 5, outer_loop 16, loss syn 187.09494018554688
+Epoch 5, outer_loop 16, loss 71149.2265625
+mask rate is:0.5
+Epoch 5, outer_loop 17, loss real 218.78839111328125
+Epoch 5, outer_loop 17, loss syn 185.9924774169922
+Epoch 5, outer_loop 17, loss 71183.75
+mask rate is:0.5
+Epoch 5, outer_loop 18, loss real 218.83901977539062
+Epoch 5, outer_loop 18, loss syn 186.16964721679688
+Epoch 5, outer_loop 18, loss 70681.8125
+mask rate is:0.5
+Epoch 5, outer_loop 19, loss real 219.09669494628906
+Epoch 5, outer_loop 19, loss syn 186.35061645507812
+Epoch 5, outer_loop 19, loss 71002.671875
+Epoch 5, loss_avg: 312.9474823140619
+mask rate is:0.5
+Epoch 6, outer_loop 0, loss real 219.0183563232422
+Epoch 6, outer_loop 0, loss syn 186.46730041503906
+Epoch 6, outer_loop 0, loss 71031.421875
+mask rate is:0.5
+Epoch 6, outer_loop 1, loss real 219.28843688964844
+Epoch 6, outer_loop 1, loss syn 187.3307342529297
+Epoch 6, outer_loop 1, loss 70499.140625
+mask rate is:0.5
+Epoch 6, outer_loop 2, loss real 218.87860107421875
+Epoch 6, outer_loop 2, loss syn 186.70550537109375
+Epoch 6, outer_loop 2, loss 71239.3515625
+mask rate is:0.5
+Epoch 6, outer_loop 3, loss real 219.13499450683594
+Epoch 6, outer_loop 3, loss syn 186.85894775390625
+Epoch 6, outer_loop 3, loss 71276.625
+mask rate is:0.5
+Epoch 6, outer_loop 4, loss real 218.88050842285156
+Epoch 6, outer_loop 4, loss syn 186.2086639404297
+Epoch 6, outer_loop 4, loss 71367.0859375
+mask rate is:0.5
+Epoch 6, outer_loop 5, loss real 219.16287231445312
+Epoch 6, outer_loop 5, loss syn 187.46142578125
+Epoch 6, outer_loop 5, loss 71195.2265625
+mask rate is:0.5
+Epoch 6, outer_loop 6, loss real 218.77207946777344
+Epoch 6, outer_loop 6, loss syn 186.0061492919922
+Epoch 6, outer_loop 6, loss 71679.4296875
+mask rate is:0.5
+Epoch 6, outer_loop 7, loss real 218.5191192626953
+Epoch 6, outer_loop 7, loss syn 186.09310913085938
+Epoch 6, outer_loop 7, loss 71569.1328125
+mask rate is:0.5
+Epoch 6, outer_loop 8, loss real 218.55984497070312
+Epoch 6, outer_loop 8, loss syn 186.8798828125
+Epoch 6, outer_loop 8, loss 71774.125
+mask rate is:0.5
+Epoch 6, outer_loop 9, loss real 218.5662384033203
+Epoch 6, outer_loop 9, loss syn 187.77688598632812
+Epoch 6, outer_loop 9, loss 72323.375
+mask rate is:0.5
+Epoch 6, outer_loop 10, loss real 218.5792236328125
+Epoch 6, outer_loop 10, loss syn 187.3109130859375
+Epoch 6, outer_loop 10, loss 71861.1796875
+mask rate is:0.5
+Epoch 6, outer_loop 11, loss real 218.8246612548828
+Epoch 6, outer_loop 11, loss syn 186.51577758789062
+Epoch 6, outer_loop 11, loss 72433.03125
+mask rate is:0.5
+Epoch 6, outer_loop 12, loss real 218.17758178710938
+Epoch 6, outer_loop 12, loss syn 187.0792999267578
+Epoch 6, outer_loop 12, loss 72220.4921875
+mask rate is:0.5
+Epoch 6, outer_loop 13, loss real 218.27976989746094
+Epoch 6, outer_loop 13, loss syn 186.4165802001953
+Epoch 6, outer_loop 13, loss 71706.09375
+mask rate is:0.5
+Epoch 6, outer_loop 14, loss real 218.65310668945312
+Epoch 6, outer_loop 14, loss syn 186.19082641601562
+Epoch 6, outer_loop 14, loss 72930.9375
+mask rate is:0.5
+Epoch 6, outer_loop 15, loss real 218.24081420898438
+Epoch 6, outer_loop 15, loss syn 186.3523712158203
+Epoch 6, outer_loop 15, loss 72174.640625
+mask rate is:0.5
+Epoch 6, outer_loop 16, loss real 218.0337371826172
+Epoch 6, outer_loop 16, loss syn 186.25521850585938
+Epoch 6, outer_loop 16, loss 72184.3671875
+mask rate is:0.5
+Epoch 6, outer_loop 17, loss real 217.81246948242188
+Epoch 6, outer_loop 17, loss syn 186.69021606445312
+Epoch 6, outer_loop 17, loss 72273.140625
+mask rate is:0.5
+Epoch 6, outer_loop 18, loss real 218.19895935058594
+Epoch 6, outer_loop 18, loss syn 186.3248291015625
+Epoch 6, outer_loop 18, loss 72223.8203125
+mask rate is:0.5
+Epoch 6, outer_loop 19, loss real 218.1623992919922
+Epoch 6, outer_loop 19, loss syn 186.56187438964844
+Epoch 6, outer_loop 19, loss 72164.4140625
+mask rate is:0.5
+Epoch 7, outer_loop 0, loss real 218.32904052734375
+Epoch 7, outer_loop 0, loss syn 185.47891235351562
+Epoch 7, outer_loop 0, loss 72635.4296875
+mask rate is:0.5
+Epoch 7, outer_loop 1, loss real 218.03756713867188
+Epoch 7, outer_loop 1, loss syn 187.4705352783203
+Epoch 7, outer_loop 1, loss 72427.8359375
+mask rate is:0.5
+Epoch 7, outer_loop 2, loss real 218.1850128173828
+Epoch 7, outer_loop 2, loss syn 185.71856689453125
+Epoch 7, outer_loop 2, loss 71723.3359375
+mask rate is:0.5
+Epoch 7, outer_loop 3, loss real 218.10414123535156
+Epoch 7, outer_loop 3, loss syn 186.1400604248047
+Epoch 7, outer_loop 3, loss 72501.5390625
+mask rate is:0.5
+Epoch 7, outer_loop 4, loss real 218.18031311035156
+Epoch 7, outer_loop 4, loss syn 185.9661865234375
+Epoch 7, outer_loop 4, loss 72116.859375
+mask rate is:0.5
+Epoch 7, outer_loop 5, loss real 218.17245483398438
+Epoch 7, outer_loop 5, loss syn 187.7374725341797
+Epoch 7, outer_loop 5, loss 72130.125
+mask rate is:0.5
+Epoch 7, outer_loop 6, loss real 218.13363647460938
+Epoch 7, outer_loop 6, loss syn 186.62844848632812
+Epoch 7, outer_loop 6, loss 72537.015625
+mask rate is:0.5
+Epoch 7, outer_loop 7, loss real 217.87286376953125
+Epoch 7, outer_loop 7, loss syn 187.87782287597656
+Epoch 7, outer_loop 7, loss 72159.25
+mask rate is:0.5
+Epoch 7, outer_loop 8, loss real 217.847412109375
+Epoch 7, outer_loop 8, loss syn 186.96168518066406
+Epoch 7, outer_loop 8, loss 72753.5546875
+mask rate is:0.5
+Epoch 7, outer_loop 9, loss real 218.18667602539062
+Epoch 7, outer_loop 9, loss syn 186.9849090576172
+Epoch 7, outer_loop 9, loss 72205.84375
+mask rate is:0.5
+Epoch 7, outer_loop 10, loss real 218.20407104492188
+Epoch 7, outer_loop 10, loss syn 187.20692443847656
+Epoch 7, outer_loop 10, loss 72716.0234375
+mask rate is:0.5
+Epoch 7, outer_loop 11, loss real 218.364501953125
+Epoch 7, outer_loop 11, loss syn 185.9643096923828
+Epoch 7, outer_loop 11, loss 72846.765625
+mask rate is:0.5
+Epoch 7, outer_loop 12, loss real 218.19747924804688
+Epoch 7, outer_loop 12, loss syn 187.24085998535156
+Epoch 7, outer_loop 12, loss 72281.734375
+mask rate is:0.5
+Epoch 7, outer_loop 13, loss real 218.22718811035156
+Epoch 7, outer_loop 13, loss syn 187.9164581298828
+Epoch 7, outer_loop 13, loss 72628.75
+mask rate is:0.5
+Epoch 7, outer_loop 14, loss real 218.24960327148438
+Epoch 7, outer_loop 14, loss syn 187.9192352294922
+Epoch 7, outer_loop 14, loss 72960.5703125
+mask rate is:0.5
+Epoch 7, outer_loop 15, loss real 218.35610961914062
+Epoch 7, outer_loop 15, loss syn 185.5743865966797
+Epoch 7, outer_loop 15, loss 72432.921875
+mask rate is:0.5
+Epoch 7, outer_loop 16, loss real 218.19105529785156
+Epoch 7, outer_loop 16, loss syn 185.79080200195312
+Epoch 7, outer_loop 16, loss 73335.921875
+mask rate is:0.5
+Epoch 7, outer_loop 17, loss real 218.39178466796875
+Epoch 7, outer_loop 17, loss syn 187.2640838623047
+Epoch 7, outer_loop 17, loss 72992.375
+mask rate is:0.5
+Epoch 7, outer_loop 18, loss real 218.73805236816406
+Epoch 7, outer_loop 18, loss syn 186.9003143310547
+Epoch 7, outer_loop 18, loss 72373.359375
+mask rate is:0.5
+Epoch 7, outer_loop 19, loss real 218.5972442626953
+Epoch 7, outer_loop 19, loss syn 185.60205078125
+Epoch 7, outer_loop 19, loss 72622.03125
+mask rate is:0.5
+Epoch 8, outer_loop 0, loss real 218.6621551513672
+Epoch 8, outer_loop 0, loss syn 185.97140502929688
+Epoch 8, outer_loop 0, loss 72732.1015625
+mask rate is:0.5
+Epoch 8, outer_loop 1, loss real 218.75796508789062
+Epoch 8, outer_loop 1, loss syn 183.8988037109375
+Epoch 8, outer_loop 1, loss 72654.7421875
+mask rate is:0.5
+Epoch 8, outer_loop 2, loss real 218.68356323242188
+Epoch 8, outer_loop 2, loss syn 187.36668395996094
+Epoch 8, outer_loop 2, loss 72657.609375
+mask rate is:0.5
+Epoch 8, outer_loop 3, loss real 218.80747985839844
+Epoch 8, outer_loop 3, loss syn 186.1583251953125
+Epoch 8, outer_loop 3, loss 73112.671875
+mask rate is:0.5
+Epoch 8, outer_loop 4, loss real 218.8215789794922
+Epoch 8, outer_loop 4, loss syn 186.05191040039062
+Epoch 8, outer_loop 4, loss 72515.0390625
+mask rate is:0.5
+Epoch 8, outer_loop 5, loss real 218.8404083251953
+Epoch 8, outer_loop 5, loss syn 186.6721954345703
+Epoch 8, outer_loop 5, loss 72211.4140625
+mask rate is:0.5
+Epoch 8, outer_loop 6, loss real 218.72930908203125
+Epoch 8, outer_loop 6, loss syn 185.81031799316406
+Epoch 8, outer_loop 6, loss 72342.8828125
+mask rate is:0.5
+Epoch 8, outer_loop 7, loss real 218.5181427001953
+Epoch 8, outer_loop 7, loss syn 184.87986755371094
+Epoch 8, outer_loop 7, loss 72380.40625
+mask rate is:0.5
+Epoch 8, outer_loop 8, loss real 219.00514221191406
+Epoch 8, outer_loop 8, loss syn 185.4232940673828
+Epoch 8, outer_loop 8, loss 72309.2734375
+mask rate is:0.5
+Epoch 8, outer_loop 9, loss real 218.6400909423828
+Epoch 8, outer_loop 9, loss syn 185.9588165283203
+Epoch 8, outer_loop 9, loss 72563.9453125
+mask rate is:0.5
+Epoch 8, outer_loop 10, loss real 218.66539001464844
+Epoch 8, outer_loop 10, loss syn 187.78125
+Epoch 8, outer_loop 10, loss 72505.140625
+mask rate is:0.5
+Epoch 8, outer_loop 11, loss real 218.83139038085938
+Epoch 8, outer_loop 11, loss syn 185.61700439453125
+Epoch 8, outer_loop 11, loss 72846.3515625
+mask rate is:0.5
+Epoch 8, outer_loop 12, loss real 218.55233764648438
+Epoch 8, outer_loop 12, loss syn 186.44677734375
+Epoch 8, outer_loop 12, loss 72574.3359375
+mask rate is:0.5
+Epoch 8, outer_loop 13, loss real 218.55064392089844
+Epoch 8, outer_loop 13, loss syn 186.02285766601562
+Epoch 8, outer_loop 13, loss 73009.9140625
+mask rate is:0.5
+Epoch 8, outer_loop 14, loss real 218.59339904785156
+Epoch 8, outer_loop 14, loss syn 186.36419677734375
+Epoch 8, outer_loop 14, loss 73074.3125
+mask rate is:0.5
+Epoch 8, outer_loop 15, loss real 218.41839599609375
+Epoch 8, outer_loop 15, loss syn 186.38865661621094
+Epoch 8, outer_loop 15, loss 72607.59375
+mask rate is:0.5
+Epoch 8, outer_loop 16, loss real 218.48947143554688
+Epoch 8, outer_loop 16, loss syn 184.99252319335938
+Epoch 8, outer_loop 16, loss 73044.2890625
+mask rate is:0.5
+Epoch 8, outer_loop 17, loss real 218.42604064941406
+Epoch 8, outer_loop 17, loss syn 186.0738525390625
+Epoch 8, outer_loop 17, loss 72675.3203125
+mask rate is:0.5
+Epoch 8, outer_loop 18, loss real 218.41357421875
+Epoch 8, outer_loop 18, loss syn 185.79348754882812
+Epoch 8, outer_loop 18, loss 72676.25
+mask rate is:0.5
+Epoch 8, outer_loop 19, loss real 218.42994689941406
+Epoch 8, outer_loop 19, loss syn 185.4800262451172
+Epoch 8, outer_loop 19, loss 72913.0390625
+mask rate is:0.5
+Epoch 9, outer_loop 0, loss real 218.12167358398438
+Epoch 9, outer_loop 0, loss syn 184.81935119628906
+Epoch 9, outer_loop 0, loss 73277.3359375
+mask rate is:0.5
+Epoch 9, outer_loop 1, loss real 218.5047607421875
+Epoch 9, outer_loop 1, loss syn 186.02993774414062
+Epoch 9, outer_loop 1, loss 73559.8046875
+mask rate is:0.5
+Epoch 9, outer_loop 2, loss real 218.58987426757812
+Epoch 9, outer_loop 2, loss syn 186.71994018554688
+Epoch 9, outer_loop 2, loss 73120.546875
+mask rate is:0.5
+Epoch 9, outer_loop 3, loss real 218.7158660888672
+Epoch 9, outer_loop 3, loss syn 185.3360137939453
+Epoch 9, outer_loop 3, loss 73560.421875
+mask rate is:0.5
+Epoch 9, outer_loop 4, loss real 218.65206909179688
+Epoch 9, outer_loop 4, loss syn 185.87831115722656
+Epoch 9, outer_loop 4, loss 72767.953125
+mask rate is:0.5
+Epoch 9, outer_loop 5, loss real 218.76002502441406
+Epoch 9, outer_loop 5, loss syn 186.4544219970703
+Epoch 9, outer_loop 5, loss 73138.8203125
+mask rate is:0.5
+Epoch 9, outer_loop 6, loss real 218.74215698242188
+Epoch 9, outer_loop 6, loss syn 185.5006866455078
+Epoch 9, outer_loop 6, loss 74018.3125
+mask rate is:0.5
+Epoch 9, outer_loop 7, loss real 218.74420166015625
+Epoch 9, outer_loop 7, loss syn 185.85391235351562
+Epoch 9, outer_loop 7, loss 73615.734375
+mask rate is:0.5
+Epoch 9, outer_loop 8, loss real 219.1266326904297
+Epoch 9, outer_loop 8, loss syn 186.10794067382812
+Epoch 9, outer_loop 8, loss 73136.4921875
+mask rate is:0.5
+Epoch 9, outer_loop 9, loss real 219.16107177734375
+Epoch 9, outer_loop 9, loss syn 187.86317443847656
+Epoch 9, outer_loop 9, loss 73156.875
+mask rate is:0.5
+Epoch 9, outer_loop 10, loss real 219.02281188964844
+Epoch 9, outer_loop 10, loss syn 186.4738311767578
+Epoch 9, outer_loop 10, loss 73540.7265625
+mask rate is:0.5
+Epoch 9, outer_loop 11, loss real 218.35113525390625
+Epoch 9, outer_loop 11, loss syn 185.96438598632812
+Epoch 9, outer_loop 11, loss 73305.609375
+mask rate is:0.5
+Epoch 9, outer_loop 12, loss real 219.1374053955078
+Epoch 9, outer_loop 12, loss syn 186.57620239257812
+Epoch 9, outer_loop 12, loss 73377.3515625
+mask rate is:0.5
+Epoch 9, outer_loop 13, loss real 218.75775146484375
+Epoch 9, outer_loop 13, loss syn 186.0110626220703
+Epoch 9, outer_loop 13, loss 73261.375
+mask rate is:0.5
+Epoch 9, outer_loop 14, loss real 219.020751953125
+Epoch 9, outer_loop 14, loss syn 185.45816040039062
+Epoch 9, outer_loop 14, loss 73698.09375
+mask rate is:0.5
+Epoch 9, outer_loop 15, loss real 218.7991485595703
+Epoch 9, outer_loop 15, loss syn 186.81268310546875
+Epoch 9, outer_loop 15, loss 73390.8046875
+mask rate is:0.5
+Epoch 9, outer_loop 16, loss real 218.68325805664062
+Epoch 9, outer_loop 16, loss syn 187.3681640625
+Epoch 9, outer_loop 16, loss 73515.2578125
+mask rate is:0.5
+Epoch 9, outer_loop 17, loss real 218.7001495361328
+Epoch 9, outer_loop 17, loss syn 186.42303466796875
+Epoch 9, outer_loop 17, loss 73199.5390625
+mask rate is:0.5
+Epoch 9, outer_loop 18, loss real 218.79934692382812
+Epoch 9, outer_loop 18, loss syn 186.89869689941406
+Epoch 9, outer_loop 18, loss 73040.1328125
+mask rate is:0.5
+Epoch 9, outer_loop 19, loss real 218.5510711669922
+Epoch 9, outer_loop 19, loss syn 187.6803741455078
+Epoch 9, outer_loop 19, loss 73265.4453125
+mask rate is:0.5
+Epoch 10, outer_loop 0, loss real 218.98580932617188
+Epoch 10, outer_loop 0, loss syn 186.0972900390625
+Epoch 10, outer_loop 0, loss 72924.6484375
+mask rate is:0.5
+Epoch 10, outer_loop 1, loss real 219.12205505371094
+Epoch 10, outer_loop 1, loss syn 185.7859649658203
+Epoch 10, outer_loop 1, loss 72832.609375
+mask rate is:0.5
+Epoch 10, outer_loop 2, loss real 219.38372802734375
+Epoch 10, outer_loop 2, loss syn 186.0991668701172
+Epoch 10, outer_loop 2, loss 72794.6953125
+mask rate is:0.5
+Epoch 10, outer_loop 3, loss real 218.94927978515625
+Epoch 10, outer_loop 3, loss syn 186.57290649414062
+Epoch 10, outer_loop 3, loss 72948.875
+mask rate is:0.5
+Epoch 10, outer_loop 4, loss real 219.01414489746094
+Epoch 10, outer_loop 4, loss syn 186.41995239257812
+Epoch 10, outer_loop 4, loss 72973.8046875
+mask rate is:0.5
+Epoch 10, outer_loop 5, loss real 219.33071899414062
+Epoch 10, outer_loop 5, loss syn 187.11447143554688
+Epoch 10, outer_loop 5, loss 73261.8359375
+mask rate is:0.5
+Epoch 10, outer_loop 6, loss real 219.1533966064453
+Epoch 10, outer_loop 6, loss syn 185.24581909179688
+Epoch 10, outer_loop 6, loss 73012.78125
+mask rate is:0.5
+Epoch 10, outer_loop 7, loss real 218.5436553955078
+Epoch 10, outer_loop 7, loss syn 186.40121459960938
+Epoch 10, outer_loop 7, loss 72959.4921875
+mask rate is:0.5
+Epoch 10, outer_loop 8, loss real 218.5381622314453
+Epoch 10, outer_loop 8, loss syn 186.70736694335938
+Epoch 10, outer_loop 8, loss 72844.9375
+mask rate is:0.5
+Epoch 10, outer_loop 9, loss real 218.3597412109375
+Epoch 10, outer_loop 9, loss syn 186.38162231445312
+Epoch 10, outer_loop 9, loss 72829.6875
+mask rate is:0.5
+Epoch 10, outer_loop 10, loss real 218.1547393798828
+Epoch 10, outer_loop 10, loss syn 187.00274658203125
+Epoch 10, outer_loop 10, loss 72313.4453125
+mask rate is:0.5
+Epoch 10, outer_loop 11, loss real 218.50022888183594
+Epoch 10, outer_loop 11, loss syn 186.28781127929688
+Epoch 10, outer_loop 11, loss 72830.9609375
+mask rate is:0.5
+Epoch 10, outer_loop 12, loss real 217.37339782714844
+Epoch 10, outer_loop 12, loss syn 187.11209106445312
+Epoch 10, outer_loop 12, loss 73552.0234375
+mask rate is:0.5
+Epoch 10, outer_loop 13, loss real 217.59132385253906
+Epoch 10, outer_loop 13, loss syn 185.9893035888672
+Epoch 10, outer_loop 13, loss 72993.6875
+mask rate is:0.5
+Epoch 10, outer_loop 14, loss real 217.7825164794922
+Epoch 10, outer_loop 14, loss syn 186.03900146484375
+Epoch 10, outer_loop 14, loss 73399.625
+mask rate is:0.5
+Epoch 10, outer_loop 15, loss real 217.5433807373047
+Epoch 10, outer_loop 15, loss syn 186.72659301757812
+Epoch 10, outer_loop 15, loss 72869.3359375
+mask rate is:0.5
+Epoch 10, outer_loop 16, loss real 217.31369018554688
+Epoch 10, outer_loop 16, loss syn 186.60035705566406
+Epoch 10, outer_loop 16, loss 73411.15625
+mask rate is:0.5
+Epoch 10, outer_loop 17, loss real 217.1619415283203
+Epoch 10, outer_loop 17, loss syn 185.4255828857422
+Epoch 10, outer_loop 17, loss 73384.3046875
+mask rate is:0.5
+Epoch 10, outer_loop 18, loss real 217.3483123779297
+Epoch 10, outer_loop 18, loss syn 187.5875244140625
+Epoch 10, outer_loop 18, loss 73570.4609375
+mask rate is:0.5
+Epoch 10, outer_loop 19, loss real 217.15252685546875
+Epoch 10, outer_loop 19, loss syn 186.7424774169922
+Epoch 10, outer_loop 19, loss 73757.75
+Epoch 10, loss_avg: 321.98002284480896
+mask rate is:0.5
+Epoch 11, outer_loop 0, loss real 217.5283966064453
+Epoch 11, outer_loop 0, loss syn 185.34336853027344
+Epoch 11, outer_loop 0, loss 73851.09375
+mask rate is:0.5
+Epoch 11, outer_loop 1, loss real 217.41746520996094
+Epoch 11, outer_loop 1, loss syn 187.06175231933594
+Epoch 11, outer_loop 1, loss 74004.2109375
+mask rate is:0.5
+Epoch 11, outer_loop 2, loss real 217.4586181640625
+Epoch 11, outer_loop 2, loss syn 187.30055236816406
+Epoch 11, outer_loop 2, loss 74403.109375
+mask rate is:0.5
+Epoch 11, outer_loop 3, loss real 217.2550048828125
+Epoch 11, outer_loop 3, loss syn 186.45423889160156
+Epoch 11, outer_loop 3, loss 73508.3671875
+mask rate is:0.5
+Epoch 11, outer_loop 4, loss real 217.59335327148438
+Epoch 11, outer_loop 4, loss syn 187.2362823486328
+Epoch 11, outer_loop 4, loss 74025.3515625
+mask rate is:0.5
+Epoch 11, outer_loop 5, loss real 217.6149139404297
+Epoch 11, outer_loop 5, loss syn 187.0738525390625
+Epoch 11, outer_loop 5, loss 73607.625
+mask rate is:0.5
+Epoch 11, outer_loop 6, loss real 217.95233154296875
+Epoch 11, outer_loop 6, loss syn 185.8246307373047
+Epoch 11, outer_loop 6, loss 74007.953125
+mask rate is:0.5
+Epoch 11, outer_loop 7, loss real 217.8751678466797
+Epoch 11, outer_loop 7, loss syn 187.88848876953125
+Epoch 11, outer_loop 7, loss 74230.53125
+mask rate is:0.5
+Epoch 11, outer_loop 8, loss real 218.08261108398438
+Epoch 11, outer_loop 8, loss syn 187.3643798828125
+Epoch 11, outer_loop 8, loss 74368.6484375
+mask rate is:0.5
+Epoch 11, outer_loop 9, loss real 218.0322265625
+Epoch 11, outer_loop 9, loss syn 186.56259155273438
+Epoch 11, outer_loop 9, loss 74606.5625
+mask rate is:0.5
+Epoch 11, outer_loop 10, loss real 217.97174072265625
+Epoch 11, outer_loop 10, loss syn 186.58778381347656
+Epoch 11, outer_loop 10, loss 74463.0546875
+mask rate is:0.5
+Epoch 11, outer_loop 11, loss real 218.1492919921875
+Epoch 11, outer_loop 11, loss syn 185.5966796875
+Epoch 11, outer_loop 11, loss 74303.6953125
+mask rate is:0.5
+Epoch 11, outer_loop 12, loss real 218.4686737060547
+Epoch 11, outer_loop 12, loss syn 187.30825805664062
+Epoch 11, outer_loop 12, loss 74500.515625
+mask rate is:0.5
+Epoch 11, outer_loop 13, loss real 218.5888214111328
+Epoch 11, outer_loop 13, loss syn 185.68931579589844
+Epoch 11, outer_loop 13, loss 74585.515625
+mask rate is:0.5
+Epoch 11, outer_loop 14, loss real 218.44818115234375
+Epoch 11, outer_loop 14, loss syn 186.9794158935547
+Epoch 11, outer_loop 14, loss 74326.3515625
+mask rate is:0.5
+Epoch 11, outer_loop 15, loss real 218.34481811523438
+Epoch 11, outer_loop 15, loss syn 184.8007049560547
+Epoch 11, outer_loop 15, loss 74218.78125
+mask rate is:0.5
+Epoch 11, outer_loop 16, loss real 218.2712860107422
+Epoch 11, outer_loop 16, loss syn 185.75906372070312
+Epoch 11, outer_loop 16, loss 74024.4296875
+mask rate is:0.5
+Epoch 11, outer_loop 17, loss real 218.52252197265625
+Epoch 11, outer_loop 17, loss syn 186.22230529785156
+Epoch 11, outer_loop 17, loss 74174.4296875
+mask rate is:0.5
+Epoch 11, outer_loop 18, loss real 218.25299072265625
+Epoch 11, outer_loop 18, loss syn 185.6180877685547
+Epoch 11, outer_loop 18, loss 74274.3046875
+mask rate is:0.5
+Epoch 11, outer_loop 19, loss real 218.40130615234375
+Epoch 11, outer_loop 19, loss syn 186.28916931152344
+Epoch 11, outer_loop 19, loss 74411.859375
+mask rate is:0.5
+Epoch 12, outer_loop 0, loss real 218.62384033203125
+Epoch 12, outer_loop 0, loss syn 185.63795471191406
+Epoch 12, outer_loop 0, loss 74077.5078125
+mask rate is:0.5
+Epoch 12, outer_loop 1, loss real 218.29495239257812
+Epoch 12, outer_loop 1, loss syn 185.61770629882812
+Epoch 12, outer_loop 1, loss 74589.8203125
+mask rate is:0.5
+Epoch 12, outer_loop 2, loss real 217.99757385253906
+Epoch 12, outer_loop 2, loss syn 185.96188354492188
+Epoch 12, outer_loop 2, loss 74165.9453125
+mask rate is:0.5
+Epoch 12, outer_loop 3, loss real 218.2778778076172
+Epoch 12, outer_loop 3, loss syn 186.55868530273438
+Epoch 12, outer_loop 3, loss 74509.6171875
+mask rate is:0.5
+Epoch 12, outer_loop 4, loss real 218.0893096923828
+Epoch 12, outer_loop 4, loss syn 185.90528869628906
+Epoch 12, outer_loop 4, loss 74510.875
+mask rate is:0.5
+Epoch 12, outer_loop 5, loss real 217.99375915527344
+Epoch 12, outer_loop 5, loss syn 186.7882080078125
+Epoch 12, outer_loop 5, loss 74480.9140625
+mask rate is:0.5
+Epoch 12, outer_loop 6, loss real 218.37026977539062
+Epoch 12, outer_loop 6, loss syn 185.93580627441406
+Epoch 12, outer_loop 6, loss 74217.765625
+mask rate is:0.5
+Epoch 12, outer_loop 7, loss real 218.37620544433594
+Epoch 12, outer_loop 7, loss syn 186.88919067382812
+Epoch 12, outer_loop 7, loss 74676.0703125
+mask rate is:0.5
+Epoch 12, outer_loop 8, loss real 218.37416076660156
+Epoch 12, outer_loop 8, loss syn 186.8284149169922
+Epoch 12, outer_loop 8, loss 75018.71875
+mask rate is:0.5
+Epoch 12, outer_loop 9, loss real 218.7213592529297
+Epoch 12, outer_loop 9, loss syn 186.29501342773438
+Epoch 12, outer_loop 9, loss 74377.0390625
+mask rate is:0.5
+Epoch 12, outer_loop 10, loss real 218.34535217285156
+Epoch 12, outer_loop 10, loss syn 186.31654357910156
+Epoch 12, outer_loop 10, loss 74871.03125
+mask rate is:0.5
+Epoch 12, outer_loop 11, loss real 218.35484313964844
+Epoch 12, outer_loop 11, loss syn 185.15553283691406
+Epoch 12, outer_loop 11, loss 74764.0859375
+mask rate is:0.5
+Epoch 12, outer_loop 12, loss real 218.07395935058594
+Epoch 12, outer_loop 12, loss syn 186.47079467773438
+Epoch 12, outer_loop 12, loss 74899.1015625
+mask rate is:0.5
+Epoch 12, outer_loop 13, loss real 218.33050537109375
+Epoch 12, outer_loop 13, loss syn 184.5295867919922
+Epoch 12, outer_loop 13, loss 74573.7734375
+mask rate is:0.5
+Epoch 12, outer_loop 14, loss real 218.48870849609375
+Epoch 12, outer_loop 14, loss syn 186.8351287841797
+Epoch 12, outer_loop 14, loss 74665.765625
+mask rate is:0.5
+Epoch 12, outer_loop 15, loss real 218.775390625
+Epoch 12, outer_loop 15, loss syn 186.5536651611328
+Epoch 12, outer_loop 15, loss 74460.6796875
+mask rate is:0.5
+Epoch 12, outer_loop 16, loss real 218.45130920410156
+Epoch 12, outer_loop 16, loss syn 185.90603637695312
+Epoch 12, outer_loop 16, loss 74849.609375
+mask rate is:0.5
+Epoch 12, outer_loop 17, loss real 218.50120544433594
+Epoch 12, outer_loop 17, loss syn 185.79042053222656
+Epoch 12, outer_loop 17, loss 74684.65625
+mask rate is:0.5
+Epoch 12, outer_loop 18, loss real 218.43211364746094
+Epoch 12, outer_loop 18, loss syn 185.5650634765625
+Epoch 12, outer_loop 18, loss 74821.6171875
+mask rate is:0.5
+Epoch 12, outer_loop 19, loss real 218.31724548339844
+Epoch 12, outer_loop 19, loss syn 185.6956329345703
+Epoch 12, outer_loop 19, loss 74712.765625
+mask rate is:0.5
+Epoch 13, outer_loop 0, loss real 218.59239196777344
+Epoch 13, outer_loop 0, loss syn 186.5749969482422
+Epoch 13, outer_loop 0, loss 74359.8359375
+mask rate is:0.5
+Epoch 13, outer_loop 1, loss real 218.4300537109375
+Epoch 13, outer_loop 1, loss syn 186.7899169921875
+Epoch 13, outer_loop 1, loss 74888.0546875
+mask rate is:0.5
+Epoch 13, outer_loop 2, loss real 218.10679626464844
+Epoch 13, outer_loop 2, loss syn 185.83892822265625
+Epoch 13, outer_loop 2, loss 74865.0234375
+mask rate is:0.5
+Epoch 13, outer_loop 3, loss real 217.96372985839844
+Epoch 13, outer_loop 3, loss syn 186.22972106933594
+Epoch 13, outer_loop 3, loss 74858.0234375
+mask rate is:0.5
+Epoch 13, outer_loop 4, loss real 218.10614013671875
+Epoch 13, outer_loop 4, loss syn 187.45631408691406
+Epoch 13, outer_loop 4, loss 74892.1640625
+mask rate is:0.5
+Epoch 13, outer_loop 5, loss real 218.0961151123047
+Epoch 13, outer_loop 5, loss syn 185.94444274902344
+Epoch 13, outer_loop 5, loss 74346.5625
+mask rate is:0.5
+Epoch 13, outer_loop 6, loss real 218.2553253173828
+Epoch 13, outer_loop 6, loss syn 186.88638305664062
+Epoch 13, outer_loop 6, loss 74815.8515625
+mask rate is:0.5
+Epoch 13, outer_loop 7, loss real 218.02394104003906
+Epoch 13, outer_loop 7, loss syn 186.8839111328125
+Epoch 13, outer_loop 7, loss 74627.90625
+mask rate is:0.5
+Epoch 13, outer_loop 8, loss real 217.90121459960938
+Epoch 13, outer_loop 8, loss syn 186.3499755859375
+Epoch 13, outer_loop 8, loss 74778.6328125
+mask rate is:0.5
+Epoch 13, outer_loop 9, loss real 217.83285522460938
+Epoch 13, outer_loop 9, loss syn 186.1459503173828
+Epoch 13, outer_loop 9, loss 75194.6171875
+mask rate is:0.5
+Epoch 13, outer_loop 10, loss real 218.20877075195312
+Epoch 13, outer_loop 10, loss syn 185.66835021972656
+Epoch 13, outer_loop 10, loss 74284.765625
+mask rate is:0.5
+Epoch 13, outer_loop 11, loss real 218.1049346923828
+Epoch 13, outer_loop 11, loss syn 186.35191345214844
+Epoch 13, outer_loop 11, loss 74735.8828125
+mask rate is:0.5
+Epoch 13, outer_loop 12, loss real 218.4583740234375
+Epoch 13, outer_loop 12, loss syn 186.4177703857422
+Epoch 13, outer_loop 12, loss 74343.9140625
+mask rate is:0.5
+Epoch 13, outer_loop 13, loss real 218.16140747070312
+Epoch 13, outer_loop 13, loss syn 186.42591857910156
+Epoch 13, outer_loop 13, loss 74492.53125
+mask rate is:0.5
+Epoch 13, outer_loop 14, loss real 218.08132934570312
+Epoch 13, outer_loop 14, loss syn 187.5627899169922
+Epoch 13, outer_loop 14, loss 74654.3046875
+mask rate is:0.5
+Epoch 13, outer_loop 15, loss real 218.08355712890625
+Epoch 13, outer_loop 15, loss syn 185.5865478515625
+Epoch 13, outer_loop 15, loss 74611.7734375
+mask rate is:0.5
+Epoch 13, outer_loop 16, loss real 218.2708740234375
+Epoch 13, outer_loop 16, loss syn 186.80487060546875
+Epoch 13, outer_loop 16, loss 74494.09375
+mask rate is:0.5
+Epoch 13, outer_loop 17, loss real 218.263916015625
+Epoch 13, outer_loop 17, loss syn 186.2153778076172
+Epoch 13, outer_loop 17, loss 74868.8359375
+mask rate is:0.5
+Epoch 13, outer_loop 18, loss real 218.04736328125
+Epoch 13, outer_loop 18, loss syn 185.9598388671875
+Epoch 13, outer_loop 18, loss 74240.2421875
+mask rate is:0.5
+Epoch 13, outer_loop 19, loss real 218.09115600585938
+Epoch 13, outer_loop 19, loss syn 186.529052734375
+Epoch 13, outer_loop 19, loss 74949.5234375
+mask rate is:0.5
+Epoch 14, outer_loop 0, loss real 218.28768920898438
+Epoch 14, outer_loop 0, loss syn 186.073486328125
+Epoch 14, outer_loop 0, loss 74755.6171875
+mask rate is:0.5
+Epoch 14, outer_loop 1, loss real 218.2133331298828
+Epoch 14, outer_loop 1, loss syn 187.28823852539062
+Epoch 14, outer_loop 1, loss 74611.7734375
+mask rate is:0.5
+Epoch 14, outer_loop 2, loss real 218.6038360595703
+Epoch 14, outer_loop 2, loss syn 186.36680603027344
+Epoch 14, outer_loop 2, loss 74747.5234375
+mask rate is:0.5
+Epoch 14, outer_loop 3, loss real 218.73922729492188
+Epoch 14, outer_loop 3, loss syn 186.2947540283203
+Epoch 14, outer_loop 3, loss 74380.6640625
+mask rate is:0.5
+Epoch 14, outer_loop 4, loss real 218.50990295410156
+Epoch 14, outer_loop 4, loss syn 187.5458526611328
+Epoch 14, outer_loop 4, loss 74442.703125
+mask rate is:0.5
+Epoch 14, outer_loop 5, loss real 218.91958618164062
+Epoch 14, outer_loop 5, loss syn 186.95355224609375
+Epoch 14, outer_loop 5, loss 74763.0
+mask rate is:0.5
+Epoch 14, outer_loop 6, loss real 218.81752014160156
+Epoch 14, outer_loop 6, loss syn 186.9066925048828
+Epoch 14, outer_loop 6, loss 74971.421875
+mask rate is:0.5
+Epoch 14, outer_loop 7, loss real 218.43299865722656
+Epoch 14, outer_loop 7, loss syn 185.91505432128906
+Epoch 14, outer_loop 7, loss 74603.8046875
+mask rate is:0.5
+Epoch 14, outer_loop 8, loss real 218.3903045654297
+Epoch 14, outer_loop 8, loss syn 185.63783264160156
+Epoch 14, outer_loop 8, loss 74773.3046875
+mask rate is:0.5
+Epoch 14, outer_loop 9, loss real 218.49832153320312
+Epoch 14, outer_loop 9, loss syn 186.4205780029297
+Epoch 14, outer_loop 9, loss 75077.8984375
+mask rate is:0.5
+Epoch 14, outer_loop 10, loss real 218.04270935058594
+Epoch 14, outer_loop 10, loss syn 186.6249542236328
+Epoch 14, outer_loop 10, loss 74990.4921875
+mask rate is:0.5
+Epoch 14, outer_loop 11, loss real 218.41978454589844
+Epoch 14, outer_loop 11, loss syn 186.08615112304688
+Epoch 14, outer_loop 11, loss 75195.96875
+mask rate is:0.5
+Epoch 14, outer_loop 12, loss real 218.28302001953125
+Epoch 14, outer_loop 12, loss syn 185.68682861328125
+Epoch 14, outer_loop 12, loss 74770.5
+mask rate is:0.5
+Epoch 14, outer_loop 13, loss real 218.43173217773438
+Epoch 14, outer_loop 13, loss syn 185.7682342529297
+Epoch 14, outer_loop 13, loss 75188.2109375
+mask rate is:0.5
+Epoch 14, outer_loop 14, loss real 218.1840057373047
+Epoch 14, outer_loop 14, loss syn 186.0555877685547
+Epoch 14, outer_loop 14, loss 74825.4921875
+mask rate is:0.5
+Epoch 14, outer_loop 15, loss real 218.12060546875
+Epoch 14, outer_loop 15, loss syn 185.4480743408203
+Epoch 14, outer_loop 15, loss 75045.9921875
+mask rate is:0.5
+Epoch 14, outer_loop 16, loss real 218.07846069335938
+Epoch 14, outer_loop 16, loss syn 185.31739807128906
+Epoch 14, outer_loop 16, loss 75095.0859375
+mask rate is:0.5
+Epoch 14, outer_loop 17, loss real 218.15643310546875
+Epoch 14, outer_loop 17, loss syn 185.6448516845703
+Epoch 14, outer_loop 17, loss 74952.6796875
+mask rate is:0.5
+Epoch 14, outer_loop 18, loss real 217.84976196289062
+Epoch 14, outer_loop 18, loss syn 186.91970825195312
+Epoch 14, outer_loop 18, loss 75289.71875
+mask rate is:0.5
+Epoch 14, outer_loop 19, loss real 218.08676147460938
+Epoch 14, outer_loop 19, loss syn 186.73036193847656
+Epoch 14, outer_loop 19, loss 74766.8046875
+mask rate is:0.5
+Epoch 15, outer_loop 0, loss real 218.17559814453125
+Epoch 15, outer_loop 0, loss syn 186.50830078125
+Epoch 15, outer_loop 0, loss 75001.578125
+mask rate is:0.5
+Epoch 15, outer_loop 1, loss real 218.1969451904297
+Epoch 15, outer_loop 1, loss syn 186.09808349609375
+Epoch 15, outer_loop 1, loss 74855.9609375
+mask rate is:0.5
+Epoch 15, outer_loop 2, loss real 217.57081604003906
+Epoch 15, outer_loop 2, loss syn 186.79061889648438
+Epoch 15, outer_loop 2, loss 75098.3515625
+mask rate is:0.5
+Epoch 15, outer_loop 3, loss real 217.4940948486328
+Epoch 15, outer_loop 3, loss syn 186.45582580566406
+Epoch 15, outer_loop 3, loss 75298.265625
+mask rate is:0.5
+Epoch 15, outer_loop 4, loss real 217.65447998046875
+Epoch 15, outer_loop 4, loss syn 186.26986694335938
+Epoch 15, outer_loop 4, loss 75020.109375
+mask rate is:0.5
+Epoch 15, outer_loop 5, loss real 217.42666625976562
+Epoch 15, outer_loop 5, loss syn 187.17042541503906
+Epoch 15, outer_loop 5, loss 75116.4296875
+mask rate is:0.5
+Epoch 15, outer_loop 6, loss real 217.6801300048828
+Epoch 15, outer_loop 6, loss syn 186.13755798339844
+Epoch 15, outer_loop 6, loss 75083.8828125
+mask rate is:0.5
+Epoch 15, outer_loop 7, loss real 217.54330444335938
+Epoch 15, outer_loop 7, loss syn 186.46649169921875
+Epoch 15, outer_loop 7, loss 75184.0546875
+mask rate is:0.5
+Epoch 15, outer_loop 8, loss real 217.10653686523438
+Epoch 15, outer_loop 8, loss syn 185.8501434326172
+Epoch 15, outer_loop 8, loss 75011.171875
+mask rate is:0.5
+Epoch 15, outer_loop 9, loss real 217.21588134765625
+Epoch 15, outer_loop 9, loss syn 184.99481201171875
+Epoch 15, outer_loop 9, loss 74907.8515625
+mask rate is:0.5
+Epoch 15, outer_loop 10, loss real 217.07330322265625
+Epoch 15, outer_loop 10, loss syn 186.81263732910156
+Epoch 15, outer_loop 10, loss 75250.53125
+mask rate is:0.5
+Epoch 15, outer_loop 11, loss real 217.31298828125
+Epoch 15, outer_loop 11, loss syn 186.181396484375
+Epoch 15, outer_loop 11, loss 74935.71875
+mask rate is:0.5
+Epoch 15, outer_loop 12, loss real 217.17376708984375
+Epoch 15, outer_loop 12, loss syn 187.7745819091797
+Epoch 15, outer_loop 12, loss 75095.0078125
+mask rate is:0.5
+Epoch 15, outer_loop 13, loss real 217.4218292236328
+Epoch 15, outer_loop 13, loss syn 187.17559814453125
+Epoch 15, outer_loop 13, loss 74840.46875
+mask rate is:0.5
+Epoch 15, outer_loop 14, loss real 217.84828186035156
+Epoch 15, outer_loop 14, loss syn 187.6175994873047
+Epoch 15, outer_loop 14, loss 74941.5078125
+mask rate is:0.5
+Epoch 15, outer_loop 15, loss real 217.5859832763672
+Epoch 15, outer_loop 15, loss syn 186.44537353515625
+Epoch 15, outer_loop 15, loss 75027.859375
+mask rate is:0.5
+Epoch 15, outer_loop 16, loss real 217.53842163085938
+Epoch 15, outer_loop 16, loss syn 186.80374145507812
+Epoch 15, outer_loop 16, loss 74574.2578125
+mask rate is:0.5
+Epoch 15, outer_loop 17, loss real 217.37844848632812
+Epoch 15, outer_loop 17, loss syn 186.5702362060547
+Epoch 15, outer_loop 17, loss 75014.3046875
+mask rate is:0.5
+Epoch 15, outer_loop 18, loss real 217.4483184814453
+Epoch 15, outer_loop 18, loss syn 186.4136962890625
+Epoch 15, outer_loop 18, loss 75153.75
+mask rate is:0.5
+Epoch 15, outer_loop 19, loss real 217.46359252929688
+Epoch 15, outer_loop 19, loss syn 187.1636505126953
+Epoch 15, outer_loop 19, loss 75226.921875
+Epoch 15, loss_avg: 330.60965799415925
+mask rate is:0.5
+Epoch 16, outer_loop 0, loss real 217.7163543701172
+Epoch 16, outer_loop 0, loss syn 185.25450134277344
+Epoch 16, outer_loop 0, loss 74980.40625
+mask rate is:0.5
+Epoch 16, outer_loop 1, loss real 217.4434051513672
+Epoch 16, outer_loop 1, loss syn 186.2441864013672
+Epoch 16, outer_loop 1, loss 74928.40625
+mask rate is:0.5
+Epoch 16, outer_loop 2, loss real 217.47947692871094
+Epoch 16, outer_loop 2, loss syn 184.7075653076172
+Epoch 16, outer_loop 2, loss 75489.5859375
+mask rate is:0.5
+Epoch 16, outer_loop 3, loss real 217.69093322753906
+Epoch 16, outer_loop 3, loss syn 186.58316040039062
+Epoch 16, outer_loop 3, loss 75325.4453125
+mask rate is:0.5
+Epoch 16, outer_loop 4, loss real 218.01011657714844
+Epoch 16, outer_loop 4, loss syn 185.6078338623047
+Epoch 16, outer_loop 4, loss 74999.1171875
+mask rate is:0.5
+Epoch 16, outer_loop 5, loss real 217.96253967285156
+Epoch 16, outer_loop 5, loss syn 185.85569763183594
+Epoch 16, outer_loop 5, loss 75233.1015625
+mask rate is:0.5
+Epoch 16, outer_loop 6, loss real 217.7169952392578
+Epoch 16, outer_loop 6, loss syn 186.11727905273438
+Epoch 16, outer_loop 6, loss 75335.71875
+mask rate is:0.5
+Epoch 16, outer_loop 7, loss real 217.44671630859375
+Epoch 16, outer_loop 7, loss syn 185.98199462890625
+Epoch 16, outer_loop 7, loss 75285.2578125
+mask rate is:0.5
+Epoch 16, outer_loop 8, loss real 217.4143829345703
+Epoch 16, outer_loop 8, loss syn 185.56582641601562
+Epoch 16, outer_loop 8, loss 75336.6171875
+mask rate is:0.5
+Epoch 16, outer_loop 9, loss real 217.48568725585938
+Epoch 16, outer_loop 9, loss syn 185.31483459472656
+Epoch 16, outer_loop 9, loss 75785.7421875
+mask rate is:0.5
+Epoch 16, outer_loop 10, loss real 217.5631103515625
+Epoch 16, outer_loop 10, loss syn 186.05953979492188
+Epoch 16, outer_loop 10, loss 75482.7734375
+mask rate is:0.5
+Epoch 16, outer_loop 11, loss real 217.48171997070312
+Epoch 16, outer_loop 11, loss syn 186.53440856933594
+Epoch 16, outer_loop 11, loss 75230.7265625
+mask rate is:0.5
+Epoch 16, outer_loop 12, loss real 217.76898193359375
+Epoch 16, outer_loop 12, loss syn 184.88235473632812
+Epoch 16, outer_loop 12, loss 75689.234375
+mask rate is:0.5
+Epoch 16, outer_loop 13, loss real 217.79090881347656
+Epoch 16, outer_loop 13, loss syn 187.58453369140625
+Epoch 16, outer_loop 13, loss 75522.8125
+mask rate is:0.5
+Epoch 16, outer_loop 14, loss real 217.53636169433594
+Epoch 16, outer_loop 14, loss syn 186.3788299560547
+Epoch 16, outer_loop 14, loss 75369.7890625
+mask rate is:0.5
+Epoch 16, outer_loop 15, loss real 217.5460968017578
+Epoch 16, outer_loop 15, loss syn 185.10147094726562
+Epoch 16, outer_loop 15, loss 75522.703125
+mask rate is:0.5
+Epoch 16, outer_loop 16, loss real 217.6514892578125
+Epoch 16, outer_loop 16, loss syn 186.7210235595703
+Epoch 16, outer_loop 16, loss 74893.1484375
+mask rate is:0.5
+Epoch 16, outer_loop 17, loss real 217.57662963867188
+Epoch 16, outer_loop 17, loss syn 186.1466827392578
+Epoch 16, outer_loop 17, loss 75042.8671875
+mask rate is:0.5
+Epoch 16, outer_loop 18, loss real 217.30215454101562
+Epoch 16, outer_loop 18, loss syn 185.11666870117188
+Epoch 16, outer_loop 18, loss 75071.921875
+mask rate is:0.5
+Epoch 16, outer_loop 19, loss real 217.79148864746094
+Epoch 16, outer_loop 19, loss syn 184.62081909179688
+Epoch 16, outer_loop 19, loss 75361.28125
+mask rate is:0.5
+Epoch 17, outer_loop 0, loss real 217.71412658691406
+Epoch 17, outer_loop 0, loss syn 186.33981323242188
+Epoch 17, outer_loop 0, loss 75130.3984375
+mask rate is:0.5
+Epoch 17, outer_loop 1, loss real 218.12445068359375
+Epoch 17, outer_loop 1, loss syn 187.04769897460938
+Epoch 17, outer_loop 1, loss 75413.0703125
+mask rate is:0.5
+Epoch 17, outer_loop 2, loss real 218.36148071289062
+Epoch 17, outer_loop 2, loss syn 185.45973205566406
+Epoch 17, outer_loop 2, loss 74987.40625
+mask rate is:0.5
+Epoch 17, outer_loop 3, loss real 218.4811553955078
+Epoch 17, outer_loop 3, loss syn 187.29495239257812
+Epoch 17, outer_loop 3, loss 74722.5625
+mask rate is:0.5
+Epoch 17, outer_loop 4, loss real 218.37744140625
+Epoch 17, outer_loop 4, loss syn 186.79351806640625
+Epoch 17, outer_loop 4, loss 75239.1328125
+mask rate is:0.5
+Epoch 17, outer_loop 5, loss real 218.60316467285156
+Epoch 17, outer_loop 5, loss syn 186.59559631347656
+Epoch 17, outer_loop 5, loss 75305.0703125
+mask rate is:0.5
+Epoch 17, outer_loop 6, loss real 218.5756072998047
+Epoch 17, outer_loop 6, loss syn 186.3189697265625
+Epoch 17, outer_loop 6, loss 74974.0078125
+mask rate is:0.5
+Epoch 17, outer_loop 7, loss real 218.5548553466797
+Epoch 17, outer_loop 7, loss syn 187.00576782226562
+Epoch 17, outer_loop 7, loss 74791.8984375
+mask rate is:0.5
+Epoch 17, outer_loop 8, loss real 218.48876953125
+Epoch 17, outer_loop 8, loss syn 185.74508666992188
+Epoch 17, outer_loop 8, loss 74854.0390625
+mask rate is:0.5
+Epoch 17, outer_loop 9, loss real 218.57455444335938
+Epoch 17, outer_loop 9, loss syn 186.14523315429688
+Epoch 17, outer_loop 9, loss 75405.9375
+mask rate is:0.5
+Epoch 17, outer_loop 10, loss real 218.6695556640625
+Epoch 17, outer_loop 10, loss syn 185.64169311523438
+Epoch 17, outer_loop 10, loss 74704.8984375
+mask rate is:0.5
+Epoch 17, outer_loop 11, loss real 218.8062286376953
+Epoch 17, outer_loop 11, loss syn 186.0718536376953
+Epoch 17, outer_loop 11, loss 75282.265625
+mask rate is:0.5
+Epoch 17, outer_loop 12, loss real 218.51060485839844
+Epoch 17, outer_loop 12, loss syn 186.93067932128906
+Epoch 17, outer_loop 12, loss 74993.0390625
+mask rate is:0.5
+Epoch 17, outer_loop 13, loss real 218.71559143066406
+Epoch 17, outer_loop 13, loss syn 186.48728942871094
+Epoch 17, outer_loop 13, loss 75401.5625
+mask rate is:0.5
+Epoch 17, outer_loop 14, loss real 218.78675842285156
+Epoch 17, outer_loop 14, loss syn 186.74185180664062
+Epoch 17, outer_loop 14, loss 75270.0078125
+mask rate is:0.5
+Epoch 17, outer_loop 15, loss real 218.43911743164062
+Epoch 17, outer_loop 15, loss syn 185.52862548828125
+Epoch 17, outer_loop 15, loss 75254.515625
+mask rate is:0.5
+Epoch 17, outer_loop 16, loss real 218.9322967529297
+Epoch 17, outer_loop 16, loss syn 186.7616424560547
+Epoch 17, outer_loop 16, loss 75281.359375
+mask rate is:0.5
+Epoch 17, outer_loop 17, loss real 218.66615295410156
+Epoch 17, outer_loop 17, loss syn 185.61080932617188
+Epoch 17, outer_loop 17, loss 75473.3671875
+mask rate is:0.5
+Epoch 17, outer_loop 18, loss real 218.83824157714844
+Epoch 17, outer_loop 18, loss syn 185.0948486328125
+Epoch 17, outer_loop 18, loss 75425.671875
+mask rate is:0.5
+Epoch 17, outer_loop 19, loss real 218.7471466064453
+Epoch 17, outer_loop 19, loss syn 185.67210388183594
+Epoch 17, outer_loop 19, loss 75344.109375
+mask rate is:0.5
+Epoch 18, outer_loop 0, loss real 218.8105926513672
+Epoch 18, outer_loop 0, loss syn 186.315673828125
+Epoch 18, outer_loop 0, loss 75291.34375
+mask rate is:0.5
+Epoch 18, outer_loop 1, loss real 218.52981567382812
+Epoch 18, outer_loop 1, loss syn 187.41824340820312
+Epoch 18, outer_loop 1, loss 75496.1875
+mask rate is:0.5
+Epoch 18, outer_loop 2, loss real 218.6822052001953
+Epoch 18, outer_loop 2, loss syn 185.28726196289062
+Epoch 18, outer_loop 2, loss 75373.28125
+mask rate is:0.5
+Epoch 18, outer_loop 3, loss real 218.82164001464844
+Epoch 18, outer_loop 3, loss syn 187.67974853515625
+Epoch 18, outer_loop 3, loss 75735.5
+mask rate is:0.5
+Epoch 18, outer_loop 4, loss real 218.57501220703125
+Epoch 18, outer_loop 4, loss syn 187.2508544921875
+Epoch 18, outer_loop 4, loss 75610.2265625
+mask rate is:0.5
+Epoch 18, outer_loop 5, loss real 218.3302764892578
+Epoch 18, outer_loop 5, loss syn 186.22315979003906
+Epoch 18, outer_loop 5, loss 75555.3984375
+mask rate is:0.5
+Epoch 18, outer_loop 6, loss real 218.36854553222656
+Epoch 18, outer_loop 6, loss syn 186.5310516357422
+Epoch 18, outer_loop 6, loss 75625.3203125
+mask rate is:0.5
+Epoch 18, outer_loop 7, loss real 218.81005859375
+Epoch 18, outer_loop 7, loss syn 186.73886108398438
+Epoch 18, outer_loop 7, loss 76055.640625
+mask rate is:0.5
+Epoch 18, outer_loop 8, loss real 218.43919372558594
+Epoch 18, outer_loop 8, loss syn 185.8839874267578
+Epoch 18, outer_loop 8, loss 75595.3671875
+mask rate is:0.5
+Epoch 18, outer_loop 9, loss real 218.64561462402344
+Epoch 18, outer_loop 9, loss syn 186.57188415527344
+Epoch 18, outer_loop 9, loss 75851.4765625
+mask rate is:0.5
+Epoch 18, outer_loop 10, loss real 219.01109313964844
+Epoch 18, outer_loop 10, loss syn 184.20506286621094
+Epoch 18, outer_loop 10, loss 75943.609375
+mask rate is:0.5
+Epoch 18, outer_loop 11, loss real 218.5924072265625
+Epoch 18, outer_loop 11, loss syn 185.8003387451172
+Epoch 18, outer_loop 11, loss 76063.53125
+mask rate is:0.5
+Epoch 18, outer_loop 12, loss real 218.77818298339844
+Epoch 18, outer_loop 12, loss syn 186.86598205566406
+Epoch 18, outer_loop 12, loss 75782.4609375
+mask rate is:0.5
+Epoch 18, outer_loop 13, loss real 218.94601440429688
+Epoch 18, outer_loop 13, loss syn 186.09588623046875
+Epoch 18, outer_loop 13, loss 75482.8984375
+mask rate is:0.5
+Epoch 18, outer_loop 14, loss real 219.02589416503906
+Epoch 18, outer_loop 14, loss syn 186.77088928222656
+Epoch 18, outer_loop 14, loss 75669.078125
+mask rate is:0.5
+Epoch 18, outer_loop 15, loss real 219.02560424804688
+Epoch 18, outer_loop 15, loss syn 184.82228088378906
+Epoch 18, outer_loop 15, loss 75764.4140625
+mask rate is:0.5
+Epoch 18, outer_loop 16, loss real 218.86875915527344
+Epoch 18, outer_loop 16, loss syn 189.16368103027344
+Epoch 18, outer_loop 16, loss 75728.7421875
+mask rate is:0.5
+Epoch 18, outer_loop 17, loss real 218.74729919433594
+Epoch 18, outer_loop 17, loss syn 185.81414794921875
+Epoch 18, outer_loop 17, loss 75702.1875
+mask rate is:0.5
+Epoch 18, outer_loop 18, loss real 219.075927734375
+Epoch 18, outer_loop 18, loss syn 185.2862548828125
+Epoch 18, outer_loop 18, loss 75635.6796875
+mask rate is:0.5
+Epoch 18, outer_loop 19, loss real 219.00294494628906
+Epoch 18, outer_loop 19, loss syn 185.6566162109375
+Epoch 18, outer_loop 19, loss 75591.6796875
+mask rate is:0.5
+Epoch 19, outer_loop 0, loss real 218.92437744140625
+Epoch 19, outer_loop 0, loss syn 186.0210723876953
+Epoch 19, outer_loop 0, loss 76012.859375
+mask rate is:0.5
+Epoch 19, outer_loop 1, loss real 218.94969177246094
+Epoch 19, outer_loop 1, loss syn 186.19798278808594
+Epoch 19, outer_loop 1, loss 75810.0
+mask rate is:0.5
+Epoch 19, outer_loop 2, loss real 218.83497619628906
+Epoch 19, outer_loop 2, loss syn 185.9602508544922
+Epoch 19, outer_loop 2, loss 75725.0234375
+mask rate is:0.5
+Epoch 19, outer_loop 3, loss real 219.204833984375
+Epoch 19, outer_loop 3, loss syn 185.61151123046875
+Epoch 19, outer_loop 3, loss 75464.1171875
+mask rate is:0.5
+Epoch 19, outer_loop 4, loss real 219.2726593017578
+Epoch 19, outer_loop 4, loss syn 185.16293334960938
+Epoch 19, outer_loop 4, loss 75581.578125
+mask rate is:0.5
+Epoch 19, outer_loop 5, loss real 219.49139404296875
+Epoch 19, outer_loop 5, loss syn 185.196533203125
+Epoch 19, outer_loop 5, loss 75649.46875
+mask rate is:0.5
+Epoch 19, outer_loop 6, loss real 219.27398681640625
+Epoch 19, outer_loop 6, loss syn 186.4635009765625
+Epoch 19, outer_loop 6, loss 76006.4296875
+mask rate is:0.5
+Epoch 19, outer_loop 7, loss real 219.1246795654297
+Epoch 19, outer_loop 7, loss syn 185.37571716308594
+Epoch 19, outer_loop 7, loss 75606.328125
+mask rate is:0.5
+Epoch 19, outer_loop 8, loss real 219.0786590576172
+Epoch 19, outer_loop 8, loss syn 186.16761779785156
+Epoch 19, outer_loop 8, loss 75627.84375
+mask rate is:0.5
+Epoch 19, outer_loop 9, loss real 219.1162567138672
+Epoch 19, outer_loop 9, loss syn 185.97811889648438
+Epoch 19, outer_loop 9, loss 75330.828125
+mask rate is:0.5
+Epoch 19, outer_loop 10, loss real 219.02703857421875
+Epoch 19, outer_loop 10, loss syn 185.8225860595703
+Epoch 19, outer_loop 10, loss 75485.671875
+mask rate is:0.5
+Epoch 19, outer_loop 11, loss real 219.36534118652344
+Epoch 19, outer_loop 11, loss syn 185.77687072753906
+Epoch 19, outer_loop 11, loss 75418.640625
+mask rate is:0.5
+Epoch 19, outer_loop 12, loss real 219.36123657226562
+Epoch 19, outer_loop 12, loss syn 185.53225708007812
+Epoch 19, outer_loop 12, loss 75233.8046875
+mask rate is:0.5
+Epoch 19, outer_loop 13, loss real 218.78060913085938
+Epoch 19, outer_loop 13, loss syn 185.41098022460938
+Epoch 19, outer_loop 13, loss 75444.640625
+mask rate is:0.5
+Epoch 19, outer_loop 14, loss real 218.73037719726562
+Epoch 19, outer_loop 14, loss syn 186.0938262939453
+Epoch 19, outer_loop 14, loss 75880.109375
+mask rate is:0.5
+Epoch 19, outer_loop 15, loss real 218.67288208007812
+Epoch 19, outer_loop 15, loss syn 186.9757080078125
+Epoch 19, outer_loop 15, loss 75595.1015625
+mask rate is:0.5
+Epoch 19, outer_loop 16, loss real 218.91168212890625
+Epoch 19, outer_loop 16, loss syn 187.55831909179688
+Epoch 19, outer_loop 16, loss 75339.9296875
+mask rate is:0.5
+Epoch 19, outer_loop 17, loss real 218.6450958251953
+Epoch 19, outer_loop 17, loss syn 184.7477569580078
+Epoch 19, outer_loop 17, loss 75516.0859375
+mask rate is:0.5
+Epoch 19, outer_loop 18, loss real 218.58395385742188
+Epoch 19, outer_loop 18, loss syn 187.5897979736328
+Epoch 19, outer_loop 18, loss 75653.5078125
+mask rate is:0.5
+Epoch 19, outer_loop 19, loss real 218.62181091308594
+Epoch 19, outer_loop 19, loss syn 186.21578979492188
+Epoch 19, outer_loop 19, loss 75467.234375
+mask rate is:0.5
+Epoch 20, outer_loop 0, loss real 218.56182861328125
+Epoch 20, outer_loop 0, loss syn 184.01231384277344
+Epoch 20, outer_loop 0, loss 75736.359375
+mask rate is:0.5
+Epoch 20, outer_loop 1, loss real 218.5560302734375
+Epoch 20, outer_loop 1, loss syn 186.38839721679688
+Epoch 20, outer_loop 1, loss 75648.578125
+mask rate is:0.5
+Epoch 20, outer_loop 2, loss real 218.8003692626953
+Epoch 20, outer_loop 2, loss syn 186.6199493408203
+Epoch 20, outer_loop 2, loss 76111.25
+mask rate is:0.5
+Epoch 20, outer_loop 3, loss real 218.72247314453125
+Epoch 20, outer_loop 3, loss syn 186.74925231933594
+Epoch 20, outer_loop 3, loss 75608.578125
+mask rate is:0.5
+Epoch 20, outer_loop 4, loss real 218.54959106445312
+Epoch 20, outer_loop 4, loss syn 186.7557830810547
+Epoch 20, outer_loop 4, loss 75673.609375
+mask rate is:0.5
+Epoch 20, outer_loop 5, loss real 218.33956909179688
+Epoch 20, outer_loop 5, loss syn 185.83753967285156
+Epoch 20, outer_loop 5, loss 75434.6015625
+mask rate is:0.5
+Epoch 20, outer_loop 6, loss real 218.3981170654297
+Epoch 20, outer_loop 6, loss syn 186.53387451171875
+Epoch 20, outer_loop 6, loss 75904.53125
+mask rate is:0.5
+Epoch 20, outer_loop 7, loss real 218.2470703125
+Epoch 20, outer_loop 7, loss syn 185.51271057128906
+Epoch 20, outer_loop 7, loss 75855.7734375
+mask rate is:0.5
+Epoch 20, outer_loop 8, loss real 218.60215759277344
+Epoch 20, outer_loop 8, loss syn 185.81748962402344
+Epoch 20, outer_loop 8, loss 75582.4921875
+mask rate is:0.5
+Epoch 20, outer_loop 9, loss real 218.0026397705078
+Epoch 20, outer_loop 9, loss syn 187.40609741210938
+Epoch 20, outer_loop 9, loss 75978.90625
+mask rate is:0.5
+Epoch 20, outer_loop 10, loss real 217.7078094482422
+Epoch 20, outer_loop 10, loss syn 185.91676330566406
+Epoch 20, outer_loop 10, loss 75578.078125
+mask rate is:0.5
+Epoch 20, outer_loop 11, loss real 218.2382049560547
+Epoch 20, outer_loop 11, loss syn 185.76107788085938
+Epoch 20, outer_loop 11, loss 75707.2734375
+mask rate is:0.5
+Epoch 20, outer_loop 12, loss real 218.34683227539062
+Epoch 20, outer_loop 12, loss syn 185.99720764160156
+Epoch 20, outer_loop 12, loss 75815.8203125
+mask rate is:0.5
+Epoch 20, outer_loop 13, loss real 218.0432891845703
+Epoch 20, outer_loop 13, loss syn 186.29791259765625
+Epoch 20, outer_loop 13, loss 75715.75
+mask rate is:0.5
+Epoch 20, outer_loop 14, loss real 218.0672149658203
+Epoch 20, outer_loop 14, loss syn 186.9998321533203
+Epoch 20, outer_loop 14, loss 75504.1796875
+mask rate is:0.5
+Epoch 20, outer_loop 15, loss real 218.01620483398438
+Epoch 20, outer_loop 15, loss syn 184.704833984375
+Epoch 20, outer_loop 15, loss 75502.875
+mask rate is:0.5
+Epoch 20, outer_loop 16, loss real 217.7213592529297
+Epoch 20, outer_loop 16, loss syn 186.36842346191406
+Epoch 20, outer_loop 16, loss 75837.203125
+mask rate is:0.5
+Epoch 20, outer_loop 17, loss real 217.86447143554688
+Epoch 20, outer_loop 17, loss syn 185.95590209960938
+Epoch 20, outer_loop 17, loss 75409.3203125
+mask rate is:0.5
+Epoch 20, outer_loop 18, loss real 218.0601348876953
+Epoch 20, outer_loop 18, loss syn 186.62347412109375
+Epoch 20, outer_loop 18, loss 75460.0078125
+mask rate is:0.5
+Epoch 20, outer_loop 19, loss real 217.63473510742188
+Epoch 20, outer_loop 19, loss syn 185.53619384765625
+Epoch 20, outer_loop 19, loss 75860.53125
+Epoch 20, loss_avg: 333.5371803151146
+mask rate is:0.5
+Epoch 21, outer_loop 0, loss real 217.92062377929688
+Epoch 21, outer_loop 0, loss syn 185.68646240234375
+Epoch 21, outer_loop 0, loss 75686.8125
+mask rate is:0.5
+Epoch 21, outer_loop 1, loss real 218.0212860107422
+Epoch 21, outer_loop 1, loss syn 185.9487762451172
+Epoch 21, outer_loop 1, loss 75572.5234375
+mask rate is:0.5
+Epoch 21, outer_loop 2, loss real 218.21617126464844
+Epoch 21, outer_loop 2, loss syn 185.48703002929688
+Epoch 21, outer_loop 2, loss 75366.46875
+mask rate is:0.5
+Epoch 21, outer_loop 3, loss real 218.27281188964844
+Epoch 21, outer_loop 3, loss syn 185.84881591796875
+Epoch 21, outer_loop 3, loss 75674.125
+mask rate is:0.5
+Epoch 21, outer_loop 4, loss real 218.13523864746094
+Epoch 21, outer_loop 4, loss syn 185.65017700195312
+Epoch 21, outer_loop 4, loss 75862.625
+mask rate is:0.5
+Epoch 21, outer_loop 5, loss real 218.0168914794922
+Epoch 21, outer_loop 5, loss syn 185.6727752685547
+Epoch 21, outer_loop 5, loss 75716.3125
+mask rate is:0.5
+Epoch 21, outer_loop 6, loss real 217.93028259277344
+Epoch 21, outer_loop 6, loss syn 185.31442260742188
+Epoch 21, outer_loop 6, loss 75857.65625
+mask rate is:0.5
+Epoch 21, outer_loop 7, loss real 218.05572509765625
+Epoch 21, outer_loop 7, loss syn 186.51141357421875
+Epoch 21, outer_loop 7, loss 75983.375
+mask rate is:0.5
+Epoch 21, outer_loop 8, loss real 217.98739624023438
+Epoch 21, outer_loop 8, loss syn 186.27122497558594
+Epoch 21, outer_loop 8, loss 75689.109375
+mask rate is:0.5
+Epoch 21, outer_loop 9, loss real 217.9349822998047
+Epoch 21, outer_loop 9, loss syn 185.72222900390625
+Epoch 21, outer_loop 9, loss 75901.8515625
+mask rate is:0.5
+Epoch 21, outer_loop 10, loss real 218.17535400390625
+Epoch 21, outer_loop 10, loss syn 185.0193328857422
+Epoch 21, outer_loop 10, loss 76010.9609375
+mask rate is:0.5
+Epoch 21, outer_loop 11, loss real 217.91172790527344
+Epoch 21, outer_loop 11, loss syn 185.06236267089844
+Epoch 21, outer_loop 11, loss 75867.65625
+mask rate is:0.5
+Epoch 21, outer_loop 12, loss real 217.89266967773438
+Epoch 21, outer_loop 12, loss syn 185.3158721923828
+Epoch 21, outer_loop 12, loss 76158.3125
+mask rate is:0.5
+Epoch 21, outer_loop 13, loss real 217.8726348876953
+Epoch 21, outer_loop 13, loss syn 185.88095092773438
+Epoch 21, outer_loop 13, loss 75808.2734375
+mask rate is:0.5
+Epoch 21, outer_loop 14, loss real 218.1102752685547
+Epoch 21, outer_loop 14, loss syn 185.63946533203125
+Epoch 21, outer_loop 14, loss 75633.1328125
+mask rate is:0.5
+Epoch 21, outer_loop 15, loss real 218.0826873779297
+Epoch 21, outer_loop 15, loss syn 185.33668518066406
+Epoch 21, outer_loop 15, loss 75942.1171875
+mask rate is:0.5
+Epoch 21, outer_loop 16, loss real 217.75839233398438
+Epoch 21, outer_loop 16, loss syn 185.24136352539062
+Epoch 21, outer_loop 16, loss 75577.9921875
+mask rate is:0.5
+Epoch 21, outer_loop 17, loss real 218.4007110595703
+Epoch 21, outer_loop 17, loss syn 186.59205627441406
+Epoch 21, outer_loop 17, loss 75834.8828125
+mask rate is:0.5
+Epoch 21, outer_loop 18, loss real 218.30825805664062
+Epoch 21, outer_loop 18, loss syn 184.86366271972656
+Epoch 21, outer_loop 18, loss 75823.15625
+mask rate is:0.5
+Epoch 21, outer_loop 19, loss real 217.92340087890625
+Epoch 21, outer_loop 19, loss syn 185.37257385253906
+Epoch 21, outer_loop 19, loss 75469.265625
+mask rate is:0.5
+Epoch 22, outer_loop 0, loss real 218.0126953125
+Epoch 22, outer_loop 0, loss syn 186.38758850097656
+Epoch 22, outer_loop 0, loss 75295.71875
+mask rate is:0.5
+Epoch 22, outer_loop 1, loss real 218.16506958007812
+Epoch 22, outer_loop 1, loss syn 185.57142639160156
+Epoch 22, outer_loop 1, loss 76127.65625
+mask rate is:0.5
+Epoch 22, outer_loop 2, loss real 217.87637329101562
+Epoch 22, outer_loop 2, loss syn 186.68272399902344
+Epoch 22, outer_loop 2, loss 75708.140625
+mask rate is:0.5
+Epoch 22, outer_loop 3, loss real 218.2171630859375
+Epoch 22, outer_loop 3, loss syn 184.50491333007812
+Epoch 22, outer_loop 3, loss 76178.65625
+mask rate is:0.5
+Epoch 22, outer_loop 4, loss real 218.29080200195312
+Epoch 22, outer_loop 4, loss syn 186.0731964111328
+Epoch 22, outer_loop 4, loss 75670.9375
+mask rate is:0.5
+Epoch 22, outer_loop 5, loss real 218.20989990234375
+Epoch 22, outer_loop 5, loss syn 185.7042236328125
+Epoch 22, outer_loop 5, loss 75923.2734375
+mask rate is:0.5
