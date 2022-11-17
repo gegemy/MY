@@ -148,15 +148,16 @@ class GM:
             # exit()
             
             # init model for each epoch
-            # model = InIModel(data=self.data, args=self.args)
-            # model.to(self.device)
-            # model_parameters = list(model.parameters())
+            model = InIModel(data=self.data, args=self.args)
+            model.to(self.device)
+            model_parameters = list(model.parameters())
             
-            if it % 200 == 0:
-                # period init model for training
-                model = InIModel(data=self.data, args=self.args)
-                model.to(self.device)
-                model_parameters = list(model.parameters())
+            # # init model for 200 epochs
+            # if it % 200 == 0:
+            #     # period init model for training
+            #     model = InIModel(data=self.data, args=self.args)
+            #     model.to(self.device)
+            #     model_parameters = list(model.parameters())
             
             optimizer_model = torch.optim.Adam(model_parameters, lr=args.lr_model)
             model.train()
@@ -290,8 +291,6 @@ class GM:
                 
                 self.final_acc_list.append(final_acc)
                 self.estp_acc_list.append(estp_acc)
-            
-            model.zero_grad()
                 
                 
                 
